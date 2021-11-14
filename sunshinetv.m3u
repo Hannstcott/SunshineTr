@@ -1032,24 +1032,24 @@ https://qlobbidev.s.llnwi.net/bpk-tv/DISNEYJUNIOR/hls/DISNEYJUNIOR-audio_129224_
 
 #EXTM3U
 #EXTINF:0 tvg-id="hbohd" group-title="📽︎| MOVIE" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/30/HBO_%28Metallic%29.png/revision/latest/scale-to-width-down/250?cb=20190715122142",HBO
-
 http://vips-livecdn.fptplay.net/hda1/hbo_vhls.smil/chunklist_b5000000.m3u8?bycoca
-#EXTINF:0 tvg-id="cinemaxhd" group-title="📽︎| MOVIE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png",Cinemax
 
+#EXTINF:0 tvg-id="cinemaxhd" group-title="📽︎| MOVIE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png",Cinemax
 http://vips-livecdn.fptplay.net/hda1/cinemax_vhls.smil/chunklist_b5000000.m3u8?bycoca
 
 #EXTINF:0  tvg-id="warnertvhd" group-title="📽︎| MOVIE" tvg-logo="https://i.pinimg.com/originals/79/42/27/7942275bccc3ba8a635b9d88d34efdd1.png",Warner Bros
 http://vips-livecdn.fptplay.net/hda3/warnertv_vhls.smil/chunklist_b5000000.m3u8
 #http://livecdn.fptplay.net/qnetlive/warnertv_hls.smil/chunklist_b2500000.m3u8
+
 #EXTINF:0 tvg-id="axnhd" group-title="📽︎| MOVIE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/1200px-AXN_logo_%282015%29.svg.png",AXN
 http://vips-livecdn.fptplay.net/hda3/axnhd_vhls.smil/chunklist_b5000000.m3u8
 #http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/AXN-HD-1080p/playlist.m3u8
 
-#EXTINF:0  tvg-id="cinemaworldhd" group-title="📽︎| MOVIE" tvg-logo="https://cinemaworld.asia/wp-content/uploads/2019/11/CMW-gold-logo-for-website-loading.png",Cinema World
+#EXTINF:0 tvg-id="cinemaxhd" group-title="📽︎| MOVIE" tvg-id="max_by_hbo" tvg-logo="https://i.imgur.com/3xrBaVA.png",Cinemax HD
+https://livecdn.fptplay.net/hda2/cinemawork_vhls.smil/chunklist_b5000000.m3u8
+#http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/CINEWORLD-SD-720p/playlist.m3u8
 
-https://vips-livecdn.fptplay.net/hda2/cinemawork_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0  tvg-id="paramouthd" group-title="📽︎| MOVIE" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/Paramount_Pictures_2021.svg/1200px-Paramount_Pictures_2021.svg.png",Paramount
-
 #https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/PARAMOUNT-HD-720p/playlist.m3u8
 
 
