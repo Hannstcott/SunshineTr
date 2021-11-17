@@ -1046,7 +1046,8 @@ https://qlobbidev.s.llnwi.net/bpk-tv/DISNEYCHANNEL/hls/DISNEYCHANNEL-audio_12805
 
 https://qlobbidev.s.llnwi.net/bpk-tv/DISNEYJUNIOR/hls/DISNEYJUNIOR-audio_129224_spa=128000-video=2900000.m3u8
 
-#EXTINF:-1 tvg-id="happykids" group-title="🐣| Kid" tvg-logo="https://vthanh.xyz/ic/194.png", Happy Kids
+#EXTINF:-1 tvg-id="happykids" group-title="📦| In The Box" tvg-logo="https://vthanh.xyz/ic/194.png", Happy Kids
+#EXTVLCOPT:http-user-agent=SunshineTv
 http://vthanh.me/sctv.m3u8?id=happykids|Referer=http://sctvonline.vn/
 
 
