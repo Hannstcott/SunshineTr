@@ -4,7 +4,203 @@
 #EXTM3U url-tvg="http://onetv.click/schedule/epg.xml"
 
 
-#EXTINF:-1 tvg-id="kcinehd" tvg-logo="https://vanhtv123.000webhostapp.com/k+cine.png" group-title="K+",K+ CINE HD
+#EXTINF:-1 tvg-id="kcinehd" tvg-logo="https://vanhtv123.000webhostapp.com/k+cine.png" group-title="🍬| K+",K+ CINE HD
+#EXTVLCOPT:http-user-agent="vanhTV"
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000015&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.vegacdn.kplus.vn/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/prod_kplus_1_hd_fps.mpd
+#https://sglive.akamaized.net/bpk-tv/prod_kplus_cinehd/default/i.mpd
+#https://ottlivevng.kplus.vn/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/prod_kplus_1_hd_fps.mpd
+
+#EXTINF:-1 tvg-id="klifehd" tvg-logo="https://vanhtv123.000webhostapp.com/k+life.png" group-title="🍬| K+",K+ LIFE HD
+#EXTVLCOPT:http-user-agent="vanhTV"
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000016&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.vegacdn.kplus.vn/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/prod_kplus_ns_hd_fps.mpd
+#https://sglive.akamaized.net/bpk-tv/prod_kplus_lifehd/default/i.mpd
+#https://ottlivevng.kplus.vn/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/prod_kplus_ns_hd_fps.mpd
+
+#EXTINF:-1 tvg-id="ksport1hd" tvg-logo="https://vanhtv123.000webhostapp.com/k+sport 1.png" group-title="🍬| K+",K+ SPORT 1 HD
+#EXTVLCOPT:http-user-agent="vanhTV"
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000017&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.vegacdn.kplus.vn/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/prod_kplus_pm_hd_fps.mpd
+#https://sglive.akamaized.net/bpk-tv/prod_kplus_sport1hd/default/i.mpd
+#https://ottlivevng.kplus.vn/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/prod_kplus_pm_hd_fps.mpd
+
+
+#EXTINF:-1 tvg-id="ksport2hd" tvg-logo="https://vanhtv123.000webhostapp.com/k+sport 2.png" group-title="🍬| K+",K+ SPORT 2 HD
+#EXTVLCOPT:http-user-agent="vanhTV"
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.vegacdn.kplus.vn/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/prod_kplus_pc_hd_fps.mpd
+#https://sglive.akamaized.net/bpk-tv/prod_kplus_sport2hd/default/i.mpd
+#https://ottlivevng.kplus.vn/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/prod_kplus_pc_hd_fps.mpd
+
+
+#EXTINF:-1 tvg-id="kkidshd" tvg-logo="https://vanhtv123.000webhostapp.com/k+kisd.png" group-title="🍬| K+",K+ KIDS HD
+#EXTVLCOPT:http-user-agent="vanhTV"
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000223&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.vegacdn.kplus.vn/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd?bycoca
+#https://sglive.akamaized.net/bpk-tv/prod_kplus_kidshd/default/i.mpd
+#https://ottlivevng.kplus.vn/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd
+
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://vanhtv123.000webhostapp.com/k+live 1.png" group-title="🍬| K+",K+ LIVE 1
+#EXTVLCOPT:http-user-agent="vanhTV"
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000051&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.vegacdn.kplus.vn/live/prod_mykplus_live_tv_1_fps/prod_mykplus_live_tv_1_fps.isml/prod_mykplus_live_tv_1_fps.mpd
+#https://sglive.akamaized.net/bpk-tv/prod_kplus_live1hd/default/i.mpd
+
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://vanhtv123.000webhostapp.com/k+live 2.png" group-title="🍬| K+",K+ LIVE 2
+#EXTVLCOPT:http-user-agent="vanhTV"
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000052&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.vegacdn.kplus.vn/live/prod_mykplus_live_tv_2_fps/prod_mykplus_live_tv_2_fps.isml/prod_mykplus_live_tv_2_fps.mpd
+#https://sglive.akamaized.net/bpk-tv/prod_kplus_live2hd/default/i.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://vanhtv123.000webhostapp.com/k+live 3.png" group-title="🍬| K+",K+ LIVE 3
+#EXTVLCOPT:http-user-agent="vanhTV"
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000053&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#https://live.vegacdn.kplus.vn/live/prod_mykplus_live_tv_3_fps/prod_mykplus_live_tv_3_fps.isml/prod_mykplus_live_tv_3_fps.mpd
+https://sglive.akamaized.net/bpk-tv/prod_kplus_live3hd/default/i.mpd
+
+
+
+
+
+#EXTINF:-1 tvg-id="kcinehd" tvg-logo="https://vanhtv123.000webhostapp.com/k+cine.png" group-title="Test| K+",K+ CINE HD
+#EXTVLCOPT:http-user-agent="vanhTV"
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000015&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ottlivevng.kplus.vn/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/prod_kplus_1_hd_fps.mpd
+
+
+#EXTINF:-1 tvg-id="klifehd" tvg-logo="https://vanhtv123.000webhostapp.com/k+life.png" group-title="Test| K+",K+ LIFE HD
+#EXTVLCOPT:http-user-agent="vanhTV"
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000016&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ottlivevng.kplus.vn/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/prod_kplus_ns_hd_fps.mpd
+
+#EXTINF:-1 tvg-id="ksport1hd" tvg-logo="https://vanhtv123.000webhostapp.com/k+sport 1.png" group-title="Test| K+",K+ SPORT 1 HD
+#EXTVLCOPT:http-user-agent="vanhTV"
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000017&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ottlivevng.kplus.vn/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/prod_kplus_pm_hd_fps.mpd
+
+#EXTINF:-1 tvg-id="ksport2hd" tvg-logo="https://vanhtv123.000webhostapp.com/k+sport 2.png" group-title="Test| K+",K+ SPORT 2 HD
+#EXTVLCOPT:http-user-agent="vanhTV"
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ottlivevng.kplus.vn/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/prod_kplus_pc_hd_fps.mpd
+
+#EXTINF:-1 tvg-id="kkidshd" tvg-logo="https://vanhtv123.000webhostapp.com/k+kisd.png" group-title="Test| K+",K+ KIDS HD
+#EXTVLCOPT:http-user-agent="vanhTV"
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000223&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ottlivevng.kplus.vn/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://vanhtv123.000webhostapp.com/k+live 1.png" group-title="Test| K+",K+ LIVE 1
+#EXTVLCOPT:http-user-agent="vanhTV"
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000051&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ottlivevng.kplus.vn/live/prod_mykplus_live_tv_1_fps/prod_mykplus_live_tv_1_fps.isml/prod_mykplus_live_tv_1_fps.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://vanhtv123.000webhostapp.com/k+live 2.png" group-title="Test| K+",K+ LIVE 2
+#EXTVLCOPT:http-user-agent="vanhTV"
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000052&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ottlivevng.kplus.vn/live/prod_mykplus_live_tv_2_fps/prod_mykplus_live_tv_2_fps.isml/prod_mykplus_live_tv_2_fps.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://vanhtv123.000webhostapp.com/k+live 3.png" group-title="Test| K+",K+ LIVE 3
+#EXTVLCOPT:http-user-agent="vanhTV"
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000053&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ottlivevng.kplus.vn/live/prod_mykplus_live_tv_3_fps/prod_mykplus_live_tv_3_fps.isml/prod_mykplus_live_tv_3_fps.mpd
+
+
+
+#EXTINF:0 group-title="💎| K+" tvg-id="ksport1hd" tvg-logo="https://static.wikia.nocookie.net/logos/images/c/cd/Kplus_Sport_1_HD.png/revision/latest/scale-to-width-down/250?cb=20211011130437&path-prefix=vi", K+Sports 1 FHD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=E75E153E3D0E0F22&Ticket=D5ECF1FEACD78580&bytramtien?
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ottlivevng.kplus.vn/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/prod_kplus_pm_hd_fps.mpd
+#EXTINF:0 group-title="💎| K+" tvg-id="ksport2hd" tvg-logo="https://static.wikia.nocookie.net/logos/images/c/ca/Kplus_Sport_2_HD.png/revision/latest/scale-to-width-down/250?cb=20211011130347&path-prefix=vi", K+ Sports 2 FHD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=E75E153E3D0E0F22&Ticket=D5ECF1FEACD78580&bytramtien?
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ottlivevng.kplus.vn/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/prod_kplus_pc_hd_fps.mpd
+#copy-secsion-lamcho-OK👍🐕🤗
+#EXTINF:0 group-title="💎| K+" tvg-id="kcinehd" tvg-logo="https://static.wikia.nocookie.net/logos/images/f/fd/Kplus_Cine_HD.png/revision/latest/scale-to-width-down/250?cb=20211011125856&path-prefix=vi", K+Cine FHD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=E75E153E3D0E0F22&Ticket=D5ECF1FEACD78580&bytramtien?
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ottlivevng.kplus.vn/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/prod_kplus_1_hd_fps.mpd
+#EXTINF:0 group-title="💎| K+" tvg-id="klifehd" tvg-logo="https://static.wikia.nocookie.net/logos/images/f/f9/Kplus_Life_HD.png/revision/latest/scale-to-width-down/250?cb=20211011130051&path-prefix=vi", K+Life FHD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=E75E153E3D0E0F22&Ticket=D5ECF1FEACD78580&bytramtien?
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ottlivevng.kplus.vn/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/prod_kplus_ns_hd_fps.mpd
+
+
+
+#EXTINF:-1 tvg-id="kcinehd" tvg-logo="https://vanhtv123.000webhostapp.com/k+cine.png" group-title="Test 2 K+",K+ CINE HD
 #EXTVLCOPT:http-user-agent="vanhTV"
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -12,10 +208,8 @@
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000015&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_cinehd/default/i.mpd
-#https://live.vegacdn.kplus.vn/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/prod_kplus_1_hd_fps.mpd
-#https://ottlivevng.kplus.vn/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/prod_kplus_1_hd_fps.mpd
 
-#EXTINF:-1 tvg-id="klifehd" tvg-logo="https://vanhtv123.000webhostapp.com/k+life.png" group-title="K+",K+ LIFE HD
+#EXTINF:-1 tvg-id="klifehd" tvg-logo="https://vanhtv123.000webhostapp.com/k+life.png" group-title="Test 2 K+",K+ LIFE HD
 #EXTVLCOPT:http-user-agent="vanhTV"
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -23,10 +217,8 @@ https://sglive.akamaized.net/bpk-tv/prod_kplus_cinehd/default/i.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000016&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_lifehd/default/i.mpd
-#https://live.vegacdn.kplus.vn/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/prod_kplus_ns_hd_fps.mpd
-#https://ottlivevng.kplus.vn/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/prod_kplus_ns_hd_fps.mpd
 
-#EXTINF:-1 tvg-id="ksport1hd" tvg-logo="https://vanhtv123.000webhostapp.com/k+sport 1.png" group-title="K+",K+ SPORT 1 HD
+#EXTINF:-1 tvg-id="ksport1hd" tvg-logo="https://vanhtv123.000webhostapp.com/k+sport 1.png" group-title="Test 2 K+",K+ SPORT 1 HD
 #EXTVLCOPT:http-user-agent="vanhTV"
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -34,10 +226,8 @@ https://sglive.akamaized.net/bpk-tv/prod_kplus_lifehd/default/i.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000017&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_sport1hd/default/i.mpd
-#https://live.vegacdn.kplus.vn/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/prod_kplus_pm_hd_fps.mpd
-#https://ottlivevng.kplus.vn/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/prod_kplus_pm_hd_fps.mpd
 
-#EXTINF:-1 tvg-id="ksport2hd" tvg-logo="https://vanhtv123.000webhostapp.com/k+sport 2.png" group-title="K+",K+ SPORT 2 HD
+#EXTINF:-1 tvg-id="ksport2hd" tvg-logo="https://vanhtv123.000webhostapp.com/k+sport 2.png" group-title="Test 2 K+",K+ SPORT 2 HD
 #EXTVLCOPT:http-user-agent="vanhTV"
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -45,10 +235,8 @@ https://sglive.akamaized.net/bpk-tv/prod_kplus_sport1hd/default/i.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_sport2hd/default/i.mpd
-#https://live.vegacdn.kplus.vn/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/prod_kplus_pc_hd_fps.mpd
-#https://ottlivevng.kplus.vn/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/prod_kplus_pc_hd_fps.mpd
 
-#EXTINF:-1 tvg-id="kkidshd" tvg-logo="https://vanhtv123.000webhostapp.com/k+kisd.png" group-title="K+",K+ KIDS HD
+#EXTINF:-1 tvg-id="kkidshd" tvg-logo="https://vanhtv123.000webhostapp.com/k+kisd.png" group-title="Test 2 K+",K+ KIDS HD
 #EXTVLCOPT:http-user-agent="vanhTV"
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -56,10 +244,8 @@ https://sglive.akamaized.net/bpk-tv/prod_kplus_sport2hd/default/i.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000223&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_kidshd/default/i.mpd
-#https://live.vegacdn.kplus.vn/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd?bycoca
-#https://ottlivevng.kplus.vn/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://vanhtv123.000webhostapp.com/k+live 1.png" group-title="K+",K+ LIVE 1
+#EXTINF:-1 tvg-id="" tvg-logo="https://vanhtv123.000webhostapp.com/k+live 1.png" group-title="Test 2 K+",K+ LIVE 1
 #EXTVLCOPT:http-user-agent="vanhTV"
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -67,9 +253,8 @@ https://sglive.akamaized.net/bpk-tv/prod_kplus_kidshd/default/i.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000051&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_live1hd/default/i.mpd
-#https://live.vegacdn.kplus.vn/live/prod_mykplus_live_tv_1_fps/prod_mykplus_live_tv_1_fps.isml/prod_mykplus_live_tv_1_fps.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://vanhtv123.000webhostapp.com/k+live 2.png" group-title="K+",K+ LIVE 2
+#EXTINF:-1 tvg-id="" tvg-logo="https://vanhtv123.000webhostapp.com/k+live 2.png" group-title="Test 2 K+",K+ LIVE 2
 #EXTVLCOPT:http-user-agent="vanhTV"
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -77,9 +262,8 @@ https://sglive.akamaized.net/bpk-tv/prod_kplus_live1hd/default/i.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000052&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_live2hd/default/i.mpd
-#https://live.vegacdn.kplus.vn/live/prod_mykplus_live_tv_2_fps/prod_mykplus_live_tv_2_fps.isml/prod_mykplus_live_tv_2_fps.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://vanhtv123.000webhostapp.com/k+live 3.png" group-title="K+",K+ LIVE 3
+#EXTINF:-1 tvg-id="" tvg-logo="https://vanhtv123.000webhostapp.com/k+live 3.png" group-title="Test 2 K+",K+ LIVE 3
 #EXTVLCOPT:http-user-agent="vanhTV"
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -87,7 +271,11 @@ https://sglive.akamaized.net/bpk-tv/prod_kplus_live2hd/default/i.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000053&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_live3hd/default/i.mpd
-#https://live.vegacdn.kplus.vn/live/prod_mykplus_live_tv_3_fps/prod_mykplus_live_tv_3_fps.isml/prod_mykplus_live_tv_3_fps.mpd
+
+
+
+
+
 
 # VTV #
 #EXTM3U
@@ -1228,7 +1416,7 @@ https://livecdn.fptplay.net/hda1/quocphongvnhd_vhls.smil/chunklist_b5000000.m3u8
 #EXTVLCOPT:http-user-agent=(_._)
 https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/TTXVN-SD-ABR/HTV-ABR/TTXVN-SD-720p/playlist.m3u8
 #http://livecdn.fptplay.net/hda2/ttxvn_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="nhandan" group-title="Kênh Chuyên Biệt" tvg-logo="https://i.ibb.co/7JJ3WQP/ndtv.png",Nhân Dân TV
+#EXTINF:-1 tvg-id="nhandan" group-title="Kênh Chuyên Biệt" tvg-logo="https://vthanh.xyz/ic/91.png",Nhân Dân TV
 #EXTVLCOPT:http-user-agent=(_._)
 https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/NHANDAN-SD-ABR/HTV-ABR/NHANDAN-SD-720p/playlist.m3u8
 #https://livecdn.fptplay.net/sdc/truyenhinhnhandan_hls.smil/chunklist_b2500000.m3u8
