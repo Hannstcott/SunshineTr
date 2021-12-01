@@ -13,6 +13,7 @@
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_cinehd/default/i.mpd
 #https://live.vegacdn.kplus.vn/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/prod_kplus_1_hd_fps.mpd
+#https://ottlivevng.kplus.vn/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/prod_kplus_1_hd_fps.mpd
 
 #EXTINF:-1 tvg-id="klifehd" tvg-logo="https://vanhtv123.000webhostapp.com/k+life.png" group-title="K+",K+ LIFE HD
 #EXTVLCOPT:http-user-agent="vanhTV"
@@ -23,6 +24,7 @@ https://sglive.akamaized.net/bpk-tv/prod_kplus_cinehd/default/i.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_lifehd/default/i.mpd
 #https://live.vegacdn.kplus.vn/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/prod_kplus_ns_hd_fps.mpd
+#https://ottlivevng.kplus.vn/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/prod_kplus_ns_hd_fps.mpd
 
 #EXTINF:-1 tvg-id="ksport1hd" tvg-logo="https://vanhtv123.000webhostapp.com/k+sport 1.png" group-title="K+",K+ SPORT 1 HD
 #EXTVLCOPT:http-user-agent="vanhTV"
@@ -33,6 +35,7 @@ https://sglive.akamaized.net/bpk-tv/prod_kplus_lifehd/default/i.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_sport1hd/default/i.mpd
 #https://live.vegacdn.kplus.vn/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/prod_kplus_pm_hd_fps.mpd
+#https://ottlivevng.kplus.vn/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/prod_kplus_pm_hd_fps.mpd
 
 #EXTINF:-1 tvg-id="ksport2hd" tvg-logo="https://vanhtv123.000webhostapp.com/k+sport 2.png" group-title="K+",K+ SPORT 2 HD
 #EXTVLCOPT:http-user-agent="vanhTV"
@@ -43,6 +46,7 @@ https://sglive.akamaized.net/bpk-tv/prod_kplus_sport1hd/default/i.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_sport2hd/default/i.mpd
 #https://live.vegacdn.kplus.vn/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/prod_kplus_pc_hd_fps.mpd
+#https://ottlivevng.kplus.vn/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/prod_kplus_pc_hd_fps.mpd
 
 #EXTINF:-1 tvg-id="kkidshd" tvg-logo="https://vanhtv123.000webhostapp.com/k+kisd.png" group-title="K+",K+ KIDS HD
 #EXTVLCOPT:http-user-agent="vanhTV"
@@ -53,6 +57,7 @@ https://sglive.akamaized.net/bpk-tv/prod_kplus_sport2hd/default/i.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_kidshd/default/i.mpd
 #https://live.vegacdn.kplus.vn/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd?bycoca
+#https://ottlivevng.kplus.vn/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://vanhtv123.000webhostapp.com/k+live 1.png" group-title="K+",K+ LIVE 1
 #EXTVLCOPT:http-user-agent="vanhTV"
