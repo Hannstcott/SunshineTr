@@ -121,6 +121,9 @@ https://mutixx5hq1liv.akamaized.net/vtv5tn/vtv5tn@720p.m3u8
 
 #EXTINF:0 tvg-id="vtv6hd" group-title="VTV ¹⁰⁸⁰" tvg-logo="https://i.pinimg.com/originals/65/f9/79/65f979c7a1e6c1c054c8edd152fe1216.png",VTV6 ¹⁰⁸⁰ᵖ
 http://drfamaga5qliv.vcdn.cloud/vtv06/vtv06@1080p.m3u8
+#http://vietnam:arap@cdnspt2.vthanh.xyz:9981/stream/channelid/1846036721?profile=pass
+#http://vietnam:arap@cdnspt2.vthanh.xyz:9981/stream/channelid/579474179?profile=pass
+#http://vietnam:arap@cdnspt2.vthanh.xyz:9981/stream/channelid/1792334829?profile=pass
 
 #EXTINF:0 tvg-id="vtv7hd" group-title="VTV ¹⁰⁸⁰" tvg-logo="https://lichtruyenhinhtv.com/uploads/lich-phat-song-vtv7.png",VTV7 ¹⁰⁸⁰ᵖ
 http://drfamaga5qliv.vcdn.cloud/vtv07/vtv07@1080p.m3u8
@@ -1094,6 +1097,11 @@ https://live-k2301-kbp.1plus1.video/sport/smil:sport.smil/chunklist_b6000000.m3u
 #EXTINF:0 group-title="🇧🌎🇽", tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/RACING.COM_logo_2016.svg/1200px-RACING.COM_logo_2016.svg.png",Racing.com
 
 https://racingvic-i.akamaized.net/hls/live/598695/racingvic/1500.m3u8
+
+#EXTINF:-1 group-title="🇧🌎🇽" tvg-logo="https://m.media-amazon.com/images/I/61DpgvnwLqL._SL1000_.jpg",Naked News 1 FHD
+https://family4you.fun/vn360sport/sports/ukiptv.php?id=233601
+#EXTINF:-1 group-title="🇧🌎🇽" tvg-logo="https://m.media-amazon.com/images/I/61DpgvnwLqL._SL1000_.jpg",Naked News 2 FHD 
+https://family4you.fun/vn360sport/sports/ukiptv.php?id=233602
 
 
 
