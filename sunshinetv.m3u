@@ -1,6 +1,6 @@
 #EXTM3U url-tvg="http://onetv.click/schedule/epg.xml"
 
-#EXTINF:0 group-title="🇰| K+" tvg-id="klifehd" tvg-logo="https://static.wikia.nocookie.net/logos/images/f/f1/Kplus_Life.png/revision/latest/scale-to-width-down/524?cb=20211011130056&path-prefix=vi", K+ Life 1080p
+#EXTINF:-1 group-title="🇰| K+" tvg-id="klifehd" tvg-logo="https://static.wikia.nocookie.net/logos/images/f/f1/Kplus_Life.png/revision/latest/scale-to-width-down/524?cb=20211011130056&path-prefix=vi", K+ Life 1080p
 #EXTVLCOPT:http-user-agent="CoocaaTV"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -8,7 +8,7 @@
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 http://gg.gg/ccKlife
 
-#EXTINF:0 group-title="🇰| K+" tvg-id="kkidshd" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b4/Kplus_Kids.png/revision/latest/scale-to-width-down/568?cb=20211011130239&path-prefix=vi", K+ Kids 1080p
+#EXTINF:-1 group-title="🇰| K+" tvg-id="kkidshd" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b4/Kplus_Kids.png/revision/latest/scale-to-width-down/568?cb=20211011130239&path-prefix=vi", K+ Kids 1080p
 #EXTVLCOPT:http-user-agent="CoocaaTV"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -16,7 +16,7 @@ http://gg.gg/ccKlife
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 http://gg.gg/ccKkids
 
-#EXTINF:0 group-title="🇰| K+" tvg-id="kcinehd" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b6/Kplus_Cine.png/revision/latest/scale-to-width-down/588?cb=20211011125849&path-prefix=vi", K+ Cine1080p
+#EXTINF:-1 group-title="🇰| K+" tvg-id="kcinehd" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b6/Kplus_Cine.png/revision/latest/scale-to-width-down/588?cb=20211011125849&path-prefix=vi", K+ Cine1080p
 #EXTVLCOPT:http-user-agent="CoocaaTV"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -24,7 +24,7 @@ http://gg.gg/ccKkids
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 http://gg.gg/ccKcine
 
-#EXTINF:0 group-title="🇰| K+" tvg-id="ksport1hd" tvg-logo="https://static.wikia.nocookie.net/logos/images/6/64/Kplus_Sport_1.png/revision/latest/scale-to-width-down/756?cb=20211011130430&path-prefix=vi", K+ Sport 1 1080p
+#EXTINF:-1 group-title="🇰| K+" tvg-id="ksport1hd" tvg-logo="https://static.wikia.nocookie.net/logos/images/6/64/Kplus_Sport_1.png/revision/latest/scale-to-width-down/756?cb=20211011130430&path-prefix=vi", K+ Sport 1 1080p
 #EXTVLCOPT:http-user-agent="CoocaaTV"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -32,7 +32,7 @@ http://gg.gg/ccKcine
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 http://gg.gg/ccKspt1
 
-#EXTINF:0 group-title="🇰| K+" tvg-id="ksport2hd" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b3/Kplus_Sport_2.png/revision/latest/scale-to-width-down/774?cb=20211011130352&path-prefix=vi", K+ Sport 2 1080p
+#EXTINF:-1 group-title="🇰| K+" tvg-id="ksport2hd" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b3/Kplus_Sport_2.png/revision/latest/scale-to-width-down/774?cb=20211011130352&path-prefix=vi", K+ Sport 2 1080p
 #EXTVLCOPT:http-user-agent="CoocaaTV"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -40,7 +40,7 @@ http://gg.gg/ccKspt1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 http://gg.gg/ccKspt2
 
-#EXTINF:0 group-title="🇰| K+" tvg-id="klive1hd" tvg-logo="https://static.wikia.nocookie.net/logos/images/c/cd/K+_Live_1.png/revision/latest/scale-to-width-down/1000?cb=20211013135146&path-prefix=vi", K+ Live 1
+#EXTINF:-1 group-title="🇰| K+" tvg-id="klive1hd" tvg-logo="https://static.wikia.nocookie.net/logos/images/c/cd/K+_Live_1.png/revision/latest/scale-to-width-down/1000?cb=20211013135146&path-prefix=vi", K+ Live 1
 #EXTVLCOPT:http-user-agent="CoocaaTV"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -48,7 +48,7 @@ http://gg.gg/ccKspt2
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://kpluslive.akamaized.net/live/prod_mykplus_live_tv_1_fps/prod_mykplus_live_tv_1_fps.isml/prod_mykplus_live_tv_1_ fps.mpd?bycoca
 
-#EXTINF:0 group-title="🇰| K+" tvg-id="klive2hd" tvg-logo="https://static.wikia.nocookie.net/logos/images/1/1c/K+_Live_2.png/revision/latest/scale-to-width-down/1000?cb=20211013135722&path-prefix=vi", K+ Live 2
+#EXTINF:-1 group-title="🇰| K+" tvg-id="klive2hd" tvg-logo="https://static.wikia.nocookie.net/logos/images/1/1c/K+_Live_2.png/revision/latest/scale-to-width-down/1000?cb=20211013135722&path-prefix=vi", K+ Live 2
 #EXTVLCOPT:http-user-agent="CoocaaTV"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -56,7 +56,7 @@ https://kpluslive.akamaized.net/live/prod_mykplus_live_tv_1_fps/prod_mykplus_liv
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://kpluslive.akamaized.net/live/prod_mykplus_live_tv_2_fps/prod_mykplus_live_tv_2_fps.isml/prod_mykplus_live_tv_2_ fps.mpd?bycoca
 
-#EXTINF:0 group-title="🇰| K+" tvg-id="klive3hd" tvg-logo="https://static.wikia.nocookie.net/logos/images/6/6e/K+_Live_3.png/revision/latest/scale-to-width-down/1000?cb=20211013135816&path-prefix=vi", K+ Live 3
+#EXTINF:-1 group-title="🇰| K+" tvg-id="klive3hd" tvg-logo="https://static.wikia.nocookie.net/logos/images/6/6e/K+_Live_3.png/revision/latest/scale-to-width-down/1000?cb=20211013135816&path-prefix=vi", K+ Live 3
 #EXTVLCOPT:http-user-agent="CoocaaTV"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
