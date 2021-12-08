@@ -36,71 +36,40 @@ https://ottlivevng.kplus.vn/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.i
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlivevng.kplus.vn/live/prod_mykplus_live_tv_1_fps/prod_mykplus_live_tv_1_fps.isml/prod_mykplus_live_tv_1_fps.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://vanhtv123.000webhostapp.com/k+live 2.png" group-title="🍭| K+",K+ LIVE 2
-#EXTVLCOPT:http-user-agent="vanhTV"
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000052&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
+#EXTINF:-1 group-title="K+" tvg-id="         " tvg-logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-k-sport1-hd.png", K+ SPORT 1 HD THỂ THAO ĐỈNH CAO
+#EXTVLCOPT:http-user-agent="COODER TV"
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://ottlivevng.kplus.vn/live/prod_mykplus_live_tv_2_fps/prod_mykplus_live_tv_2_fps.isml/prod_mykplus_live_tv_2_fps.mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000017&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A|Accept-Language=vi&Content-Type=application%2Foctet-stream&Host=kplus.live.ott.irdeto.com&Origin=https%3A%2F%2Fxem.kplus.vn&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F92.0.4515.159+Safari%2F537.36|R{{SSM}}
+#https://ottlivevng.kplus.vn/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/prod_kplus_pm_hd_fps.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://vanhtv123.000webhostapp.com/k+live 3.png" group-title="🍭| K+",K+ LIVE 3
-#EXTVLCOPT:http-user-agent="vanhTV"
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000053&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A| Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
+#EXTINF:-1 group-title="K+" tvg-id="         " tvg-logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-k-sport2-hd.png", K+ SPORT 2 HD THỂ THAO
+#EXTVLCOPT:http-user-agent="COODER TV"
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://ottlivevng.kplus.vn/live/prod_mykplus_live_tv_3_fps/prod_mykplus_live_tv_3_fps.isml/prod_mykplus_live_tv_3_fps.mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=B3A30136DB4CCE5E&Ticket=8B2100CB60332994|Accept-Language=vi&Content-Type=application%2Foctet-stream&Host=kplus.live.ott.irdeto.com&Origin=https%3A%2F%2Fxem.kplus.vn&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F92.0.4515.159+Safari%2F537.36|R{{SSM}}
+#https://ottlivevng.kplus.vn/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/prod_kplus_pc_hd_fps.mpd
 
+#EXTINF:-1 group-title="K+" tvg-id="         " tvg-logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-kcine-hd.png", K+ CINE HD PHIM
+#EXTVLCOPT:http-user-agent="COODER TV"
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000015&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A|Accept-Language=vi&Content-Type=application%2Foctet-stream&Host=kplus.live.ott.irdeto.com&Origin=https%3A%2F%2Fxem.kplus.vn&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F92.0.4515.159+Safari%2F537.36|R{{SSM}}
+#https://ottlivevng.kplus.vn/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/prod_kplus_1_hd_fps.mpd
 
-#EXTINF:-1 tvg-id="kcinehd" tvg-logo="https://i.ibb.co/Q8cwLj8/kcine-hd-BEARTV.png" group-title="K+",K+ CINE HD 🔒
-#EXTVLCOPT:http-user-agent="BearTV"
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000015&SessionId=604709EE8F20DCED&Ticket=31E9F2C8421C61F4
+#EXTINF:-1 group-title="K+" tvg-id="         " tvg-logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-klife-hd.png", K+ LIFE HD GIẢI TRÍ TỔNG HỢP 
+#EXTVLCOPT:http-user-agent="COODER TV"
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#https://live.vegacdn.kplus.vn/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/prod_kplus_1_hd_fps.mpd
-https://dl.dropboxusercontent.com/s/13gnkkpsetyf0z4/beartvzalo.mp4?dl=0
-#EXTINF:-1 tvg-id="klifehd" tvg-logo="https://i.ibb.co/jZ9Hnn3/klife-hd-BEARTV.png" group-title="K+",K+ LIFE HD 🔒
-#EXTVLCOPT:http-user-agent="BearTV"
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000016&SessionId=604709EE8F20DCED&Ticket=31E9F2C8421C61F4
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#https://live.vegacdn.kplus.vn/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/prod_kplus_ns_hd_fps.mpd
-https://dl.dropboxusercontent.com/s/13gnkkpsetyf0z4/beartvzalo.mp4?dl=0
-#EXTINF:-1 tvg-id="ksport1hd" tvg-logo="https://i.ibb.co/Gn42T7H/k-sport1-hd-BEARTV.png" group-title="K+",K+ SPORT 1 HD 🔒
-#EXTVLCOPT:http-user-agent="BearTV"
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000017&SessionId=604709EE8F20DCED&Ticket=31E9F2C8421C61F4
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#https://live.vegacdn.kplus.vn/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/prod_kplus_pm_hd_fps.mpd
-https://dl.dropboxusercontent.com/s/13gnkkpsetyf0z4/beartvzalo.mp4?dl=0
-#EXTINF:-1 tvg-id="ksport2hd" tvg-logo="https://i.ibb.co/G9s2Vpr/k-sport2-hd-BEARTV.png" group-title="K+",K+ SPORT 2 HD 🔒
-#EXTVLCOPT:http-user-agent="BearTV"
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=604709EE8F20DCED&Ticket=31E9F2C8421C61F4
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#https://live.vegacdn.kplus.vn/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/prod_kplus_pc_hd_fps.mpd
-https://dl.dropboxusercontent.com/s/13gnkkpsetyf0z4/beartvzalo.mp4?dl=0
-#EXTINF:-1 tvg-id="kkidshd" tvg-logo="https://i.ibb.co/c8vJyv9/kkids-hd-BEARTV.png" group-title="K+",K+ KIDS HD 🔒
-#EXTVLCOPT:http-user-agent="BearTV"
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000223&SessionId=604709EE8F20DCED&Ticket=31E9F2C8421C61F4
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#https://live.vegacdn.kplus.vn/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd
-https://dl.dropboxusercontent.com/s/13gnkkpsetyf0z4/beartvzalo.mp4?dl=0
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000016&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A|Accept-Language=vi&Content-Type=application%2Foctet-stream&Host=kplus.live.ott.irdeto.com&Origin=https%3A%2F%2Fxem.kplus.vn&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F92.0.4515.159+Safari%2F537.36|R{{SSM}}
+#https://ottlivevng.kplus.vn/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/prod_kplus_ns_hd_fps.mpd
 
+#EXTINF:-1 group-title="K+" tvg-id="         " tvg-logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-kkids-hd.png", K+ KIDS HD THIẾU NHI
+#EXTVLCOPT:http-user-agent="COODER TV"
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&SessionId=B3A30136DB4CCE5E&Ticket=8B2100CB60332994|Accept-Language=vi&Content-Type=application%2Foctet-stream&Host=kplus.live.ott.irdeto.com&Origin=https%3A%2F%2Fxem.kplus.vn&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F92.0.4515.159+Safari%2F537.36|R{{SSM}}
+#https://ottlivevng.kplus.vn/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd
 
 #-*--VTV-*--#
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://vthanh.xyz/ic/1.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv1hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8", VTV1 HD
@@ -789,9 +758,6 @@ https://livecdn.fptplay.net/sdb/france24_hls.smil/chunklist_b2500000.m3u8
 https://livecdn.fptplay.net/sdb/tv5_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1  tvg-id="outdoorhd" tvg-logo="https://static.fptplay.net/static/img/share/channels/icon_channel_outdoor-channel_156456021259.jpg" group-title="🅾🆃🅷🅴🆁" tvg-chno="127",Outdoor Channel HD
 https://vips-livecdn.fptplay.net/hda1/outdoorfhd_vhls.smil/chunklist_b5000000.m3u8
-
-
-
 #EXTINF:-1 tvg-id="foxsportshd" tvg-name="Fox_Sports_1" tvg-logo="https://static.megavie.live/media/foxsportshd.jpg" group-title="🅾🆃🅷🅴🆁"  tvg-chno="91",Fox Sports HD
 #https://vips-livecdn.fptplay.net/hda2/foxsports_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="foxsports2hd" tvg-name="Fox_Sports_2" tvg-logo="https://static.fptplay.net/static/img/share/channels/icon_channel_fox-sports-2_148654612771.jpg" group-title="🅾🆃🅷🅴🆁"  tvg-chno="92",Fox Sports 2 HD
@@ -803,9 +769,8 @@ https://vips-livecdn.fptplay.net/hda3/axnhd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1  tvg-id="warnertvhd" tvg-name="WB" tvg-logo="https://static.megavie.live/media/warnertvhd.jpg" group-title="🅾🆃🅷🅴🆁" tvg-chno="115",Warner TV HD
 https://vips-livecdn.fptplay.net/hda3/warnertv_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1  tvg-id="cinemaworld" tvg-logo="https://i.ibb.co/K0t7jJ0/cinemaw.jpg" group-title="🅾🆃🅷🅴🆁",Cinema World HD
-https://vips-livecdn.fptplay.net/hda2/cinemawork_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1  tvg-id="fashionhd" tvg-logo="https://static.megavie.live/media/fashionhd.png" group-title="🅾🆃🅷🅴🆁" tvg-chno="129",Fashion TV HD
-https://vips-livecdn.fptplay.net/hda2/fashiontvhd_vhls.smil/chunklist_b5000000.m3u8
+
+
 #EXTINF:-1 tvg-id="cartoonhd" tvg-name="CARTOON_NETWORK" tvg-logo="https://i.ibb.co/JqJVv5b/cn.jpg" group-title="🅾🆃🅷🅴🆁"  tvg-chno="",Cartoon Network HD
 https://vips-livecdn.fptplay.net/hda3/cartoonnetworkhd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="animaxhd"  tvg-logo="https://static.fptplay.net/static/img/share/channels/icon_channel_animax_160869788037.png"  group-title="🅾🆃🅷🅴🆁" tvg-chno="107", Animax HD
@@ -1199,7 +1164,15 @@ https://racingvic-i.akamaized.net/hls/live/598695/racingvic/1500.m3u8
 https://family4you.fun/vn360sport/sports/ukiptv.php?id=233601
 #EXTINF:-1 group-title="🇧🌎🇽" tvg-logo="https://m.media-amazon.com/images/I/61DpgvnwLqL._SL1000_.jpg",Naked News 2 FHD 
 https://family4you.fun/vn360sport/sports/ukiptv.php?id=233602
-
+https://vips-livecdn.fptplay.net/hda2/cinemawork_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1  tvg-id="fashionhd" tvg-logo="https://static.megavie.live/media/fashionhd.png" group-title="🅾🆃🅷🅴🆁" tvg-chno="129",Fashion TV
+https://vips-livecdn.fptplay.net/hda2/fashiontvhd_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="" group-title="🇧🌎🇽" tvg-logo="https://st.quantrimang.com/photos/image/2017/11/01/Ace-Stream-xem-bong-logo640.jpg" ,KALOOPY TV
+http://127.0.0.1:6878/ace/getstream?id=b63c7fec82ce9fe5ce153201aa475fb7f9394460
+#EXTINF:-1 tvg-id="" group-title="🇧🌎🇽" tvg-logo="https://st.quantrimang.com/photos/image/2017/11/01/Ace-Stream-xem-bong-logo640.jpg" ,JASMIN TV
+http://127.0.0.1:6878/ace/getstream?id=8824d36d457edf53be6967bfca3f67952c2dc259
+#EXTINF:-1 tvg-id="" group-title="🇧🌎🇽" tvg-logo="https://st.quantrimang.com/photos/image/2017/11/01/Ace-Stream-xem-bong-logo640.jpg" ,KINO TV
+http://127.0.0.1:6878/ace/getstream?id=86026a0198ca8f105bf232eb61876f0158204e42
 
 
 
@@ -1502,4 +1475,82 @@ https://livestream-2.socialstreaming.tv/live/617d52230fad37001c4553d0/617d52230f
 #EXTINF:-1 group-title="⛵️| 90phut" tvg-logo="https://i.imgur.com/jyM3inb.png",90PHUT TV 11
 https://p90020921.vnroute.com/may4/chunks.m3u8|Referer=https://mitom.90phuttt.xyz/61759ef7e5fdc4009106539a.html
 
+#EXTINF:-1 group-title="⛵️| 90phut" tvg-logo="https://i.imgur.com/jyM3inb.png",Kênh 1 (Tiengruoi.link)
+http://192.168.3.89:6878/ace/manifest.m3u8?id=fa149a0a37809ebfca5148041c3888498eaae429
+#EXTINF:-1 group-title="⛵️| 90phut" tvg-logo="https://i.imgur.com/jyM3inb.png",Kênh 2 (Tiengruoi.link)
+http://192.168.3.89:6878/ace/manifest.m3u8?id=12722d111be8a2e069af83d535d5fd0b39734712
+#EXTINF:-1 group-title="⛵️| 90phut" tvg-logo="https://i.imgur.com/jyM3inb.png",Kênh 3 (Tiengruoi.link)
+http://192.168.3.89:6878/ace/manifest.m3u8?id=3f846942f8e8e91fb1c94fa10e2c536372ef8f2c
+#EXTINF:-1 group-title="⛵️| 90phut" tvg-logo="https://i.imgur.com/jyM3inb.png",Kênh 4 (Tiengruoi.link)
+http://192.168.3.89:6878/ace/manifest.m3u8?id=27618f71bc2611dca58af879642e0b507d0f39a0
+#EXTINF:-1 group-title="⛵️| 90phut" tvg-logo="https://i.imgur.com/jyM3inb.png",Kênh 5 (Tiengruoi.link)
+http://192.168.3.89:6878/ace/manifest.m3u8?id=058a9ac982d6d29131f9bd277111f22de28400da
 
+#EXTINF:-1 tvg-id="bein1premium" tvg-logo="https://img.sport-tv-guide.live/images/stations/a761.png" group-title="♻️|Ace_SPORTS",BEIN PREMIUM 1 HD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=67dd7e40421d8de4380f8fdc083587083b824d4c
+#EXTINF:-1 tvg-id="bein2premium" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-qa-bein-sports-premium-2-759.png" group-title="♻️|Ace_SPORTS",BEIN PREMIUM 2 HD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=7d62ffffef2d45a16f6947f53682247fc721bbf5
+#EXTINF:-1 tvg-id="bein3premium" tvg-logo="https://img.sport-tv-guide.live/images/stations/a760.png" group-title="♻️|Ace_SPORTS",BEIN PREMIUM 3 HD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=76ceff2763266c82609e4e87867217fe97b3d2f4
+#EXTINF:-1 tvg-logo="https://www.thesportsdb.com/images/media/logo/r7vubi1601731224.png" group-title="♻️|Ace_SPORTS",Матч ТВ FHD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=7abf95a228bed9e641b12f8567cd61e8ecf2382d
+
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/cb/1d/75/cb1d75d7f2c1e9d4c7de4a0d06b669f9.jpg" group-title="♻️|Ace_SPORTS",BEIN SPORT 5 HD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=635c0e010fdaa36aa7699a064b93fde4c135d85c
+#EXTINF:-1 tvg-id="Sport TV 1 HD" tvg-logo="https://1.bp.blogspot.com/-TYA71ryPkNA/XX5k570rpPI/AAAAAAAAA1U/3Di6rEiQpjwD3C73Qme58m45n-Vv5dMEQCLcBGAsYHQ/s1600/Sport%2BTV%2B1.png" group-title="♻️|Ace_SPORTS",SPORT TV1 HD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=e3bf260688fffc9a6a11501003abe332ff3f0a28
+#EXTINF:-1 tvg-id="Sport TV 2 HD" tvg-logo="https://www.thesportsdb.com/images/media/logo/wwwxrx1436898851.png" group-title="♻️|Ace_SPORTS",SPORT TV2 HD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=31ce31ae992f86767b67863c32afdce783fdac97
+#EXTINF:-1 tvg-id="Sport TV 3 HD" tvg-logo="https://www.thesportsdb.com/images/media/logo/rtwtyq1436898868.png" group-title="♻️|Ace_SPORTS",SPORT TV3 HD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=61c6076fa90584440816889510dd906a77285f53
+
+
+#EXTINF:-1 tvg-id="BT Sport 1" tvg-logo="https://img.sport-tv-guide.live/images/stations/a97.png" group-title="♻️|Ace_SPORTS",BT SPORT 1 HD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=445fe5255504241de5eec52b092a8043a83118f5
+#EXTINF:-1 tvg-id="BT Sport 2" tvg-logo="https://img.sport-tv-guide.live/images/stations/a100.png" group-title="♻️|Ace_SPORTS",BT SPORT 2 HD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=2de176092b9996878a38f197c3acdcb6f4c64f8a
+#EXTINF:-1 tvg-logo="https://img.sport-tv-guide.live/images/tv-station-true-premier-football-1-1818.png" group-title="♻️|Ace_SPORTS",TRUE PREMIER FOOTBALL 1 HD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=18170bb65cecdb1693e1a3fbeee70657e3291670
+#EXTINF:-1 tvg-logo="https://img.sport-tv-guide.live/images/tv-station-true-premier-football-2-1819.png" group-title="♻️|Ace_SPORTS",TRUE PREMIER FOOTBALL 2 HD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=9f1f81e5272a8705c8672cd149fab86e0b55ee41
+
+
+#EXTINF:-1 tvg-logo="https://img.sport-tv-guide.live/images/tv-station-k-sport-1-1855.png" group-title="♻️|Ace_SPORTS",K SPORT 1
+http://192.168.3.89:6878/ace/manifest.m3u8?id=071619ce144ba10c205143961a9c73fee2568c26
+#EXTINF:-1 tvg-logo="https://img.sport-tv-guide.live/images/tv-station-k-sport-2-1856.png" group-title="♻️|Ace_SPORTS",K SPORT 2
+http://192.168.3.89:6878/ace/manifest.m3u8?id=44a46377029622b2a16c6a3976e07789df29dd85
+#EXTINF:-1 tvg-logo="https://img.sport-tv-guide.live/images/tv-station-k-sport-3-1857.png" group-title="♻️|Ace_SPORTS",K SPORT 3
+http://192.168.3.89:6878/ace/manifest.m3u8?id=de3b4b3ebfe4ecd073a50437f930d256c454fd0c
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b1/Newlogo_TVP_SPORT_HD.jpg" group-title="♻️|Ace_SPORTS",TVP SPORT HD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=f5950b8d9b619f7cbd1f8c2b23da140c58de1637
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Canal%2B_Sport_2015.png" group-title="♻️|Ace_SPORTS",CANAL+SPORT HD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=66b69a2a5d65c505d553143db6bbe3d5fa8ac3ff
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Canal%2B_Sport_2015.png" group-title="♻️|Ace_SPORTS",CANAL+SPORT HD1
+http://192.168.3.89:6878/ace/manifest.m3u8?id=b258f7b7fc2aed0e3e66fb4836113208902b5348
+
+
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/ee/eleven-sports-1-portugal-uk-pt.png" group-title="♻️|Ace_SPORTS",ELEVEN SPORTS 1 HD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=ca89f7973ca3084f9c33bf7105daca5b46575ed5
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/ee/eleven-sports-2-portugal-uk-pt.png" group-title="♻️|Ace_SPORTS",ELEVEN SPORTS 2 HD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=164da6c05cc464000294fdce997a6ad7f095431f
+
+
+#EXTINF:-1 tvg-id="BT Sport 1" tvg-logo="https://img.sport-tv-guide.live/images/stations/a97.png" group-title="♻️|Ace_SPORTS",BT SPORT 1 HD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=d63cf72bc2661238fcd2e343ccc2582b5bd9bc14
+#EXTINF:-1 tvg-id="BT Sport 2" tvg-logo="https://img.sport-tv-guide.live/images/stations/a100.png" group-title="♻️|Ace_SPORTS",BT SPORT 2 HD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=99c2acebde1c1dc7a05419771110ff64fb444a96
+#EXTINF:-1 tvg-id="BT Sport 3" tvg-logo="https://img.sport-tv-guide.live/images/stations/a108.png" group-title="♻️|Ace_SPORTS",BT SPORT 3 HD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=3c60f36f8f913be1b4edae0cbc356d6cf9a52936
+
+
+#EXTINF:-1 tvg-logo="https://www.thesportsdb.com/images/media/logo/r7vubi1601731224.png" group-title="♻️|Ace_SPORTS",Матч ТВ FHD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=493cdbeb9463e19bb2ec72e60357d60072e3f908
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CJPGHKw.png" group-title="♻️|Ace_SPORTS",Матч! Футбол 1 FHD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=2b37d683900749f8ba7a520e3f06f012127980d4
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Lw5Gd3b.png" group-title="♻️|Ace_SPORTS",Матч! Футбол 2 FHD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=636aacd9b73d46399fdc525ec3cb7e243a271d1b
+#EXTINF:-1 tvg-logo="https://i.imgur.com/LKOT5jE.png" group-title="♻️|Ace_SPORTS",Матч! Футбол 3 FHD
+http://192.168.3.89:6878/ace/manifest.m3u8?id=485546bddda35f4d0ab5aba150978f600614c1a6
