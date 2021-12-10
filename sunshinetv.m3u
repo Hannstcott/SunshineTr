@@ -1392,6 +1392,67 @@ https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/NHANDAN-SD-ABR/HTV-ABR/NHANDAN-SD
 #https://video.nhandan.thienvietjsc.net/live/nhandan720/chunklist.m3u8
 
 
+#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 1
+
+#EXTVLCOPT:http-user-agent=VThanhTivi
+
+https://livecdn.fptplay.net/hdevent/uefa01_vhls.smil/chunklist_b5000000.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 2
+
+#EXTVLCOPT:http-user-agent=VThanhTivi
+
+https://livecdn.fptplay.net/hdevent/uefa02_vhls.smil/chunklist_b5000000.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 3
+
+#EXTVLCOPT:http-user-agent=VThanhTivi
+
+https://livecdn.fptplay.net/hdevent/uefa03_vhls.smil/chunklist_b5000000.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 4
+
+#EXTVLCOPT:http-user-agent=VThanhTivi
+
+https://livecdn.fptplay.net/hdevent/uefa04_vhls.smil/chunklist_b5000000.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 5
+
+#EXTVLCOPT:http-user-agent=VThanhTivi
+
+https://livecdn.fptplay.net/hdevent/uefa05_vhls.smil/chunklist_b5000000.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 6
+
+#EXTVLCOPT:http-user-agent=VThanhTivi
+
+https://livecdn.fptplay.net/hdevent/uefa06_vhls.smil/chunklist_b5000000.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 7
+
+#EXTVLCOPT:http-user-agent=VThanhTivi
+
+https://livecdn.fptplay.net/hdevent/uefa07_vhls.smil/chunklist_b5000000.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 8
+
+#EXTVLCOPT:http-user-agent=VThanhTivi
+
+https://livecdn.fptplay.net/hdevent/uefa08_vhls.smil/chunklist_b5000000.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 9
+
+#EXTVLCOPT:http-user-agent=VThanhTivi
+
+https://livecdn.fptplay.net/hdevent/uefa09_vhls.smil/chunklist_b5000000.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 10
+
+#EXTVLCOPT:http-user-agent=VThanhTivi
+
+https://livecdn.fptplay.net/hdevent/uefa10_vhls.smil/chunklist_b5000000.m3u8
+
+
 #EXTINF:0 group-title="⛵️| Cakhia" tvg-logo="https://static.fastlycdnlive.xyz/template2/user/img/ckstrim.png", BLV: A Páo
 http://gg.gg/tb-live15|Referer=https://cakhia8.tv/truc-tiep
 #EXTINF:0 group-title="⛵️| Cakhia" tvg-logo="https://static.fastlycdnlive.xyz/template2/user/img/ckstrim.png", BLV: A Cay
