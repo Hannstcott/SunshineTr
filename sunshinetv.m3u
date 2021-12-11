@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://bit.ly/guidevn" deinterlace=1
+#EXTM3U url-tvg="http://bit.ly/guidevn" deinterlace=1 tvg-shift=0 m3uautoload=1
 #EXTM3U url-tvg = "http://gg.gg/epgbearlivetv" tvg-shift=0 m3uautoload=2
 #EXTM3U url-tvg="http://gg.gg/cocaepg" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=3
 #EXTM3U url-tvg="http://gg.gg/epgvn03" tvg-shift=0 m3uautoload=4
