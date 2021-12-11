@@ -1499,66 +1499,128 @@ https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/NHANDAN-SD-ABR/HTV-ABR/NHANDAN-SD
 #https://video.nhandan.thienvietjsc.net/live/nhandan720/chunklist.m3u8
 
 
-#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 1
+#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá C1" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 1
 
 #EXTVLCOPT:http-user-agent=VThanhTivi
 
 https://livecdn.fptplay.net/hdevent/uefa01_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 2
+#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá C1" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 2
 
 #EXTVLCOPT:http-user-agent=VThanhTivi
 
 https://livecdn.fptplay.net/hdevent/uefa02_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 3
+#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá C1" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 3
 
 #EXTVLCOPT:http-user-agent=VThanhTivi
 
 https://livecdn.fptplay.net/hdevent/uefa03_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 4
+#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá C1" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 4
 
 #EXTVLCOPT:http-user-agent=VThanhTivi
 
 https://livecdn.fptplay.net/hdevent/uefa04_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 5
+#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá C1" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 5
 
 #EXTVLCOPT:http-user-agent=VThanhTivi
 
 https://livecdn.fptplay.net/hdevent/uefa05_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 6
+#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá C1" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 6
 
 #EXTVLCOPT:http-user-agent=VThanhTivi
 
 https://livecdn.fptplay.net/hdevent/uefa06_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 7
+#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá C1" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 7
 
 #EXTVLCOPT:http-user-agent=VThanhTivi
 
 https://livecdn.fptplay.net/hdevent/uefa07_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 8
+#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá C1" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 8
 
 #EXTVLCOPT:http-user-agent=VThanhTivi
 
 https://livecdn.fptplay.net/hdevent/uefa08_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 9
+#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá C1" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 9
 
 #EXTVLCOPT:http-user-agent=VThanhTivi
 
 https://livecdn.fptplay.net/hdevent/uefa09_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 10
+#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá C1" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 10
 
 #EXTVLCOPT:http-user-agent=VThanhTivi
 
 https://livecdn.fptplay.net/hdevent/uefa10_vhls.smil/chunklist_b5000000.m3u8
 
+#EXTINF:0 group-title="FPTplay| Live Bóng Đá AFC" tvg-logo="https://static.wikia.nocookie.net/captaintsubasa/images/a/a9/AFC_Champions_League.png",AFC 01
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/afcchampion/afc01_2000.stream/chunklist.m3u8
+#EXTINF:0 group-title="FPTplay| Live Bóng Đá AFC" tvg-logo="https://static.wikia.nocookie.net/captaintsubasa/images/a/a9/AFC_Champions_League.png",AFC 02
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/afcchampion/afc02_2000.stream/chunklist.m3u8
+#EXTINF:0 group-title="FPTplay| Live Bóng Đá AFC" tvg-logo="https://static.wikia.nocookie.net/captaintsubasa/images/a/a9/AFC_Champions_League.png",AFC 03
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/afcchampion/afc03_2000.stream/chunklist.m3u8
+#EXTINF:0 group-title="FPTplay| Live Bóng Đá AFC" tvg-logo="https://static.wikia.nocookie.net/captaintsubasa/images/a/a9/AFC_Champions_League.png",AFC 04
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/afcchampion/afc04_2000.stream/chunklist.m3u8
+#EXTINF:0 group-title="FPTplay| Live Bóng Đá AFC" tvg-logo="https://static.wikia.nocookie.net/captaintsubasa/images/a/a9/AFC_Champions_League.png",AFC 05
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/afcchampion/afc05_2000.stream/chunklist.m3u8
+#EXTINF:0 group-title="FPTplay| Live Bóng Đá AFC" tvg-logo="https://static.wikia.nocookie.net/captaintsubasa/images/a/a9/AFC_Champions_League.png",AFC 06
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/afcchampion/afc06_2000.stream/chunklist.m3u8
+#EXTINF:0 group-title="FPTplay| Live Bóng Đá AFC" tvg-logo="https://static.wikia.nocookie.net/captaintsubasa/images/a/a9/AFC_Champions_League.png",AFC 07
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/afcchampion/afc07_2000.stream/chunklist.m3u8
+#EXTINF:0 group-title="FPTplay| Live Bóng Đá AFC" tvg-logo="https://static.wikia.nocookie.net/captaintsubasa/images/a/a9/AFC_Champions_League.png",AFC 08
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/afcchampion/afc08_2000.stream/chunklist.m3u8
+#EXTINF:0 group-title="FPTplay| Live Bóng Đá AFC" tvg-logo="https://static.wikia.nocookie.net/captaintsubasa/images/a/a9/AFC_Champions_League.png",AFC 09
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/afcchampion/afc09_2000.stream/chunklist.m3u8
+#EXTINF:0 group-title="FPTplay| Live Bóng Đá AFC" tvg-logo="https://static.wikia.nocookie.net/captaintsubasa/images/a/a9/AFC_Champions_League.png",AFC 10
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/afcchampion/afc10_2000.stream/chunklist.m3u8
+
+
+#EXTINF:0 group-title="FPTplay| Live Bóng Đá WorldCup" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/314px-2022_FIFA_World_Cup.svg.png",World Cup 01
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/hdevent/worldcup01_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 group-title="FPTplay| Live Bóng Đá WorldCup" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/314px-2022_FIFA_World_Cup.svg.png",World Cup 02
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/hdevent/worldcup02_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 group-title="FPTplay| Live Bóng Đá WorldCup" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/314px-2022_FIFA_World_Cup.svg.png",World Cup 03
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/hdevent/worldcup03_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 group-title="FPTplay| Live Bóng Đá WorldCup" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/314px-2022_FIFA_World_Cup.svg.png",World Cup 04
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/hdevent/worldcup04_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 group-title="FPTplay| Live Bóng Đá WorldCup" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/314px-2022_FIFA_World_Cup.svg.png",World Cup 05
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/hdevent/worldcup05_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 group-title="FPTplay| Live Bóng Đá WorldCup" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/314px-2022_FIFA_World_Cup.svg.png",World Cup 06
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/hdevent/worldcup06_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 group-title="FPTplay| Live Bóng Đá WorldCup" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/314px-2022_FIFA_World_Cup.svg.png",World Cup 07
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/hdevent/worldcup07_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 group-title="FPTplay| Live Bóng Đá WorldCup" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/314px-2022_FIFA_World_Cup.svg.png",World Cup 08
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/hdevent/worldcup08_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 group-title="FPTplay| Live Bóng Đá WorldCup" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/314px-2022_FIFA_World_Cup.svg.png",World Cup 09
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/hdevent/worldcup09_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 group-title="FPTplay| Live Bóng Đá WorldCup" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/314px-2022_FIFA_World_Cup.svg.png",World Cup 10
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/hdevent/worldcup10_hls.smil/chunklist_b2500000.m3u8
 
 #EXTINF:0 group-title="⛵️| Cakhia" tvg-logo="https://static.fastlycdnlive.xyz/template2/user/img/ckstrim.png", BLV: A Páo
 http://gg.gg/tb-live15|Referer=https://cakhia8.tv/truc-tiep
@@ -1711,6 +1773,45 @@ http://192.168.3.89:6878/ace/manifest.m3u8?id=3f846942f8e8e91fb1c94fa10e2c536372
 http://192.168.3.89:6878/ace/manifest.m3u8?id=27618f71bc2611dca58af879642e0b507d0f39a0
 #EXTINF:-1 group-title="⛵️| 90phut" tvg-logo="https://i.imgur.com/jyM3inb.png",Kênh 5 (Tiengruoi.link)
 http://192.168.3.89:6878/ace/manifest.m3u8?id=058a9ac982d6d29131f9bd277111f22de28400da
+http://127.0.0.1:6878/ace/getstream?id=2137c01372727c08a9d9f4f09001b3157aa3c929
+
+#EXTINF:-1 group-title="VEBOTV" tvg-logo="https://image-5.gapo.vn/images/8166dc49-93ba-4f42-ad93-b2490c226afc.jpeg",Vebo.TV1
+http://127.0.0.1:6878/ace/getstream?id=fa149a0a37809ebfca5148041c3888498eaae429
+#EXTINF:-1 group-title="VEBOTV" tvg-logo="https://image-5.gapo.vn/images/8166dc49-93ba-4f42-ad93-b2490c226afc.jpeg",Vebo.TV2
+http://127.0.0.1:6878/ace/getstream?id=12722d111be8a2e069af83d535d5fd0b39734712
+#EXTINF:-1 group-title="VEBOTV" tvg-logo="https://image-5.gapo.vn/images/8166dc49-93ba-4f42-ad93-b2490c226afc.jpeg",Vebo.TV3
+http://127.0.0.1:6878/ace/getstream?id=3f846942f8e8e91fb1c94fa10e2c536372ef8f2c
+#EXTINF:-1 group-title="VEBOTV" tvg-logo="https://image-5.gapo.vn/images/8166dc49-93ba-4f42-ad93-b2490c226afc.jpeg",Vebo.TV4
+http://127.0.0.1:6878/ace/getstream?id=27618f71bc2611dca58af879642e0b507d0f39a0
+
+#EXTINF:-1 group-title="⛵| XoilacTV" tvg-logo="https://90p1.com/wp-content/uploads/2021/07/logo-90p.png",Live 1
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://nvndcagevswv87c6afake.thapcam.link/live/_definst_/stream_1_1bda7@may1HD/chunklist.m3u8|Referer=https://xoilac.90phuttt.xyz/live
+#EXTINF:-1 group-title="⛵| XoilacTV" tvg-logo="https://90p1.com/wp-content/uploads/2021/07/logo-90p.png",Live 2
+#EXTVLCOP#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://nvndcagevswv87c6afake.thapcam.link/live/_definst_/stream_1_1bda7@may5/chunklist.m3u8|Referer=https://xoilac.90phuttt.xyz/live
+#EXTINF:-1 group-title="⛵| XoilacTV" tvg-logo="https://90p1.com/wp-content/uploads/2021/07/logo-90p.png",Live 3
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://nvndcagevswv87c6afake.thapcam.link/live/_definst_/stream_1_1bda7@may3HD/chunklist.m3u8|Referer=https://xoilac.90phuttt.xyz/live
+#EXTINF:-1 group-title="⛵| XoilacTV" tvg-logo="https://90p1.com/wp-content/uploads/2021/07/logo-90p.png",Live 4
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://179386814.global.cdnfastest.com//live/183ade8e1e13ec5491a9cfdd585ae5f9304/chunklist.m3u8|Referer=https://xoilac.90phuttt.xyz/live
+#EXTINF:-1 group-title="⛵| XoilacTV" tvg-logo="https://90p1.com/wp-content/uploads/2021/07/logo-90p.png",Live 5
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://p90020921.vnroute.com/may51/chunks.m3u8|Referer=https://xoilac.90phuttt.xyz/live
+#EXTINF:-1 group-title="⛵| XoilacTV" tvg-logo="https://90p1.com/wp-content/uploads/2021/07/logo-90p.png",Live 6
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://p90020921.vnroute.com/may21/chunks.m3u8|Referer=https://xoilac.90phuttt.xyz/live
+
+#EXTINF:-1 group-title="⛵| XoilacTV" tvg-logo="https://90p1.com/wp-content/uploads/2021/07/logo-90p.png",Live 7
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://nvndcagevswv87c6afake.thapcam.link/live/_definst_/stream_1_1bda7@may91/chunklist.m3u8|Referer=https://xoilac.90phuttt.xyz/live
+#EXTINF:-1 group-title="⛵| XoilacTV" tvg-logo="https://90p1.com/wp-content/uploads/2021/07/logo-90p.png",Live 8
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://nvndcagevswv87c6afake.thapcam.link/live/_definst_/stream_1_1bda7@may4/chunklist.m3u8|Referer=https://xoilac.90phuttt.xyz/live
+#EXTINF:-1 group-title="⛵| XoilacTV" tvg-logo="https://90p1.com/wp-content/uploads/2021/07/logo-90p.png",Live 9
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://nvndcagevswv87c6afake.thapcam.link/live/_definst_/stream_1_1bda7@may9/chunklist.m3u8|Referer=https://xoilac.90phuttt.xyz/live
 
 #EXTINF:-1 tvg-id="bein1premium" tvg-logo="https://img.sport-tv-guide.live/images/stations/a761.png" group-title="♻️|Ace_SPORTS",BEIN PREMIUM 1 HD
 http://192.168.3.89:6878/ace/manifest.m3u8?id=67dd7e40421d8de4380f8fdc083587083b824d4c
@@ -1720,8 +1821,6 @@ http://192.168.3.89:6878/ace/manifest.m3u8?id=7d62ffffef2d45a16f6947f53682247fc7
 http://192.168.3.89:6878/ace/manifest.m3u8?id=76ceff2763266c82609e4e87867217fe97b3d2f4
 #EXTINF:-1 tvg-logo="https://www.thesportsdb.com/images/media/logo/r7vubi1601731224.png" group-title="♻️|Ace_SPORTS",Матч ТВ FHD
 http://192.168.3.89:6878/ace/manifest.m3u8?id=7abf95a228bed9e641b12f8567cd61e8ecf2382d
-
-
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/cb/1d/75/cb1d75d7f2c1e9d4c7de4a0d06b669f9.jpg" group-title="♻️|Ace_SPORTS",BEIN SPORT 5 HD
 http://192.168.3.89:6878/ace/manifest.m3u8?id=635c0e010fdaa36aa7699a064b93fde4c135d85c
 #EXTINF:-1 tvg-id="Sport TV 1 HD" tvg-logo="https://1.bp.blogspot.com/-TYA71ryPkNA/XX5k570rpPI/AAAAAAAAA1U/3Di6rEiQpjwD3C73Qme58m45n-Vv5dMEQCLcBGAsYHQ/s1600/Sport%2BTV%2B1.png" group-title="♻️|Ace_SPORTS",SPORT TV1 HD
@@ -1730,8 +1829,6 @@ http://192.168.3.89:6878/ace/manifest.m3u8?id=e3bf260688fffc9a6a11501003abe332ff
 http://192.168.3.89:6878/ace/manifest.m3u8?id=31ce31ae992f86767b67863c32afdce783fdac97
 #EXTINF:-1 tvg-id="Sport TV 3 HD" tvg-logo="https://www.thesportsdb.com/images/media/logo/rtwtyq1436898868.png" group-title="♻️|Ace_SPORTS",SPORT TV3 HD
 http://192.168.3.89:6878/ace/manifest.m3u8?id=61c6076fa90584440816889510dd906a77285f53
-
-
 #EXTINF:-1 tvg-id="BT Sport 1" tvg-logo="https://img.sport-tv-guide.live/images/stations/a97.png" group-title="♻️|Ace_SPORTS",BT SPORT 1 HD
 http://192.168.3.89:6878/ace/manifest.m3u8?id=445fe5255504241de5eec52b092a8043a83118f5
 #EXTINF:-1 tvg-id="BT Sport 2" tvg-logo="https://img.sport-tv-guide.live/images/stations/a100.png" group-title="♻️|Ace_SPORTS",BT SPORT 2 HD
@@ -1740,38 +1837,28 @@ http://192.168.3.89:6878/ace/manifest.m3u8?id=2de176092b9996878a38f197c3acdcb6f4
 http://192.168.3.89:6878/ace/manifest.m3u8?id=18170bb65cecdb1693e1a3fbeee70657e3291670
 #EXTINF:-1 tvg-logo="https://img.sport-tv-guide.live/images/tv-station-true-premier-football-2-1819.png" group-title="♻️|Ace_SPORTS",TRUE PREMIER FOOTBALL 2 HD
 http://192.168.3.89:6878/ace/manifest.m3u8?id=9f1f81e5272a8705c8672cd149fab86e0b55ee41
-
-
 #EXTINF:-1 tvg-logo="https://img.sport-tv-guide.live/images/tv-station-k-sport-1-1855.png" group-title="♻️|Ace_SPORTS",K SPORT 1
 http://192.168.3.89:6878/ace/manifest.m3u8?id=071619ce144ba10c205143961a9c73fee2568c26
 #EXTINF:-1 tvg-logo="https://img.sport-tv-guide.live/images/tv-station-k-sport-2-1856.png" group-title="♻️|Ace_SPORTS",K SPORT 2
 http://192.168.3.89:6878/ace/manifest.m3u8?id=44a46377029622b2a16c6a3976e07789df29dd85
 #EXTINF:-1 tvg-logo="https://img.sport-tv-guide.live/images/tv-station-k-sport-3-1857.png" group-title="♻️|Ace_SPORTS",K SPORT 3
 http://192.168.3.89:6878/ace/manifest.m3u8?id=de3b4b3ebfe4ecd073a50437f930d256c454fd0c
-
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b1/Newlogo_TVP_SPORT_HD.jpg" group-title="♻️|Ace_SPORTS",TVP SPORT HD
 http://192.168.3.89:6878/ace/manifest.m3u8?id=f5950b8d9b619f7cbd1f8c2b23da140c58de1637
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Canal%2B_Sport_2015.png" group-title="♻️|Ace_SPORTS",CANAL+SPORT HD
 http://192.168.3.89:6878/ace/manifest.m3u8?id=66b69a2a5d65c505d553143db6bbe3d5fa8ac3ff
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Canal%2B_Sport_2015.png" group-title="♻️|Ace_SPORTS",CANAL+SPORT HD1
 http://192.168.3.89:6878/ace/manifest.m3u8?id=b258f7b7fc2aed0e3e66fb4836113208902b5348
-
-
 #EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/ee/eleven-sports-1-portugal-uk-pt.png" group-title="♻️|Ace_SPORTS",ELEVEN SPORTS 1 HD
 http://192.168.3.89:6878/ace/manifest.m3u8?id=ca89f7973ca3084f9c33bf7105daca5b46575ed5
 #EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/ee/eleven-sports-2-portugal-uk-pt.png" group-title="♻️|Ace_SPORTS",ELEVEN SPORTS 2 HD
 http://192.168.3.89:6878/ace/manifest.m3u8?id=164da6c05cc464000294fdce997a6ad7f095431f
-
-
 #EXTINF:-1 tvg-id="BT Sport 1" tvg-logo="https://img.sport-tv-guide.live/images/stations/a97.png" group-title="♻️|Ace_SPORTS",BT SPORT 1 HD
 http://192.168.3.89:6878/ace/manifest.m3u8?id=d63cf72bc2661238fcd2e343ccc2582b5bd9bc14
 #EXTINF:-1 tvg-id="BT Sport 2" tvg-logo="https://img.sport-tv-guide.live/images/stations/a100.png" group-title="♻️|Ace_SPORTS",BT SPORT 2 HD
 http://192.168.3.89:6878/ace/manifest.m3u8?id=99c2acebde1c1dc7a05419771110ff64fb444a96
 #EXTINF:-1 tvg-id="BT Sport 3" tvg-logo="https://img.sport-tv-guide.live/images/stations/a108.png" group-title="♻️|Ace_SPORTS",BT SPORT 3 HD
 http://192.168.3.89:6878/ace/manifest.m3u8?id=3c60f36f8f913be1b4edae0cbc356d6cf9a52936
-
-
 #EXTINF:-1 tvg-logo="https://www.thesportsdb.com/images/media/logo/r7vubi1601731224.png" group-title="♻️|Ace_SPORTS",Матч ТВ FHD
 http://192.168.3.89:6878/ace/manifest.m3u8?id=493cdbeb9463e19bb2ec72e60357d60072e3f908
 #EXTINF:-1 tvg-logo="https://i.imgur.com/CJPGHKw.png" group-title="♻️|Ace_SPORTS",Матч! Футбол 1 FHD
@@ -1780,3 +1867,48 @@ http://192.168.3.89:6878/ace/manifest.m3u8?id=2b37d683900749f8ba7a520e3f06f01212
 http://192.168.3.89:6878/ace/manifest.m3u8?id=636aacd9b73d46399fdc525ec3cb7e243a271d1b
 #EXTINF:-1 tvg-logo="https://i.imgur.com/LKOT5jE.png" group-title="♻️|Ace_SPORTS",Матч! Футбол 3 FHD
 http://192.168.3.89:6878/ace/manifest.m3u8?id=485546bddda35f4d0ab5aba150978f600614c1a6
+
+#EXTINF:-1 group-title="4K - SOURCE by vn360sport",Now Sports 4K
+https://family4you.fun/vn360sport/Sports/nowe.php?id=609245
+#EXTINF:-1 group-title="4K - SOURCE by vn360sport" tvg-id="rmc1",RMC 4K
+https://family4you.fun/vn360sport/Sports/gen360.php?id=19551
+#EXTINF:-1 group-title="4K - SOURCE by vn360sport",Vsport 4K
+https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=162142
+#EXTINF:-1 group-title="4K - SOURCE by vn360sport",Vsport 4K sv2
+https://family4you.fun/vn360sport/Sports/gen360.php?id=75395
+#EXTINF:-1 group-title="4K - SOURCE by vn360sport",5 Sport 4K
+https://family4you.fun/vn360sport/Sports/gen360.php?id=90116
+#EXTINF:-1 group-title="MAIN SOURCE - CVace" tvg-id="bein1premium" tvg-shift="-1",beIN Sports Premium 1 HD
+#http://130.193.166.18/cache/Bein-Prem-1-HEVC/master.m3u8
+#EXTINF:-1 group-title="MAIN SOURCE - CVace" tvg-id="bein2premium" tvg-shift="-1",beIN Sports Premium 2 HD
+http://130.193.166.18/cache/Bein-Prem-2-HEVC/master.m3u8
+#EXTINF:-1 group-title="MAIN SOURCE - CVace" tvg-id="bein3premium" tvg-shift="-1",beIN Sports Premium 3 HD
+http://130.193.166.18/cache/Bein-Prem-3-HEVC/master.m3u8
+#EXTINF:-1 group-title="MAC SOURCE by vn360sport" tvg-id="Sky Sport 1 HD",Sky Sport 1 HD
+https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7813
+#EXTINF:-1 group-title="MAC SOURCE by vn360sport" tvg-id="Sky Sport 2 HD",Sky Sport 2 HD
+https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7814
+#EXTINF:-1 group-title="MAC SOURCE by vn360sport" tvg-id="Sky Sport Austria 1 HD",Sky Sport Austria HD
+https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=146661
+#EXTINF:-1 group-title="MAC SOURCE by vn360sport" tvg-id="Sky Sport F1 HD",Sky Sport F1 HD (Đức)
+https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=223333
+#EXTINF:-1 group-title="MAC SOURCE by vn360sport" tvg-id="DAZN 1 HD",DAZN 1 HD
+https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=123862
+#EXTINF:-1 group-title="MAC SOURCE by vn360sport" tvg-id="DAZN 2 HD",DAZN 2 HD
+https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=123863
+#EXTINF:-1 group-title="MAC SOURCE by vn360sport",Sky Sports F1 HD (Anh)
+https://family4you.fun/vn360sport/Sports/gen360.php?id=66875
+#EXTINF:-1 group-title="MAC SOURCE by vn360sport",NBCSN HD
+https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=15667
+#EXTINF:-1 group-title="ACESTREAM",TV3 Sport HD (EPL)
+#http://127.0.0.1:6878/ace/getstream?id=936127fcebf97f3ad9d11fc7aa4de580aa6f45f7
+#EXTINF:-1 group-title="ACESTREAM",Маtch ТV (Audio gốc)
+http://127.0.0.1:6878/ace/getstream?id=493cdbeb9463e19bb2ec72e60357d60072e3f908
+#EXTINF:-1 group-title="ACESTREAM" tvg-id="BT Sport 1",BT Sport 1 HD
+http://127.0.0.1:6878/ace/getstream?id=d63cf72bc2661238fcd2e343ccc2582b5bd9bc14
+#EXTINF:-1 group-title="ACESTREAM" tvg-id="BT Sport 2",BT Sport 2 HD
+http://127.0.0.1:6878/ace/getstream?id=99c2acebde1c1dc7a05419771110ff64fb444a96
+#EXTINF:-1 group-title="ACESTREAM" tvg-id="BT Sport 3",BT Sport 3 HD
+http://127.0.0.1:6878/ace/getstream?id=3c60f36f8f913be1b4edae0cbc356d6cf9a52936
+#EXTINF:-1 group-title="ACESTREAM",BT Sport ESPN HD
+http://127.0.0.1:6878/ace/getstream?id=2137c01372727c08a9d9f4f09001b3157aa3c929
