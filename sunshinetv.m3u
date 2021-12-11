@@ -1,5 +1,46 @@
 #EXTM3U url-tvg="http://onetv.click/schedule/epg.xml"
 
+#EXTINF: -1 tvg-id = "kcinehd" tvg-logo = "https://i.ibb.co/Q8cwLj8/kcine-hd-BEARTV.png" group-title = "K +", K + CINE HD
+#EXTVLCOPT: http-user-agent = "BearTV"
+#KODIPROP: inputstreamaddon = inputstream.adaptive
+#KODIPROP: inputstream.adaptive.license_type = com.widevine.alpha
+#KODIPROP: inputstream.adaptive.license_key = https: //kplus.live.ott.irdeto.com/Widevine/GetLicense? CrmId = kplus & AccountId = kplus & ContentId = 400000015 & SessionId = 604709EE8F20DCED & Ticket = 31E9F2C8421C61C61F4C8421C61
+#KODIPROP: inputstream.adaptive.manifest_type = mpd
+https://live.vegacdn.kplus.vn/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/prod_kplus_1_hd_fps.mpd
+#EXTINF: -1 tvg-id = "klifehd" tvg-logo = "https://i.ibb.co/jZ9Hnn3/klife-hd-BEARTV.png" group-title = "K +", K + LIFE HD
+#EXTVLCOPT: http-user-agent = "BearTV"
+# EXT-X-STREAM-INF: BANDWIDTH = 3803560, AVERAGE-BANDWIDTH = 3803560, CODECS = "avc1.640028, mp4a.40.2", PROGRAM-ID = 1, RESOLUTION = 1080x720, AUDIO = "audiod"
+#KODIPROP: inputstreamaddon = inputstream.adaptive
+#KODIPROP: inputstream.adaptive.license_type = com.widevine.alpha
+#KODIPROP: inputstream.adaptive.license_key = https: //kplus.live.ott.irdeto.com/Widevine/GetLicense? CrmId = kplus & AccountId = kplus & ContentId = 400000016 & SessionId = 604709EE8F20DCED & Ticket = 31E9F2C8421C61C61F4C8421C61
+#KODIPROP: inputstream.adaptive.manifest_type = mpd
+https://live.vegacdn.kplus.vn/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/prod_kplus_ns_hd_fps.mpd
+#EXTINF: -1 tvg-id = "ksport1hd" tvg-logo = "https://i.ibb.co/Gn42T7H/k-sport1-hd-BEARTV.png" group-title = "K +", K + SPORT 1 HD
+#EXTVLCOPT: http-user-agent = "BearTV"
+# EXT-X-STREAM-INF: BANDWIDTH = 3803560, AVERAGE-BANDWIDTH = 3803560, CODECS = "avc1.640028, mp4a.40.2", PROGRAM-ID = 1, RESOLUTION = 1080x720, AUDIO = "audiod"
+#KODIPROP: inputstreamaddon = inputstream.adaptive
+#KODIPROP: inputstream.adaptive.license_type = com.widevine.alpha
+#KODIPROP: inputstream.adaptive.license_key = https: //kplus.live.ott.irdeto.com/Widevine/GetLicense? CrmId = kplus & AccountId = kplus & ContentId = 400000017 & SessionId = 604709EE8F20DCED & Ticket = 31E9F2C8421C61C61F4C8421C61
+#KODIPROP: inputstream.adaptive.manifest_type = mpd
+https://live.vegacdn.kplus.vn/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/prod_kplus_pm_hd_fps.mpd
+#EXTINF: -1 tvg-id = "ksport2hd" tvg-logo = "https://i.ibb.co/G9s2Vpr/k-sport2-hd-BEARTV.png" group-title = "K +", K + SPORT 2 HD
+#EXTVLCOPT: http-user-agent = "BearTV"
+# EXT-X-STREAM-INF: BANDWIDTH = 3803560, AVERAGE-BANDWIDTH = 3803560, CODECS = "avc1.640028, mp4a.40.2", PROGRAM-ID = 1, RESOLUTION = 1080x720, AUDIO = "audiod"
+#KODIPROP: inputstreamaddon = inputstream.adaptive
+#KODIPROP: inputstream.adaptive.license_type = com.widevine.alpha
+#KODIPROP: inputstream.adaptive.license_key = https: //kplus.live.ott.irdeto.com/Widevine/GetLicense? CrmId = kplus & AccountId = kplus & ContentId = 400000018 & SessionId = 604709EE8F20DCED & Ticket = 31E9F2C8421C61C61F4C8421C61
+#KODIPROP: inputstream.adaptive.manifest_type = mpd
+https://live.vegacdn.kplus.vn/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/prod_kplus_pc_hd_fps.mpd
+#EXTINF: -1 tvg-id = "kkidshd" tvg-logo = "https://i.ibb.co/c8vJyv9/kkids-hd-BEARTV.png" group-title = "K +", K + KIDS HD
+#EXTVLCOPT: http-user-agent = "BearTV"
+# EXT-X-STREAM-INF: BANDWIDTH = 3803560, AVERAGE-BANDWIDTH = 3803560, CODECS = "avc1.640028, mp4a.40.2", PROGRAM-ID = 1, RESOLUTION = 1080x720, AUDIO = "audiod"
+#KODIPROP: inputstreamaddon = inputstream.adaptive
+#KODIPROP: inputstream.adaptive.license_type = com.widevine.alpha
+#KODIPROP: inputstream.adaptive.license_key = https: //kplus.live.ott.irdeto.com/Widevine/GetLicense? CrmId = kplus & AccountId = kplus & ContentId = 400000223 & SessionId = 604709EE8F20DCED & Ticket = 31E9F2C8421C61C61F4C8421C61
+#KODIPROP: inputstream.adaptive.manifest_type = mpd
+https://live.vegacdn.kplus.vn/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd
+
+
 #EXTINF:-1 tvg-id="kcinehd" tvg-logo="https://vanhtv123.000webhostapp.com/k+cine.png" group-title="🍬| K+",K+ CINE HD
 #EXTVLCOPT:http-user-agent="vanhTV"
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
