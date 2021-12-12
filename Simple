@@ -1,0 +1,855 @@
+SQLite format 3   @    5ï             Ư                                                5ï .G¨
+ø 
+₫ 
+ÏƯ̃
+e	
+0	?%₫                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ‚$
+/„triggerafter_delete_listListCREATE TRIGGER after_delete_list  AFTER DELETE ON List 
+		                FOR EACH ROW
+						BEGIN
+						        DELETE FROM LastPlay  WHERE   LastPlay.NameKey = OLD.NameKey AND NOT EXISTS (SELECT 1 FROM  List  WHERE List.NameKey = OLD.NameKey)  ;
+						END‚	/ƒutriggerafter_insert_listListCREATE TRIGGER after_insert_list  AFTER INSERT ON  List 
+						BEGIN
+						        INSERT INTO LastPlay (NameKey)  
+						        SELECT NEW.NameKey 
+						        WHERE NOT EXISTS (SELECT 1 FROM LastPlay WHERE NameKey = NEW.NameKey);
+						END>WindexNameIndexSave	CREATE INDEX NameIndex ON Save (Name).!!‚'tableFiltersLogFiltersLogCREATE TABLE FiltersLog  ( 
+						Type INTEGER DEFAULT (1), Name TEXT NOT NULL,  Source TEXT NOT NULL,  DateU TEXT, PRIMARY KEY (Type,Name) )3G! indexsqlite_autoindex_FiltersLog_1FiltersLog‚u…MtableSaveSaveCREATE TABLE Save  ( 
+						 Name TEXT COLLATE NOCASE,  ChannelOrder INTEGER DEFAULT (0),  RawOptions TEXT,  Logo TEXT, 
+						 Crop TEXT DEFAULT (0),    UserCrop TEXT,    Deint TEXT DEFAULT (- 1),  Ratio TEXT DEFAULT (0),   UserRatio TEXT, 
+						 SoundTrack INTEGER DEFAULT (1),  VideoTrack INTEGER DEFAULT (1),  ParentControl NUMERIC DEFAULT (0)   )~ƒOtableLastPlayLastPlayCREATE TABLE LastPlay (  
+		                   NameKey TEXT NOT NULL UNIQUE , SrcKey TEXT, SrcNum INTEGER NOT NULL DEFAULT (1),
+						   FOREIGN KEY (NameKey) REFERENCES List (NameKey)  ON UPDATE  NO ACTION ON DELETE CASCADE)/C indexsqlite_autoindex_LastPlay_1LastPlay…=]tableListListCREATE TABLE List (  Name TEXT NOT NULL ,
+														   NameKey TEXT NOT NULL , 
+		                                                   Sort TEXT , 
+		                                                   SrcKey TEXT NOT NULL, 
+		                                                   SrcNum INTEGER NOT NULL DEFAULT (1), 
+		                                                   Url TEXT,  
+		                                                   RawCatchup TEXT, 
+		                                                   Updated INTEGER DEFAULT (1) , CatchupDays REAL  DEFAULT (0), 
+		                                                   PRIMARY KEY (NameKey, SrcKey, SrcNum )
+		                 )'; indexsqlite_autoindex_List_1List          
+Ç    ûöñëåßÙÓÍÇ	Û	bènû‚ +•#§4µJ̉X î |                                                  p!#'	
+	VTC10 HDvtc10 hd_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/vtc10_hls.smil/playlist.m3u8h '		
+	AXNaxn_00Server101tvs1637588012https://livecdn.fptplay.net/hda3/axnhd_vhls.smil/playlist.m3u8x%'	
+	HTVC Phimhtvc phim_00Server101tvs1637588012https://livecdn.fptplay.net/hda/htvcmoviehd_hls.smil/playlist.m3u8v%'	
+
+	NHK Worldnhk world_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/nhkworld_hls.smil/playlist.m3u8i'	
+	DWdw_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/dwenglish_hls.smil/playlist.m3u8}%+'	
+	TuyenQuangTVtuyenquangtv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/tuyenquang_hls.smil/playlist.m3u8q!'	
+	VTC3 HDvtc3 hd_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/vtc3hd_vhls.smil/playlist.m3u8z!''	
+	Baby Firstbaby first_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/babyfirst_vhls.smil/playlist.m3u8p#'	
+	VTC12 HDvtc12 hd_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/vtc12_hls.smil/playlist.m3u89?'	
+	Blue Ant Entertainmentblue ant entertainment_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/blueantent_vhls.smil/playlist.m3u8s#'	
+	HaNoiTV2hanoitv2_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/hanoitv2_hls.smil/playlist.m3u8}%+'	
+	BinhPhuocTV1binhphuoctv1_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/binhphuoc1_hls.smil/playlist.m3u8m!'	
+	VTC4 HDvtc4 hd_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/vtc4_hls.smil/playlist.m3u8q#'	
+	KonTumTVkontumtv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/kontum_hls.smil/playlist.m3u8%+'	
+	Cinema Worldcinema world_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/cinemawork_vhls.smil/playlist.m3u8w!''	
+	SocTrangTVsoctrangtv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/soctrang_hls.smil/playlist.m3u8q#'	
+	NgheAnTVngheantv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/nghean_hls.smil/playlist.m3u8x%+'
+	BinhDuongTV1binhduongtv1_00Server102tvs1637588012https://livecdn.fptplay.net/hda/btv1_hls.smil/playlist.m3u8x%+'	
+	BinhDuongTV1binhduongtv1_00Server101tvs1637588012https://livecdn.fptplay.net/hda3/btv1_hls.smil/playlist.m3u8w!''	
+	ThaiBinhTVthaibinhtv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/thaibinh_hls.smil/playlist.m3u8|
+#)'	
+	HTV TheThaohtv thethao_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/htvcthethao_hls.smil/playlist.m3u8q#'	
+	CanThoTVcanthotv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/cantho_hls.smil/playlist.m3u8/5'	
+	Discovery Channeldiscovery channel_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/discovery_vhls.smil/playlist.m3u8~
+%+'	
+	HTVC Giadinhhtvc giadinh_00Server101tvs1637588012https://livecdn.fptplay.net/hda/htvcgiadinh_hls.smil/playlist.m3u8s	#'	
+	France24france24_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/france24_hls.smil/playlist.m3u8}%+'	
+	BBC Cbeebiesbbc cbeebies_00Server101tvs1637588012https://livecdn.fptplay.net/hda3/cbeebies_vhls.smil/playlist.m3u8z#)'	
+
+	TienGiangTVtiengiangtv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/tiengiang_hls.smil/playlist.m3u8m!'	
+	VTC5 HDvtc5 hd_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/vtc5_hls.smil/playlist.m3u8o'	
+	TLCtlc_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/travelliving_vhls.smil/playlist.m3u8o!'	
+	VTV2 HDvtv2 hd_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/vtv2_vhls.smil/playlist.m3u8t%'		
+	BacNinhTVbacninhtv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/bacninh_hls.smil/playlist.m3u8t%'		
+	NamDinhTVnamdinhtv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/namdinh_hls.smil/playlist.m3u8z#)'	
+
+	KienGiangTVkiengiangtv_00Server101tvs1637588012https:/   ‚E   ‚   {   `   @   #   
+   d   C   
+!   ·    Ú·bF*ă¹Ÿ„cB"
+á
+¾
+
+y
+T
+.
+ïÎ«‡c?÷̉®gC
+ü
+Ú
+·
+
+c
+E
+$
+	Ư	Á	£	„	d	D	$ưÖ¯ˆhG# Ü¾Ÿ…jAùÙ¸—vV5ïÇ|Z8ơÓ±nL*ï̀¢‚cC#ăĂ¡];÷Ùºz[; ú              !''	haugiangtv_00tvs1637588013 –#'	hatinhtv_00tvs1637588012n#'	hanoitv2_00tvs1637588013 ©#'	hanoitv2_00tvs1637588012#'	hanoitv1_00tvs1637588014 Ê#'	hanoitv1_00tvs1637588013 ª#'	hanoitv1_00tvs1637588012N!'	hanamtv_00tvs1637588012'!''	haiphongtv_00tvs1637588017U!''	haiphongtv_00tvs1637588015 ñ!''	haiphongtv_00tvs1637588014 Đ!''	haiphongtv_00tvs1637588013 ¬!''	haiduongtv_00tvs1637588014 ¼!''	haiduongtv_00tvs1637588013  %'	hagiangtv_00tvs1637588012r#'	gialaitv_00tvs1637588012 €#'	futbol 3_00tvs1637588017V#'	futbol 2_00tvs16375880171#'	futbol 1_00tvs1637588017Q#'	france24_00tvs1637588012	%'	fashiontv_00tvs1637588012f)7'	fashiontv midnight_00tvs1637588017T")'	europa plus_00tvs1637588014 Í'	dw_00tvs1637588012!''	dongthaptv_00tvs1637588017\!''	dongthaptv_00tvs1637588015 ü!''	dongthaptv_00tvs1637588014 ̉!''	dongthaptv_00tvs1637588013 ² ''	dongthaptv_00tvs1637588012T!''	dongnaitv2_00tvs1637588017&!''	dongnaitv2_00tvs1637588013  ''	dongnaitv2_00tvs1637588012v!''	dongnaitv1_00tvs1637588015 Ù!''	dongnaitv1_00tvs1637588014 ¾!''	dongnaitv1_00tvs1637588013 ­!''	dongnaitv1_00tvs1637588012 ‚(5'	discovery channel_00tvs1637588015 é'5'	discovery channel_00tvs1637588012$/'	discovery asia_00tvs1637588012, ''	dienbientv_00tvs1637588012Z %'	danangtv2_00tvs1637588013 ‘%'	danangtv2_00tvs1637588012< %'	danangtv1_00tvs1637588017# %'	danangtv1_00tvs1637588015 Ó %'	danangtv1_00tvs1637588013 %'	danangtv1_00tvs1637588012U#'	daklaktv_00tvs1637588012u(5'	da vinci learning_00tvs1637588015 á(5'	da vinci learning_00tvs1637588012 ‰'	cnn_00tvs1637588015 ï'	cnn_00tvs1637588012l!'	cinemax_00tvs1637588017P!'	cinemax_00tvs1637588012L#+'	cinema world_00tvs1637588015 æ"+'	cinema world_00tvs1637588012#+'	cherry radio_00tvs1637588014 Î %'	channel v_00tvs1637588015 ç%'	channel v_00tvs1637588012.&3'	channel newsasia_00tvs16375880120&1'	cartoon network_00tvs1637588017I&1'	cartoon network_00tvs1637588015 ê&1'	cartoon network_00tvs1637588012 „%'	caobangtv_00tvs1637588012o#'	canthotv_00tvs1637588016 #'	canthotv_00tvs1637588015 ß#'	canthotv_00tvs1637588012!'	camautv_00tvs16375880128'	btv5_00tvs1637588016#+'	br vungtautv_00tvs1637588015 ú"+'	br vungtautv_00tvs1637588012R %'	boomerang_00tvs1637588012 '	bolero_00tvs1637588014 ¶&3'	blue ant extreme_00tvs1637588012D,?'	blue ant entertainment_00tvs1637588012")'	binhthuantv_00tvs1637588015 â!)'	binhthuantv_00tvs1637588012m"+'	binhphuoctv2_00tvs1637588012~#+'	binhphuoctv1_00tvs1637588015 î#+'	binhphuoctv1_00tvs1637588013 ¤"+'	binhphuoctv1_00tvs1637588012#+'	binhduongtv6_00tvs1637588012 ‡#+'	binhduongtv4_00tvs1637588012 ˆ$+'binhduongtv2_00tvs1637588012 ‹#+'	binhduongtv2_00tvs1637588012 #+'	binhduongtv1_00tvs1637588017X#+'	binhduongtv1_00tvs1637588015 à#+'	binhduongtv1_00tvs1637588013 §#+'binhduongtv1_00tvs1637588012"+'	binhduongtv1_00tvs1637588012 ''	binhdinhtv_00tvs1637588012c#'	bentretv_00tvs1637588015 è#'	bentretv_00tvs1637588012F%/'	bbc world news_00tvs1637588015 ë$/'	bbc world news_00tvs1637588012H$-'	bbc lifestyle_00tvs1637588012 ƒ%'	bbc earth_00tvs1637588012i"+'	bbc cbeebies_00tvs1637588012 %'	bacninhtv_00tvs1637588017$%'	bacninhtv_00tvs1637588012%'	baclieutv_00tvs1637588012% ''	bacgiangtv_00tvs1637588012/ ''	baby first_00tvs1637588012'	axn_00tvs1637588017,'	axn_00tvs1637588012 )7'	asian food channel_00tvs1637588015 Ô(7'	asian food channel_00tvs1637588012V!'	arirang_00tvs1637588012B'	antv_00tvs1637588015 å'	antv_00tvs1637588013 '	antv_00tvs1637588012 †'	animax_00tvs1637588012s#-'	animal planet_00tvs163   #'	tt huetv_00tvs1637588012]   !''	haugiangtv_00tvs1637588015 ó   ô    úô‚@
+ñ
+·
+l
+&à™l%î¬t
+Đ
+
+L
+	Á	p	.û¿}DË”Y&ë¾|?ï°y:Æ…Z̃©]Ư›Z)åK
+ Ñ                                .‚G'	129c m187?ng before i wake_00tvs16375880129‚
+]'	y170u h186?t m172nh playing for keeps_00tvs1637588012;‚	a'	v187? n187? kinh ho160ng deadly inferno_00tvs1637588012O‚'	v169 144i187?u 144176187?ng ph187? 2 streetdance all stars_00tvs1637588012E‚u'	v169 144i187?u 144176187?ng ph187? streetdance 3d_00tvs1637588012A‚m'	v169 kh173 r187?ng l187?a p 51 dragon fighter_00tvs1637588012.‚G'	v172 ch173nh em right girl_00tvs1637588012>‚g'	t187? trong s162u th186?m northern borders_00tvs1637588012?‚i'	t187?i 129c trong c131n nh160 bad samaritan_00tvs1637588012+‚A'	t187?i ph186?m criminal_00tvs1637588012O‚'	t172m 144176187?c th172 gi187? 144176187?c finders keepers_00tvs1637588012I‚ }'	t162m h187?n ph187? n187? heart & soul (frauenherzen)_00tvs16375880122O'	tr186?n chi186?n midway midway_00tvs16375880123~Q'	tr186? gi161 no beast so fierce_00tvs1637588012C}q'	truy t172m s161t nh162n 3 garage sale mystery 3_00tvs1637588012(|;'	tin n179ng bombshell_00tvs1637588012>{g'	th187? ph186?m 186?n danh eve of abduction_00tvs1637588012=ze'	th187? tr186?n t172nh y170u the bachelors_00tvs16375880121yM'	th186? gi187?i v180 danh anon_00tvs1637588012<xc'	th176161ng m186?n vincent loving vincent_00tvs16375880124wS'	teen girl n187?i lo186?n whip it_00tvs1637588012<vc'	tay ch161i kh180ng tu187?i dirty grandpa_00tvs1637588012Mu'	s187? ti186?n h179a c187?a t187?i 129c evolution of evil_00tvs1637588012:t_'	s187? gi186? t172nh y170u cupids proxy_00tvs1637588012?si'	s131n ti187?n ki187?u m187? american hustle_00tvs1637588012*r?'	s161ch ma the babadook_00tvs16375880128q['	song sinh s161t th187? water & power_00tvs16375880120pK'	sau th186?m h187?a aftermath_00tvs16375880128o['	ranh gi187?i quy186?n r169 get naked_00tvs16375880124nS'	ranh gi187?i ma qu187? ghostline_00tvs16375880124mS'	ranh gi187?i ch186?t point break_00tvs1637588012?li'	qu161i v186?t 144161ng y170u monster and me_00tvs16375880126kW'	qu161i v186?t nguy170n sinh primal_00tvs1637588012?ji'	quy186?t 144187?nh quan tr187?ng the choice_00tvs16375880129i]'	phi v187? b186?t th160nh nice package_00tvs16375880120hK'	n187? v181 s169 fight falley_00tvs1637588012?gi'	n187?i s187? kho186?ng tr187?ng agoraphobia_00tvs1637588012Nf'	nh187?ng ng176187?i ph187? n187? b169 nh187? little women_00tvs1637588012He{'	nh187?ng c180 g161i s161t th187? shadow of the lotus_00tvs1637588012=de'	nh187?ng ch160ng trai ngoan the nice guys_00tvs1637588012Acm'	nh186?t 144186?ng karate 4 best of the best 4_00tvs1637588012=be'	ng176187?c d178ng th187?i gian time freak_00tvs1637588012Das'	ng176187?i 144160n 148ng ho160n h186?o mr. right_00tvs1637588012Z`'	ng176187?i tuy186?t k187? th186 snowballs christmas tales by the fire_00tvs16375880125_U'	ng176187?i g161c 144170m security_00tvs1637588012?^i'	m187?t th187?i h186?n h178 once upon a date_00tvs16375880124]S'	m186?t v187? ng186?m black water_00tvs1637588012D\s'	m163nh l187?c t172nh y170u no stranger than love_00tvs1637588012*[?'	m163i b170n em endless_00tvs1637588012DZs'	l187?i nh186?n c187?a oan h187?n i still see you_00tvs1637588012CYq'	l187?i h187?a cu187?i c185ng 37 a final promise_00tvs1637588012CXq'	lu162n 144180n th186?t th187? london has fallen_00tvs1637588012HW{'	k187? nguy170n t160n b186?o kundo age of the rampant_00tvs16375880127VY'	k187? ngh187? kinh ho160ng holidays_00tvs1637588012LU'	k187? ngh187? h168 144161ng nh187? a summer to remember_00tvs1637588012?Ti'	k186? ho186?ch kh180ng th160nh dead heading_00tvs1637588012@Sk'	k186? gi186?t m176187?n mercenary absolution_00tvs1637588012FRw'	k189 187?c 186?o gi161c my dog is a space traveler_00tvs1637588012cQ/'	ki170u h163nh 144187?nh ki186?n v160 th162y ma pride and prejudice and zombies_00tvs1637588012DPs'	kinh ho160ng tr170n l163nh 144187?a ma ghostland_00tvs1637588012BOo'	kh180ng 144176187?c h169 m180i dont say a word_00t   ƒF   ‚   ê    ê2₫èÙ̀¼¡•‚o]K6$
+÷
+æ
+Ó
+¾
+©
+”
+
+j
+U
+A
+"
+	úèÓÆ¶¥“{bP;&
+đßÍ»¨‘wdQ>3
+̣
+á
+Đ
+¿
+®
+
+‹
+x
+e
+U
+D
+3
+"
+
+	ë	×	Ê	º	­	 		€	l	X	C	1		íÛ̀—c"ö¹~G4ÜÈƒr:ïƯ̀»ƒd+Î¹£‹s[G0ôèĂ}hL@Ơ«\KØ¦cQ=+     %nhk world_00,)nhk vietnam_00¢%nhandantv_00 Bnh187?ng ng176187?i ph187? n187? b169 nh187? little women_00 æ1enh187?ng ch160ng trai ngoan the nice guys_00 ä<{nh187?ng c180 g161i s161t th187? shadow of the lotus_00 å5mnh186?t 144186?ng karate 4 best of the best 4_00 ă#ngheantv_00Nng176187?i tuy186?t k187? th186 snowballs christmas tales by the fire_00 à)Ung176187?i g161c 144170m security_00 ß8sng176187?i 144160n 148ng ho160n h186?o mr. right_00 á1eng176187?c d178ng th187?i gian time freak_00 âncm_00g9national geographic_00i+nat geo wild_00­%namdinhtv_003in187?i s187? kho186?ng tr187?ng agoraphobia_00 ç$Kn187? v181 s169 fight falley_00 èmtv_00Èmatch!_00Ă-match! strana_00Â/match! premier_00Ï/match! planeta_00Ç)match! igra_00½1match! futbol 3_00¿1match! futbol 2_00À1match! futbol 1_00Á-match! boyets_00Ä+match! arena_00Å3im187?t th187?i h186?n h178 once upon a date_00 ̃(Sm186?t v187? ng186?m black water_00 Ư8sm163nh l187?c t172nh y170u no stranger than love_00 Ü?m163i b170n em endless_00 Û7qlu162n 144180n th186?t th187? london has fallen_00 Ø#longantv_00#laocaitv_00…%langsontv_00x%lamdongtv_00Q8sl187?i nh186?n c187?a oan h187?n i still see you_00 Ú7ql187?i h187?a cu187?i c185ng 37 a final promise_00 Ù#kontumtv_00"kix_00^8skinh ho160ng tr170n l163nh 144187?a ma ghostland_00 Đ)kiengiangtv_00W/ki170u h163nh 144187?nh ki186?n v160 th162y ma pride and prejudice and zombies_00 Ñ'khanhhoatv_00›6okh180ng 144176187?c h169 m180i dont say a word_00 Ï:wk189 187?c 186?o gi161c my dog is a space traveler_00 ̉<{k187? nguy170n t160n b186?o kundo age of the rampant_00 ×+Yk187? ngh187? kinh ho160ng holidays_00 Ö@k187? ngh187? h168 144161ng nh187? a summer to remember_00 Ơ3ik186? ho186?ch kh180ng th160nh dead heading_00 Ô4kk186? gi186?t m176187?n mercenary absolution_00 Ójoy fm_00¨%hungyentv_00/htvc thuanviet_00±5htvc thuanviet hd_007'htvc phunu_00p%htvc phim_00-+htvc giadinh_00)htvc dulich_00])htvc canhac_00°!htv9 hd_00n!htv7 hd_00Whtv4_00htv3_00;!htv2 hd_00Ehtv1_002)htv thethao_001history channel_00¯hbo_00'haugiangtv_00œ#hatinhtv_00|#hanoitv2_00%#hanoitv1_00\!hanamtv_005'haiphongtv_00Ÿ'haiduongtv_00%hagiangtv_00€#gialaitv_00#futbol 3_00Î#futbol 2_00¾#futbol 1_00Ë#france24_00%fashiontv_00t7fashiontv midnight_00Í)europa plus_00«
+dw_00+'dongthaptv_00b'dongnaitv2_00„'dongnaitv1_005discovery channel_00/discovery asia_00:'dienbientv_00h%danangtv2_00J%danangtv1_00c#daklaktv_00ƒ5da vinci learning_00—cnn_00z!cinemax_00Z+cinema world_00!+cherry radio_00¬%channel v_00<3channel newsasia_00>1cartoon network_00’%caobangtv_00}#canthotv_00!camautv_00Fbtv5_00¹+br vungtautv_00`%boomerang_00bolero_00£3blue ant extreme_00R?blue ant entertainment_00&)binhthuantv_00{+binhphuoctv2_00Œ+binhphuoctv1_00$+binhduongtv6_00•+binhduongtv4_00–+binhduongtv2_00˜+binhduongtv1_00'binhdinhtv_00q#bentretv_00T/bbc world news_00V-bbc lifestyle_00‘%bbc earth_00w+bbc cbeebies_00%bacninhtv_00%baclieutv_003'bacgiangtv_00='baby first_00(axn_00.7asian food channel_00d!arirang_00Pantv_00”animax_00-animal planet_00I%angiangtv_006!E144o161n xem ai guess who_00
++Y144187?ng g161c s186ng dont kill it_00X1144170m t187?i cu187?i c185ng 187? 144187?a c186?u long days journey into night_00%M129m 186?nh 129i t172nh plush_00"G129c m187   %nhk world_00,
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+   ! | „˜'
+¶
+GËL×W
+̀
+Y	Û	bènû‚ +•#§4µJ̉X î |                                                  p!#'	
+	VTC10 HDvtc10 hd_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/vtc10_hls.smil/playlist.m3u8h '		
+	AXNaxn_00Server101tvs1637588012https://livecdn.fptplay.net/hda3/axnhd_vhls.smil/playlist.m3u8x%'	
+	HTVC Phimhtvc phim_00Server101tvs1637588012https://livecdn.fptplay.net/hda/htvcmoviehd_hls.smil/playlist.m3u8v%'	
+
+	NHK Worldnhk world_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/nhkworld_hls.smil/playlist.m3u8i'	
+	DWdw_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/dwenglish_hls.smil/playlist.m3u8}%+'	
+	TuyenQuangTVtuyenquangtv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/tuyenquang_hls.smil/playlist.m3u8q!'	
+	VTC3 HDvtc3 hd_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/vtc3hd_vhls.smil/playlist.m3u8z!''	
+	Baby Firstbaby first_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/babyfirst_vhls.smil/playlist.m3u8p#'	
+	VTC12 HDvtc12 hd_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/vtc12_hls.smil/playlist.m3u89?'	
+	Blue Ant Entertainmentblue ant entertainment_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/blueantent_vhls.smil/playlist.m3u8s#'	
+	HaNoiTV2hanoitv2_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/hanoitv2_hls.smil/playlist.m3u8}%+'	
+	BinhPhuocTV1binhphuoctv1_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/binhphuoc1_hls.smil/playlist.m3u8m!'	
+	VTC4 HDvtc4 hd_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/vtc4_hls.smil/playlist.m3u8q#'	
+	KonTumTVkontumtv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/kontum_hls.smil/playlist.m3u8%+'	
+	Cinema Worldcinema world_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/cinemawork_vhls.smil/playlist.m3u8w!''	
+	SocTrangTVsoctrangtv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/soctrang_hls.smil/playlist.m3u8q#'	
+	NgheAnTVngheantv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/nghean_hls.smil/playlist.m3u8x%+'
+	BinhDuongTV1binhduongtv1_00Server102tvs1637588012https://livecdn.fptplay.net/hda/btv1_hls.smil/playlist.m3u8x%+'	
+	BinhDuongTV1binhduongtv1_00Server101tvs1637588012https://livecdn.fptplay.net/hda3/btv1_hls.smil/playlist.m3u8w!''	
+	ThaiBinhTVthaibinhtv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/thaibinh_hls.smil/playlist.m3u8|
+#)'	
+	HTV TheThaohtv thethao_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/htvcthethao_hls.smil/playlist.m3u8q#'	
+	CanThoTVcanthotv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/cantho_hls.smil/playlist.m3u8/5'	
+	Discovery Channeldiscovery channel_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/discovery_vhls.smil/playlist.m3u8~
+%+'	
+	HTVC Giadinhhtvc giadinh_00Server101tvs1637588012https://livecdn.fptplay.net/hda/htvcgiadinh_hls.smil/playlist.m3u8s	#'	
+	France24france24_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/france24_hls.smil/playlist.m3u8}%+'	
+	BBC Cbeebiesbbc cbeebies_00Server101tvs1637588012https://livecdn.fptplay.net/hda3/cbeebies_vhls.smil/playlist.m3u8z#)'	
+
+	TienGiangTVtiengiangtv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/tiengiang_hls.smil/playlist.m3u8m!'	
+	VTC5 HDvtc5 hd_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/vtc5_hls.smil/playlist.m3u8o'	
+	TLCtlc_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/travelliving_vhls.smil/playlist.m3u8o!'	
+	VTV2 HDvtv2 hd_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/vtv2_vhls.smil/playlist.m3u8t%'		
+	BacNinhTVbacninhtv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/bacninh_hls.smil/playlist.m3u8t%'		
+	NamDinhTVnamdinhtv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/namdinh_hls.smil/playlist.m3u8z#)'	
+
+	KienGiangTVkiengiangtv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/kiengiang_hls.smil/playlist.m3u8
+   " [ ƒ®8
+Å
+UÜMÔb
+Ù
+p	ö	}ơ‚”(¸I×gûˆŒ
+œ.µC Ñ [               tC%'		
+	LamDongTVlamdongtv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/lamdong_hls.smil/playlist.m3u8pB!'		
+	Arirangarirang_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/arirang_hls.smil/playlist.m3u8pA!'		
+	VTC7 HDvtc7 hd_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/todaytv_hls.smil/playlist.m3u8w@!''	
+	ThanhHoaTVthanhhoatv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/thanhhoa_hls.smil/playlist.m3u8l?'		
+	TTXVNttxvn_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/ttxvn_vhls.smil/playlist.m3u8o>!'	
+	VTV4 HDvtv4 hd_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/vtv4_vhls.smil/playlist.m3u8}=%+'	
+	QuangNinhTV1quangninhtv1_00Server101tvs1637588012https://livecdn.fptplay.net/sda/quangninh1_hls.smil/playlist.m3u8t<%'		
+	DaNangTV2danangtv2_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/danang2_hls.smil/playlist.m3u8;'-'	
+	Animal Planetanimal planet_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/animalplanet_vhls.smil/playlist.m3u8q:#'	
+	PhuYenTVphuyentv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/phuyen_hls.smil/playlist.m3u8j9'	
+	YouTVyoutv_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/youtv_hls.smil/playlist.m3u8n8!'	
+	CaMauTVcamautv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/camau_hls.smil/playlist.m3u8p7!'		
+	HTV2 HDhtv2 hd_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/htv2hd_hls.smil/playlist.m3u8m6!'	
+	VTC6 HDvtc6 hd_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/vtc6_hls.smil/playlist.m3u8n5!'	
+	SonLaTVsonlatv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/sonla_hls.smil/playlist.m3u8j4'	
+	SCTV2sctv2_00Server101tvs1637588012https://livecdn.fptplay.net/sda/sctv2_hls.smil/playlist.m3u8m3!'	
+	VTC8 HDvtc8 hd_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/vtc8_hls.smil/playlist.m3u8}2#)'	
+	VinhLongTV4vinhlongtv4_00Server101tvs1637588012https://livecdn.fptplay.net/hda3/vinhlong4hd_hls.smil/playlist.m3u8q1!'	
+	VTV1 HDvtv1 hd_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/playlist.m3u80-3'	
+	Channel NewsAsiachannel newsasia_00Server101tvs1637588012https://livecdn.fptplay.net/world/newsasia_hls.smil/playlist.m3u8w/!''	
+	BacGiangTVbacgiangtv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/bacgiang_hls.smil/playlist.m3u8x.%'	
+	Channel Vchannel v_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/channelvhd_hls.smil/playlist.m3u8g-'	
+	HTV3htv3_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/htv3_hls.smil/playlist.m3u8,)/'	
+	Discovery Asiadiscovery asia_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/discoveryasia_vhls.smil/playlist.m3u8p+#'	
+	VTC14 HDvtc14 hd_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/vtc14_hls.smil/playlist.m3u8w*!''	
+	QuangNamTVquangnamtv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/quangnam_hls.smil/playlist.m3u8)/5'	
+	HTVC ThuanViet HDhtvc thuanviet hd_00Server101tvs1637588012https://livecdn.fptplay.net/hda/htvcthuanviethd_hls.smil/playlist.m3u8w(%'	
+	AnGiangTVangiangtv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/angiang_1000.stream/playlist.m3u8n'!'	
+	HaNamTVhanamtv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/hanam_hls.smil/playlist.m3u8q&!'	
+	VTV8 HDvtv8 hd_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/vtv8hd_vhls.smil/playlist.m3u8t%%'		
+	BacLieuTVbaclieutv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/baclieu_hls.smil/playlist.m3u8g$'	
+	HTV1htv1_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/htv1_hls.smil/playlist.m3u8j#'	
+	VTC11vtc11_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/vtc11_hls.smil/playlist.m3u8{"#)'	
+	VinhLongTV2vinhlongtv2_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/vinhlong2_hls.smil/playlist.m3u8
+   ! ¦ vù†
+•
+"³:Æ]
+è
+k
+		
+!«#²<Ö]Đ^îv÷„ ¦                                                                                            md!'	
+	VTC9 HDvtc9 hd_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/vtc9_hls.smil/playlist.m3u8wc!''	
+	BinhDinhTVbinhdinhtv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/binhdinh_hls.smil/playlist.m3u8xb!''	
+
+	HTVC PhuNuhtvc phunu_00Server101tvs1637588012https://livecdn.fptplay.net/hda/htvcphunu_hls.smil/playlist.m3u8za#)'	
+
+	QuangNgaiTVquangngaitv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/quangngai_hls.smil/playlist.m3u8q`!'	
+	HTV9 HDhtv9 hd_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/htv9hd_vhls.smil/playlist.m3u8}_%+'	
+	QuangNinhTV3quangninhtv3_00Server101tvs1637588012https://livecdn.fptplay.net/sda/quangninh3_hls.smil/playlist.m3u8v^%'	
+
+	TayNinhTVtayninhtv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/tayninhhd_hls.smil/playlist.m3u8n]#'	
+	TT-HueTVtt huetv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/hue_hls.smil/playlist.m3u8p\#'	
+	VTC13 HDvtc13 hd_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/vtc13_hls.smil/playlist.m3u8
+[39'	
+
+	National Geographicnational geographic_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/natgeohd_hls.smil/playlist.m3u8wZ!''	
+	DienBienTVdienbientv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/dienbien_hls.smil/playlist.m3u8dY'	
+	NCMncm_00Server101tvs1637588012https://livecdn.fptplay.net/sda/ncm_hls.smil/playlist.m3u8tX%'		
+	TraVinhTVtravinhtv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/travinh_hls.smil/playlist.m3u8oW!'	
+	VTV9 HDvtv9 hd_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/vtv9_vhls.smil/playlist.m3u8V17'	
+	Asian Food Channelasian food channel_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/afchd_hls.smil/playlist.m3u8tU%'		
+	DaNangTV1danangtv1_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/danang1_hls.smil/playlist.m3u8wT!''	
+	DongThapTVdongthaptv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/dongthap_hls.smil/playlist.m3u8qS!'	
+	VTV7 HDvtv7 hd_00Server101tvs1637588012https://livecdn.fptplay.net/hda3/vtv7hd_vhls.smil/playlist.m3u8R%+'	
+	BR-VungTauTVbr vungtautv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/bariavungtau_hls.smil/playlist.m3u8qQ#'	
+	YenBaiTVyenbaitv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/yenbai_hls.smil/playlist.m3u8hP'		
+	KIXkix_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/kixhd_vhls.smil/playlist.m3u8{O#)'	
+	HTVC Dulichhtvc dulich_00Server101tvs1637588012https://livecdn.fptplay.net/hda/htvcdulich_hls.smil/playlist.m3u8sN#'	
+	HaNoiTV1hanoitv1_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/hanoitv1_hls.smil/playlist.m3u8gM'	
+	VTC2vtc2_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/vtc2_hls.smil/playlist.m3u8rL!'	
+
+	CINEMAXcinemax_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/cinemax_vhls.smil/playlist.m3u8wK!''	
+	VinhPhucTVvinhphuctv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/vinhphuc_hls.smil/playlist.m3u8mJ!'	
+	VTC1 HDvtc1 hd_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/vtc1_hls.smil/playlist.m3u8qI!'	
+	HTV7 HDhtv7 hd_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/htv7hd_vhls.smil/playlist.m3u8}H)/'	
+	BBC World Newsbbc world news_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/bbcnew_hls.smil/playlist.m3u8pG%'	
+	TV5 Mondetv5 monde_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/tv5_hls.smil/playlist.m3u8qF#'	
+	BenTreTVbentretv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/bentre_hls.smil/playlist.m3u8{E#)'	
+	VinhLongTV1vinhlongtv1_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/vinhlong1_hls.smil/playlist.m3u8D-3'	
+	Blue Ant Extremeblue ant extreme_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/blueantext_vhls.smil/playlist.m3u8
+   ! • ‡
+
+(¶PÔa
+è
+u	ù	ƒ	£0½@ÇTámî†—˜	 •                                                                           q#'	
+	PhuThoTVphuthotv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/phutho_hls.smil/playlist.m3u8+1'	
+	Cartoon Networkcartoon network_00Server101tvs1637588012https://livecdn.fptplay.net/hda33/cartoonnetworkhd_hls.smil/playlist.m3u8'-'	
+	BBC Lifestylebbc lifestyle_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/bbclifestyle_hls.smil/playlist.m3u8w!''	
+	DongNaiTV1dongnaitv1_00Server101tvs1637588012https://livecdn.fptplay.net/sda/dongnai1_hls.smil/playlist.m3u8x%'	
+	Boomerangboomerang_00Server101tvs1637588012https://livecdn.fptplay.net/hda3/boomerang_vhls.smil/playlist.m3u8q #'	
+	GiaLaiTVgialaitv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/gialai_hls.smil/playlist.m3u8f'	
+	HBOhbo_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/hbo_vhls.smil/playlist.m3u8}~%+'	
+	BinhPhuocTV2binhphuoctv2_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/binhphuoc2_hls.smil/playlist.m3u8r}'	
+	QPVNqpvn_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/quocphongvnhd_vhls.smil/playlist.m3u8q|#'	
+	LongAnTVlongantv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/longan_hls.smil/playlist.m3u8q{!'	
+	VTV5 HDvtv5 hd_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/vtv5hd_vhls.smil/playlist.m3u8wz!''	
+	QuangTriTVquangtritv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/quangtri_hls.smil/playlist.m3u8{y#)'	
+	VinhLongTV3vinhlongtv3_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/vinhlong3_hls.smil/playlist.m3u8qx!'	
+	VTV3 HDvtv3 hd_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/vtv3hd_vhls.smil/playlist.m3u8qw#'	
+	LaoCaiTVlaocaitv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/laocai_hls.smil/playlist.m3u8wv!''	
+	DongNaiTV2dongnaitv2_00Server101tvs1637588012https://livecdn.fptplay.net/sda/dongnai2_hls.smil/playlist.m3u8qu#'	
+	DakLakTVdaklaktv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/daklak_hls.smil/playlist.m3u8}t%+'	
+	ThaiNguyenTVthainguyentv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/thainguyen_hls.smil/playlist.m3u8ss'	
+	Animaxanimax_00Server101tvs1637588012https://livecdn.fptplay.net/hda3/animaxport_vhls.smil/playlist.m3u8tr%'		
+	HaGiangTVhagiangtv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/hagiang_hls.smil/playlist.m3u8zq#)'	
+
+	QuangBinhTVquangbinhtv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/quangbinh_hls.smil/playlist.m3u8qp!'	
+	VTV6 HDvtv6 hd_00Server101tvs1637588012https://livecdn.fptplay.net/hda1/vtv6hd_vhls.smil/playlist.m3u8wo%'	
+	CaoBangTVcaobangtv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/caobang_1000.stream/playlist.m3u8qn#'	
+	HaTinhTVhatinhtv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/hatinh_hls.smil/playlist.m3u8zm#)'	
+
+	BinhThuanTVbinhthuantv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/binhthuan_hls.smil/playlist.m3u8dl'	
+	CNNcnn_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/cnn_hls.smil/playlist.m3u8pk#'	
+	VTC16 HDvtc16 hd_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/vtc16_hls.smil/playlist.m3u8tj%'		
+	LangSonTVlangsontv_00Server101tvs1637588012https://livecdn.fptplay.net/sdc/langson_hls.smil/playlist.m3u8wi%'	
+	BBC Earthbbc earth_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/bbcearth_vhls.smil/playlist.m3u8wh!''	
+	NinhBinhTVninhbinhtv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/ninhbinh_hls.smil/playlist.m3u8zg#)'	
+
+	NinhThuanTVninhthuantv_00Server101tvs1637588012https://livecdn.fptplay.net/sda/ninhthuan_hls.smil/playlist.m3u8yf%'	
+	FashionTVfashiontv_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/fashiontvhd_hls.smil/playlist.m3u8we%'	
+	Warner TVwarner tv_00Server101tvs1637588012https://livecdn.fptplay.net/hda3/warnertv_vhls.smil/playlist.m3u8
+    Ú •	
+
+¢8²N
+´
+.	—	hpóù”b₫iíO¢> Ú                                                                                                                                                      a#
+!'	m
+	VTV5 HDvtv5 hd_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-vtv5-5.htmla"
+!'	m
+	VTV1 HDvtv1 hd_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-vtv1-1.html)!#)'	k
+	VinhLongTV1vinhlongtv1_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-k%C3%AAnh-1-%C4%90%C3%A0i-truy%E1%BB%81n-h%C3%ACnh-v%C4%A9nh-long-131.html !''	Q
+	HaiDuongTVhaiduongtv_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-truy%E1%BB%81n-h%C3%ACnh-h%E1%BA%A3i-d%C6%B0%C6%A1ng-143.htmly%'	
+	HungYenTVhungyentv_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-th-h%C6%B0ng-y%C3%AAn-185.html'	W
+	ANTVantv_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-truy%E1%BB%81n-h%C3%ACnh-c%C3%B4ng-an-nh%C3%A2n-d%C3%A2n-89.htmla
+!'	m
+	VTV6 HDvtv6 hd_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-vtv6-6.html %'	a
+	LangSonTVlangsontv_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-%C4%90%C3%A0i-truy%E1%BB%81n-h%C3%ACnh-l%E1%BA%A1ng-s%C6%A1n-137.html
+#'	9
+	NgheAnTVngheantv_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-truy%E1%BB%81n-h%C3%ACnh-ngh%E1%BB%87-an-121.htmlb
+!'	o
+	VTV8 HDvtv8 hd_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-vtv8-36.html!''	A
+	ThaiBinhTVthaibinhtv_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-truy%E1%BB%81n-h%C3%ACnh-th%C3%A1i-b%C3%ACnh-129.htmla
+!'	m
+	VTV3 HDvtv3 hd_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-vtv3-3.htmlz!''	
+	ThanhHoaTVthanhhoatv_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-th-thanh-ho%C3%A1-hd-181.html!''	=
+	HauGiangTVhaugiangtv_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-truy%E1%BB%81n-h%C3%ACnh-h%E1%BA%ADu-giang-117.htmla
+!'	m
+	VTV4 HDvtv4 hd_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-vtv4-4.html%+'	?
+	QuangNinhTV1quangninhtv1_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-truy%E1%BB%81n-h%C3%ACnh-qu%E1%BA%A3ng-ninh-119.html!''	A
+	KhanhHoaTVkhanhhoatv_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-truy%E1%BB%81n-h%C3%ACnh-kh%C3%A1nh-h%C3%B2a-125.html#)'	?
+	TienGiangTVtiengiangtv_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-truy%E1%BB%81n-h%C3%ACnh-ti%E1%BB%81n-giang-123.html%'	%
+	DaNangTV2danangtv2_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-th-%C4%90%C3%A0-n%E1%BA%B5ng-2-177.html!''	I
+	DongNaiTV2dongnaitv2_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-truy%E1%BB%81n-h%C3%ACnh-%C4%90%E1%BB%93ng-nai-2-115.htmla
+!'	m
+	VTV2 HDvtv2 hd_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-vtv2-2.html%'	%
+	DaNangTV1danangtv1_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-th-%C4%90%C3%A0-n%E1%BA%B5ng-1-175.htmlg
+'	
+	HTV4htv4_00Server101tvs1637588012https://livecdn.fptplay.net/sdb/htv4_hls.smil/playlist.m3u8n'	
+
+	SCTV6sctv6_00Server101tvs1637588012https://livecdn.fptplay.net/hda3/film360_vhls.smil/playlist.m3u8x%+'
+	BinhDuongTV2binhduongtv2_00Server102tvs1637588012https://livecdn.fptplay.net/hda/btv2_hls.smil/playlist.m3u8x
+%+'	
+	BinhDuongTV2binhduongtv2_00Server101tvs1637588012https://livecdn.fptplay.net/hda3/btv2_hls.smil/playlist.m3u8	/5'	
+	Da Vinci Learningda vinci learning_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/davincihd_vhls.smil/playlist.m3u8z%+'		
+	BinhDuongTV4binhduongtv4_00Server101tvs1637588012https://livecdn.fptplay.net/hda3/btv4hd_hls.smil/playlist.m3u8{%+'	
+	BinhDuongTV6binhduongtv6_00Server101tvs1637588012https://livecdn.fptplay.net/sda/vietteen_hls.smil/playlist.m3u8m'	
+	ANTVantv_00Server101tvs1637588012https://livecdn.fptplay.net/hda2/anninhtv_vhls.smil/playlist.m3u8
+    Z Q»A
+µ
+PĂ6
+æ
+L	º		`ûMă/̉¬M-­=Œ · Z                        Z@
+'	c
+	Joy FMjoy fm_00Server301tvs1637588014rtmp://radio.joyfm.vn:1935/live/RadioOnlineb?
+!'	o
+	VTV2 HDvtv2 hd_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1010/vtv2m>
+!''	y
+	DongNaiTV1dongnaitv1_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1042/dong-nai1-='	‚
+	V-Popv pop_00Server301tvs1637588014https://vnno-zn-2-tf-multi-playlist-zmp3.zadn.vn/8t3wW77ohJw/zhls/playback-realtime/very-low/6eeb692c5569bc37e578/very-low.m3u8m<
+!''	y
+	HaiDuongTVhaiduongtv_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1054/hai-duong};#)'	
+	RFI Vietnamrfi vietnam_00Server301tvs1637588014https://rfienvietnamien64k.ice.infomaniak.ch/rfienvietnamien-64.mp3j:
+%'	w
+	HungYenTVhungyentv_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1050/hung-yen/9!'	‚
+	Xone FMxone fm_00Server301tvs1637588014https://vnno-zn-1-tf-playlist-live-zmp3.zadn.vn/hpOx2UjqVEQ/zhls/live/standard-audio/855a669d5ad8b386eac9/standard-audio.m3u8\8
+'	o
+	VOV1vov1_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1014/vov1p7
+#)'	{
+	QuangBinhTVquangbinhtv_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1051/quang-binh/6'	‚
+	Bolerobolero_00Server301tvs1637588014https://vnno-zn-1-tf-multi-playlist-zmp3.zadn.vn/oIWL6uZPN04/zhls/playback-realtime/very-low/e3b9f87ec43b2d65742a/very-low.m3u8Z5
+#)'	O
+	NHK Vietnamnhk vietnam_00Server301tvs1637588014http://radio.datviet2.com/nhk.mp304'	‚
+
+	On Airon air_00Server301tvs1637588014https://vnno-zn-11-tf-multi-playlist-zmp3.zadn.vn/HZQveZhPc-8/zhls/playback-realtime/very-low/a07d79b945fcaca2f5ed/very-low.m3u8g3
+#'	u
+	NgheAnTVngheantv_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1056/nghe-an*2!''	q
+	DongThapTVdongthaptv_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-%C4%90%C3%A0i-truy%E1%BB%81n-h%C3%ACnh-%C4%90%E1%BB%93ng-th%C3%A1p-1-133.htmlb1
+!'	o
+	VTV7 HDvtv7 hd_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-vtv7-27.html%0#'	o
+	TT-HueTVtt huetv_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-%C4%90%C3%A0i-ptth-t%E1%BB%89nh-th%E1%BB%ABa-thi%C3%AAn-hu%E1%BA%BF-127.html-/'	‚
+	TTXVNttxvn_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-k%C3%AAnh-truy%E1%BB%81n-h%C3%ACnh-th%C3%B4ng-t%E1%BA%A5n-x%C3%A3-vi%E1%BB%87t-nam-97.html.%'	=
+	NhanDanTVnhandantv_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-truy%E1%BB%81n-h%C3%ACnh-nh%C3%A2n-d%C3%A2n-95.html-!''	I
+	DongNaiTV1dongnaitv1_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-truy%E1%BB%81n-h%C3%ACnh-%C4%90%E1%BB%93ng-nai-1-113.html#,!''	c
+	HaiPhongTVhaiphongtv_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-%C4%90%C3%A0i-truy%E1%BB%81n-h%C3%ACnh-h%E1%BA%A3i-ph%C3%B2ng-135.html%+'	
+	QPVNqpvn_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-k%C3%AAnh-truy%E1%BB%81n-h%C3%ACnh-qu%E1%BB%91c-ph%C3%B2ng-vi%E1%BB%87t-nam-103.html	*#'	7
+	HaNoiTV1hanoitv1_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-%C4%90%C3%A0i-ptth-h%C3%A0-n%E1%BB%99i-1-91.html	)#'	7
+	HaNoiTV2hanoitv2_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-%C4%90%C3%A0i-ptth-h%C3%A0-n%E1%BB%99i-2-93.htmlb(
+!'	o
+	VTV9 HDvtv9 hd_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-vtv9-39.html'%+'	%
+	BinhDuongTV1binhduongtv1_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-th-b%C3%ACnh-d%C6%B0%C6%A1ng-1-179.htmlw&!''	
+	NinhBinhTVninhbinhtv_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-th-ninh-b%C3%ACnh-183.html%!''	A
+	VinhPhucTVvinhphuctv_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-truy%E1%BB%81n-h%C3%ACnh-v%C4%A9nh-ph%C3%BAc-147.html+$%+'	k
+	BinhPhuocTV1binhphuoctv1_00Server201tvs1637588013https://vtvgo.vn/xem-truc-tuyen-kenh-k%C3%AAnh-1-truy%E1%BB%81n-h%C3%ACnh-b%C3%ACnh-ph%C6%B0%E1%BB%9Bc-145.html
+     × ›6×r
+
+«
+;Ün	Ÿ:
+ß
+‚
+	¢	:Ê.£ˆè`Ä4© ×                                                                                                                                               $`%+'	]
+	BinhDuongTV1binhduongtv1_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/BINHDUONG1-SD-ABR/HTV-ABR/BINHDUONG1-SD-720p/playlist.m3u8_#'	M
+	CanThoTVcanthotv_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/CANTHO-SD-ABR/HTV-ABR/CANTHO-SD-720p/playlist.m3u8^'	Q
+	QHVNqhvn_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/QUOCHOI-SD-ABR/HTV-ABR/QUOCHOI-SD-720p/playlist.m3u8]!''	+
+	HTVC PhuNuhtvc phunu_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HTVC-PHUNU-HD-1080p/playlist.m3u8\'	I
+	TTXVNttxvn_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/TTXVN-SD-ABR/HTV-ABR/TTXVN-SD-720p/playlist.m3u8[%'	Q
+	TayNinhTVtayninhtv_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/TAYNINH-SD-ABR/HTV-ABR/TAYNINH-SD-720p/playlist.m3u8Z%'	)
+	HTVC Phimhtvc phim_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HTVC-PHIM-HD-1080p/playlist.m3u8Y!''	U
+	DongNaiTV1dongnaitv1_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/DONGNAI1-SD-ABR/HTV-ABR/DONGNAI1-SD-720p/playlist.m3u8X'	E
+	QPVNqpvn_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/QPTV-SD-ABR/HTV-ABR/QPTV-SD-720p/playlist.m3u8W%+'	+
+	Nat Geo Wildnat geo wild_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/NATGEOWILD-HD-1080p/playlist.m3u8uV'	#
+	TLCtlc_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXLIFE-SD-720p/playlist.m3u8|U!'	!
+	VTV9 HDvtv9 hd_00Server401tvs1637588015https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/VTV9-HD-1080p/playlist.m3u8T17'	
+	Asian Food Channelasian food channel_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/AFC-HD-1080p/playlist.m3u8S%'	Q
+	DaNangTV1danangtv1_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/DANANG1-SD-ABR/HTV-ABR/DANANG1-SD-720p/playlist.m3u8mR
+!''	y
+	DongThapTVdongthaptv_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1053/dong-thapeQ
+#'	q
+	VTC16 HDvtc16 hd_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1018/vtc16mP
+!''	y
+	HaiPhongTVhaiphongtv_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1041/hai-phongmO
+!''	y
+	ThaiBinhTVthaibinhtv_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1052/thai-binhZN
+%+'	K
+	Cherry Radiocherry radio_00Server301tvs1637588014https://sslstreaming.com:7017/;XM
+#)'	K
+	Europa Pluseuropa plus_00Server301tvs1637588014https://europaplustv.com/onlinebL
+!'	o
+	VTV3 HDvtv3 hd_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1013/vtv3gK
+#'	u
+	VTC10 HDvtc10 hd_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1006/netvietbJ
+#'	k
+	HaNoiTV1hanoitv1_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1008/hnkI
+#)'	q
+	VinhLongTV1vinhlongtv1_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1031/thvl1\H
+'	o
+	VOV2vov2_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1015/vov2mG
+!''	y
+	ThanhHoaTVthanhhoatv_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1055/thanh-hoa_F
+'	q
+	TTXVNttxvn_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1019/ttxvnbE
+!'	o
+	VTV4 HDvtv4 hd_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1009/vtv4bD
+!'	o
+	VTC1 HDvtc1 hd_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1007/vtc1\C
+'	o
+	VOV3vov3_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1016/vov3bB
+!'	o
+	VTV1 HDvtv1 hd_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1011/vtv1bA
+!'	o
+	HTV9 HDhtv9 hd_00Server301tvs1637588014http://vn.tvnet.gov.vn/kenh-truyen-hinh/1012/htv9
+    f jÆ*
+›
+‚ûc
+Ê
+9	ª	„ÜhÉ)…åM¿1³ f                                        {%'	Q
+	NhanDanTVnhandantv_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/NHANDAN-SD-ABR/HTV-ABR/NHANDAN-SD-720p/playlist.m3u8z%+'	E
+	BR-VungTauTVbr vungtautv_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/BRVT-SD-ABR/HTV-ABR/BRVT-SD-720p/playlist.m3u8{y!'	
+	VTC1 HDvtc1 hd_00Server401tvs1637588015https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/VTC1-SD-720p/playlist.m3u8x)/'	3
+	HTVC ThuanViethtvc thuanviet_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HTVC-THUANVIET-HD-1080p/playlist.m3u8{w!'	
+	HTV2 HDhtv2 hd_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HTV2-HD-1080p/playlist.m3u8
+v#)'	-
+	HTVC CaNhachtvc canhac_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HTVC-CANHAC-HD-1080p/playlist.m3u8
+u#)'	-
+	HTVC Dulichhtvc dulich_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HTVC-DULICH-HD-1080p/playlist.m3u8t#'	M
+	LongAnTVlongantv_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/LONGAN-SD-ABR/HTV-ABR/LONGAN-SD-720p/playlist.m3u8s!''	U
+	HauGiangTVhaugiangtv_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HAUGIANG-SD-ABR/HTV-ABR/HAUGIANG-SD-720p/playlist.m3u8 r#)'	Y
+	KienGiangTVkiengiangtv_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/KIENGIANG-SD-ABR/HTV-ABR/KIENGIANG-SD-720p/playlist.m3u8q!''	U
+	HaiPhongTVhaiphongtv_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HAIPHONG-SD-ABR/HTV-ABR/HAIPHONG-SD-720p/playlist.m3u8p/5'	7
+	HTVC ThuanViet HDhtvc thuanviet hd_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HTVC-THUANVIETHD-HD-1080p/playlist.m3u8qo'	
+	CNNcnn_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/CNN-SD-480p/playlist.m3u8$n%+'	]
+	BinhPhuocTV1binhphuoctv1_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/BINHPHUOC1-SD-ABR/HTV-ABR/BINHPHUOC1-SD-720p/playlist.m3u8m!'	G
+	VTC4 HDvtc4 hd_00Server401tvs1637588015https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/VTC4-SD-ABR/HTV-ABR/VTC4-SD-720p/playlist.m3u8l!'E
+	VTC4 HDvtc4 hd_00Server402tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/VTC4-SD-ABR/HTV-ABR/VTC4-SD-720p/playlist.m3u8k)/'	#
+	BBC World Newsbbc world news_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/BBCNEWS-SD-720p/playlist.m3u8
+j+1'	#
+	Cartoon Networkcartoon network_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/CARTOON-SD-720p/playlist.m3u8i/5'	+
+	Discovery Channeldiscovery channel_00Server401tvs1637588015https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/DISCOVERY-HD-1080p/playlist.m3u8h#'	M
+	BenTreTVbentretv_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/BENTRE-SD-ABR/HTV-ABR/BENTRE-SD-720p/playlist.m3u8g%'	'
+	Channel Vchannel v_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/CHANNELV-HD-1080p/playlist.m3u8	f%+'	'
+	Cinema Worldcinema world_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/CINEWORLD-SD-720p/playlist.m3u8e'	E
+	ANTVantv_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/ANTV-SD-ABR/HTV-ABR/ANTV-SD-720p/playlist.m3u8d+1'	
+	History Channelhistory channel_00Server401tvs1637588015https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOX-HD-1080p/playlist.m3u8c%'	Q
+	AnGiangTVangiangtv_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/ANGIANG-SD-ABR/HTV-ABR/ANGIANG-SD-720p/playlist.m3u8 b#)'	Y
+	BinhThuanTVbinhthuantv_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/BINHTHUAN-SD-ABR/HTV-ABR/BINHTHUAN-SD-720p/playlist.m3u8a/5'	%
+	Da Vinci Learningda vinci learning_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/DAVINCY-HD-1080p/playlist.m3u8
+   " | `ù%
+¾
+Z̀<Ơj 
+t
+	¯	GƯqœ3É=̉FÜr
+{‡# |                                                ‚'	C
+	SCTV16sctv16_00Server501tvs1637588016http://e1.endpoint.cdn.sctvonline.vn/hls/sctv16/sd1/index.m3u8|Referer=http://sctvonline.vn‚'	C
+	SCTV22sctv22_00Server501tvs1637588016http://e1.endpoint.cdn.sctvonline.vn/hls/sctv22/sd1/index.m3u8|Referer=http://sctvonline.vn‚'	?
+	BTV5btv5_00Server501tvs1637588016http://e2.endpoint.cdn.sctvonline.vn/hls/btv5/sd1/index.m3u8|Referer=http://sctvonline.vna‚
+!'	m
+	VTC6 HDvtc6 hd_00Server501tvs1637588016https://vtc130121.cdn.vnns.io/VTC6/playlist.m3u8‚#'	I
+	VTVCab16vtvcab16_00Server501tvs1637588016https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab16/sd1/index.m3u8|Referer=http://sctvonline.vn[‚
+'	m
+	VTC2vtc2_00Server501tvs1637588016https://vtc130121.cdn.vnns.io/VTC2/playlist.m3u8‚'	C
+	SCTV17sctv17_00Server501tvs1637588016http://e1.endpoint.cdn.sctvonline.vn/hls/sctv17/sd1/index.m3u8|Referer=http://sctvonline.vne‚
+!'	u
+	VTC1 HDvtc1 hd_00Server501tvs1637588016https://vtc130121.cdn.vnns.io/VTC1_abr/playlist.m3u8g‚
+!'	y
+	VTV5 HDvtv5 hd_00Server501tvs1637588016http://drfamaga5qliv.vcdn.cloud/vtv05/vtv05@1080p.m3u8g‚
+!'	y
+	VTV1 HDvtv1 hd_00Server501tvs1637588016http://drfamaga5qliv.vcdn.cloud/vtv01/vtv01@1080p.m3u8‚'	A
+	SCTV4sctv4_00Server501tvs1637588016http://e1.endpoint.cdn.sctvonline.vn/hls/sctv4/sd1/index.m3u8|Referer=http://sctvonline.vnh‚
+#'	w
+	VTC14 HDvtc14 hd_00Server501tvs1637588016https://vtc130121.cdn.vnns.io/VTC14_abr/playlist.m3u8‚'	A
+	SCTV1sctv1_00Server501tvs1637588016http://e1.endpoint.cdn.sctvonline.vn/hls/sctv1/sd1/index.m3u8|Referer=http://sctvonline.vng‚
+!'	y
+	VTV6 HDvtv6 hd_00Server501tvs1637588016http://drfamaga5qliv.vcdn.cloud/vtv06/vtv06@1080p.m3u8f‚
+#'	s
+	NgheAnTVngheantv_00Server501tvs1637588016https://live.truyenhinhnghean.vn/hls/na1/index.m3u8h‚
+#'	w
+	VTC16 HDvtc16 hd_00Server501tvs1637588016https://vtc130121.cdn.vnns.io/VTC16_abr/playlist.m3u8g‚
+!'	y
+	VTV8 HDvtv8 hd_00Server501tvs1637588016http://drfamaga5qliv.vcdn.cloud/vtv08/vtv08@1080p.m3u8i‚
+!''	q
+	ThaiBinhTVthaibinhtv_00Server501tvs1637588016http://cdn.tbtv.mediatech.vn/tbtvlive/tv1live.m3u8g‚
+!'	y
+	VTV3 HDvtv3 hd_00Server501tvs1637588016http://drfamaga5qliv.vcdn.cloud/vtv03/vtv03@1080p.m3u8e‚
+
+!'	u
+	VTC9 HDvtc9 hd_00Server501tvs1637588016https://vtc130121.cdn.vnns.io/VTC9_abr/playlist.m3u8a‚	
+!'	m
+	VTC7 HDvtc7 hd_00Server501tvs1637588016https://vtc130121.cdn.vnns.io/VTC7/playlist.m3u8^‚
+'	o
+	VTC11vtc11_00Server501tvs1637588016https://vtc130121.cdn.vnns.io/VTC11/playlist.m3u8‚'	A
+	SCTV9sctv9_00Server501tvs1637588016http://e1.endpoint.cdn.sctvonline.vn/hls/sctv9/sd1/index.m3u8|Referer=http://sctvonline.vng‚
+!'	y
+	VTV4 HDvtv4 hd_00Server501tvs1637588016http://drfamaga5qliv.vcdn.cloud/vtv04/vtv04@1080p.m3u8h‚
+#'	w
+	VTC10 HDvtc10 hd_00Server501tvs1637588016https://vtc130121.cdn.vnns.io/VTC10_abr/playlist.m3u8d‚
+#'	o
+	VTC13 HDvtc13 hd_00Server501tvs1637588016https://vtc130121.cdn.vnns.io/VTC13/playlist.m3u8‚'	E
+	SCTV15sctv15_00Server501tvs1637588016http://e1.endpoint.cdn.sctvonline.vn/hls/sctv15/sd1/index.m3u8|Referer=https://sctvonline.vn
+‚!'	=
+	VTVCab3vtvcab3_00Server501tvs1637588016http://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab3/index.m3u8|Referer=http://sctvonline.vna‚
+!'	m
+	VTC5 HDvtc5 hd_00Server501tvs1637588016https://vtc130121.cdn.vnns.io/VTC5/playlist.m3u8d‚ 
+!'	s
+	VTC3 HDvtc3 hd_00Server501tvs1637588016http://vtc130121.cdn.vnns.io/VTC3_abr/playlist.m3u8g
+!'	y
+	VTV9 HDvtv9 hd_00Server501tvs1637588016http://drfamaga5qliv.vcdn.cloud/vtv09/vtv09@1080p.m3u8g~
+!'	y
+	VTV2 HDvtv2 hd_00Server501tvs1637588016http://drfamaga5qliv.vcdn.cloud/vtv02/vtv02@1080p.m3u8d}
+#'	o
+	VTC12 HDvtc12 hd_00Server501tvs1637588016https://vtc130121.cdn.vnns.io/VTC12/playlist.m3u8|!''	U
+	DongThapTVdongthaptv_00Server401tvs1637588015http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/DONGTHAP-SD-ABR/HTV-ABR/DONGTHAP-SD-720p/playlist.m3u8
+   ( p q
+¨>
+Ú
+}
+ ¿` §F
+ß
+„
+)	Î	s	±Q̣†¦EÜk±FƯ‚-̀kû™8 Ư p                        j‚E'	
+	SCTV2sctv2_00Server601tvs1637588017https://mox1iki2zpliv.vcdn.cloud/live/netstars/playlist.m3u8X‚D
+#'	W
+	VTC14 HDvtc14 hd_00Server601tvs1637588017https://tvplay.vn/truyen-hinh-211.htm^‚C
+!'	g
+	VTV9 HDvtv9 hd_00Server601tvs1637588017http://data.xemtivi6s.com/nguon/2.php?id=vtv9_‚B
+'	m
+	SCTV16sctv16_00Server601tvs1637588017http://data.xemtivi6s.com/sctv/sc1.php?id=sctv16m‚A
+)/'	i
+	Match! Planetamatch! planeta_00Server601tvs1637588017https://spru.vietcago.net/matchplanetarus.m3u8^‚@
+!'	g
+	VTV6 HDvtv6 hd_00Server601tvs1637588017http://data.xemtivi6s.com/nguon/2.php?id=vtv6^‚?
+!'	g
+	VTV5 HDvtv5 hd_00Server601tvs1637588017http://data.xemtivi6s.com/nguon/2.php?id=vtv5R‚>
+'	W
+	VOVTVvovtv_00Server601tvs1637588017https://tvplay.vn/truyen-hinh-205.htmX‚=
+#'	W
+	NgheAnTVngheantv_00Server601tvs1637588017https://tvplay.vn/truyen-hinh-224.htmf‚<
+%+'	c
+	Match! Arenamatch! arena_00Server601tvs1637588017https://spru.vietcago.net/rumatcharena.m3u8h‚;
+'-'	c
+	Match! Boyetsmatch! boyets_00Server601tvs1637588017https://spru.vietcago.net/matchboetsru.m3u8^‚:
+!'	g
+	VTV8 HDvtv8 hd_00Server601tvs1637588017http://data.xemtivi6s.com/nguon/2.php?id=vtv8V‚9
+'	[
+	Match!match!_00Server601tvs1637588017https://spru.vietcago.net/ooomatch.m3u8n‚8
+#)'	w
+	HTV TheThaohtv thethao_00Server601tvs1637588017http://data.xemtivi6s.com/nguon/1.php?id=htvc-thethaof‚7
+'-'	_
+	Match! Stranamatch! strana_00Server601tvs1637588017https://spru.vietcago.net/mnashsport.m3u8^‚6
+!'	g
+	VTV3 HDvtv3 hd_00Server601tvs1637588017http://data.xemtivi6s.com/nguon/2.php?id=vtv3m‚5
++1'	e
+	Match! Futbol 1match! futbol 1_00Server601tvs1637588017https://spru.vietcago.net/ntvmatchfoot1.m3u8m‚4
++1'	e
+	Match! Futbol 2match! futbol 2_00Server601tvs1637588017https://spru.vietcago.net/mfootball2rus.m3u8i‚3
++1'	]
+	Match! Futbol 3match! futbol 3_00Server601tvs1637588017https://spru.vietcago.net/rumatchf3.m3u8\‚2
+'	k
+	SCTV9sctv9_00Server601tvs1637588017http://data.xemtivi6s.com/sctv/sc1.php?id=sctv9]‚1
+#'	a
+	Futbol 2futbol 2_00Server601tvs1637588017https://spru.vietcago.net/fooootball2.m3u8^‚0
+!'	g
+	HTV9 HDhtv9 hd_00Server601tvs1637588017http://data.xemtivi6s.com/nguon/2.php?id=htv9^‚/
+!'	g
+	VTV4 HDvtv4 hd_00Server601tvs1637588017http://data.xemtivi6s.com/nguon/2.php?id=vtv4X‚.
+#'	W
+	VTC10 HDvtc10 hd_00Server601tvs1637588017https://tvplay.vn/truyen-hinh-209.htmX‚-
+#'	W
+	TT-HueTVtt huetv_00Server601tvs1637588017https://tvplay.vn/truyen-hinh-243.htmX‚,
+'	k
+	AXNaxn_00Server601tvs1637588017http://data.xemtivi6s.com/nguon/cab1.php?id=axnX‚+
+#'	W
+	VTC13 HDvtc13 hd_00Server601tvs1637588017https://tvplay.vn/truyen-hinh-210.htmd‚*
+!'	s
+	VTVCab3vtvcab3_00Server601tvs1637588017http://data.xemtivi6s.com/nguon/cab1.php?id=vtvcab3^‚)
+#)'	W
+	TienGiangTVtiengiangtv_00Server601tvs1637588017https://tvplay.vn/truyen-hinh-218.htmV‚(
+!'	W
+	VTC3 HDvtc3 hd_00Server601tvs1637588017https://tvplay.vn/truyen-hinh-207.htm]‚'
+#)'	U
+	Match! Igramatch! igra_00Server601tvs1637588017https://spru.vietcago.net/migra.m3u8\‚&
+!''	W
+	DongNaiTV2dongnaitv2_00Server601tvs1637588017https://tvplay.vn/truyen-hinh-221.htm^‚%
+!'	g
+	VTV2 HDvtv2 hd_00Server601tvs1637588017http://data.xemtivi6s.com/nguon/2.php?id=vtv2Z‚$
+%'	W
+	BacNinhTVbacninhtv_00Server601tvs1637588017https://tvplay.vn/truyen-hinh-240.htmZ‚#
+%'	W
+	DaNangTV1danangtv1_00Server601tvs1637588017https://tvplay.vn/truyen-hinh-222.htma‚"
+!'	m
+	VTC4 HDvtc4 hd_00Server501tvs1637588016https://vtc130121.cdn.vnns.io/VTC4/playlist.m3u8g‚!
+!'	y
+	VTV7 HDvtv7 hd_00Server501tvs1637588016http://drfamaga5qliv.vcdn.cloud/vtv07/vtv07@1080p.m3u8b‚ 
+#'	k
+	CanThoTVcanthotv_00Server501tvs1637588016https://mekongpassion.com/live/tv/playlist.m3u8a‚
+!'	m
+	VTC8 HDvtc8 hd_00Server501tvs1637588016https://vtc130121.cdn.vnns.io/VTC8/playlist.m3u8‚'	C
+	SCTV14sctv14_00Server501tvs1637588016http://e1.endpoint.cdn.sctvonline.vn/hls/sctv14/sd1/index.m3u8|Referer=http://sctvonline.vn
+   · ’9̉[ 
+–
+5Ñv´R
+đ
+‰	Ú	{	ºWëw·                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 \‚\
+!''	W
+	DongThapTVdongthaptv_00Server601tvs1637588017https://tvplay.vn/truyen-hinh-212.htm^‚[
+!'	g
+	VTV7 HDvtv7 hd_00Server601tvs1637588017http://data.xemtivi6s.com/nguon/2.php?id=vtv7q‚Z'	
+	YouTVyoutv_00Server601tvs1637588017https://live2cdn.todayplus.com.vn/sdb/smil:youtv.smil/playlist.m3u8i‚Y
+)/'	a
+	Match! Premiermatch! premier_00Server601tvs1637588017https://spru.vietcago.net/mpremierrus.m3u8`‚X
+%+'	W
+	BinhDuongTV1binhduongtv1_00Server601tvs1637588017https://tvplay.vn/truyen-hinh-219.htm^‚W
+!'	g
+	HTV2 HDhtv2 hd_00Server601tvs1637588017http://data.xemtivi6s.com/nguon/2.php?id=htv2]‚V
+#'	a
+	Futbol 3futbol 3_00Server601tvs1637588017https://spru.vietcago.net/football3ua.m3u8\‚U
+!''	W
+	HaiPhongTVhaiphongtv_00Server601tvs1637588017https://tvplay.vn/truyen-hinh-229.htm+‚T17'	S
+	FashionTV Midnightfashiontv midnight_00Server601tvs1637588017https://fash1043.cloudycdn.services/slive/_definst_/ftv_midnite_secrets_adaptive.smil/playlist.m3u8d‚S
+!'	s
+	VTVCab5vtvcab5_00Server601tvs1637588017http://data.xemtivi6s.com/nguon/cab1.php?id=vtvcab5_‚R
+'	m
+	SCTV14sctv14_00Server601tvs1637588017http://data.xemtivi6s.com/sctv/sc1.php?id=sctv14_‚Q
+#'	e
+	Futbol 1futbol 1_00Server601tvs1637588017https://spru.vietcago.net/uafootballua1.m3u8`‚P
+!'	k
+	CINEMAXcinemax_00Server601tvs1637588017http://data.xemtivi6s.com/nguon/cab1.php?id=max\‚O
+!''	W
+	VinhPhucTVvinhphuctv_00Server601tvs1637588017https://tvplay.vn/truyen-hinh-233.htmX‚N
+'	g
+	HTV4htv4_00Server601tvs1637588017http://data.xemtivi6s.com/nguon/1.php?id=htv4a‚M
+!'	m
+	HTV7 HDhtv7 hd_00Server601tvs1637588017http://data.xemtivi6s.com/nguon/cab1.php?id=htv7^‚L
+!'	g
+	VTV1 HDvtv1 hd_00Server601tvs1637588017http://data.xemtivi6s.com/nguon/2.php?id=vtv1g‚K
+#'	u
+	VTVCab19vtvcab19_00Server601tvs1637588017http://data.xemtivi6s.com/nguon/cab1.php?id=vtvcab19X‚J
+'	k
+	HBOhbo_00Server601tvs1637588017http://data.xemtivi6s.com/nguon/cab1.php?id=hbot‚I
++1'	s
+	Cartoon Networkcartoon network_00Server601tvs1637588017http://data.xemtivi6s.com/nguon/cab1.php?id=cartoond‚H
+!'	s
+	VTVCab1vtvcab1_00Server601tvs1637588017http://data.xemtivi6s.com/nguon/cab1.php?id=vtvcab1V‚G
+!'	W
+	VTC1 HDvtc1 hd_00Server601tvs1637588017https://tvplay.vn/truyen-hinh-206.htmk‚F'	
+	MTVmtv_00Server601tvs1637588017https://live2cdn.todayplus.com.vn/hdb/smil:mtv.smil/playlist.m3u8
+   r ú à¿›~bF*ă¹Ÿ„cB"
+á
+¾
+
+y
+T
+.
+ïÎ«‡c?÷̉®gC
+ü
+Ú
+·
+
+c
+E
+$
+	Ư	Á	£	„	d	D	$ưÖ¯ˆhG# Ü¾Ÿ…jAùÙ¸—vV5ïÇ|Z8ơÓ±nL*ï̀¢‚cC#ăĂ¡];÷Ùºz[; ú              !''	haugiangtv_00tvs1637588013 –#'	hatinhtv_00tvs1637588012n#'	hanoitv2_00tvs1637588013 ©#'	hanoitv2_00tvs1637588012#'	hanoitv1_00tvs1637588014 Ê#'	hanoitv1_00tvs1637588013 ª#'	hanoitv1_00tvs1637588012N!'	hanamtv_00tvs1637588012'!''	haiphongtv_00tvs1637588017U!''	haiphongtv_00tvs1637588015 ñ!''	haiphongtv_00tvs1637588014 Đ!''	haiphongtv_00tvs1637588013 ¬!''	haiduongtv_00tvs1637588014 ¼!''	haiduongtv_00tvs1637588013  %'	hagiangtv_00tvs1637588012r#'	gialaitv_00tvs1637588012 €#'	futbol 3_00tvs1637588017V#'	futbol 2_00tvs16375880171#'	futbol 1_00tvs1637588017Q#'	france24_00tvs1637588012	%'	fashiontv_00tvs1637588012f)7'	fashiontv midnight_00tvs1637588017T")'	europa plus_00tvs1637588014 Í'	dw_00tvs1637588012!''	dongthaptv_00tvs1637588017\!''	dongthaptv_00tvs1637588015 ü!''	dongthaptv_00tvs1637588014 ̉!''	dongthaptv_00tvs1637588013 ² ''	dongthaptv_00tvs1637588012T!''	dongnaitv2_00tvs1637588017&!''	dongnaitv2_00tvs1637588013  ''	dongnaitv2_00tvs1637588012v!''	dongnaitv1_00tvs1637588015 Ù!''	dongnaitv1_00tvs1637588014 ¾!''	dongnaitv1_00tvs1637588013 ­!''	dongnaitv1_00tvs1637588012 ‚(5'	discovery channel_00tvs1637588015 é'5'	discovery channel_00tvs1637588012$/'	discovery asia_00tvs1637588012, ''	dienbientv_00tvs1637588012Z %'	danangtv2_00tvs1637588013 ‘%'	danangtv2_00tvs1637588012< %'	danangtv1_00tvs1637588017# %'	danangtv1_00tvs1637588015 Ó %'	danangtv1_00tvs1637588013 %'	danangtv1_00tvs1637588012U#'	daklaktv_00tvs1637588012u(5'	da vinci learning_00tvs1637588015 á(5'	da vinci learning_00tvs1637588012 ‰'	cnn_00tvs1637588015 ï'	cnn_00tvs1637588012l!'	cinemax_00tvs1637588017P!'	cinemax_00tvs1637588012L#+'	cinema world_00tvs1637588015 æ"+'	cinema world_00tvs1637588012#+'	cherry radio_00tvs1637588014 Î %'	channel v_00tvs1637588015 ç%'	channel v_00tvs1637588012.&3'	channel newsasia_00tvs16375880120&1'	cartoon network_00tvs1637588017I&1'	cartoon network_00tvs1637588015 ê&1'	cartoon network_00tvs1637588012 „%'	caobangtv_00tvs1637588012o#'	canthotv_00tvs1637588016 #'	canthotv_00tvs1637588015 ß#'	canthotv_00tvs1637588012!'	camautv_00tvs16375880128'	btv5_00tvs1637588016#+'	br vungtautv_00tvs1637588015 ú"+'	br vungtautv_00tvs1637588012R %'	boomerang_00tvs1637588012 '	bolero_00tvs1637588014 ¶&3'	blue ant extreme_00tvs1637588012D,?'	blue ant entertainment_00tvs1637588012")'	binhthuantv_00tvs1637588015 â!)'	binhthuantv_00tvs1637588012m"+'	binhphuoctv2_00tvs1637588012~#+'	binhphuoctv1_00tvs1637588015 î#+'	binhphuoctv1_00tvs1637588013 ¤"+'	binhphuoctv1_00tvs1637588012#+'	binhduongtv6_00tvs1637588012 ‡#+'	binhduongtv4_00tvs1637588012 ˆ$+'binhduongtv2_00tvs1637588012 ‹#+'	binhduongtv2_00tvs1637588012 #+'	binhduongtv1_00tvs1637588017X#+'	binhduongtv1_00tvs1637588015 à#+'	binhduongtv1_00tvs1637588013 §#+'binhduongtv1_00tvs1637588012"+'	binhduongtv1_00tvs1637588012 ''	binhdinhtv_00tvs1637588012c#'	bentretv_00tvs1637588015 è#'	bentretv_00tvs1637588012F%/'	bbc world news_00tvs1637588015 ë$/'	bbc world news_00tvs1637588012H$-'	bbc lifestyle_00tvs1637588012 ƒ%'	bbc earth_00tvs1637588012i"+'	bbc cbeebies_00tvs1637588012 %'	bacninhtv_00tvs1637588017$%'	bacninhtv_00tvs1637588012%'	baclieutv_00tvs1637588012% ''	bacgiangtv_00tvs1637588012/ ''	baby first_00tvs1637588012'	axn_00tvs1637588017,'	axn_00tvs1637588012 )7'	asian food channel_00tvs1637588015 Ô(7'	asian food channel_00tvs1637588012V!'	arirang_00tvs1637588012B'	antv_00tvs1637588015 å'	antv_00tvs1637588013 '	antv_00tvs1637588012 †'	animax_00tvs1637588012s#-'	animal planet_00tvs1637588012; %'	angiangtv_00tvs1637588015 ă%'	angiangtv_00tvs1637588012(
+á uÄ©‚`="åÆ«sU6
+ù
+Ú
+·
+•
+r
+O
+/
+íË£zT3ô̉±tU5
+ô
+Ơ
+¶
+–
+r
+M
+&	ÿ	Ø	µ		i	D	&	ëÇƒdD$äĂ¢_>úÜ¼fJ.éÈ¦ƒ_<øÚ¼€bD'	íĐ³–y\;ưÜ»™wU2ïÍ«ˆeK0á                            %'	travinhtv_00tvs1637588012X'	tlc_00tvs1637588015 Ö'	tlc_00tvs1637588012")'	tiengiangtv_00tvs1637588017)")'	tiengiangtv_00tvs1637588013 ’!)'	tiengiangtv_00tvs1637588012!''	thanhhoatv_00tvs1637588014 Ç!''	thanhhoatv_00tvs1637588013 — ''	thanhhoatv_00tvs1637588012@"+'	thainguyentv_00tvs1637588012t!''	thaibinhtv_00tvs1637588016!''	thaibinhtv_00tvs1637588014 Ï!''	thaibinhtv_00tvs1637588013 ™ ''	thaibinhtv_00tvs1637588012 %'	tayninhtv_00tvs1637588015 Û%'	tayninhtv_00tvs1637588012^!'	sonlatv_00tvs16375880125 ''	soctrangtv_00tvs1637588012'	sctv9_00tvs16375880172'	sctv9_00tvs1637588016'	sctv6_00tvs1637588012 Œ'	sctv4_00tvs1637588016'	sctv2_00tvs1637588017E'	sctv2_00tvs16375880124'	sctv22_00tvs1637588016'	sctv1_00tvs1637588016'	sctv17_00tvs1637588016'	sctv16_00tvs1637588017B'	sctv16_00tvs1637588016'	sctv15_00tvs1637588016'	sctv14_00tvs1637588017R'	sctv14_00tvs1637588016")'	rfi vietnam_00tvs1637588014 » ''	quangtritv_00tvs1637588012z"+'	quangninhtv3_00tvs1637588012_#+'	quangninhtv1_00tvs1637588013 ”"+'	quangninhtv1_00tvs1637588012=!)'	quangngaitv_00tvs1637588012a ''	quangnamtv_00tvs1637588012*")'	quangbinhtv_00tvs1637588014 ·!)'	quangbinhtv_00tvs1637588012q'	qpvn_00tvs1637588015 Ø'	qpvn_00tvs1637588013 «'	qpvn_00tvs1637588012}'	qhvn_00tvs1637588015 ̃#'	phuyentv_00tvs1637588012:#'	phuthotv_00tvs1637588012 …'	on air_00tvs1637588014 ´!)'	ninhthuantv_00tvs1637588012g!''	ninhbinhtv_00tvs1637588013 ¦ ''	ninhbinhtv_00tvs1637588012h%'	nhk world_00tvs1637588012")'	nhk vietnam_00tvs1637588014 µ %'	nhandantv_00tvs1637588015 û %'	nhandantv_00tvs1637588013 ®#'	ngheantv_00tvs1637588017=#'	ngheantv_00tvs1637588016#'	ngheantv_00tvs1637588014 ³#'	ngheantv_00tvs1637588013 ›#'	ngheantv_00tvs1637588012'	ncm_00tvs1637588012Y)9'	national geographic_00tvs1637588012[#+'	nat geo wild_00tvs1637588015 ×%'	namdinhtv_00tvs1637588012'	mtv_00tvs1637588017F'	match!_00tvs16375880179$-'	match! strana_00tvs16375880177%/'	match! premier_00tvs1637588017Y%/'	match! planeta_00tvs1637588017A")'	match! igra_00tvs1637588017'&1'	match! futbol 3_00tvs16375880173&1'	match! futbol 2_00tvs16375880174&1'	match! futbol 1_00tvs16375880175$-'	match! boyets_00tvs1637588017;#+'	match! arena_00tvs1637588017<#'	longantv_00tvs1637588015 ô#'	longantv_00tvs1637588012|#'	laocaitv_00tvs1637588012w %'	langsontv_00tvs1637588013 œ%'	langsontv_00tvs1637588012j%'	lamdongtv_00tvs1637588012C#'	kontumtv_00tvs1637588012'	kix_00tvs1637588012P")'	kiengiangtv_00tvs1637588015 ̣ )'		kiengiangtv_00tvs1637588012!''	khanhhoatv_00tvs1637588013 “'	joy fm_00tvs1637588014 À %'	hungyentv_00tvs1637588014 º %'	hungyentv_00tvs1637588013 Ÿ%/'	htvc thuanviet_00tvs1637588015 ø(5'	htvc thuanviet hd_00tvs1637588015 đ'5'	htvc thuanviet hd_00tvs1637588012)!''	htvc phunu_00tvs1637588015 Ư ''	htvc phunu_00tvs1637588012b %'	htvc phim_00tvs1637588015 Ú%'	htvc phim_00tvs1637588012"+'	htvc giadinh_00tvs1637588012
+")'	htvc dulich_00tvs1637588015 ơ!)'	htvc dulich_00tvs1637588012O")'	htvc canhac_00tvs1637588015 ö!'	htv9 hd_00tvs16375880170!'	htv9 hd_00tvs1637588014 Á!'	htv9 hd_00tvs1637588012`!'	htv7 hd_00tvs1637588017M!'	htv7 hd_00tvs1637588012I'	htv4_00tvs1637588017N'	htv4_00tvs1637588012 '	htv3_00tvs1637588012-!'	htv2 hd_00tvs1637588017W!'	htv2 hd_00tvs1637588015 ÷!'	htv2 hd_00tvs16375880127'	htv1_00tvs1637588012$")'	htv thethao_00tvs16375880178!)'	htv thethao_00tvs1637588012
+&1'	history channel_00tvs1637588015 ä'	hbo_00tvs1637588017J'	hbo_00tvs1637588012      	tt huetv_00tvs1637588012]
+   s àÀ¤‡jM*
+íË¨…cA
+₫
+Ü
+º
+
+‚
+f
+I
++
+íÎ¯pP0÷Ø¸™yY:
+ú
+Û
+»
+›
+€
+d
+F
+'
+	ê	Ë	«	Œ	n	O	1	ôƠ·˜z[=ÿàÁ£„eF'	êË¬oP1óƠ¶—xZ;ưßÀ¡‚dE&éÊ«ŒmM-ïĐ±‘rS7                                                                                                                                                                                                                                                                                                            '	youtv_00tvs1637588017Z'	youtv_00tvs16375880129#'	yenbaitv_00tvs1637588012Q!'	xone fm_00tvs1637588014 ¹%'	warner tv_00tvs1637588012e!'	vtvcab5_00tvs1637588017S!'	vtvcab3_00tvs1637588017*!'	vtvcab3_00tvs1637588016!'	vtvcab1_00tvs1637588017H#'	vtvcab19_00tvs1637588017K#'	vtvcab16_00tvs1637588016!'	vtv9 hd_00tvs1637588017C!'	vtv9 hd_00tvs1637588016 ÿ!'	vtv9 hd_00tvs1637588015 Ơ!'	vtv9 hd_00tvs1637588013 ¨!'	vtv9 hd_00tvs1637588012W!'	vtv8 hd_00tvs1637588017:!'	vtv8 hd_00tvs1637588016
+!'	vtv8 hd_00tvs1637588013 !'	vtv8 hd_00tvs1637588012&!'	vtv7 hd_00tvs1637588017[!'	vtv7 hd_00tvs1637588016!!'	vtv7 hd_00tvs1637588013 ±!'	vtv7 hd_00tvs1637588012S!'	vtv6 hd_00tvs1637588017@!'	vtv6 hd_00tvs1637588016!'	vtv6 hd_00tvs1637588013 !'	vtv6 hd_00tvs1637588012p!'	vtv5 hd_00tvs1637588017?!'	vtv5 hd_00tvs1637588016!'	vtv5 hd_00tvs1637588013 £!'	vtv5 hd_00tvs1637588012{!'	vtv4 hd_00tvs1637588017/!'	vtv4 hd_00tvs1637588016!'	vtv4 hd_00tvs1637588014 Å!'	vtv4 hd_00tvs1637588013 •!'	vtv4 hd_00tvs1637588012>!'	vtv3 hd_00tvs16375880176!'	vtv3 hd_00tvs1637588016!'	vtv3 hd_00tvs1637588014 ̀!'	vtv3 hd_00tvs1637588013 ˜!'	vtv3 hd_00tvs1637588012x!'	vtv2 hd_00tvs1637588017%!'	vtv2 hd_00tvs1637588016 ₫!'	vtv2 hd_00tvs1637588014 ¿!'	vtv2 hd_00tvs1637588013 !'	vtv2 hd_00tvs1637588012!'	vtv1 hd_00tvs1637588017L!'	vtv1 hd_00tvs1637588016!'	vtv1 hd_00tvs1637588014 Â!'	vtv1 hd_00tvs1637588013 ¢!'	vtv1 hd_00tvs16375880121!'	vtc9 hd_00tvs1637588016
+!'	vtc9 hd_00tvs1637588012d!'	vtc8 hd_00tvs1637588016!'	vtc8 hd_00tvs16375880123!'	vtc7 hd_00tvs1637588016	!'	vtc7 hd_00tvs1637588012A!'	vtc6 hd_00tvs1637588016!'	vtc6 hd_00tvs16375880126!'	vtc5 hd_00tvs1637588016!'	vtc5 hd_00tvs1637588012!'	vtc4 hd_00tvs1637588016"!'vtc4 hd_00tvs1637588015 ́!'	vtc4 hd_00tvs1637588015 í!'	vtc4 hd_00tvs1637588012!'	vtc3 hd_00tvs1637588017(!'	vtc3 hd_00tvs1637588016 !'	vtc3 hd_00tvs1637588012'	vtc2_00tvs1637588016'	vtc2_00tvs1637588012M#'	vtc16 hd_00tvs1637588016#'	vtc16 hd_00tvs1637588014 Ñ#'	vtc16 hd_00tvs1637588012k#'	vtc14 hd_00tvs1637588017D#'	vtc14 hd_00tvs1637588016#'	vtc14 hd_00tvs1637588012+#'	vtc13 hd_00tvs1637588017+#'	vtc13 hd_00tvs1637588016#'	vtc13 hd_00tvs1637588012\#'	vtc12 hd_00tvs1637588016 ư#'	vtc12 hd_00tvs1637588012'	vtc11_00tvs1637588016'	vtc11_00tvs1637588012##'	vtc10 hd_00tvs1637588017.#'	vtc10 hd_00tvs1637588016#'	vtc10 hd_00tvs1637588014 Ë#'	vtc10 hd_00tvs1637588012!!'	vtc1 hd_00tvs1637588017G!'	vtc1 hd_00tvs1637588016!'	vtc1 hd_00tvs1637588015 ù!'	vtc1 hd_00tvs1637588014 Ä!'	vtc1 hd_00tvs1637588012J'	vovtv_00tvs1637588017>'	vov3_00tvs1637588014 Ă'	vov2_00tvs1637588014 È'	vov1_00tvs1637588014 ¸!''	vinhphuctv_00tvs1637588017O!''	vinhphuctv_00tvs1637588013 ¥ ''	vinhphuctv_00tvs1637588012K!)'	vinhlongtv4_00tvs16375880122!)'	vinhlongtv3_00tvs1637588012y!)'	vinhlongtv2_00tvs1637588012"")'	vinhlongtv1_00tvs1637588014 É")'	vinhlongtv1_00tvs1637588013 ¡!)'	vinhlongtv1_00tvs1637588012E'	v pop_00tvs1637588014 ½%'	tv5 monde_00tvs1637588012G"+'	tuyenquangtv_00tvs1637588012'	ttxvn_00tvs1637588015 Ü'	ttxvn_00tvs1637588014 Æ'	ttxvn_00tvs1637588013 ¯'	ttxvn_00tvs1637588012?#'	tt huetv_00tvs1637588017-#'	tt huetv_00tvs1637588013 °
+   =   »tÅ‚@
+ñ
+·
+l
+&à™l%î¬t
+Đ
+
+L
+	Á	p	.û¿}DË”Y&ë¾|?ï°y:Æ…Z̃©]Ư›Z)åK
+ Ñ                                .‚G'	129c m187?ng before i wake_00tvs16375880129‚
+]'	y170u h186?t m172nh playing for keeps_00tvs1637588012;‚	a'	v187? n187? kinh ho160ng deadly inferno_00tvs1637588012O‚'	v169 144i187?u 144176187?ng ph187? 2 streetdance all stars_00tvs1637588012E‚u'	v169 144i187?u 144176187?ng ph187? streetdance 3d_00tvs1637588012A‚m'	v169 kh173 r187?ng l187?a p 51 dragon fighter_00tvs1637588012.‚G'	v172 ch173nh em right girl_00tvs1637588012>‚g'	t187? trong s162u th186?m northern borders_00tvs1637588012?‚i'	t187?i 129c trong c131n nh160 bad samaritan_00tvs1637588012+‚A'	t187?i ph186?m criminal_00tvs1637588012O‚'	t172m 144176187?c th172 gi187? 144176187?c finders keepers_00tvs1637588012I‚ }'	t162m h187?n ph187? n187? heart & soul (frauenherzen)_00tvs16375880122O'	tr186?n chi186?n midway midway_00tvs16375880123~Q'	tr186? gi161 no beast so fierce_00tvs1637588012C}q'	truy t172m s161t nh162n 3 garage sale mystery 3_00tvs1637588012(|;'	tin n179ng bombshell_00tvs1637588012>{g'	th187? ph186?m 186?n danh eve of abduction_00tvs1637588012=ze'	th187? tr186?n t172nh y170u the bachelors_00tvs16375880121yM'	th186? gi187?i v180 danh anon_00tvs1637588012<xc'	th176161ng m186?n vincent loving vincent_00tvs16375880124wS'	teen girl n187?i lo186?n whip it_00tvs1637588012<vc'	tay ch161i kh180ng tu187?i dirty grandpa_00tvs1637588012Mu'	s187? ti186?n h179a c187?a t187?i 129c evolution of evil_00tvs1637588012:t_'	s187? gi186? t172nh y170u cupids proxy_00tvs1637588012?si'	s131n ti187?n ki187?u m187? american hustle_00tvs1637588012*r?'	s161ch ma the babadook_00tvs16375880128q['	song sinh s161t th187? water & power_00tvs16375880120pK'	sau th186?m h187?a aftermath_00tvs16375880128o['	ranh gi187?i quy186?n r169 get naked_00tvs16375880124nS'	ranh gi187?i ma qu187? ghostline_00tvs16375880124mS'	ranh gi187?i ch186?t point break_00tvs1637588012?li'	qu161i v186?t 144161ng y170u monster and me_00tvs16375880126kW'	qu161i v186?t nguy170n sinh primal_00tvs1637588012?ji'	quy186?t 144187?nh quan tr187?ng the choice_00tvs16375880129i]'	phi v187? b186?t th160nh nice package_00tvs16375880120hK'	n187? v181 s169 fight falley_00tvs1637588012?gi'	n187?i s187? kho186?ng tr187?ng agoraphobia_00tvs1637588012Nf'	nh187?ng ng176187?i ph187? n187? b169 nh187? little women_00tvs1637588012He{'	nh187?ng c180 g161i s161t th187? shadow of the lotus_00tvs1637588012=de'	nh187?ng ch160ng trai ngoan the nice guys_00tvs1637588012Acm'	nh186?t 144186?ng karate 4 best of the best 4_00tvs1637588012=be'	ng176187?c d178ng th187?i gian time freak_00tvs1637588012Das'	ng176187?i 144160n 148ng ho160n h186?o mr. right_00tvs1637588012Z`'	ng176187?i tuy186?t k187? th186 snowballs christmas tales by the fire_00tvs16375880125_U'	ng176187?i g161c 144170m security_00tvs1637588012?^i'	m187?t th187?i h186?n h178 once upon a date_00tvs16375880124]S'	m186?t v187? ng186?m black water_00tvs1637588012D\s'	m163nh l187?c t172nh y170u no stranger than love_00tvs1637588012*[?'	m163i b170n em endless_00tvs1637588012DZs'	l187?i nh186?n c187?a oan h187?n i still see you_00tvs1637588012CYq'	l187?i h187?a cu187?i c185ng 37 a final promise_00tvs1637588012CXq'	lu162n 144180n th186?t th187? london has fallen_00tvs1637588012HW{'	k187? nguy170n t160n b186?o kundo age of the rampant_00tvs16375880127VY'	k187? ngh187? kinh ho160ng holidays_00tvs1637588012LU'	k187? ngh187? h168 144161ng nh187? a summer to remember_00tvs1637588012?Ti'	k186? ho186?ch kh180ng th160nh dead heading_00tvs1637588012@Sk'	k186? gi186?t m176187?n mercenary absolution_00tvs1637588012FRw'	k189 187?c 186?o gi161c my dog is a space traveler_00tvs1637588012cQ/'	ki170u h163nh 144187?nh ki186?n v160 th162y ma pride and prejudice and zombies_00tvs1637588012DPs'	kinh ho160ng tr170n l163nh 144187?a ma ghostland_00tvs1637588012BOo'	kh180ng 144176187?c h169 m180i dont say a word_00tvs1637588012
+Z ¹ ̀œ5ûæÓÀ¯¢‘|fT>#
+ü
+è
+̉
+À
+¬
+–
+„
+s
+]
+K
++
+
+ô̃̉¿¬Ÿxi[H7&øä̉º¬™…kE4%
+̣
+á
+̉
+À
+©
+–
+€
+o
+`
+L
+;
+*
+	ư	è	Ö	Ă	«		‰	u	d	V	D	/	"	úéƠÂ¦•‚uaD2 
+÷æÑ½©˜…r]I6#ïƯÊµ¢’|jVD3
+ùçÙĂ¶¤‘}fM;-æĐÁ³Ÿ‹xdP=-úéÔÅµ§™„nXJ1óăÔÅ¶¦”†vfVA/ưäÍ½¦     ƒF 	vovtv_00ƒE+ 	match! arena_00ƒD- 	match! boyets_00
+ƒC 	match!_00ƒB- 	match! strana_00ƒA1 	match! futbol 1_00ƒ@1 	match! futbol 2_00ƒ?1 	match! futbol 3_00ƒ># 	futbol 2_00ƒ=) 	match! igra_00
+ƒ< 	sctv14_00
+ƒ; 	sctv16_00
+ƒ: 	sctv22_00ƒ9 	btv5_00ƒ8# 	vtvcab16_00
+ƒ7 	sctv17_00ƒ6 	sctv4_00ƒ5 	sctv1_00ƒ4 	sctv9_00
+ƒ3 	sctv15_00ƒ2! 	vtvcab3_00ƒ1/ 	htvc thuanviet_00ƒ0) 	htvc canhac_00ƒ/1 	history channel_00ƒ. 	qhvn_00ƒ-+ 	nat geo wild_00ƒ,+ 	cherry radio_00ƒ+) 	europa plus_00ƒ* 	vov2_00ƒ) 	vov3_00
+ƒ( 	joy fm_00ƒ' 	v pop_00ƒ&) 	rfi vietnam_00ƒ%! 	xone fm_00ƒ$ 	vov1_00
+ƒ# 	bolero_00ƒ") 	nhk vietnam_00
+ƒ! 	on air_00ƒ % 	nhandantv_00ƒ' 	haiphongtv_00ƒ' 	haiduongtv_00ƒ% 	hungyentv_00ƒ' 	haugiangtv_00ƒ' 	khanhhoatv_00ƒ 	htv4_00ƒ 	sctv6_00ƒ+ 	binhduongtv2_00ƒ5 	da vinci learning_00ƒ+ 	binhduongtv4_00ƒ+ 	binhduongtv6_00ƒ 	antv_00ƒ# 	phuthotv_00ƒ1 	cartoon network_00ƒ- 	bbc lifestyle_00ƒ' 	dongnaitv1_00ƒ% 	boomerang_00ƒ# 	gialaitv_00
+ƒ
+ 	hbo_00ƒ+ 	binhphuoctv2_00ƒ 	qpvn_00ƒ
+# 	longantv_00ƒ	! 	vtv5 hd_00ƒ' 	quangtritv_00ƒ) 	vinhlongtv3_00ƒ! 	vtv3 hd_00ƒ# 	laocaitv_00ƒ' 	dongnaitv2_00ƒ# 	daklaktv_00ƒ+ 	thainguyentv_00
+ƒ 	animax_00ƒ % 	hagiangtv_00‚) 	quangbinhtv_00‚}% 	caobangtv_00‚|# 	hatinhtv_00‚{) 	binhthuantv_00
+‚z 	cnn_00‚y# 	vtc16 hd_00‚x% 	langsontv_00‚w% 	bbc earth_00‚v' 	ninhbinhtv_00‚u) 	ninhthuantv_00‚t% 	fashiontv_00‚s% 	warner tv_00‚r! 	vtc9 hd_00‚q' 	binhdinhtv_00‚p' 	htvc phunu_00‚o) 	quangngaitv_00‚n! 	htv9 hd_00‚m+ 	quangninhtv3_00‚l% 	tayninhtv_00‚k# 	tt huetv_00‚j# 	vtc13 hd_00‚i9 	national geographic_00‚h' 	dienbientv_00
+‚g 	ncm_00‚f% 	travinhtv_00‚e! 	vtv9 hd_00‚d7 	asian food channel_00‚c% 	danangtv1_00‚b' 	dongthaptv_00‚a! 	vtv7 hd_00‚`+ 	br vungtautv_00‚_# 	yenbaitv_00
+‚^ 	kix_00‚]) 	htvc dulich_00‚\# 	hanoitv1_00‚[ 	vtc2_00‚Z! 	cinemax_00‚Y' 	vinhphuctv_00‚X! 	vtc1 hd_00‚W! 	htv7 hd_00‚V/ 	bbc world news_00‚U% 	tv5 monde_00‚T# 	bentretv_00‚S) 	vinhlongtv1_00‚R3 	blue ant extreme_00‚Q% 	lamdongtv_00‚P! 	arirang_00‚O! 	vtc7 hd_00‚N' 	thanhhoatv_00‚M 	ttxvn_00‚L! 	vtv4 hd_00‚K+ 	quangninhtv1_00‚J% 	danangtv2_00‚I- 	animal planet_00‚H# 	phuyentv_00‚G 	youtv_00‚F! 	camautv_00‚E! 	htv2 hd_00‚D! 	vtc6 hd_00‚C! 	sonlatv_00‚B 	sctv2_00‚A! 	vtc8 hd_00‚@) 	vinhlongtv4_00   ! 	vtv1 hd_00‚>3 	channel newsasia_00‚=' 	bacgiangtv_00‚<% 	channel v_00‚; 	htv3_00‚:/ 	discovery asia_00‚9# 	vtc14 hd_00‚8' 	quangnamtv_00‚75 	htvc thuanviet hd_00‚6% 	angiangtv_00‚5! 	hanamtv_00‚4! 	vtv8 hd_00‚3% 	baclieutv_00‚2 	htv1_00‚1 	vtc11_00‚0) 	vinhlongtv2_00‚/# 	vtc10 hd_00
+‚. 	axn_00‚-% 	htvc phim_00‚,% 	nhk world_00	‚+ 	dw_00‚*+ 	tuyenquangtv_00‚)! 	vtc3 hd_00‚(' 	baby first_00‚'# 	vtc12 hd_00‚&? 	blue ant entertainment_00‚%# 	hanoitv2_00‚$+ 	binhphuoctv1_00‚#! 	vtc4 hd_00‚"# 	kontumtv_00‚!+ 	cinema world_00‚ ' 	soctrangtv_00‚# 	ngheantv_00‚+ 	binhduongtv1_00‚' 	thaibinhtv_00‚) 	htv thethao_00‚# 	canthotv_00‚5 	discovery channel_00‚+ 	htvc giadinh_00‚# 	france24_00‚+ 	bbc cbeebies_00‚) 	tiengiangtv_00‚! 	vtc5 hd_00
+‚ 	tlc_00‚! 	vtv2 hd_00‚% 	bacninhtv_00‚% 	namdinhtv_00‚) 	kiengiangtv_007‚Y'	144187?ng g161c s186ng dont kill it_00tvs1637588012d‚1'	144170m t187?i cu187?i c185ng 187? 144187?a c186?u long days journey into night_00tvs1637588012-‚
+E'	144o161n xem ai guess who_00tvs16375880121‚M'	129m 186?nh 129i t172nh plush_00tvs1637588012
+    èÛÊ¸¦•ygO1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ƒQ!'	vtv1 hd_00tvs1637588012ƒP!'	vtv6 hd_00tvs1637588012ƒO/ 	match! premier_00ƒN# 	futbol 3_00ƒM7 	fashiontv midnight_00ƒL! 	vtvcab5_00ƒK# 	futbol 1_00ƒJ# 	vtvcab19_00ƒI! 	vtvcab1_00
+ƒH 	mtv_00ƒG/ 	match! planeta_00
+   = Ư·^2₫èÙ̀¼¡•‚o]K6$
+÷
+æ
+Ó
+¾
+©
+”
+
+j
+U
+A
+"
+	úèÓÆ¶¥“{bP;&
+đßÍ»¨‘wdQ>3
+̣
+á
+Đ
+¿
+®
+
+‹
+x
+e
+U
+D
+3
+"
+
+	ë	×	Ê	º	­	 		€	l	X	C	1		íÛ̀—c"ö¹~G4ÜÈƒr:ïƯ̀»ƒd+Î¹£‹s[G0ôèĂ}hL@Ơ«\KØ¦cQ=+        nhk world_00,)nhk vietnam_00¢%nhandantv_00 Bnh187?ng ng176187?i ph187? n187? b169 nh187? little women_00 æ1enh187?ng ch160ng trai ngoan the nice guys_00 ä<{nh187?ng c180 g161i s161t th187? shadow of the lotus_00 å5mnh186?t 144186?ng karate 4 best of the best 4_00 ă#ngheantv_00Nng176187?i tuy186?t k187? th186 snowballs christmas tales by the fire_00 à)Ung176187?i g161c 144170m security_00 ß8sng176187?i 144160n 148ng ho160n h186?o mr. right_00 á1eng176187?c d178ng th187?i gian time freak_00 âncm_00g9national geographic_00i+nat geo wild_00­%namdinhtv_003in187?i s187? kho186?ng tr187?ng agoraphobia_00 ç$Kn187? v181 s169 fight falley_00 èmtv_00Èmatch!_00Ă-match! strana_00Â/match! premier_00Ï/match! planeta_00Ç)match! igra_00½1match! futbol 3_00¿1match! futbol 2_00À1match! futbol 1_00Á-match! boyets_00Ä+match! arena_00Å3im187?t th187?i h186?n h178 once upon a date_00 ̃(Sm186?t v187? ng186?m black water_00 Ư8sm163nh l187?c t172nh y170u no stranger than love_00 Ü?m163i b170n em endless_00 Û7qlu162n 144180n th186?t th187? london has fallen_00 Ø#longantv_00#laocaitv_00…%langsontv_00x%lamdongtv_00Q8sl187?i nh186?n c187?a oan h187?n i still see you_00 Ú7ql187?i h187?a cu187?i c185ng 37 a final promise_00 Ù#kontumtv_00"kix_00^8skinh ho160ng tr170n l163nh 144187?a ma ghostland_00 Đ)kiengiangtv_00W/ki170u h163nh 144187?nh ki186?n v160 th162y ma pride and prejudice and zombies_00 Ñ'khanhhoatv_00›6okh180ng 144176187?c h169 m180i dont say a word_00 Ï:wk189 187?c 186?o gi161c my dog is a space traveler_00 ̉<{k187? nguy170n t160n b186?o kundo age of the rampant_00 ×+Yk187? ngh187? kinh ho160ng holidays_00 Ö@k187? ngh187? h168 144161ng nh187? a summer to remember_00 Ơ3ik186? ho186?ch kh180ng th160nh dead heading_00 Ô4kk186? gi186?t m176187?n mercenary absolution_00 Ójoy fm_00¨%hungyentv_00/htvc thuanviet_00±5htvc thuanviet hd_007'htvc phunu_00p%htvc phim_00-+htvc giadinh_00)htvc dulich_00])htvc canhac_00°!htv9 hd_00n!htv7 hd_00Whtv4_00htv3_00;!htv2 hd_00Ehtv1_002)htv thethao_001history channel_00¯hbo_00'haugiangtv_00œ#hatinhtv_00|#hanoitv2_00%#hanoitv1_00\!hanamtv_005'haiphongtv_00Ÿ'haiduongtv_00%hagiangtv_00€#gialaitv_00#futbol 3_00Î#futbol 2_00¾#futbol 1_00Ë#france24_00%fashiontv_00t7fashiontv midnight_00Í)europa plus_00«
+dw_00+'dongthaptv_00b'dongnaitv2_00„'dongnaitv1_005discovery channel_00/discovery asia_00:'dienbientv_00h%danangtv2_00J%danangtv1_00c#daklaktv_00ƒ5da vinci learning_00—cnn_00z!cinemax_00Z+cinema world_00!+cherry radio_00¬%channel v_00<3channel newsasia_00>1cartoon network_00’%caobangtv_00}#canthotv_00!camautv_00Fbtv5_00¹+br vungtautv_00`%boomerang_00bolero_00£3blue ant extreme_00R?blue ant entertainment_00&)binhthuantv_00{+binhphuoctv2_00Œ+binhphuoctv1_00$+binhduongtv6_00•+binhduongtv4_00–+binhduongtv2_00˜+binhduongtv1_00'binhdinhtv_00q#bentretv_00T/bbc world news_00V-bbc lifestyle_00‘%bbc earth_00w+bbc cbeebies_00%bacninhtv_00%baclieutv_003'bacgiangtv_00='baby first_00(axn_00.7asian food channel_00d!arirang_00Pantv_00”animax_00-animal planet_00I%angiangtv_006!E144o161n xem ai guess who_00
++Y144187?ng g161c s186ng dont kill it_00X1144170m t187?i cu187?i c185ng 187? 144187?a c186?u long days journey into night_00%M129m 186?nh 129i t172nh plush_00"G129c m187?ng before i wake_00
+   r‚ íÙÊœ‹zm`,íÚÆ±œ‰U,
+Ö
+Â
+
+o
+@₫ÙÊ»¬€rdVH5øºvC
+ï
+¾
+¬
+ƒ
+R
+,	ù	Ç	´	Ÿ	Œ	x	[	O	'	 î¶¥—‚pbä®‹[G3øë̃ÑĂ³¢”ƒraPC3#óăÓĂ³£“ƒscSC2!ñßÏ¡‚                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+youtv_00G#yenbaitv_00_-]y170u h186?t m172nh playing for keeps_00
+!xone fm_00¥%warner tv_00s!vtvcab5_00̀!vtvcab3_00²!vtvcab1_00É#vtvcab19_00Ê#vtvcab16_00¸!vtv9 hd_00e!vtv8 hd_004!vtv7 hd_00a!vtv6 hd_00Đ!vtv5 hd_00‰!vtv4 hd_00L!vtv3 hd_00†!vtv2 hd_00!vtv1 hd_00Ñ!vtc9 hd_00r!vtc8 hd_00A!vtc7 hd_00O!vtc6 hd_00D!vtc5 hd_00!vtc4 hd_00#!vtc3 hd_00)vtc2_00[#vtc16 hd_00y#vtc14 hd_009#vtc13 hd_00j#vtc12 hd_00'
+vtc11_001#vtc10 hd_00/!vtc1 hd_00X
+vovtv_00Ævov3_00©vov2_00ªvov1_00¤'vinhphuctv_00Y)vinhlongtv4_00@)vinhlongtv3_00‡)vinhlongtv2_000)vinhlongtv1_00S/av187? n187? kinh ho160ng deadly inferno_00	"Gv172 ch173nh em right girl_005mv169 kh173 r187?ng l187?a p 51 dragon fighter_009uv169 144i187?u 144176187?ng ph187? streetdance 3d_00Cv169 144i187?u 144176187?ng ph187? 2 streetdance all stars_00
+v pop_00§%tv5 monde_00U+tuyenquangtv_00*
+ttxvn_00M#tt huetv_00k7qtruy t172m s161t nh162n 3 garage sale mystery 3_00 ư%travinhtv_00f&Otr186?n chi186?n midway midway_00 ÿ'Qtr186? gi161 no beast so fierce_00 ₫tlc_00;tin n179ng bombshell_00 ü)tiengiangtv_00'thanhhoatv_00N+thainguyentv_00‚'thaibinhtv_001eth187? tr186?n t172nh y170u the bachelors_00 ú2gth187? ph186?m 186?n danh eve of abduction_00 û%Mth186? gi187?i v180 danh anon_00 ù0cth176161ng m186?n vincent loving vincent_00 ø(Steen girl n187?i lo186?n whip it_00 ÷%tayninhtv_00l0ctay ch161i kh180ng tu187?i dirty grandpa_00 öAt187?i ph186?m criminal_003it187?i 129c trong c131n nh160 bad samaritan_002gt187? trong s162u th186?m northern borders_00Ct172m 144176187?c th172 gi187? 144176187?c finders keepers_00=}t162m h187?n ph187? n187? heart & soul (frauenherzen)_00 !sonlatv_00C,[song sinh s161t th187? water & power_00 ñ'soctrangtv_00 
+sctv9_00´
+sctv6_00™
+sctv4_00¶
+sctv2_00Bsctv22_00º
+sctv1_00µsctv17_00·sctv16_00»sctv15_00³sctv14_00¼$Ksau th186?m h187?a aftermath_00 đAs187? ti186?n h179a c187?a t187?i 129c evolution of evil_00 ơ._s187? gi186? t172nh y170u cupids proxy_00 ô?s161ch ma the babadook_00 ̣3is131n ti187?n ki187?u m187? american hustle_00 ó)rfi vietnam_00¦,[ranh gi187?i quy186?n r169 get naked_00 ï(Sranh gi187?i ma qu187? ghostline_00 î(Sranh gi187?i ch186?t point break_00 í3iquy186?t 144187?nh quan tr187?ng the choice_00 ê'quangtritv_00ˆ+quangninhtv3_00m+quangninhtv1_00K)quangngaitv_00o'quangnamtv_008)quangbinhtv_00*Wqu161i v186?t nguy170n sinh primal_00 ë3iqu161i v186?t 144161ng y170u monster and me_00 ́qpvn_00‹qhvn_00®#phuyentv_00H#phuthotv_00“-]phi v187? b186?t th160nh nice package_00 éon air_00¡)ninhthuantv_00u'ninhbinhtv_00v
