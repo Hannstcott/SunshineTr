@@ -1,5 +1,54 @@
 #EXTINF:-1, group-title="VTV" tvg-id="vtv1" tvg-logo="https://vthanh.xyz/ic/1.png" catchup="default" catchup-source="http://20.205.235.23/vtv1/video-${start}-${offset}.m3u8",VTV1 HD
-https://vtvgo-livewebs.vtvdigital.vn/1b466b21a02b81b7c2c713d4faa71ab2/1639497059611/vtv1/vtv1@mid.m3u8|Referer=https://vtvgo.vn/trang-chu.html
 
-#EXTINF:-1, group-title="VTV" tvg-id="vtv1" tvg-logo="https://vthanh.xyz/ic/1.png" catchup="default" catchup-source="http://20.205.235.23/vtv1/video-${start}-${offset}.m3u8",VTV1 HD
+
+
+#EXTINF:-1 group-title="VTVGo" tvg-id="vtv1" tvg-logo="https://vthanh.xyz/ic/1.png" catchup="default" catchup-source="http://20.205.235.23/vtv1/video-${start}-${offset}.m3u8",VTV1 HD
+https://vtvgo-livewebs.vtvdigital.vn/1b466b21a02b81b7c2c713d4faa71ab2/1639497059611/vtv1/vtv1@mid.m3u8|Referer=https://vtvgo.vn/trang-chu.html
+#EXTINF:-1, group-title="VTVGiaiTri" tvg-id="vtv1" tvg-logo="https://vthanh.xyz/ic/1.png" catchup="default" catchup-source="http://20.205.235.23/vtv1/video-${start}-${offset}.m3u8",VTV1 HD
+https://aq6ax61aq.vtvgiaitri.vn/vtv01/vtv01@720p.m3u8|Referer=https://www.vtvgiaitri.vn/xem-tivi-truc-tuyen/vtv1
+
+
+#EXTINF:-1 group-title="VTVGo" tvg-id="vtv2" group-title="VTV" tvg-logo="https://vthanh.xyz/ic/2.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv2_2000.stream/chunks_dvr_range-${start}-${offset}.m3u8", VTV2 HD
+https://vtvgo-livewebs.vtvdigital.vn/347c39d3247e576b0556e67f0bb1ddd1/1639497823487/vtv2/vtv2@mid.m3u8|Referer=https://vtvgo.vn/xem-truc-tuyen-kenh-vtv2-2.html
+#EXTINF:-1 group-title="VTVGiaiTri" tvg-id="vtv2" group-title="VTV" tvg-logo="https://vthanh.xyz/ic/2.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv2_2000.stream/chunks_dvr_range-${start}-${offset}.m3u8", VTV2 HD
+https://aq6ax61aq.vtvgiaitri.vn/vtv02/vtv02@720.m3u8|Referer=https://www.vtvgiaitri.vn/xem-tivi-truc-tuyen/vtv2
+
+#EXTINF:-1 group-title="VTVGo" tvg-id="vtv3" tvg-logo="https://vthanh.xyz/ic/3.png" catchup="default" catchup-source="http://20.205.235.23/vtv3/video-${start}-${offset}.m3u8",VTV3 HD
+https://vtvgo-livewebs.vtvdigital.vn/b36ccb6459ce49d7919298e645bcedf4/1639497962529/vtv3/index.m3u8|Referer=https://vtvgo.vn/xem-truc-tuyen-kenh-vtv3-3.html
+#EXTINF:-1 group-title="VTVGiaiTri" tvg-id="vtv3" tvg-logo="https://vthanh.xyz/ic/3.png" catchup="default" catchup-source="http://20.205.235.23/vtv3/video-${start}-${offset}.m3u8",VTV3 HD
 https://aq6ax61aq.vtvgiaitri.vn/vtv03/vtv03@360p.m3u8|Referer=https://www.vtvgiaitri.vn/xem-tivi-truc-tuyen/vtv3
+
+#EXTINF:-1 group-title="VTVGo" tvg-id="vtv4" tvg-logo="https://vthanh.xyz/ic/4.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv4_2000.stream/chunks_dvr_range-${start}-${offset}.m3u8", VTV4 HD
+https://vtvgo-livewebs.vtvdigital.vn/d698a13d20c29d9ba182182260d09a1e/1639498165686/vtv4/index.m3u8|Referer=https://vtvgo.vn/xem-truc-tuyen-kenh-vtv4-4.html
+#EXTINF:-1 group-title="VTVGiaiTri" tvg-id="vtv4" tvg-logo="https://vthanh.xyz/ic/4.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv4_2000.stream/chunks_dvr_range-${start}-${offset}.m3u8", VTV4 HD
+https://aq6ax61aq.vtvgiaitri.vn/vtv04/vtv04@720p.m3u8|Referer=https://www.vtvgiaitri.vn/xem-tivi-truc-tuyen/vtv4
+
+#EXTINF:-1 group-title="VTVGo" tvg-id="vtv5hd" tvg-name="vtv5hd" tvg-logo="https://vthanh.xyz/ic/5.png",VTV5 HD
+https://vtvgo-livewebs.vtvdigital.vn/46157831781e2c5ff4d8c52e46dec9c3/1639498248992/vtv5/index.m3u8|Referer=https://vtvgo.vn/xem-truc-tuyen-kenh-vtv5-5.html
+#EXTINF:-1 group-title="VTVGiaiTri" tvg-id="vtv5hd" tvg-name="vtv5hd" tvg-logo="https://vthanh.xyz/ic/5.png",VTV5 HD
+https://aq6ax61aq.vtvgiaitri.vn/vtv05/vtv05@720p.m3u8|Referer=https://www.vtvgiaitri.vn/xem-tivi-truc-tuyen/vtv5
+
+#EXTINF:-1 group-title="VTVGo" tvg-id="vtv5hdtnb" tvg-logo="https://vthanh.xyz/ic/6.png", VTV5 HD Tây Nam Bộ
+https://vtvgo-livewebs.vtvdigital.vn/d03ddbe42a1e4443990ba67d569ebab7/1639498340048/vtv5tnb/index.m3u8|Referer=https://vtvgo.vn/xem-truc-tuyen-kenh-vtv5-t%C3%A2y-nam-b%E1%BB%99-7.html
+#EXTINF:-1 group-title="VTVGo" tvg-id="vtv5hdtn" tvg-logo="https://vthanh.xyz/ic/7.png", VTV5 Tây Nguyên
+https://vtvgo-livewebs.vtvdigital.vn/4a20dbc5c64eaf52cea4cf04e4074515/1639498383930/vtv5tn/index.m3u8|Referer=https://vtvgo.vn/xem-truc-tuyen-kenh-k%C3%AAnh-vtv5-t%C3%A2y-nguy%C3%AAn-163.html
+
+#EXTINF:-1 group-title="VTVGo" tvg-id="vtv6hd" tvg-logo="https://vthanh.xyz/ic/8.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv6hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8", VTV6 HD
+https://vtvgo-livewebs.vtvdigital.vn/84b6a6efa22b2c4f8d6ddeed4972da21/1639498287188/vtv6/index.m3u8|Referer=https://vtvgo.vn/xem-truc-tuyen-kenh-vtv6-6.html
+#EXTINF:-1 group-title="VTVGiaiTri" tvg-id="vtv6hd" tvg-logo="https://vthanh.xyz/ic/8.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv6hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8", VTV6 HD
+https://aq6ax61aq.vtvgiaitri.vn/vtv06/vtv06@720p.m3u8|Referer=https://www.vtvgiaitri.vn/xem-tivi-truc-tuyen/vtv6
+
+#EXTINF:-1 group-title="VTVGo" tvg-id="vtv7hd" tvg-logo="https://vthanh.xyz/ic/9.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv7hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8", VTV7 HD
+https://vtvgo-livewebs.vtvdigital.vn/96e22bc3462804503fadcab8933681be/1639498436522/vtv7/index.m3u8|Referer=https://vtvgo.vn/xem-truc-tuyen-kenh-vtv7-27.html
+#EXTINF:-1 group-title="VTVGiaiTri" tvg-id="vtv7hd" tvg-logo="https://vthanh.xyz/ic/9.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv7hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8", VTV7 HD
+https://aq6ax61aq.vtvgiaitri.vn/vtv07/vtv07@720p.m3u8|Referer=https://www.vtvgiaitri.vn/xem-tivi-truc-tuyen/vtv7
+
+#EXTINF:-1 group-title="VTVGo" tvg-id="vtv8hd" tvg-logo="https://vthanh.xyz/ic/10.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv8hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8", VTV8 HD
+https://vtvgo-livewebs.vtvdigital.vn/ca4e97a298cb4318eb89241cca263fa7/1639498519757/vtv8/index.m3u8|Referer=https://vtvgo.vn/xem-truc-tuyen-kenh-vtv8-36.html
+#EXTINF:-1 group-title="VTVGiaiTri" tvg-id="vtv8hd" tvg-logo="https://vthanh.xyz/ic/10.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv8hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8", VTV8 HD
+https://aq6ax61aq.vtvgiaitri.vn/vtv08/vtv08@720p.m3u8|Referer=https://www.vtvgiaitri.vn/xem-tivi-truc-tuyen/vtv8
+
+#EXTINF:-1 group-title="VTVGo" tvg-id="vtv9hd" tvg-logo="https://vthanh.xyz/ic/11.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv9_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8", VTV9 HD
+https://vtvgo-livewebs.vtvdigital.vn/c7bdbe94922e7877e3db8b8e99564100/1639498611455/vtv9/index.m3u8|Referer=https://vtvgo.vn/xem-truc-tuyen-kenh-vtv9-39.html
+#EXTINF:-1 group-title="VTVGiaiTri" tvg-id="vtv9hd" tvg-logo="https://vthanh.xyz/ic/11.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv9_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8", VTV9 HD
+https://aq6ax61aq.vtvgiaitri.vn/vtv09/vtv09@830p.m3u8|Referer=https://www.vtvgiaitri.vn/xem-tivi-truc-tuyen/vtv9
