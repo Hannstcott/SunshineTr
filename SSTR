@@ -1,4 +1,18 @@
-#EXTM3U url-tvg="http://trada.info/epg.xml" tvg-shift=0 m3uautoload=0
+#EXTM3U url-tvg="http://onetv.click/schedule/epg.xml" url-tvg="http://megavie.live/schedule/epg.xml" url-tvg="http://bit.ly/guidevn" url-tvg="http://trada.info/epg.xml" catchup="append" catchup-days="3" catchup-source="&offset=-${offset}&utcstart=${timestamp}" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=1
+#EXTM3U url-tvg="http://trada.info/epg.xml" tvg-shift=0 m3uautoload=1
+#EXTM3U url-tvg="https://manhkendo.000webhostapp.com/epgvn/lichtv/homnay.xml" tvg-shift=0 m3uautoload=1
+#EXTM3U url-tvg="http://gg.gg/guidevn" cache=500 deinterlace=1 aspect-ratio=16:9 tvg-link="http://onetv.click/schedule/epg.xml" refresh="3600" tvg-shift=0 m3uautoload=1
+#EXTM3U url-tvg="http://gg.gg/epgbeartv" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=3
+#EXTM3U url-tvg="http://gg.gg/epgmytv" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=4
+#EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=5
+#EXTM3U url-tvg="http://megavie.live/schedule/epg.xml" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=6
+#EXTM3U url-tvg="http://gg.gg/coodertvepg" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=7
+#EXTM3U url-tvg="https://manhkendo.000webhostapp.com/epgvn/lichtv/homnay.xml" tvg-shift=0 m3uautoload=8
+#EXTM3U url-tvg="http://gg.gg/fptepg" tvg-shift=0 m3uautoload=9
+
+
+#################################____________________VTV_________________________#################################
+
 
 
 #EXTINF:-1, tvg-id="vtv1hd" group-title="VTVGo" tvg-logo="https://vthanh.xyz/ic/1.png" catchup="default" catchup-source="https://vtvgo-livewebs.vtvdigital.vn/1b466b21a02b81b7c2c713d4faa71ab2/1639497059611/vtv1/vtv1@mid-${start}-${offset}.m3u8",VTV1 HD
@@ -101,7 +115,11 @@ https://vtvnews-livevtv.vtvdigital.vn/bd2ea889eead8dde84b743d49697994c/163950005
 
 
 
-# VTC #
+###################################________________________________VTC________________________________######################################
+
+
+
+
 #EXTINF:-1, tvg-id="vtc1hd" group-title="VTC" tvg-logo="https://s3.amazonaws.com/studiopro-app-vtc/assets/images/vtc1_thumbnail.jpg" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtc1_1500.stream/chunks_dvr_range-${start}-10800.m3u8",VTC1
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 https://vcdn2.vtc.gov.vn:8443/encrypt/vtc1_sd.smil/playlist.m3u8|Referer=https://portal.vtc.gov.vn/live
