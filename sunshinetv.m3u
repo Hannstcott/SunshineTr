@@ -129,9 +129,9 @@ https://mutixx5hq1liv.akamaized.net/vtv5tn/vtv5tn@720p.m3u8
 
 #EXTINF:-1 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://vthanh.xyz/ic/8.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv6hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8", VTV6 HD
 #EXTVLCOPT:http-user-agent=VThanhTivi
-https://kcdn-livesport.vtvgiaitri.vn/vtvlivesport/vtv6_720/index.m3u8
+https://livecdn.fptplay.net/hda1/vtv6hd_vhls.smil/chunklist_b5000000.m3u8
+#https://kcdn-livesport.vtvgiaitri.vn/vtvlivesport/vtv6_720/index.m3u8
 #http://drfamaga5qliv.vcdn.cloud/vtv06/vtv06@1080p.m3u8
-#https://livecdn.fptplay.net/hda1/vtv6hd_vhls.smil/chunklist_b5000000.m3u8
 #http://34.87.8.82:9981/stream/channelid/338151465?profile=pass
 #http://34.87.8.82/VTV6/mpegts
 #http://34.150.29.152/VTV6/mpegts
