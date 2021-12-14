@@ -1,2 +1,5 @@
 #EXTINF:-1, group-title="VTV" tvg-id="vtv1" tvg-logo="https://vthanh.xyz/ic/1.png" catchup="default" catchup-source="http://20.205.235.23/vtv1/video-${start}-${offset}.m3u8",VTV1 HD
 https://vtvgo-livewebs.vtvdigital.vn/1b466b21a02b81b7c2c713d4faa71ab2/1639497059611/vtv1/vtv1@mid.m3u8|Referer=https://vtvgo.vn/trang-chu.html
+
+#EXTINF:-1, group-title="VTV" tvg-id="vtv1" tvg-logo="https://vthanh.xyz/ic/1.png" catchup="default" catchup-source="http://20.205.235.23/vtv1/video-${start}-${offset}.m3u8",VTV1 HD
+https://aq6ax61aq.vtvgiaitri.vn/vtv03/vtv03@360p.m3u8|Referer=https://www.vtvgiaitri.vn/xem-tivi-truc-tuyen/vtv3
