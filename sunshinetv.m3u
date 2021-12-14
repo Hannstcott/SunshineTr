@@ -298,11 +298,14 @@ https://livecdn.fptplay.net/sdb/htvcthethao_hls.smil/chunklist_b1200000.m3u8
 #http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HTV-THETHAO-HD-1080p/playlist.m3u8
 #https://live-vthcm.vieon.vn/htv_drm/live/htv_the_thao/TV_HD/htv_the_thao_1080p/chunks.m3u8
 
-#EXTINF:0 tvg-id="htvc_coop" group-title="HTV" tvg-logo="https://img.hplus.com.vn/355x200/poster/2018/06/05/402721-HTVCoop.png",HTV Co.op
+#EXTINF:0 tvg-id="htvccoop" group-title="HTV" tvg-logo="https://img.hplus.com.vn/355x200/poster/2018/06/05/402721-HTVCoop.png",HTV Co.op
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HTVCOOP-SD-ABR/HTV-ABR/HTVCOOP-SD-720p/chunks.m3u8
 
-#EXTINF: -1 tvg-id = "htvc_thuan_viet" group-title = "HTV" tvg-logo = "https://img.hplus.com.vn/355x200/poster/2018/06/05/136820-ThuanVietHD1.png" tvg-chno = "37" bắt kịp = "append" catchup-days = "0.3" catchup-source = "https://htvc271120.cdn.vnns.io/385dda608e5878fb7e62cb10efbc547e1632554064/thuanviet.cat.720p.tms/chunks_dvr_range-${start}-900.m3u8",HTVC - Thuần Việt
+#EXTINF:-1 tvg-id="htvcthuanviet" tvg-logo="https://img.hplus.com.vn/355x200/poster/2018/06/05/504279-ThuanViet.png" group-title="HTV",HTVC - Thuần Việt
+https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HTVC-THUANVIET-HD-1080p/playlist.m3u8
+
+#EXTINF: -1 tvg-id = "htvcthuanviethd" group-title = "HTV" tvg-logo = "https://img.hplus.com.vn/355x200/poster/2018/06/05/136820-ThuanVietHD1.png" tvg-chno = "37" bắt kịp = "append" catchup-days = "0.3" catchup-source = "https://htvc271120.cdn.vnns.io/385dda608e5878fb7e62cb10efbc547e1632554064/thuanviet.cat.720p.tms/chunks_dvr_range-${start}-900.m3u8",HTVC - Thuần Việt HD
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HTVC-THUANVIETHD-HD-1080p/chunks.m3u8
 #https://live-vthcm.vieon.vn/htv_drm/live/htvc_thuan_viet/TV_HD/htvc_thuan_viet_1080p/chunks.m3u8
