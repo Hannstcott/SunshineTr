@@ -113,7 +113,7 @@ http://drfamaga5qliv.vcdn.cloud/vtv04/vtv04@1080p.m3u8
 #https://kcdn-livestream.vtvgiaitri.vn/vtvgtlivestream/vtv4_720/index.m3u8
 #https://livecdn.fptplay.net/hda1/vtv4_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 group-title="VTV" tvg-id="vtv5hd" tvg-name="vtv5hd" tvg-logo="https://vthanh.xyz/ic/5.png",VTV5 HD
+#EXTINF:-1 group-title="VTV" tvg-id="vtv5hd" tvg-name="vtv5hd" tvg-logo="https://vthanh.xyz/ic/5.png" catchup="append" catchup-days="0.3" catchup-source="https://vtvgo-livewebs.vtvdigital.vn/46157831781e2c5ff4d8c52e46dec9c3/1639498248992/vtv5/index,VTV5 HD
 https://vips-livecdn.fptplay.net/hda2/vtv5hd_vhls.smil/playlist.m3u8?bycoca
 #https://vtvnews-livevtv.vtvdigital.vn/1e12ae5eeedc544b1288f78ec1b65850/1636642155038/vtv5/index.m3u8
 #https://kcdn-livesport.vtvgiaitri.vn/vtvlivesport/vtv5_720/index.m3u8
