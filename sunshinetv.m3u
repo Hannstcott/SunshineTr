@@ -1,4 +1,6 @@
-#EXTM3U url-tvg="http://onetv.click/schedule/epg.xml" catchup="append" catchup-days="3" catchup-source="&offset=-${offset}&utcstart=${timestamp}" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=1
+#EXTM3U url-tvg="http://onetv.click/schedule/epg.xml" url-tvg="http://megavie.live/schedule/epg.xml" url-tvg="http://bit.ly/guidevn" url-tvg="http://trada.info/epg.xml" catchup="append" catchup-days="3" catchup-source="&offset=-${offset}&utcstart=${timestamp}" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=1
+#EXTM3U url-tvg="https://manhkendo.000webhostapp.com/epgvn/lichtv/homnay.xml" tvg-shift=0 m3uautoload=1
+#EXTM3U url-tvg="http://gg.gg/guidevn" cache=500 deinterlace=1 aspect-ratio=16:9 tvg-link="http://gg.gg/epgvn03" refresh="3600" tvg-shift=0 m3uautoload=1
 #EXTM3U url-tvg="http://bit.ly/guidevn" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=2
 #EXTM3U url-tvg="http://gg.gg/epgbeartv" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=3
 #EXTM3U url-tvg="http://gg.gg/epgmytv" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=4
@@ -12,7 +14,7 @@
 
 
 
-#EXTINF:-1 tvg-id="kcinehd" logo="https://img.kplus.vn/media/channels/sg/channelicons/KCINE.png" group-title="🍭| K+"  tvg-chno="996",K+ CINE HD
+#EXTINF:-1 tvg-id="kcinehd" logo="https://img.kplus.vn/media/channels/sg/channelicons/KCINE.png" group-title="🍭| K+"  tvg-chno="996",K+Cine HD
 #https://loop-hottest-1.roku.wurl.com/manifest/playlist.m3u8
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -23,7 +25,7 @@
 https://22live00.akamaized.net:443/RMC_Sports_1/tracks-v1a1/mono.m3u8?token=JP9cDQmTumfCYDAB1GhETAZf3praOFYNmR%2BnveVZ3GgOUZKCkHEq%2Bw0vzgVHDh48ii7TpTeyk75tQHLRJyc1tNBKUn2hJlTJmadUzm47j0d7XRSnJpbnGF1%2BgUOKINtrqN5tzFTtw7lsoVxtXOf8jUhpJrmQDSwrd2xBc5ePUx366kpr8DeDFL5w24DEciNlol4TVI%2BDqbsgKZwrIcFYcsnw%3D%3D
 #https://ottlivevng.kplus.vn/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/prod_kplus_1_hd_fps.mpd
 
-#EXTINF:-1 tvg-id="klifehd"  logo="https://img.kplus.vn/media/channels/sg/channelicons/KLIFE.png"  group-title="🍭| K+" tvg-chno="997",K+ LIFE HD
+#EXTINF:-1 tvg-id="klifehd"  logo="https://img.kplus.vn/media/channels/sg/channelicons/KLIFE.png"  group-title="🍭| K+" tvg-chno="997",K+Life HD
 #https://livevideo01.wkyc.com/hls/live/2015504/newscasts/live.m3u8
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -43,7 +45,7 @@ https://ottlivevng.kplus.vn/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/
 https://ottlivevng.kplus.vn/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/prod_kplus_pm_hd_fps.mpd
 #https://live.vegacdn.kplus.vn/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/prod_kplus_pm_hd_fps.mpd
 
-#EXTINF:-1 tvg-id="ksport2hd" logo="https://img.kplus.vn/media/channels/sg/channelicons/KSPORT2.png" group-title="🍭| K+" tvg-chno="998",K+ SPORT2 HD
+#EXTINF:-1 tvg-id="ksport2hd" logo="https://img.kplus.vn/media/channels/sg/channelicons/KSPORT2.png" group-title="🍭| K+" tvg-chno="998",K+Sport2 HD
 #http://93.157.62.180:80/KSport2/tracks-v1a1/mono.m3u8	
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -53,7 +55,7 @@ https://ottlivevng.kplus.vn/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/
 #KODIACEBALANCE:Yes-Right
 https://ottlivevng.kplus.vn/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/prod_kplus_pc_hd_fps.mpd
 
-#EXTINF:-1 tvg-id="kkidshd" tvg-name="K Cộng  Kids" tvg-logo="https://img.kplus.vn/media/channels/sg/channelicons/KKIDS.png" group-title="🍭| K+",K+ KIDS HD
+#EXTINF:-1 tvg-id="kkidshd" tvg-name="K Cộng  Kids" tvg-logo="https://img.kplus.vn/media/channels/sg/channelicons/KKIDS.png" group-title="🍭| K+",K+Kids HD
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #PHAPTX5SONY|Accept-Language=vi&Content-Type=application%2Foctet-stream&Host=kplus.live.ott.irdeto.com&Origin=https%3A%2F%2Fxem.kplus.vn&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F92.0.4515.159+Safari%2F537.36|R{{SSM}}
@@ -189,7 +191,7 @@ https://vtc130121.cdn.vnns.io/VTC5/playlist.m3u8
 https://vips-livecdn.fptplay.net/sdb/vtc6_hls.smil/chunklist_b2500000.m3u8
 #https://vtc130121.cdn.vnns.io/VTC6/playlist.m3u8
 
-#EXTINF:-1, tvg-id="vtc7hd"  catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtc7_1000.stream/chunks_dvr_range-${start}-10800.m3u8" group-title="VTC" tvg-logo="https://s3.amazonaws.com/studiopro-app-vtc/assets/images/vtc7_thumbnail.jpg",VTC7 - TodayTV
+#EXTINF:-1, tvg-id="vtc7hd"  catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtc7_1000.stream/chunks_dvr_range-${start}-10800.m3u8" group-title="VTC" tvg-logo="https://s3.amazonaws.com/studiopro-app-vtc/assets/images/vtc7_thumbnail.jpg",VTC7 HD - Today TV
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 https://vips-livecdn.fptplay.net/sdb/todaytv_hls.smil/chunklist_b2500000.m3u8
 #https://vtc130121.cdn.vnns.io/VTC7/playlist.m3u8
