@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://gg.gg/epgbeartv" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=0
+#EXTM3U url-tvg="http://trada.info/epg.xml" tvg-shift=0 m3uautoload=1
 
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTVGo" tvg-logo="https://vthanh.xyz/ic/1.png" catchup="default" catchup-source="https://vtvgo-livewebs.vtvdigital.vn/1b466b21a02b81b7c2c713d4faa71ab2/1639497059611/vtv1/vtv1@mid-${start}-${offset}.m3u8",VTV1 HD
@@ -246,7 +246,7 @@ https://e1.endpoint.cdn.sctvonline.vn/secure/sctv14/sd1/index.m3u8?md5=bs-8dgbSH
 #EXTINF:-1 tvg-id="sctv15hd" group-title="SCTV" tvg-logo="https://vthanh.xyz/ic/81.png" catchup="append" catchup-days="0.3" catchup-source="https://e1.endpoint.cdn.sctvonline.vn/hls/sctv15/sd2/index-${start}-${offset}.m3u8",SCTV15 - S Sport2
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 https://e1.endpoint.cdn.sctvonline.vn/hls/sctv15/sd2/index.m3u8|https://sctvonline.vn/detail/sctv15-4aec9a9f
-#http://vthanh.me/sctv.m3u8?pass=vienthi&id=sctv15|Referer=http://sctvonline.vn/
+
 
 #EXTINF:-1 tvg-id="sctv16hd" group-title="SCTV" tvg-logo="https://vthanh.xyz/ic/82.png",SCTV16 - Phim Nước Ngoài Đặc Sắc
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
