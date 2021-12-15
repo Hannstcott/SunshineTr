@@ -426,7 +426,8 @@ https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab17/index.m3u8|Referer=http://sct
 
 #EXTINF:-1, tvg-id="vtvcab18hd" group-title="VTVcab" tvg-logo="https://assets-vtvcab.gviet.vn/images/hq/posters/TTTT_Logo_update_150x902.jpg",VTVcab18 - ON SPORTS NEWS HD
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab18/sd1/index.m3u8|Referer=http://sctvonline.vn
+http://thanh.ddns.net:4026/rtp/232.84.2.193:10942
+#https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab18/sd1/index.m3u8|Referer=http://sctvonline.vn
 
 
 #EXTINF:-1 tvg-id="vtvcab19hd" group-title="VTVcab" tvg-logo="https://vthanh.xyz/ic/29.png",VTVcab19 - Vie Dramas
@@ -623,13 +624,13 @@ https://e2.endpoint.cdn.sctvonline.vn/secure/btv5/sd1/index.m3u8?md5=TIpsMcUws2B
 
 #KÊNH ĐỊA PHƯƠNG #
 
-#EXTINF:-1 tvg-id="vinhlong1hd" tvg-logo="https://mytv.com.vn/upload/channel/24.png" group-title="KÊNH ĐỊA PHƯƠNG" catchup="append" catchup-days="0.3" catchup-source="https://live1.thvli.vn/-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmkiOiIvdGh2bDEtNzIwcCIsImV4cCI6MTYzMTg5NzI0MH0.uNJPhwOve1YdUwz6m4RPhE8_tml5LpFPnDz46kTDvBw-/thvl1-720p/chunks_dvr_range-${start}-2760.m3u8" ,THVL1 HD
+#EXTINF:-1 tvg-id="vinhlong1hd" tvg-logo="https://mytv.com.vn/upload/channel/24.png" group-title="KÊNH ĐỊA PHƯƠNG" catchup="append" catchup-days="0.3" catchup-source="https://live2.thvli.vn/HehRLIm0qBnzWYBm0rIZKA/1639569649/thvli/thvl1-abr/thvl111220/thvl1-720p/chunks-${start}-2760.m3u8",THVL1 HD
 https://livecdn.fptplay.net/hda1/vinhlong1_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="vinhlong2hd" tvg-logo="https://mytv.com.vn/upload/channel/28.png" group-title="KÊNH ĐỊA PHƯƠNG" catchup="append" catchup-days="0.3" catchup-source="https://live1.thvli.vn/-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmkiOiIvdGh2bDItNzIwcCIsImV4cCI6MTYzMTg5NzUwOX0.H-0qQ0vi85SUOJpX-gbTTUijHvcEHbGhEmBMfIFZqnE-/thvl2-720p/playlist_dvr_range-${start}-2700.m3u8" ,THVL2 HD 
+#EXTINF:-1 tvg-id="vinhlong2hd" tvg-logo="https://mytv.com.vn/upload/channel/28.png" group-title="KÊNH ĐỊA PHƯƠNG" catchup="append" catchup-days="0.3" catchup-source="https://live2.thvli.vn/6uoTmdw5t9iYkBNPS31_Ig/1639569814/thvli/thvl2-abr/thvl111220/thvl2-720p/chunks-${start}-2700.m3u8",THVL2 HD 
 https://livecdn.fptplay.net/hda2/vinhlong2_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="vinhlong3hd" tvg-logo="https://mytv.com.vn/upload/channel/29.png" group-title="KÊNH ĐỊA PHƯƠNG" catchup="append" catchup-days="0.3" catchup-source="https://live1.thvli.vn/-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmkiOiIvdGh2bDMtNzIwcCIsImV4cCI6MTYzMTg5ODAxOH0.3sjlofVodMaFu-ZwLIUvTD-eZhMZvdoTD5IGLxoDlZ8-/thvl3-720p/playlist_dvr_range-${start}-2699.m3u8" ,THVL3 HD
+#EXTINF:-1 tvg-id="vinhlong3hd" tvg-logo="https://mytv.com.vn/upload/channel/29.png" group-title="KÊNH ĐỊA PHƯƠNG" catchup="append" catchup-days="0.3" catchup-source="https://live2.thvli.vn/J26lsLnZSCTthJHGmo96CQ/1639569826/thvli/thvl3-abr/thvl111220/thvl3-720p/chunks-${start}-2699.m3u8",THVL3 HD
 https://livecdn.fptplay.net/hda2/vinhlong3_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="vinhlong4hd" tvg-logo="https://mytv.com.vn/upload/channel/57.png" group-title="KÊNH ĐỊA PHƯƠNG" catchup="append" catchup-days="0.3" catchup-source="https://live1.thvli.vn/-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmkiOiIvdGh2bDQtNzIwcCIsImV4cCI6MTYzMTg5ODA0OH0.ZVpAeEqyRh1eIv9w1l8gTU46FbbbcE6U9zGtS07xizo-/thvl4-720p/playlist_dvr_range-${start}-1138.m3u8" ,THVL4 HD
+#EXTINF:-1 tvg-id="vinhlong4hd" tvg-logo="https://mytv.com.vn/upload/channel/57.png" group-title="KÊNH ĐỊA PHƯƠNG" catchup="append" catchup-days="0.3" catchup-source="https://live2.thvli.vn/SqmJ856hKoKBlFaM-uvTWg/1639569923/thvli/thvl4-abr/thvl111220/thvl4-720p/chunks-${start}-1138.m3u8",THVL4 HD
 https://livecdn.fptplay.net/hda3/vinhlong4hd_vhls.smil/chunklist_b2500000.m3u8
 
 #EXTINF:-1 tvg-id="angiang" group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://vthanh.xyz/ic/108.png", An Giang HD
