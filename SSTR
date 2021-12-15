@@ -266,7 +266,7 @@ https://sgn-vtt-001-livecdn-vthn-vnd.vieon.vn/27df60f1b64dcf1c7685b64e80d47d19/1
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 https://vips-livecdn.fptplay.net/hda1/vtc13_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="vtc13hd" group-title="VTC" tvg-logo="https://portal.vtc.gov.vn/site/img/vtc4k_thumbnail.jpg" type="stream",VTC13 4K
+#EXTINF:-1, tvg-id="vtc13hd" group-title="VTC" tvg-logo="https://portal.vtc.gov.vn/site/img/vtc4k_thumbnail.jpg" type="stream",VTC13 4K
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #http://vcdn1.vtc.gov.vn/m_4k/smil:4k.smil/playlist.m3u8|Referer=https://portal.vtc.gov.vn/live
 
@@ -289,7 +289,7 @@ https://vips-livecdn.fptplay.net/sdb/vtc16_hls.smil/chunklist_b2500000.m3u8
 
 #EXTINF:-1 tvg-id="netviet" tvg-logo="https://i.imgur.com/piGd6X0.jpg" group-title="VTC", NETVIET
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-https://vcdn2.vtc.gov.vn:8443/encrypt/netviet_720p/playlist.m3u8|Referer=https://portal.vtc.gov.vn/live
+https://vcdn2.vtc.gov.vn/encrypt/netviet_720p/playlist.m3u8|Referer=https://portal.vtc.gov.vn/live
 
 
 SCTV
