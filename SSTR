@@ -627,6 +627,8 @@ https://livecdn.fptplay.net/sdb/vtvhyundai_hls.smil/chunklist_b2500000.m3u8
 
 #EXTINF:-1  tvg-name="vtvcab14" group-title="VTVcab" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/VTVCab14%20-%20VShopping.png",VTVCab14 - V Shopping - SCTV
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+https://r5yqppqecmliv.vcdn.cloud/manifest/vtvcab14/master.m3u8
+https://r5yqppqecmliv.vcdn.cloud/manifest/vtvcab14/playlist_540p.m3u8|Referer=https://www.vtvcab.vn/channel/vtvcab14-1,VTVcab14_SD.html
 https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab14/index.m3u8|Referer=http://sctvonline.vn/
 
 #EXTINF:-1, tvg-id="vtvcab15hd" group-title="VTVcab" tvg-logo="https://i.ibb.co/LnN87hc/VTVCAB15-BEARTV.png",VTVcab15 - UM channel - SCTV
