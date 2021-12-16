@@ -1,7 +1,8 @@
-#EXTM3U url-tvg="http://onetv.click/schedule/epg.xml" url-tvg="http://megavie.live/schedule/epg.xml" url-tvg="http://bit.ly/guidevn" url-tvg="http://trada.info/epg.xml" catchup="append" catchup-days="3" catchup-source="&offset=-${offset}&utcstart=${timestamp}" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=1
-#EXTM3U url-tvg="http://trada.info/epg.xml" tvg-shift=0 m3uautoload=1
-#EXTM3U url-tvg="https://manhkendo.000webhostapp.com/epgvn/lichtv/homnay.xml" tvg-shift=0 m3uautoload=1
-#EXTM3U url-tvg="http://gg.gg/guidevn" cache=500 deinterlace=1 aspect-ratio=16:9 tvg-link="http://onetv.click/schedule/epg.xml" refresh="3600" tvg-shift=0 m3uautoload=1
+#EXTM3U url-tvg="http://trada.info/epg.xml" catchup="append" catchup-days="3" catchup-source="&offset=-${offset}&utcstart=${timestamp}" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=0
+#EXTM3U url-tvg="http://onetv.click/schedule/epg.xml"tvg-shift=0 m3uautoload=0
+#EXTM3U url-tvg="https://manhkendo.000webhostapp.com/epgvn/lichtv/homnay.xml" tvg-shift=0 m3uautoload=0
+#EXTM3U url-tvg="http://megavie.live/schedule/epg.xml" deinterlace=0
+#EXTM3U url-tvg="http://gg.gg/guidevn" cache=500 deinterlace=1 aspect-ratio=16:9 tvg-shift=0 m3uautoload=1
 #EXTM3U url-tvg="http://gg.gg/epgbeartv" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=3
 #EXTM3U url-tvg="http://gg.gg/epgmytv" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=4
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=5
@@ -35,15 +36,15 @@ http://drfamaga5qliv.vcdn.cloud/vtv02/vtv02@1080p.m3u8
 #EXTINF:-1 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://vthanh.xyz/ic/2.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv2_2000.stream/chunks_dvr_range-${start}-${offset}.m3u8", VTV2 HD - Vieon
 https://8387e1fb5a.vws.vegacdn.vn/live/vtv2/chunklist_1.m3u8
 
-#EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://vthanh.xyz/ic/3.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv3hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8",VTV3 HD - FPT
+#EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://vthanh.xyz/ic/3.png" catchup="append" catchup-source="http://103.169.34.59:81/vtv3/video-${start}-${offset}.m3u8",VTV3 HD - FPT
 https://vips-livecdn.fptplay.net/hda1/vtv3hd_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://vthanh.xyz/ic/3.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv3hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8",VTV3 HD - SCTV
+#EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://vthanh.xyz/ic/3.png" catchup="append" catchup-source="http://103.169.34.59:81/vtv3/video-${start}-${offset}.m3u8",VTV3 HD - SCTV
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtv3/sd1/index.m3u8|Referer=https://sctvonline.vn/detail/vtv3-hd-d605e3bf
-#EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://vthanh.xyz/ic/3.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv3hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8",VTV3 HD - GiaiTri
+#EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://vthanh.xyz/ic/3.png" catchup="append" catchup-source="http://103.169.34.59:81/vtv3/video-${start}-${offset}.m3u8",VTV3 HD - GiaiTri
 https://aq6ax61aq.vtvgiaitri.vn/vtv03/vtv03@360p.m3u8|Referer=https://www.vtvgiaitri.vn/xem-tivi-truc-tuyen/vtv3
-#EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://vthanh.xyz/ic/3.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv3hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8",VTV3 HD - Other
+#EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://vthanh.xyz/ic/3.png" catchup="append" catchup-source="http://103.169.34.59:81/vtv3/video-${start}-${offset}.m3u8",VTV3 HD - Other
 http://drfamaga5qliv.vcdn.cloud/vtv03/vtv03@1080p.m3u8
-#EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://vthanh.xyz/ic/3.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv3hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8",VTV3 HD - Vieon
+#EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://vthanh.xyz/ic/3.png" catchup="append" catchup-source="http://103.169.34.59:81/vtv3/video-${start}-${offset}.m3u8",VTV3 HD - Vieon
 https://8387e1fb5a.vws.vegacdn.vn/live/vtv3/chunklist_2.m3u8
 
 #EXTINF:-1 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://vthanh.xyz/ic/4.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv4_2000.stream/chunks_dvr_range-${start}-${offset}.m3u8", VTV4 HD - FPT
