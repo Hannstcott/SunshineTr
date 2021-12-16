@@ -460,10 +460,10 @@ https://8387f03af3.vws.vegacdn.vn/live/htv-thethao/chunklist_2.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HTVCOOP-SD-ABR/HTV-ABR/HTVCOOP-SD-720p/playlist.m3u8
 
-#EXTINF:-1, tvg-id="htvcthuanviet" group-title="HTV tvg-logo="https://img.hplus.com.vn/355x200/poster/2018/06/05/504279-ThuanViet.png",HTVC - Thuần Việt - FPT
+#EXTINF:-1, tvg-id="htvcthuanviet" group-title="HTV" tvg-logo="https://img.hplus.com.vn/355x200/poster/2018/06/05/504279-ThuanViet.png",HTVC - Thuần Việt - FPT
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-https://livecdn.fptplay.net/hda/htvcthuanviet_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1, tvg-id="htvcthuanviet" group-title="HTV tvg-logo="https://img.hplus.com.vn/355x200/poster/2018/06/05/504279-ThuanViet.png",HTVC - Thuần Việt - HTV
+https://livecdn.fptplay.net/hda/htvcthuanvietsd_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1, tvg-id="htvcthuanviet" group-title="HTV" tvg-logo="https://img.hplus.com.vn/355x200/poster/2018/06/05/504279-ThuanViet.png",HTVC - Thuần Việt - HTV
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HTVC-THUANVIET-HD-1080p/playlist.m3u8
 
