@@ -19,11 +19,6 @@
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CB5FCF3BAD6F1844&Ticket=C0E743A782EB7132
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/prod_kplus_1_hd_fps.mpd
-#EXTINF:-1 tvg-id="kcinehd" group-title="🍭| K+" logo="https://img.kplus.vn/media/channels/sg/channelicons/KCINE.png",K+ Cine - Aka
-#KODIPROP: inputstream.adaptive.manifest_type = mpd
-#KODIPROP: inputstream.adaptive.license_type = com.widevine.alpha
-#KODIPROP: inputstream.adaptive.license_key = https: //kplus.live.ott.irdeto.com/Widevine/GetLicense? CrmId = kplus & AccountId = kplus & ContentId = 400000015 & SessionId = B3A30136DB4CCE5E & Ticket = 8B2100 -stream & Host = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}} | Accept-Language = vi & Content-Type = application% 2Foctet- stream & Host = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit % 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
-https://kpluslive.akamaized.net/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/prod_kplus_1_hd_fps.mpd
 
 #EXTINF:-1 tvg-id="klifehd" group-title="🍭| K+" logo="https://img.kplus.vn/media/channels/sg/channelicons/KLIFE.png",K+ Life - OTT
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -31,17 +26,14 @@ https://kpluslive.akamaized.net/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.ism
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CB5FCF3BAD6F1844&Ticket=C0E743A782EB7132
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/prod_kplus_ns_hd_fps.mpd
-#EXTINF:-1 tvg-id="klifehd" group-title="🍭| K+" logo="https://img.kplus.vn/media/channels/sg/channelicons/KLIFE.png",K+ Life - AKA
-#KODIPROP: inputstream.adaptive.manifest_type = mpd
-#KODIPROP: inputstream.adaptive.license_type = com.widevine.alpha
-#KODIPROP: inputstream.adaptive.license_key = https: //kplus.live.ott.irdeto.com/Widevine/GetLicense? CrmId = kplus & AccountId = kplus & ContentId = 400000016 & SessionId = B3A30136DB4CCE5E & Ticket = 8B2100 -stream & Host = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}} | Accept-Language = vi & Content-Type = application% 2Foctet- stream & Host = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit % 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
-https://kpluslive.akamaized.net/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/prod_kplus_ns_hd_fps.mpd
+
 
 #EXTINF:-1 tvg-id="kkidshd" group-title="🍭| K+" tvg-logo="https://img.kplus.vn/media/channels/sg/channelicons/KKIDS.png",K+ Kids - AKA
-#KODIPROP: inputstream.adaptive.manifest_type = mpd
-#KODIPROP: inputstream.adaptive.license_type = com.widevine.alpha
-#KODIPROP: inputstream.adaptive.license_key = https: //kplus.live.ott.irdeto.com/Widevine/GetLicense? CrmId = kplus & AccountId = kplus & SessionId = B3A30136DB4CCE5E & Ticket = 8ctB2100CB60332994 | Ứng dụng Host-Type = vi% & ContentFo Type = vi% = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}} | Accept-Language = vi & Content-Type = application% 2Foctet-stream & Host = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537 .36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
-https://kpluslive.akamaized.net/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A|Accept-Language=vi&Content-Type=application%2Foctet-stream&Host=kplus.live.ott.irdeto.com&Origin=https%3A%2F%2Fxem.kplus.vn&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F92.0.4515.159+Safari%2F537.36|R{{SSM}}
+https://ottlive.akamaized.net/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd
+
 
 #EXTINF:-1 tvg-id="ksport1hd" group-title="🍭| K+" logo="https://img.kplus.vn/media/channels/sg/channelicons/KSPORT1.png",K+ Sport1 - OTT
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -49,11 +41,6 @@ https://kpluslive.akamaized.net/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_f
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CB5FCF3BAD6F1844&Ticket=C0E743A782EB7132
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/prod_kplus_pm_hd_fps.mpd
-#EXTINF:-1 tvg-id="ksport1hd" group-title="🍭| K+" logo="https://img.kplus.vn/media/channels/sg/channelicons/KSPORT1.png",K+ Sport1 - AKA
-#KODIPROP: inputstream.adaptive.manifest_type = mpd
-#KODIPROP: inputstream.adaptive.license_type = com.widevine.alpha
-#KODIPROP: inputstream.adaptive.license_key = https: //kplus.live.ott.irdeto.com/Widevine/GetLicense? CrmId = kplus & AccountId = kplus & ContentId = 400000017 & SessionId = B3A30136DB4CCE5E & Ticket = 8B2100 -stream & Host = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}} | Accept-Language = vi & Content-Type = application% 2Foctet- stream & Host = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit % 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
-https://kpluslive.akamaized.net/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/prod_kplus_pm_hd_fps.mpd
 
 #EXTINF:-1 tvg-id="ksport2hd" group-title="🍭| K+" tvg-logo="https://img.kplus.vn/media/channels/sg/channelicons/KSPORT2.png",K+ Sport2 - OTT
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -61,32 +48,48 @@ https://kpluslive.akamaized.net/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.i
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CB5FCF3BAD6F1844&Ticket=C0E743A782EB7132
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/prod_kplus_pc_hd_fps.mpd
-#EXTINF:-1 tvg-id="ksport2hd" group-title="🍭| K+" tvg-logo="https://img.kplus.vn/media/channels/sg/channelicons/KSPORT2.png",K+ Sport2 - AKA
-#KODIPROP: inputstream.adaptive.manifest_type = mpd
-#KODIPROP: inputstream.adaptive.license_type = com.widevine.alpha
-#KODIPROP: inputstream.adaptive.license_key = https: //kplus.live.ott.irdeto.com/Widevine/GetLicense? CrmId = kplus & AccountId = kplus & ContentId = 400000018 & SessionId = B3A30136DB4CCE5E & Ticket = 8B2100 -stream & Host = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit% 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}} | Accept-Language = vi & Content-Type = application% 2Foctet- stream & Host = kplus.live.ott.irdeto.com & Origin = https% 3A% 2F% 2Fxem.kplus.vn & User-Agent = Mozilla% 2F5.0 +% 28Windows + NT + 10.0% 3B + Win64% 3B + x64% 29 + AppleWebKit % 2F537.36 +% 28KHTML% 2C + like + Gecko% 29 + Chrome% 2F92.0.4515.159 + Safari% 2F537.36 | R {{SSM}}
-https://kpluslive.akamaized.net/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/prod_kplus_pc_hd_fps.mpd
 
+#EXTINF:-1  tvg-id="klive1hd" group-title="🍭| K+" tvg-logo="https://dl.dropboxusercontent.com/s/rhttw58gfpr0ld6/K%2BLIVE1HD.png",K+ LIVE 1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#PHAPTX5SONY|Accept-Language=vi&Content-Type=application%2Foctet-stream&Host=kplus.live.ott.irdeto.com&Origin=https%3A%2F%2Fxem.kplus.vn&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F92.0.4515.159+Safari%2F537.36|R{{SSM}}
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&SessionId=A08658617AC57D5F&Ticket=71799FF0C5C406D9
+https://ottlive.akamaized.net/live/prod_mykplus_live_tv_1_fps/prod_mykplus_live_tv_1_fps.isml/prod_mykplus_live_tv_1_fps.mpd
 #EXTINF:-1  tvg-id="klive1hd" group-title="🍭| K+" tvg-logo="https://dl.dropboxusercontent.com/s/rhttw58gfpr0ld6/K%2BLIVE1HD.png",K+ LIVE 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000051&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://kpluslive.akamaized.net/live/prod_mykplus_live_tv_1_fps/prod_mykplus_live_tv_1_fps.isml/prod_mykplus_live_tv_1_fps.mpd
+https://ottlive.akamaized.net/live/prod_mykplus_live_tv_1_fps/prod_mykplus_live_tv_1_fps.isml/prod_mykplus_live_tv_1_fps.mpd
 
+#EXTINF:-1  tvg-id="klive2hd" group-title="🍭| K+" tvg-logo="https://dl.dropboxusercontent.com/s/fa6tkpu8uwehudl/K%2BLIVE2HD.png",K+ LIVE 2
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#PHAPTX5SONY|Accept-Language=vi&Content-Type=application%2Foctet-stream&Host=kplus.live.ott.irdeto.com&Origin=https%3A%2F%2Fxem.kplus.vn&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F92.0.4515.159+Safari%2F537.36|R{{SSM}}
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&SessionId=A08658617AC57D5F&Ticket=71799FF0C5C406D9
+#KODIACEBALANCE:Yes-Right
+https://ottlive.akamaized.net/live/prod_mykplus_live_tv_2_fps/prod_mykplus_live_tv_2_fps.isml/prod_mykplus_live_tv_2_fps.mpd
 #EXTINF:-1  tvg-id="klive2hd" group-title="🍭| K+" tvg-logo="https://dl.dropboxusercontent.com/s/fa6tkpu8uwehudl/K%2BLIVE2HD.png",K+ LIVE 2
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000052&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://kpluslive.akamaized.net/live/prod_mykplus_live_tv_2_fps/prod_mykplus_live_tv_2_fps.isml/prod_mykplus_live_tv_2_fps.mpd
+https://ottlive.akamaized.net/live/prod_mykplus_live_tv_1_fps/prod_mykplus_live_tv_1_fps.isml/prod_mykplus_live_tv_1_fps.mpd
 
+
+#EXTINF:-1  tvg-id="klive3hd" group-title="🍭| K+" tvg-logo="https://dl.dropboxusercontent.com/s/9hw0gobn1ymzxd6/K%2BLIVE3HD.png",K+ LIVE 3
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#PHAPTX5SONY|Accept-Language=vi&Content-Type=application%2Foctet-stream&Host=kplus.live.ott.irdeto.com&Origin=https%3A%2F%2Fxem.kplus.vn&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F92.0.4515.159+Safari%2F537.36|R{{SSM}}
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&SessionId=A08658617AC57D5F&Ticket=71799FF0C5C406D9
+#KODIACEBALANCE:Yes-Right
+https://ottlive.akamaized.net/live/prod_mykplus_live_tv_3_fps/prod_mykplus_live_tv_3_fps.isml/prod_mykplus_live_tv_3_fps.mpd
 #EXTINF:-1  tvg-id="klive3hd" group-title="🍭| K+" tvg-logo="https://dl.dropboxusercontent.com/s/9hw0gobn1ymzxd6/K%2BLIVE3HD.png",K+ LIVE 3
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000053&SessionId=14C0F1BB9A14154D&Ticket=F75ECCDF30FDD78A
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://kpluslive.akamaized.net/live/prod_mykplus_live_tv_3_fps/prod_mykplus_live_tv_3_fps.isml/prod_mykplus_live_tv_3_fps.mpd
+https://ottlive.akamaized.net/live/prod_mykplus_live_tv_3_fps/prod_mykplus_live_tv_3_fps.isml/prod_mykplus_live_tv_3_fps.mpd
 
 #-*--VTV-*--#
 
