@@ -16,7 +16,7 @@
 
 
 
-#EXTINF:-1 tvg-id="kcinehd" tvg-name="kcinehd" logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/30/qs8nfynd_k-cine_296_168.png" group-title="🍭| K+"  tvg-chno="996",K+Cine HD - P
+#EXTINF:-1 tvg-id="kcinehd" tvg-name="kcinehd" logo="https://img.kplus.vn/media/channels/sg/channelicons/KCINE.png" group-title="🍭| K+"  tvg-chno="996",K+Cine HD - P
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #PHAPTX5SONY|Accept-Language=vi&Content-Type=application%2Foctet-stream&Host=kplus.live.ott.irdeto.com&Origin=https%3A%2F%2Fxem.kplus.vn&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F92.0.4515.159+Safari%2F537.36|R{{SSM}}
@@ -31,7 +31,7 @@ https://ottlive.akamaized.net/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/prod_kplus_1_hd_fps.mpd
 
-#EXTINF:-1 tvg-id="klifehd" tvg-name="klifehd" logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/30/8cu1dyf9_k-life_296_168.png"  group-title="🍭| K+",K+Life HD - P
+#EXTINF:-1 tvg-id="klifehd" tvg-name="klifehd" logo="https://img.kplus.vn/media/channels/sg/channelicons/KLIFE.png"  group-title="🍭| K+",K+Life HD - P
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #PHAPTX5SONY|Accept-Language=vi&Content-Type=application%2Foctet-stream&Host=kplus.live.ott.irdeto.com&Origin=https%3A%2F%2Fxem.kplus.vn&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F92.0.4515.159+Safari%2F537.36|R{{SSM}}
@@ -45,7 +45,7 @@ https://ottlive.akamaized.net/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.ism
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/prod_kplus_ns_hd_fps.mpd
 
-#EXTINF:-1 tvg-id="ksport1hd" tvg-name="ksport1hd" logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/10/28/fxxda3tb_k-sport1b118c9aa73fa0dff5b4b412563b03e7f_296_168.png" group-title="🍭| K+",K+ SPORT1 HD - P
+#EXTINF:-1 tvg-id="ksport1hd" tvg-name="ksport1hd" logo="https://img.kplus.vn/media/channels/sg/channelicons/KSPORT1.png" group-title="🍭| K+",K+ SPORT1 HD - P
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #PHAPTX5SONY|Accept-Language=vi&Content-Type=application%2Foctet-stream&Host=kplus.live.ott.irdeto.com&Origin=https%3A%2F%2Fxem.kplus.vn&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F92.0.4515.159+Safari%2F537.36|R{{SSM}}
@@ -60,7 +60,7 @@ https://ottlive.akamaized.net/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.ism
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/prod_kplus_pm_hd_fps.mpd
 
-#EXTINF:-1 tvg-id="ksport2hd" tvg-name="ksport2hd" tvg-logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/30/bwx6fdo1_sport2_296_168.png" group-title="🍭| K+",K+Sport2 HD - P
+#EXTINF:-1 tvg-id="ksport2hd" tvg-name="ksport2hd" tvg-logo="https://img.kplus.vn/media/channels/sg/channelicons/KSPORT2.png" group-title="🍭| K+",K+Sport2 HD - P
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #PHAPTX5SONY|Accept-Language=vi&Content-Type=application%2Foctet-stream&Host=kplus.live.ott.irdeto.com&Origin=https%3A%2F%2Fxem.kplus.vn&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F92.0.4515.159+Safari%2F537.36|R{{SSM}}
