@@ -165,19 +165,19 @@ https://ottlive.akamaized.net/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.ism
 #KODIACEBALANCE:Yes-Right
 https://ottlive.akamaized.net/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/prod_kplus_pc_hd_fps.mpd
 
-#EXTINF:-1 tvg-id="kkidshd" tvg-name="kkidshd" tvg-logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-kkids-hd.png" group-title="🍭| K+",K+Kids HD
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/getlicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CA452EF1BF6F59D0&Ticket=C53912B5118A2515https://ottlive.akamaized.net/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd
-https://ottlive.akamaized.net/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd
 #EXTINF:-1 tvg-id="kkidshd" tvg-name="kkidshd" tvg-logo="https://ad.kplus.vn/cdn/content/upload/1/root/kkids-thumb-vie.jpg" group-title="🍭| K+",K+Kids HD
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CB5FCF3BAD6F1844&Ticket=C0E743A782EB7132&Vanicelife=Tienmedia/SFL=Hgd68gssg5r588zFhhcskiHu5rchko8aGuihbfsy78bHhvU7xU8vH7uvY7nvY66rrgc7bz&ibzy6vb
 #KODIPROP:inputstream.adaptive.manifest_type=mpdhttps://ottlive.akamaized.net/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd
+https://ottlive.akamaized.net/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd
+#EXTINF:-1 tvg-id="kkidshd" tvg-name="kkidshd" tvg-logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-kkids-hd.png" group-title="🍭| K+",K+Kids HD
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/getlicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CA452EF1BF6F59D0&Ticket=C53912B5118A2515https://ottlive.akamaized.net/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd
 https://ottlive.akamaized.net/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd
 #EXTINF:-1 tvg-id="kkidshd" group-title="🍭| K+" tvg-logo="https://img.kplus.vn/media/channels/sg/channelicons/KKIDS.png",K+ Kids
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
