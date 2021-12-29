@@ -27,7 +27,7 @@
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CB5FCF3BAD6F1844&Ticket=C0E743A782EB7132
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CB5FCF3BAD6F1844&Ticket=C0E743A782EB7132&Vanicelife=Tienmedia/SFL=Hgd68gssg5r588zFhhcskiHu5rchko8aGuihbfsy78bHhvU7xU8vH7uvY7nvY66rrgc7bz&ibzy6vb
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/prod_kplus_1_hd_fps.mpd
 
@@ -42,7 +42,7 @@ https://ottlive.akamaized.net/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.ism
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CB5FCF3BAD6F1844&Ticket=C0E743A782EB7132
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CB5FCF3BAD6F1844&Ticket=C0E743A782EB7132&Vanicelife=Tienmedia/SFL=Hgd68gssg5r588zFhhcskiHu5rchko8aGuihbfsy78bHhvU7xU8vH7uvY7nvY66rrgc7bz&ibzy6vb
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/prod_kplus_ns_hd_fps.mpd
 
@@ -57,7 +57,7 @@ https://ottlive.akamaized.net/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.ism
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CB5FCF3BAD6F1844&Ticket=C0E743A782EB7132
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CB5FCF3BAD6F1844&Ticket=C0E743A782EB7132&Vanicelife=Tienmedia/SFL=Hgd68gssg5r588zFhhcskiHu5rchko8aGuihbfsy78bHhvU7xU8vH7uvY7nvY66rrgc7bz&ibzy6vb
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/prod_kplus_pm_hd_fps.mpd
 
@@ -71,7 +71,7 @@ https://ottlive.akamaized.net/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.ism
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CB5FCF3BAD6F1844&Ticket=C0E743A782EB7132
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CB5FCF3BAD6F1844&Ticket=C0E743A782EB7132&Vanicelife=Tienmedia/SFL=Hgd68gssg5r588zFhhcskiHu5rchko8aGuihbfsy78bHhvU7xU8vH7uvY7nvY66rrgc7bz&ibzy6vb
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/prod_kplus_pc_hd_fps.mpd
 
@@ -86,7 +86,7 @@ https://ottlive.akamaized.net/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.ism
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CB5FCF3BAD6F1844&Ticket=C0E743A782EB7132
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CB5FCF3BAD6F1844&Ticket=C0E743A782EB7132&Vanicelife=Tienmedia/SFL=Hgd68gssg5r588zFhhcskiHu5rchko8aGuihbfsy78bHhvU7xU8vH7uvY7nvY66rrgc7bz&ibzy6vb
 https://ottlive.akamaized.net/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd
 
 #EXTINF:-1  tvg-id="klive1hd" tvg-logo="https://dl.dropboxusercontent.com/s/rhttw58gfpr0ld6/K%2BLIVE1HD.png" group-title="🍭| K+",K+ LIVE 1
@@ -99,7 +99,7 @@ https://ottlive.akamaized.net/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CB5FCF3BAD6F1844&Ticket=C0E743A782EB7132
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CB5FCF3BAD6F1844&Ticket=C0E743A782EB7132&Vanicelife=Tienmedia/SFL=Hgd68gssg5r588zFhhcskiHu5rchko8aGuihbfsy78bHhvU7xU8vH7uvY7nvY66rrgc7bz&ibzy6vb
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_mykplus_live_tv_1_fps/prod_mykplus_live_tv_1_fps.isml/prod_mykplus_live_tv_1_fps.mpd
 
@@ -114,7 +114,7 @@ https://ottlive.akamaized.net/live/prod_mykplus_live_tv_2_fps/prod_mykplus_live_
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CB5FCF3BAD6F1844&Ticket=C0E743A782EB7132
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CB5FCF3BAD6F1844&Ticket=C0E743A782EB7132&Vanicelife=Tienmedia/SFL=Hgd68gssg5r588zFhhcskiHu5rchko8aGuihbfsy78bHhvU7xU8vH7uvY7nvY66rrgc7bz&ibzy6vb
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_mykplus_live_tv_2_fps/prod_mykplus_live_tv_2_fps.isml/prod_mykplus_live_tv_2_fps.mpd
 
@@ -128,7 +128,7 @@ https://ottlive.akamaized.net/live/prod_mykplus_live_tv_2_fps/prod_mykplus_live_
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CB5FCF3BAD6F1844&Ticket=C0E743A782EB7132
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CB5FCF3BAD6F1844&Ticket=C0E743A782EB7132&Vanicelife=Tienmedia/SFL=Hgd68gssg5r588zFhhcskiHu5rchko8aGuihbfsy78bHhvU7xU8vH7uvY7nvY66rrgc7bz&ibzy6vb
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_mykplus_live_tv_3_fps/prod_mykplus_live_tv_3_fps.isml/prod_mykplus_live_tv_3_fps.mpd
 
