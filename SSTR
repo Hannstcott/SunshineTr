@@ -472,7 +472,8 @@ http://vthanh.me/vieon.m3u8?pass=vienthi&type=dvr&kenh=vtc1
 #http://vietanhiptv.cf/vieon.php?type=tivi&kenh=vtc1-hd
 #EXTINF:-1, tvg-id="vtc1hd" group-title="VTC" tvg-logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/24/su3ew91o_vtc-1b97406a37563317572e3a0d867081ffd_296_168.png" catchup="append" catchup-days="0.3" catchup-source="http://vthanh.me/vieon.m3u8?pass=vienthi&type=dvr&kenh=vtc1-hd&time=${start}&offset=${offset}",VTC1 - Thời Sự - NetHub
 https://8387e1fb5a.vws.vegacdn.vn/live/vtc-1/chunklist_2.m3u8
-
+#EXTINF:-1, tvg-id="vtc1hd" group-title="VTC" tvg-logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/24/su3ew91o_vtc-1b97406a37563317572e3a0d867081ffd_296_168.png" catchup="append" catchup-days="0.3" catchup-source="http://vthanh.me/vieon.m3u8?pass=vienthi&type=dvr&kenh=vtc1-hd&time=${start}&offset=${offset}",VTC1 - Thời Sự
+https://vcdn2.vtc.gov.vn:8443/encrypt/vtc1_sd.smil/chunklist_w2111824690_b1296000_sleng_tkdG9rZW5oYXNoPTNXSGR3SVFNMENTTzdGRWxHUzhSSXYwWXVia1RJOHVqM3BwN3RPWHZhVjVZYjlyRmdyTnZCWVpESElBb2d3OEFiLXNkbWhjUnhOaC1yMUVTM1ZYbVF3PT0mdG9rZW5zdGFydHRpbWU9MTY0MTI3NDczNCZ0b2tlbmVuZHRpbWU9MTY0MTI5NjMzNA==.m3u8
 
 #EXTINF:-1, tvg-id="vtc2hd" group-title="VTC" tvg-logo="https://i.postimg.cc/dVFWF5jW/latest-1.webp.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtc2_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",VTC2 - FPT
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
@@ -483,6 +484,8 @@ https://8387d1dfc2.vws.vegacdn.vn/live/vtc2/chunklist_1.m3u8
 #EXTINF:-1, tvg-id="vtc2hd" group-title="VTC" tvg-logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/15/koc7qspx_vtc2_296_168.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtc2_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",VTC2 - Vieon
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 http://vietanhiptv.cf/vieon.php?type=tivi&kenh=vtc2-reidius-tv
+#EXTINF:-1, tvg-id="vtc2hd" group-title="VTC" tvg-logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/01/15/koc7qspx_vtc2_296_168.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtc2_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",VTC2
+https://vcdn2.vtc.gov.vn:8443/encrypt/vtc2_sd.stream_270p/playlist.m3u8
 
 #EXTINF:-1, tvg-id="vtc3hd" group-title="VTC" tvg-logo="https://i.postimg.cc/15wWbkwn/latest-2.png" catchup="append" catchup-days="0.3" catchup-source="http://vthanh.me/vieon.m3u8?pass=vienthi&type=dvr&kenh=vtc3-hd&time=${start}&offset=${offset}",VTC3 - Thể Thao - FPT
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
@@ -494,6 +497,8 @@ http://vthanh.me/vieon.m3u8?pass=vienthi&type=dvr&kenh=vtc3-hd
 #EXTINF:-1, tvg-id="vtc3hd" group-title="VTC" tvg-logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/24/bnd5bu2b_vtc-31e15059012d313a4dac8254d03f3a83f_296_168.png" catchup="append" catchup-days="0.3" catchup-source="http://vthanh.me/vieon.m3u8?pass=vienthi&type=dvr&kenh=vtc3-hd&time=${start}&offset=${offset}",VTC3 - Thể Thao - NetHub
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 https://8387f03af3.vws.vegacdn.vn/live/vtc3/chunklist_1.m3u8
+#EXTINF:-1, tvg-id="vtc3hd" group-title="VTC" tvg-logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/24/bnd5bu2b_vtc-31e15059012d313a4dac8254d03f3a83f_296_168.png" catchup="append" catchup-days="0.3" catchup-source="http://vthanh.me/vieon.m3u8?pass=vienthi&type=dvr&kenh=vtc3-hd&time=${start}&offset=${offset}",VTC3 - Thể Thao
+https://vcdn2.vtc.gov.vn:8443/encrypt/vtc3_sd.stream_270p/playlist.m3u8
 
 #EXTINF:-1, tvg-id="vtc4hd" group-title="VTC" tvg-logo="https://i.postimg.cc/wMJV8Ny8/latest-3.png" catchup="append" catchup-days="0.3" catchup-source="http://vthanh.me/vieon.m3u8?pass=vienthi&type=dvr&kenh=vtc4-yeah1-family-hd&time=${start}&offset=${offset}",VTC4 - Yeah1 Family - FPT
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
@@ -508,6 +513,8 @@ http://vthanh.me/vieon.m3u8?pass=vienthi&type=dvr&kenh=vtc4-yeah1-family-hd
 #EXTINF:-1, tvg-id="vtc4hd" group-title="VTC" tvg-logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/24/0agsfxm9_yeah1-family89c8f12a26fd8f5edaa414ff48d2dd0c_296_168.webp" catchup="append" catchup-days="0.3" catchup-source="http://vthanh.me/vieon.m3u8?pass=vienthi&type=dvr&kenh=vtc4-yeah1-family-hd&time=${start}&offset=${offset}",VTC4 - Yeah1 Family - NetHub
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 https://8387d1dfc2.vws.vegacdn.vn/live/vtc4/chunklist_1.m3u8
+#EXTINF:-1, tvg-id="vtc4hd" group-title="VTC" tvg-logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/24/0agsfxm9_yeah1-family89c8f12a26fd8f5edaa414ff48d2dd0c_296_168.webp" catchup="append" catchup-days="0.3" catchup-source="http://vthanh.me/vieon.m3u8?pass=vienthi&type=dvr&kenh=vtc4-yeah1-family-hd&time=${start}&offset=${offset}",VTC4 - Yeah1 Family
+https://vcdn2.vtc.gov.vn:8443/encrypt/vtc4_sd.stream_270p/playlist.m3u8
 
 #EXTINF:-1, tvg-id="vtc5hd" group-title="VTC" tvg-logo="https://i.postimg.cc/TYM0jtFR/latest-4.png" catchup="append" catchup-days="0.3" catchup-source="http://vthanh.me/vieon.m3u8?pass=vienthi&type=dvr&kenh=vtc5-hd&time=${start}&offset=${offset}",VTC5 - TV BLue - FPT
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
