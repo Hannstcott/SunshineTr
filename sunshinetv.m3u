@@ -47,7 +47,7 @@ https://ottlive.akamaized.net/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.ism
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/prod_kplus_ns_hd_fps.mpd
 #EXTINF:-1 tvg-id="klifehd" group-title="🍭| K+" logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/Kplus_NS_lifeHD.png",K+NS
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+
 http://180.214.238.157/live/kns/index.m3u8
 
 #EXTINF:-1 tvg-id="ksport1hd" tvg-name="ksport1hd" logo="https://img.kplus.vn/media/channels/sg/channelicons/KSPORT1.png" group-title="🍭| K+",K+ SPORT1
@@ -65,7 +65,7 @@ https://ottlive.akamaized.net/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.ism
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/prod_kplus_pm_hd_fps.mpd
 #EXTINF:-1 tvg-id="ksport1hd" group-title="🍭| K+" logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/Kplus_PM_sport1HD.png",K+PM
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+
 http://180.214.238.157/live/kpm/index.m3u8
 
 #EXTINF:-1 tvg-id="ksport2hd" tvg-name="ksport2hd" tvg-logo="https://img.kplus.vn/media/channels/sg/channelicons/KSPORT2.png" group-title="🍭| K+",K+Sport2
@@ -83,7 +83,7 @@ https://ottlive.akamaized.net/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.ism
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/prod_kplus_pc_hd_fps.mpd
 #EXTINF:-1 tvg-id="ksport2hd" group-title="🍭| K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/Kplus_PC_Sport2HD.png",K+PC
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+
 http://180.214.238.157/live/kpc/index.m3u8
 
 #EXTINF:-1 tvg-id="kkidshd" group-title="🍭| K+" tvg-logo="https://img.kplus.vn/media/channels/sg/channelicons/KKIDS.png",K+ Kids
