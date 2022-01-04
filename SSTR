@@ -308,10 +308,10 @@
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 
 
-https://ottlivevng.kplus.vn/live/
-https://ottlive.akamaized.net/live/
-https://kpluslive.akamaized.net/live/
-https://live.vegacdn.kplus.vn/live/
+#https://ottlivevng.kplus.vn/live/
+#https://ottlive.akamaized.net/live/
+#https://kpluslive.akamaized.net/live/
+#https://live.vegacdn.kplus.vn/live/
 
 
 
