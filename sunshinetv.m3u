@@ -306,7 +306,9 @@ https://vips-livecdn.fptplay.net/hda1/vtc13_vhls.smil/chunklist_b5000000.m3u8
 #http://vietanhiptv.cf/vieon.php?type=tivi&kenh=vtc13-hd
 #EXTINF:-1 tvg-id="vtc13hd" group-title="VTC" tvg-logo="https://portal.vtc.gov.vn/site/img/vtc4k_thumbnail.jpg" type="stream",VTC13 4K
 http://vcdn1.vtc.gov.vn:1935/m_4k/smil:4k.smil/playlist.m3u8
+http://vcdn1.vtc.gov.vn:1935/encrypt/smil:vtc1.smil/playlist.m3u8
 
+http://118.107.85.11:1935/tvnet/smil:vtc1.smil/chunklist_w551850827_b1000000_.m3u8
 #EXTINF:-1, tvg-id="vtc14hd" group-title="VTC" tvg-logo="https://s3.amazonaws.com/studiopro-app-vtc/assets/images/vtc14_thumbnail.jpg" catchup="append" catchup-days="0.3" catchup-source="http://vthanh.me/vieon.m3u8?pass=vienthi&type=dvr&kenh=vtc14-hd&time=${start}&offset=${offset}",VTC14
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 https://vips-livecdn.fptplay.net/hda1/vtc14_vhls.smil/chunklist_b5000000.m3u8
