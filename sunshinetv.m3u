@@ -18,7 +18,7 @@
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000015&SessionId=A0675D250147132D&Ticket=52E084BA93F2F540
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000015&SessionId=A0675D250147132D&Ticket=52E084BA93F2F540
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/prod_kplus_1_hd_fps.mpd
 #EXTINF:-1 tvg-id="kcinehd" tvg-name="kcinehd" logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-kcine-hd.png" group-title="🍭| K+"  tvg-chno="996",K+Cine HD
@@ -30,13 +30,17 @@ https://ottlive.akamaized.net/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/
 https://ottlive.akamaized.net/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/prod_kplus_1_hd_fps.mpd
 #EXTINF:-1 tvg-id="kcinehd" group-title="🍭| K+" logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/Kplus1_cineHD.png",K+1
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000051&SessionId=604709EE8F20DCED&Ticket=31E9F2C8421C61F4
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ottlive.akamaized.net/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/prod_kplus_1_hd_fps.mpd
 
 #EXTINF:-1 tvg-id="klifehd" tvg-name="klifehd" logo="https://img.kplus.vn/media/channels/sg/channelicons/KLIFE.png"  group-title="🍭| K+",K+Life
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000015&SessionId=A0675D250147132D&Ticket=52E084BA93F2F540
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000015&SessionId=A0675D250147132D&Ticket=52E084BA93F2F540
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/prod_kplus_ns_hd_fps.mpd
 #EXTINF:-1 tvg-id="klifehd" tvg-name="klifehd" logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-klife-hd.png"  group-title="🍭| K+",K+Life HD
@@ -47,13 +51,18 @@ https://ottlive.akamaized.net/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.ism
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/prod_kplus_ns_hd_fps.mpd
 #EXTINF:-1 tvg-id="klifehd" group-title="🍭| K+" logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/Kplus_NS_lifeHD.png",K+NS
-
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000051&SessionId=604709EE8F20DCED&Ticket=31E9F2C8421C61F4
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ottlive.akamaized.net/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/prod_kplus_ns_hd_fps.mpd
 
 #EXTINF:-1 tvg-id="ksport1hd" tvg-name="ksport1hd" logo="https://img.kplus.vn/media/channels/sg/channelicons/KSPORT1.png" group-title="🍭| K+",K+ SPORT1
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000015&SessionId=A0675D250147132D&Ticket=52E084BA93F2F540
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000015&SessionId=A0675D250147132D&Ticket=52E084BA93F2F540
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/prod_kplus_pm_hd_fps.mpd
 #EXTINF:-1 tvg-id="ksport1hd" tvg-name="ksport1hd" logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-k-sport1-hd.png" group-title="🍭| K+",K+ SPORT1 HD
@@ -64,13 +73,18 @@ https://ottlive.akamaized.net/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.ism
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/prod_kplus_pm_hd_fps.mpd
 #EXTINF:-1 tvg-id="ksport1hd" group-title="🍭| K+" logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/Kplus_PM_sport1HD.png",K+PM
-
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000051&SessionId=604709EE8F20DCED&Ticket=31E9F2C8421C61F4
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ottlive.akamaized.net/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/prod_kplus_pm_hd_fps.mpd
 
 #EXTINF:-1 tvg-id="ksport2hd" tvg-name="ksport2hd" tvg-logo="https://img.kplus.vn/media/channels/sg/channelicons/KSPORT2.png" group-title="🍭| K+",K+Sport2
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000015&SessionId=A0675D250147132D&Ticket=52E084BA93F2F540
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000015&SessionId=A0675D250147132D&Ticket=52E084BA93F2F540
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/prod_kplus_pc_hd_fps.mpd
 #EXTINF:-1 tvg-id="ksport2hd" tvg-name="ksport2hd" tvg-logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-k-sport2-hd.png" group-title="🍭| K+",K+Sport2 HD
@@ -81,13 +95,18 @@ https://ottlive.akamaized.net/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.ism
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/prod_kplus_pc_hd_fps.mpd
 #EXTINF:-1 tvg-id="ksport2hd" group-title="🍭| K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/Kplus_PC_Sport2HD.png",K+PC
-
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000051&SessionId=604709EE8F20DCED&Ticket=31E9F2C8421C61F4
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ottlive.akamaized.net/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/prod_kplus_pc_hd_fps.mpd
 
 #EXTINF:-1 tvg-id="kkidshd" group-title="🍭| K+" tvg-logo="https://img.kplus.vn/media/channels/sg/channelicons/KKIDS.png",K+ Kids
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000015&SessionId=A0675D250147132D&Ticket=52E084BA93F2F540
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000015&SessionId=A0675D250147132D&Ticket=52E084BA93F2F540
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd
 #EXTINF:-1 tvg-id="kkidshd" tvg-name="kkidshd" tvg-logo="https://img.kplus.vn/media/channels/sg/channelicons/KKIDS.png" group-title="🍭| K+",K+Kids
@@ -99,13 +118,17 @@ https://ottlive.akamaized.net/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps
 https://ottlive.akamaized.net/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd
 #EXTINF:-1 tvg-id="kkidshd" tvg-name="kkidshd" tvg-logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-kkids-hd.png" group-title="🍭| K+",K+Kids HD
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000051&SessionId=604709EE8F20DCED&Ticket=31E9F2C8421C61F4
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ottlive.akamaized.net/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd
 
 #EXTINF:-1  tvg-id="klive1hd" group-title="🍭| K+" tvg-logo="https://dl.dropboxusercontent.com/s/rhttw58gfpr0ld6/K%2BLIVE1HD.png",K+ LIVE 1
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000015&SessionId=A0675D250147132D&Ticket=52E084BA93F2F540
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000015&SessionId=A0675D250147132D&Ticket=52E084BA93F2F540
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_mykplus_live_tv_1_fps/prod_mykplus_live_tv_1_fps.isml/prod_mykplus_live_tv_1_fps.mpd
 #EXTINF:-1  tvg-id="klive1hd" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/K%252B_Live_1T.png" group-title="🍭| K+",K+ LIVE 1
@@ -117,13 +140,17 @@ https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplu
 https://ottlive.akamaized.net/live/prod_mykplus_live_tv_1_fps/prod_mykplus_live_tv_1_fps.isml/prod_mykplus_live_tv_1_fps.mpd
 #EXTINF:-1  tvg-id="klive1hd" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png" group-title="🍭| K+",K+ LIVE 1
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000051&SessionId=604709EE8F20DCED&Ticket=31E9F2C8421C61F4
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ottlive.akamaized.net/live/prod_mykplus_live_tv_1_fps/prod_mykplus_live_tv_1_fps.isml/prod_mykplus_live_tv_1_fps.mpd
 
 #EXTINF:-1  tvg-id="klive2hd" group-title="🍭| K+" tvg-logo="https://dl.dropboxusercontent.com/s/fa6tkpu8uwehudl/K%2BLIVE2HD.png",K+ LIVE 2
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000015&SessionId=A0675D250147132D&Ticket=52E084BA93F2F540
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000015&SessionId=A0675D250147132D&Ticket=52E084BA93F2F540
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_mykplus_live_tv_2_fps/prod_mykplus_live_tv_2_fps.isml/prod_mykplus_live_tv_2_fps.mpd
 #EXTINF:-1  tvg-id="klive2hd" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/K%252B_Live_2T.png" group-title="🍭| K+",K+ LIVE 2
@@ -135,13 +162,17 @@ https://ottlive.akamaized.net/live/prod_mykplus_live_tv_2_fps/prod_mykplus_live_
 https://ottlive.akamaized.net/live/prod_mykplus_live_tv_2_fps/prod_mykplus_live_tv_2_fps.isml/prod_mykplus_live_tv_2_fps.mpd
 #EXTINF:-1  tvg-id="klive2hd" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_2.png" group-title="🍭| K+",K+ LIVE 2
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000051&SessionId=604709EE8F20DCED&Ticket=31E9F2C8421C61F4
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ottlive.akamaized.net/live/prod_mykplus_live_tv_2_fps/prod_mykplus_live_tv_2_fps.isml/prod_mykplus_live_tv_2_fps.mpd
 
 #EXTINF:-1  tvg-id="klive3hd" group-title="🍭| K+" tvg-logo="https://dl.dropboxusercontent.com/s/9hw0gobn1ymzxd6/K%2BLIVE3HD.png",K+ LIVE 3
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000015&SessionId=A0675D250147132D&Ticket=52E084BA93F2F540
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000015&SessionId=A0675D250147132D&Ticket=52E084BA93F2F540
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://ottlive.akamaized.net/live/prod_mykplus_live_tv_3_fps/prod_mykplus_live_tv_3_fps.isml/prod_mykplus_live_tv_3_fps.mpd
 #EXTINF:-1  tvg-id="klive3hd" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/K%252B_Live_3T.png" group-title="🍭| K+",K+ LIVE 3
@@ -153,7 +184,11 @@ https://ottlive.akamaized.net/live/prod_mykplus_live_tv_3_fps/prod_mykplus_live_
 https://ottlive.akamaized.net/live/prod_mykplus_live_tv_3_fps/prod_mykplus_live_tv_3_fps.isml/prod_mykplus_live_tv_3_fps.mpd
 #EXTINF:-1  tvg-id="klive3hd" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_3.png" group-title="🍭| K+",K+ LIVE 3
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000051&SessionId=604709EE8F20DCED&Ticket=31E9F2C8421C61F4
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ottlive.akamaized.net/live/prod_mykplus_live_tv_3_fps/prod_mykplus_live_tv_3_fps.isml/prod_mykplus_live_tv_3_fps.mpd
 
 #-*--VTV-*--#
 
@@ -1439,48 +1474,8 @@ https://vips-livecdn.fptplay.net/hdevent/worldcup10_hls.smil/chunklist_b2500000.
 
 
 ___________Live________________
-
-
-#EXTINF:0 group-title="⛵️| Cakhia" tvg-logo="https://static.fastlycdnlive.xyz/template2/user/img/ckstrim.png", BLV: A Páo
-http://gg.gg/tb-live15|Referer=https://cakhia8.tv/truc-tiep
-#EXTINF:0 group-title="⛵️| Cakhia" tvg-logo="https://static.fastlycdnlive.xyz/template2/user/img/ckstrim.png", BLV: A Cay
-http://gg.gg/tb-live16|Referer=https://cakhia8.tv/truc-tiep
-#EXTINF:0 group-title="⛵️| Cakhia" tvg-logo="https://static.fastlycdnlive.xyz/template2/user/img/ckstrim.png", BLV: A Lữ
-http://gg.gg/tb-live17|Referer=https://cakhia8.tv/truc-tiep
-#EXTINF:0 group-title="⛵️| Cakhia" tvg-logo="https://static.fastlycdnlive.xyz/template2/user/img/ckstrim.png", BLV: A Long
-http://gg.gg/tb-live18|Referer=https://cakhia8.tv/truc-tiep
-#EXTINF:0 group-title="⛵️| Cakhia" tvg-logo="https://static.fastlycdnlive.xyz/template2/user/img/ckstrim.png", BLV: A Phò
-http://gg.gg/tb-live19|Referer=https://cakhia8.tv/truc-tiep
-#EXTINF:0 group-title="⛵️| Cakhia" tvg-logo="https://static.fastlycdnlive.xyz/template2/user/img/ckstrim.png", BLV: A Tài
-http://gg.gg/tb-live20|Referer=https://cakhia8.tv/truc-tiep
-
-#EXTINF:0 group-title="⛵️| Cakhia" tvg-logo="https://static.fastlycdnlive.xyz/template2/user/img/ckstrim.png", CàKhịa 1 | Nhà Đài
-http://gg.gg/tb-live13|Referer=https://cakhia8.tv/truc-tiep
-#EXTINF:0 group-title="⛵️| Cakhia" tvg-logo="https://static.fastlycdnlive.xyz/template2/user/img/ckstrim.png", CàKhịa 2 | Nhà Đài
-http://gg.gg/tb-live14|Referer=https://cakhia8.tv/truc-tiep
-#EXTINF:0 group-title="⛵️| Cakhia" tvg-logo="https://static.fastlycdnlive.xyz/template2/user/img/ckstrim.png", CàKhịa 3 | Nhà Đài
-http://gg.gg/tb-live3|Referer=https://cakhia8.tv/truc-tiep
-#EXTINF:0 group-title="⛵️| Cakhia" tvg-logo="https://static.fastlycdnlive.xyz/template2/user/img/ckstrim.png", CàKhịa 4 | Nhà Đài
-http://gg.gg/tb-live4|Referer=https://cakhia8.tv/truc-tiep
-#EXTINF:0 group-title="⛵️| Cakhia" tvg-logo="https://static.fastlycdnlive.xyz/template2/user/img/ckstrim.png", CàKhịa 5 | Nhà Đài
-http://gg.gg/tb-live5|Referer=https://cakhia8.tv/truc-tiep
-#EXTINF:0 group-title="⛵️| Cakhia" tvg-logo="https://static.fastlycdnlive.xyz/template2/user/img/ckstrim.png", CàKhịa 6 | Nhà Đài
-http://gg.gg/tb-live6|Referer=https://cakhia8.tv/truc-tiep
-#EXTINF:0 group-title="⛵️| Cakhia" tvg-logo="https://static.fastlycdnlive.xyz/template2/user/img/ckstrim.png", CàKhịa 7 | Nhà Đài
-http://gg.gg/tb-live7|Referer=https://cakhia8.tv/truc-tiep
-#EXTINF:0 group-title="⛵️| Cakhia" tvg-logo="https://static.fastlycdnlive.xyz/template2/user/img/ckstrim.png", CàKhịa 8 | Nhà Đài
-http://gg.gg/tb-live8|Referer=https://cakhia8.tv/truc-tiep
-#EXTINF:0 group-title="⛵️| Cakhia" tvg-logo="https://static.fastlycdnlive.xyz/template2/user/img/ckstrim.png", CàKhịa 9 | Nhà Đài
-http://gg.gg/tb-live9|Referer=https://cakhia8.tv/truc-tiep
-#EXTINF:0 group-title="⛵️| Cakhia" tvg-logo="https://static.fastlycdnlive.xyz/template2/user/img/ckstrim.png", CàKhịa 10 | Nhà Đài
-http://gg.gg/tb-live10|Referer=https://cakhia8.tv/truc-tiep
-#EXTINF:0 group-title="⛵️| Cakhia" tvg-logo="https://static.fastlycdnlive.xyz/template2/user/img/ckstrim.png", CàKhịa 11 | Nhà Đài
-http://gg.gg/tb-live11|Referer=https://cakhia8.tv/truc-tiep
-#EXTINF:0 group-title="⛵️| Cakhia" tvg-logo="https://static.fastlycdnlive.xyz/template2/user/img/ckstrim.png", CàKhịa 12 | Nhà Đài
-http://gg.gg/tb-live12|Referer=https://cakhia8.tv/truc-tiep
-#EXTINF:0 group-title="⛵️| Cakhia" tvg-logo="https://static.fastlycdnlive.xyz/template2/user/img/ckstrim.png", CàKhịa 13 | Nhà Đài
-http://gg.gg/tb-live21|Referer=https://cakhia8.tv/truc-tiep
-
+#EXTINF:-1 tvg-id="klife" group-title="⛵| RaKhoiTV" tvg-logo=" ", Kplus Channel PM
+http://103.125.191.32:8080/tvpub/mpegts
 
 #EXTINF:-1 group-title="⛵| RaKhoiTV" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai501
 #EXTVLCOPT:http-user-agent="sport"
@@ -1519,86 +1514,6 @@ https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m401nd/playlist
 #EXTVLCOPT:http-user-agent="http"
 https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m402nd/playlist.m3u8|Referer=https://cakhia.cakhia10.tv/truc-tiep/
 
-#EXTINF:-1 group-title="⛵️| 90phut" tvg-logo="https://i.imgur.com/jyM3inb.png",90PHUT TV 5 (BLV nhà đài) 
-https://nvndcagevswv87c6afake.thapcam.link/live/_definst_/stream_1_1bda7@may7/playlist.m3u8|Referer=https://mitom.90phuttt.xyz/6169b39ca6651b28e16b3b22.html
-#EXTINF:-1 group-title="⛵️| 90phut" tvg-logo="https://i.imgur.com/jyM3inb.png",90PHUT TV 6 (BLV: Nhà Đài)
-https://p90020921.vnroute.com/may9/playlist.m3u8|Referer=https://mitom.90phuttt.xyz/616ef999a6651b183b2f3a21.html
-
-
-#EXTINF:-1 tvg-logo="https://image-5.gapo.vn/images/8166dc49-93ba-4f42-ad93-b2490c226afc.jpeg" group-title="⛵️| 90phut",TIẾNGRƯỠI 01
-http://127.0.0.1:6878/ace/getstream?id=fa149a0a37809ebfca5148041c3888498eaae429
-#EXTINF:-1 tvg-logo="https://image-5.gapo.vn/images/8166dc49-93ba-4f42-ad93-b2490c226afc.jpeg" group-title="⛵️| 90phut",TIẾNGRƯỠI 02
-http://127.0.0.1:6878/ace/getstream?id=12722d111be8a2e069af83d535d5fd0b39734712
-#EXTINF:-1 tvg-logo="https://image-5.gapo.vn/images/8166dc49-93ba-4f42-ad93-b2490c226afc.jpeg" group-title="⛵️| 90phut",TIẾNGRƯỠI 03
-http://127.0.0.1:6878/ace/getstream?id=3f846942f8e8e91fb1c94fa10e2c536372ef8f2c
-#EXTINF:-1 tvg-logo="https://image-5.gapo.vn/images/8166dc49-93ba-4f42-ad93-b2490c226afc.jpeg" group-title="⛵️| 90phut",TIẾNGRƯỠI 04
-http://127.0.0.1:6878/ace/getstream?id=27618f71bc2611dca58af879642e0b507d0f39a0
-#EXTINF:-1 tvg-logo="https://image-5.gapo.vn/images/8166dc49-93ba-4f42-ad93-b2490c226afc.jpeg" group-title="⛵️| 90phut",TIẾNGRƯỠI 05
-http://127.0.0.1:6878/ace/getstream?id=058a9ac982d6d29131f9bd277111f22de28400da
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://9767a59e2b.vws.vegacdn.vn/template/logo1.png", TRỰC TIẾP BÓNG ĐÁ SAOKE 1
-https://2459955770.cloud.anycastapnic.com/pep/sk1/playlist.m3u8|Referer=https://xem.saoke.live/
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://9767a59e2b.vws.vegacdn.vn/template/logo1.png", TRỰC TIẾP BÓNG ĐÁ SAOKE 2
-https://2459955770.cloud.anycastapnic.com/pep/sk2/playlist.m3u8|Referer=https://xem.saoke.live/
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://9767a59e2b.vws.vegacdn.vn/template/logo1.png", TRỰC TIẾP BÓNG ĐÁ SAOKE 3
-https://live.zeuscdn.live/live/_definst_/stream_1_4831b@sk3/playlist.m3u8|Referer=https://xem.saoke.live/
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://9767a59e2b.vws.vegacdn.vn/template/logo1.png", TRỰC TIẾP BÓNG ĐÁ SAOKE 4
-https://live.zeuscdn.live/live/_definst_/stream_1_4831b@sk4/playlist.m3u8|Referer=https://xem.saoke.live/
-
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://9767a59e2b.vws.vegacdn.vn/template/logo1.png",SaoKeTV 1
-https://live.zeuscdn.live/live/_definst_/stream_1_4831b@saoke1x1/playlist.m3u8|Referer=https://xem.saoke.live/
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://9767a59e2b.vws.vegacdn.vn/template/logo1.png",SaoKeTV 2
-https://live.zeuscdn.live/live/_definst_/stream_1_4831b@saoke1x2/playlist.m3u8|Referer=https://xem.saoke.live/
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://9767a59e2b.vws.vegacdn.vn/template/logo1.png",SaoKeTV 3
-https://live.zeuscdn.live/live/_definst_/stream_1_4831b@saoke1x3/playlist.m3u8|Referer=https://xem.saoke.live/
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://9767a59e2b.vws.vegacdn.vn/template/logo1.png",SaoKeTV 4
-https://live.zeuscdn.live/live/_definst_/stream_1_4831b@saoke1x4/playlist.m3u8|Referer=https://xem.saoke.live/
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://9767a59e2b.vws.vegacdn.vn/template/logo1.png",SaoKeTV 5
-https://live.zeuscdn.live/live/_definst_/stream_1_4831b@saoke2x1/playlist.m3u8|Referer=https://xem.saoke.live/
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://9767a59e2b.vws.vegacdn.vn/template/logo1.png",SaoKeTV 6
-https://live.zeuscdn.live/live/_definst_/stream_1_4831b@saoke2x2/playlist.m3u8|Referer=https://xem.saoke.live/
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://9767a59e2b.vws.vegacdn.vn/template/logo1.png",SaoKeTV 7
-https://live.zeuscdn.live/live/_definst_/stream_1_4831b@saoke2x3/playlist.m3u8|Referer=https://xem.saoke.live/
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://9767a59e2b.vws.vegacdn.vn/template/logo1.png",SaoKeTV 8
-https://live.zeuscdn.live/live/_definst_/stream_1_4831b@saoke2x4/playlist.m3u8|Referer=https://xem.saoke.live/
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://9767a59e2b.vws.vegacdn.vn/template/logo1.png",SaoKeTV 9
-https://live.zeuscdn.live/live/_definst_/stream_1_4831b@saoke2x5/playlist.m3u8|Referer=https://xem.saoke.live/
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://9767a59e2b.vws.vegacdn.vn/template/logo1.png",SaoKeTV 10
-https://live.zeuscdn.live/live/_definst_/stream_1_4831b@saoke3x1/playlist.m3u8|Referer=https://xem.saoke.live/
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://9767a59e2b.vws.vegacdn.vn/template/logo1.png",SaoKeTV 11
-https://live.zeuscdn.live/live/_definst_/stream_1_4831b@saoke3x2/playlist.m3u8|Referer=https://xem.saoke.live/
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://9767a59e2b.vws.vegacdn.vn/template/logo1.png",SaoKeTV 12
-https://2459955770.cloud.anycastapnic.com/pep/saoke3x3/playlist.m3u8|Referer=https://xem.saoke.live/
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://9767a59e2b.vws.vegacdn.vn/template/logo1.png",SaoKeTV 13
-https://2459955770.cloud.anycastapnic.com/pep/saoke3x4/playlist.m3u8|Referer=https://xem.saoke.live/
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://9767a59e2b.vws.vegacdn.vn/template/logo1.png",SaoKeTV 14
-https://live.zeuscdn.live/live/_definst_/stream_1_4831b@saoke4x1/playlist.m3u8|Referer=https://xem.saoke.live/
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://9767a59e2b.vws.vegacdn.vn/template/logo1.png",SaoKeTV 15
-https://live.zeuscdn.live/live/_definst_/stream_1_4831b@saoke4x2/playlist.m3u8|Referer=https://xem.saoke.live/
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://9767a59e2b.vws.vegacdn.vn/template/logo1.png",SaoKeTV 16
-https://live.zeuscdn.live/live/_definst_/stream_1_4831b@saoke4x3/playlist.m3u8|Referer=https://xem.saoke.live/
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://9767a59e2b.vws.vegacdn.vn/template/logo1.png",SaoKeTV 17
-https://live.zeuscdn.live/live/_definst_/stream_1_4831b@saoke4x4/playlist.m3u8|Referer=https://xem.saoke.live/
-
 #EXTINF:-1 group-title="VEBOTV" tvg-logo="https://image-5.gapo.vn/images/8166dc49-93ba-4f42-ad93-b2490c226afc.jpeg",Vebo.TV1
 http://127.0.0.1:6878/ace/getstream?id=fa149a0a37809ebfca5148041c3888498eaae429
 #EXTINF:-1 group-title="VEBOTV" tvg-logo="https://image-5.gapo.vn/images/8166dc49-93ba-4f42-ad93-b2490c226afc.jpeg",Vebo.TV2
@@ -1619,33 +1534,6 @@ http://live999.16m50.tv/FxnMm0l70J4IcldYDKq1nA/1635258363/live/1884edcfcd728e446
 #EXTINF:-1 group-title="vuive" tvg-logo="https://vuasanco2.xyz/Logo.png",LIVE
 http://27.67.64.133:18080/37_0.m3u8?Range=24904829-24904830&SessionID=e05067d9-70c1-4c07-953d-47b4d5d98ba7
 
-#EXTINF:-1 group-title="⛵| XoilacTV" tvg-logo="https://90p1.com/wp-content/uploads/2021/07/logo-90p.png",Live 1
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://nvndcagevswv87c6afake.thapcam.link/live/_definst_/stream_1_1bda7@may1HD/chunklist.m3u8|Referer=https://xoilac.90phuttt.xyz/live
-#EXTINF:-1 group-title="⛵| XoilacTV" tvg-logo="https://90p1.com/wp-content/uploads/2021/07/logo-90p.png",Live 2
-#EXTVLCOP#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://nvndcagevswv87c6afake.thapcam.link/live/_definst_/stream_1_1bda7@may5/chunklist.m3u8|Referer=https://xoilac.90phuttt.xyz/live
-#EXTINF:-1 group-title="⛵| XoilacTV" tvg-logo="https://90p1.com/wp-content/uploads/2021/07/logo-90p.png",Live 3
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://nvndcagevswv87c6afake.thapcam.link/live/_definst_/stream_1_1bda7@may3HD/chunklist.m3u8|Referer=https://xoilac.90phuttt.xyz/live
-#EXTINF:-1 group-title="⛵| XoilacTV" tvg-logo="https://90p1.com/wp-content/uploads/2021/07/logo-90p.png",Live 4
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://179386814.global.cdnfastest.com//live/183ade8e1e13ec5491a9cfdd585ae5f9304/chunklist.m3u8|Referer=https://xoilac.90phuttt.xyz/live
-#EXTINF:-1 group-title="⛵| XoilacTV" tvg-logo="https://90p1.com/wp-content/uploads/2021/07/logo-90p.png",Live 5
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://p90020921.vnroute.com/may51/chunks.m3u8|Referer=https://xoilac.90phuttt.xyz/live
-#EXTINF:-1 group-title="⛵| XoilacTV" tvg-logo="https://90p1.com/wp-content/uploads/2021/07/logo-90p.png",Live 6
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://p90020921.vnroute.com/may21/chunks.m3u8|Referer=https://xoilac.90phuttt.xyz/live
-#EXTINF:-1 group-title="⛵| XoilacTV" tvg-logo="https://90p1.com/wp-content/uploads/2021/07/logo-90p.png",Live 7
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://nvndcagevswv87c6afake.thapcam.link/live/_definst_/stream_1_1bda7@may91/chunklist.m3u8|Referer=https://xoilac.90phuttt.xyz/live
-#EXTINF:-1 group-title="⛵| XoilacTV" tvg-logo="https://90p1.com/wp-content/uploads/2021/07/logo-90p.png",Live 8
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://nvndcagevswv87c6afake.thapcam.link/live/_definst_/stream_1_1bda7@may4/chunklist.m3u8|Referer=https://xoilac.90phuttt.xyz/live
-#EXTINF:-1 group-title="⛵| XoilacTV" tvg-logo="https://90p1.com/wp-content/uploads/2021/07/logo-90p.png",Live 9
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://nvndcagevswv87c6afake.thapcam.link/live/_definst_/stream_1_1bda7@may9/chunklist.m3u8|Referer=https://xoilac.90phuttt.xyz/live
 
 ___________Sport________________
 
