@@ -1450,6 +1450,13 @@ https://e4.endpoint.cdn.sctvonline.vn/secure/planetearth/index.m3u8?md5=6LuAM_K-
 #EXTINF:-1, tvg-id="planetearthhd" group-title="Khám Phá" tvg-logo="http://vthanh.xyz/ic/195.png", Planet Earth - Nethub
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 https://8387100975.vws.vegacdn.vn/live/planet-earth/chunklist_2.m3u8
+#EXTINF:-1, tvg-id="planetearthhd" group-title="Khám Phá" tvg-logo="http://vthanh.xyz/ic/195.png", Planet Earth - Vega
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+https://106bec9d8.vws.vegacdn.vn//cliptv_live/amlst:planetearthhd/manifest.mpd
+#EXTINF:-1, tvg-id="planetearthhd" group-title="Khám Phá" tvg-logo="http://vthanh.xyz/ic/195.png", Planet Earth - Other
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+https://bsojv7x1zq.vcdn.com.vn/5daaa749c8f5d60173daf434/5daaa749c8f5d60173daf435/720p/playlist.m3u8
+#http://27.67.50.135:18080//176_1.m3u8?AdaptiveType=HLS&SessionID=df818dc5-c85e-4dc9-b1f2-f7bf74ab8941&MinBw=0&MaxBw=20000000
 
 #EXTINF:-1, tvg-id="outdoorhd" group-title="Khám Phá" tvg-logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/10/22/pykjyp5z_thumbnail-outdoor_296_168.png,Outdoor Channel HD
 https://vips-livecdn.fptplay.net/hda1/outdoorfhd_vhls.smil/chunklist_b5000000.m3u8
