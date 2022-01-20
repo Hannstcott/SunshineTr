@@ -643,7 +643,7 @@ https://e1.endpoint.cdn.sctvonline.vn/secure/sctv1/sd1/index.m3u8?md5=pGyKSYjrGr
 #http://203.162.123.188:21585/sctv1/tracks-v1a1/mono.m3u8
 #http://112.197.12.54/hls/sctv1/sd1/index.m3u8
 
-#EXTINF:-1 tvg-id="sctv2hd" group-title="🆂🅲🆃🆅" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b2/NetStars_logo.png/revision/latest/scale-to-width-down/220?cb=20210626005714" catchup="append" catchup-days="0.3" catchup-source="https://8387100975.vws.vegacdn.vn/live/netstars/chunklist_2_${start}.m3u8",SCTV2 - NET STAR 
+#EXTINF:-1 tvg-id="sctv2hd" group-title="🆂🅲🆃🆅" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/sctv2-NetStars_logo.png" catchup="append" catchup-days="0.3" catchup-source="https://8387100975.vws.vegacdn.vn/live/netstars/chunklist_2_${start}.m3u8",SCTV2 - NET STAR 
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 https://e1.endpoint.cdn.sctvonline.vn/hls/sctv2/sd2/index.m3u8|Referer=https://sctvonline.vn/detail/sctv2-57c3884d
 #https://e1.endpoint.cdn.sctvonline.vn/secure/sctv2/sd1/index.m3u8?md5=4uJKDAWdU9pdIfSzvhQJPQ&expires=2556118740|Referer=http://sctvonline.vn/
@@ -696,7 +696,7 @@ https://e1.endpoint.cdn.sctvonline.vn/hls/sctv9/sd2/index.m3u8|Referer=http://sc
 #https://e1.endpoint.cdn.sctvonline.vn/secure/sctv9/sd1/index.m3u8?md5=YbHnb-7yJPcp86S-bNWnvA&expires=2556118740|Referer=http://sctvonline.vn/
 #http://vthanh.me/sctv.m3u8?pass=vienthi&id=sctv9|Referer=http://sctvonline.vn/
 
-#EXTINF:-1 tvg-id="sctv10hd" group-title="🆂🅲🆃🆅" tvg-logo="https://vtvhyundai.vn/resource/svg/logo-hp.svg" catchup-days="0.3" catchup-source="https://e1.endpoint.cdn.sctvonline.vn/hls/sctv10/index-${start}-${offset}.m3u8",SCTV10 - Hyundai Home Shopping
+#EXTINF:-1 tvg-id="sctv10hd" group-title="🆂🅲🆃🆅" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/logo-hp.png" catchup-days="0.3" catchup-source="https://e1.endpoint.cdn.sctvonline.vn/hls/sctv10/index-${start}-${offset}.m3u8",SCTV10 - Hyundai Home Shopping
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 https://e1.endpoint.cdn.sctvonline.vn/hls/sctv10/index.m3u8|Referer=https://sctvonline.vn/detail/sctv10-0faf313b
 #https://e1.endpoint.cdn.sctvonline.vn/secure/sctv10/sd1/index.m3u8?md5=goeMc3OrV5Un43gP6kDnlw&expires=2556118740|Referer=http://sctvonline.vn/
@@ -752,7 +752,7 @@ https://e1.endpoint.cdn.sctvonline.vn/hls/sctv18/sd2/index.m3u8|Referer=https://
 #https://e1.endpoint.cdn.sctvonline.vn/secure/sctv18/sd1/index.m3u8?md5=LpLRftYMafDSOLR-TKK6Mw&expires=2556118740|Referer=http://sctvonline.vn/
 http://vthanh.me/sctv.m3u8?pass=vienthi&id=sctv18|Referer=http://sctvonline.vn/
 
-#EXTINF:-1 tvg-id="sctv19hd" group-title="🆂🅲🆃🆅" tvg-logo="https://static.wikia.nocookie.net/logos/images/d/d7/Channel_T.png/revision/latest?cb=20201010111613&path-prefix=vi" catchup-days="0.3" catchup-source="https://e1.endpoint.cdn.sctvonline.vn/hls/sctv19/sd2/index-${start}-${offset}.m3u8",SCTV19 - T Channel
+#EXTINF:-1 tvg-id="sctv19hd" group-title="🆂🅲🆃🆅" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/sctv19-Channel_T.png" catchup-days="0.3" catchup-source="https://e1.endpoint.cdn.sctvonline.vn/hls/sctv19/sd2/index-${start}-${offset}.m3u8",SCTV19 - T Channel
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 https://e1.endpoint.cdn.sctvonline.vn/hls/sctv19/sd2/index.m3u8|Referer=https://sctvonline.vn/detail/sctv19-bf00bd02
 #https://e1.endpoint.cdn.sctvonline.vn/secure/sctv19/sd1/index.m3u8?md5=uMR0F1oSOwIfKPtt7-a4xg&expires=2556118740|Referer=http://sctvonline.vn/
@@ -764,7 +764,7 @@ https://e1.endpoint.cdn.sctvonline.vn/hls/sctv20/sd2/index.m3u8|Referer=https://
 #https://e1.endpoint.cdn.sctvonline.vn/secure/sctv20/sd1/index.m3u8?md5=lb0MLr7Ra4oiddBQkWvAug&expires=2556118740|Referer=http://sctvonline.vn/
 #http://vthanh.me/sctv.m3u8?pass=vienthi&id=sctv20|Referer=http://sctvonline.vn/
 
-#EXTINF:-1 tvg-id="ssctv21hd" group-title="🆂🅲🆃🆅" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/98/Vi%E1%BB%87t_Nam_k%C3%BD_%E1%BB%A9c_%28SCTV21%29_logo.png/revision/latest?cb=20191101130321" catchup-days="0.3" catchup-source="https://e1.endpoint.cdn.sctvonline.vn/hls/sctv21/sd2/index-${start}-${offset}.m3u8",SCTV21 - Việt Nam Ký Ức
+#EXTINF:-1 tvg-id="ssctv21hd" group-title="🆂🅲🆃🆅" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/Vi%E1%BB%87t_Nam_k%C3%BD_%E1%BB%A9c_(SCTV21)_logo.png" catchup-days="0.3" catchup-source="https://e1.endpoint.cdn.sctvonline.vn/hls/sctv21/sd2/index-${start}-${offset}.m3u8",SCTV21 - Việt Nam Ký Ức
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 https://e1.endpoint.cdn.sctvonline.vn/hls/sctv21/sd2/index.m3u8|Referer=https://sctvonline.vn/detail/sctv-21-57de221a
 #https://e1.endpoint.cdn.sctvonline.vn/secure/sctv21/sd1/index.m3u8?md5=AxvpNDs0N57nBjln7px0IA&expires=2556118740|Referer=http://sctvonline.vn/
@@ -875,10 +875,10 @@ http://vips-livecdn.fptplay.net/hda1/cinemax_vhls.smil/chunklist_b5000000.m3u8?b
 https://vips-livecdn.fptplay.net/hda2/cinemawork_vhls.smil/chunklist_b5000000.m3u8
 #https://liveorigin01.hbogoasia.com:8443/origin/live/main/MAX/index.m3u8
 
-#EXTINF:-1 tvg-id="boxhits" group-title="🅼🅾🆅🅸🅴"  tvg-logo="https://i.postimg.cc/xdNdJX7z/pic-quark-1634127471882.webp", Box Hits
+#EXTINF:-1 tvg-id="boxhits" group-title="🅼🅾🆅🅸🅴"  tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/box_hits.png", Box Hits
 https://pprex49o5aliv.vcdn.cloud/live/box-hits/chunklist_2.m3u8
 
-#EXTINF:0 tvg-id="boxmovie1" group-title="🅼🅾🆅🅸🅴"  tvg-logo="https://i.postimg.cc/L5QzdHwn/IMG-20210823-224644.png ",BOX Movie
+#EXTINF:0 tvg-id="boxmovie1" group-title="🅼🅾🆅🅸🅴"  tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/Box-Movie1-BEARTV.png ",BOX Movie
 https://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/sd2/index.m3u8?bySCTV|Referer=http://sctvonline.vn/
 
 #EXTINF:-1 tvg-id="kix" group-title="🅼🅾🆅🅸🅴"  tvg-logo="https://vthanh.xyz/ic/234.png", KIX HD
@@ -895,11 +895,13 @@ https://vips-livecdn.fptplay.net/hda3/axnhd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0  tvg-id="paramouthd" group-title="🅼🅾🆅🅸🅴" tvg-logo="https://img.hplus.com.vn/355x200/poster/2020/08/03/744316-Paramount-xanh-fix.png",Paramount
 https://htv-livecdn.fptplay.net/htvonline/paramount.720p.nimble.tms/chunklist.m3u8
 
-#EXTINF:-1  tvg-id="starmovies"  tvg-logo="https://hanoicab.net/mediacenter/media/images/1133/news/ava/s250_250/phim-starmovie.png" group-title="🅼🅾🆅🅸🅴" ",STAR MOVIES HD
+#EXTINF:-1  tvg-id="starmovies"  tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/Star_Movies_logo_2009.png" group-title="🅼🅾🆅🅸🅴" ",STAR MOVIES HD
 http://221.120.204.4:80/STAR-MOVIEAS-LOCKLE/tracks-v1a1/mono.m3u8
-#EXTINF:-1  tvg-id="starworld"  tvg-logo="http://tvonline.vn/wp-content/uploads/2018/07/large_starworld.jpg" group-title="🅼🅾🆅🅸🅴" ",STAR WORLD HD
-#http://221.120.204.4:80/star-world-LOCKLE/tracks-v1a1/mono.m3u8
-#EXTINF:-1  tvg-id="hollywood"  tvg-logo="https://i.ibb.co/7Y9tY7d/hollywood.png" group-title="🅼🅾🆅🅸🅴" ",Hollywood Classics
+
+#EXTINF:-1  tvg-id="starworld"  tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/Star_World_HD_2017_Grey.png" group-title="🅼🅾🆅🅸🅴" ",STAR WORLD HD
+http://221.120.204.4/star-world-LOCKLE/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1  tvg-id="hollywood"  tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/Hollywood_Classics_Home_of_Timeless_Stories.png" group-title="🅼🅾🆅🅸🅴" ",Hollywood Classics
 https://e4.endpoint.cdn.sctvonline.vn/hls/hollywood/sd2/index.m3u8|Referer=http://sctvonline.vn/
 
 
@@ -911,60 +913,60 @@ https://e4.endpoint.cdn.sctvonline.vn/hls/hollywood/sd2/index.m3u8|Referer=http:
 
 
 
-#EXTINF:-1 tvg-id="animalhd" group-title="KHÁM PHÁ" tvg-logo="https://vthanh.xyz/ic/222.png", Animal Planet
+#EXTINF:-1 tvg-id="animalhd" group-title="🌿| Khám phá" tvg-logo="https://vthanh.xyz/ic/222.png", Animal Planet
 https://livecdn.fptplay.net/hda2/animalplanet_vhls.smil/chunklist_b5000000.m3u8
 #https://e4.endpoint.cdn.sctvonline.vn/hls/animalplanet/sd1/index.m3u8|Referer=http://sctvonline.vn/
 #http://livecdn.fptplay.net/qnetlive/animalplanet_2000.stream/chunklist.m3u8
 
-#EXTINF:-1 tvg-id="bbcearth" group-title="KHÁM PHÁ", tvg-logo="http://mod.cht.com.tw/img/channel/channelpic/252.png",BBC Earth
+#EXTINF:-1 tvg-id="bbcearth" group-title="🌿| Khám phá", tvg-logo="http://mod.cht.com.tw/img/channel/channelpic/252.png",BBC Earth
 http://vips-livecdn.fptplay.net/hda2/bbcearth_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="PlanetEarth" group-title="KHÁM PHÁ" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623743369c_Planet%20Earth-205.png", Planet Earth HD
+#EXTINF:-1 tvg-id="PlanetEarth" group-title="🌿| Khám phá" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623743369c_Planet%20Earth-205.png", Planet Earth HD
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 https://e4.endpoint.cdn.sctvonline.vn/hls/planetearth/sd2/index.m3u8|Referer=http://sctvonline.vn/
 #http://vthanh.me/sctv.m3u8?pass=vienthi&id=planetearth|Referer=http://sctvonline.vn/
 #https://8387100975.vws.vegacdn.vn/live/planet-earth/chunklist_2.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.fptplay.net/static/img/share/channels/icon_channel_bbc-lifestyle_148379742953.jpg" group-title="KHÁM PHÁ",BBC Lifestyle
+#EXTINF:-1 tvg-id="bbclifestyle" group-title="🌿| Khám phá" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/1280px-BBC_Lifestyle2.svg.png",BBC Lifestyle
 https://vips-livecdn.fptplay.net/sdb/bbclifestyle_2000.stream/chunklist_b500000.m3u8
 
-#EXTINF:-1 tvg-id="discoveryhd" group-title="KHÁM PHÁ" tvg-logo="https://vthanh.xyz/ic/223.png", Discovery
+#EXTINF:-1 tvg-id="discoveryhd" group-title="🌿| Khám phá" tvg-logo="https://vthanh.xyz/ic/223.png", Discovery
 https://livecdn.fptplay.net/hda2/discovery_vhls.smil/chunklist_b5000000.m3u8
 #http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/DISCOVERY-HD-1080p/playlist.m3u8
 #https://e4.endpoint.cdn.sctvonline.vn//secure/discovery/sd1/index.m3u8?md5=gKeAKNFm8V1IvG-uXGNjAA&expires=2556118740|Referer=https://sctvonline.vn/detail/discovery-095e6050
 
-#EXTINF:-1 tvg-id="discoveryasiahd" group-title="KHÁM PHÁ" tvg-logo="https://vthanh.xyz/ic/224.png", Discovery Asia
+#EXTINF:-1 tvg-id="discoveryasiahd" group-title="🌿| Khám phá" tvg-logo="https://vthanh.xyz/ic/224.png", Discovery Asia
 https://livecdn.fptplay.net/hda2/discoveryasia_vhls.smil/chunklist_b5000000.m3u8
 #https://e4.endpoint.cdn.sctvonline.vn/hls/discoveryasia/index.m3u8|Referer=http://sctvonline.vn/
 
-#EXTINF:-1, tvg-id="davinci" group-title="KHÁM PHÁ" tvg-logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/10/22/8v3yq9do_thumbnail-da-vinci_296_168.png",Da Vinci -FPT
+#EXTINF:-1, tvg-id="davinci" group-title="🌿| Khám phá" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/Da_Vinci_.png",Da Vinci -FPT
 https://vips-livecdn.fptplay.net/hda2/davincihd_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1, tvg-id="drfithd" group-title="KHÁM PHÁ" tvg-logo="https://www.intheboxtv.eu/content/uploads/2018/10/540x540_FIT3GIRLS_FRUITS.png",Dr. Fit -SCTV
+#EXTINF:-1, tvg-id="drfithd" group-title="🌿| Khám phá" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/Dr._Fit_logo.png",Dr. Fit -SCTV
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 https://e4.endpoint.cdn.sctvonline.vn/secure/drfit/index.m3u8?md5=E5-H8WhpHUBeWV3JzaD5ng&expires=2556118740|Referer=https://sctvonline.vn/
 
-#EXTINF:-1  tvg-id="ngchd" group-title="KHÁM PHÁ", tvg-logo="https://i.natgeofe.com/n/e76f5368-6797-4794-b7f6-8d757c79ea5c/ng-logo-2fl.png",National Geographic
+#EXTINF:-1  tvg-id="ngchd" group-title="🌿| Khám phá", tvg-logo="https://i.natgeofe.com/n/e76f5368-6797-4794-b7f6-8d757c79ea5c/ng-logo-2fl.png",National Geographic
 https://vips-livecdn.fptplay.net/hda2/natgeohd_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="ngwhd" group-title="KHÁM PHÁ" tvg-logo="https://vthanh.xyz/ic/226.png", Nat Geo Wild HD
+#EXTINF:-1 tvg-id="ngwhd" group-title="🌿| Khám phá" tvg-logo="https://vthanh.xyz/ic/226.png", Nat Geo Wild HD
 https://livecdn.fptplay.net/hda3/natgeowild_vhls.smil/chunklist_b5000000.m3u8
 #http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/NATGEOWILD-HD-1080p/playlist.m3u8
 #https://vips-livecdn.fptplay.net/hda3/natgeowild_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="outdoorfhd" group-title="KHÁM PHÁ" tvg-logo="https://vthanh.xyz/ic/227.png", Outdoor Channel HD
+#EXTINF:-1 tvg-id="outdoorfhd" group-title="🌿| Khám phá" tvg-logo="https://vthanh.xyz/ic/227.png", Outdoor Channel HD
 https://livecdn.fptplay.net/hda1/outdoorfhd_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="historyhd" group-title="KHÁM PHÁ" tvg-logo="https://vthanh.xyz/ic/189.png", History HD
+#EXTINF:-1 tvg-id="historyhd" group-title="🌿| Khám phá" tvg-logo="https://vthanh.xyz/ic/189.png", History HD
 http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOX-HD-1080p/playlist.m3u8
 
-#EXTINF:-1 tvg-id="blueantent" group-title="KHÁM PHÁ" tvg-logo="https://vthanh.xyz/ic/229.png", Rock Entertainment
+#EXTINF:-1 tvg-id="blueantent" group-title="🌿| Khám phá" tvg-logo="https://vthanh.xyz/ic/229.png", Rock Entertainment
 https://livecdn.fptplay.net/hda1/blueantent_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="blueantext" group-title="KHÁM PHÁ" tvg-logo="https://vthanh.xyz/ic/230.png", Rock Extreme
+#EXTINF:-1 tvg-id="blueantext" group-title="🌿| Khám phá" tvg-logo="https://vthanh.xyz/ic/230.png", Rock Extreme
 https://livecdn.fptplay.net/hda1/blueantext_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="dmax" group-title="KHÁM PHÁ" tvg-logo="https://vthanh.xyz/ic/186.png", DMAX
+#EXTINF:-1 tvg-id="dmax" group-title="🌿| Khám phá" tvg-logo="https://vthanh.xyz/ic/186.png", DMAX
 http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXSPORT2-SD-720p/playlist.m3u8
 
 
