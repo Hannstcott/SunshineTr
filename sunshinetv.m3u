@@ -622,13 +622,14 @@ https://livecdn.fptplay.net/sda/btv11_hls.smil/chunklist_b2500000.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 https://livecdn.fptplay.net/sdb/mtv_hls.smil/chunklist_b2500000.m3u8
 
-#EXTINF:-1 tvg-id="channelvhd" group-title="🆅🆃🆅🄲🄰🄱" tvg-logo="http://htvc.vn/uploads/editor/images/Logo%20Kenh/logo_channelV_422x278.png",Channel [V] HD 
+#EXTINF:-1 tvg-id="channelvhd" group-title="🆅🆃🆅🄲🄰🄱" tvg-logo="http://htvc.vn/uploads/editor/images/Logo%20Kenh/logo_channelV_422x278.png",Channel [V]
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/CHANNELV-HD-1080p/playlist.m3u8
 
-#EXTINF:-1, tvg-id="musicbox" group-title="🆅🆃🆅🄲🄰🄱" tvg-logo="http://vthanh.live/ic/240.png", Music Box WISEPLAY
+#EXTINF:-1, tvg-id="musicbox" group-title="🆅🆃🆅🄲🄰🄱" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/LOGO-MUSICBOX.png", Music Box
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-https://e4.endpoint.cdn.sctvonline.vn/secure/boxmusic/index.m3u8?md5=pR0QrkdxGuSRmHtTGT028A&expires=2556118740|Referer=https://sctvonline.vn
+https://e4.endpoint.cdn.sctvonline.vn/hls/man/sd2/index.m3u8|Referer=http://sctvonline.vn/
+#https://e4.endpoint.cdn.sctvonline.vn/secure/boxmusic/index.m3u8?md5=pR0QrkdxGuSRmHtTGT028A&expires=2556118740|Referer=https://sctvonline.vn
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------#
 
@@ -1020,7 +1021,7 @@ http://118.107.85.4:1935/live/smil:CRTV.smil/chunklist_b1384000.m3u8
 http://drtdnglive.e49a7c38.cdnviet.com/livedrt1/chunklist.m3u8
 #EXTINF:-1 tvg-id="danang2" group-title="Đị🅰 🅿🅷ƯƠ🅽🅶" tvg-logo="https://vthanh.xyz/ic/129.png", Đà Nẵng 2 HD
 http://drtdnglive.e49a7c38.cdnviet.com/livestream/chunklist.m3u8
-#EXTINF:-1 tvg-id="daklak" group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://vthanh.xyz/ic/130.png", Đắk Lắk
+#EXTINF:-1 tvg-id="daklak" group-title="Đị🅰 🅿🅷ƯƠ🅽🅶" tvg-logo="https://vthanh.xyz/ic/130.png", Đắk Lắk
 https://livecdn.fptplay.net/sdc/daklak_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="daknong" group-title="Đị🅰 🅿🅷ƯƠ🅽🅶" tvg-logo="https://vthanh.xyz/ic/131.png", Đắk Nông
 http://vthanh.xyz/vieon.m3u8?kenh=dak-nong
