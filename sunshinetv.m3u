@@ -743,8 +743,8 @@ https://e1.endpoint.cdn.sctvonline.vn/hls/sctv16/sd2/index.m3u8|Referer=http://s
 
 #EXTINF:-1 tvg-id="sctv17hd" group-title="🆂🅲🆃🆅" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/SCTV17%20HD.png",SCTV17 - S Sport
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#https://e1.endpoint.cdn.sctvonline.vn/hls/sctv17/sd2/index.m3u8|Referer=http://sctvonline.vn/
-$https://e1.endpoint.cdn.sctvonline.vn/secure/sctv17/sd1/index.m3u8?md5=Ta95m8zjauF5U4Ya8NsJvg&expires=2556118740|Referer=http://sctvonline.vn/
+https://e1.endpoint.cdn.sctvonline.vn/hls/sctv17/sd2/index.m3u8|Referer=http://sctvonline.vn/
+#https://e1.endpoint.cdn.sctvonline.vn/secure/sctv17/sd1/index.m3u8?md5=Ta95m8zjauF5U4Ya8NsJvg&expires=2556118740|Referer=http://sctvonline.vn/
 #http://vthanh.me/sctv.m3u8?pass=vienthi&id=sctv17|Referer=http://sctvonline.vn/
 
 #EXTINF:-1 tvg-id="sctv18hd" group-title="🆂🅲🆃🆅" tvg-logo="https://i.ibb.co/72PK5Nr/sctv18-hd-BEARTV.png" catchup="append" catchup-days="0.3" catchup-source="https://e1.endpoint.cdn.sctvonline.vn/hls/sctv18/sd2/index-${start}-${offset}.m3u8",SCTV18 
