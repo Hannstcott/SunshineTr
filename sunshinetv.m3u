@@ -21,13 +21,6 @@
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=A0675D250147132D&Ticket=D7A79A8F2D399CC4
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_cinehd/default/i.mpd
-#EXTINF:-1 tvg-id="kcinehd" tvg-name="kcinehd" logo="https://i.ibb.co/JCYgyJQ/kcine.png" group-title="🍭| K+"  tvg-chno="996",K+Cine HD
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://license-sgn.solocoo.tv/wv?c=cpi:2:6OM0o61jF2hcDXWZCUP2SnfD7h-JH0KLipbQUKyWFAo:MTp7YzoiUW5xQVFzaG1jMHV1dnNSWGtLcUZMZ0FBQUFNIixsOiJ2aV9WTiIsbWY6MTYsb2Y6MSx0czoxNjM4MDM2ODM1NjUxLHU6IjU2OGE5NTYzLTg0NTEtYTZhNi0wNjczLTdmYjcxYjJlYzYyMSIsZGU6MyxsZjowfQ&SessionId=A0675D250147132D&Ticket=D7A79A8F2D399CC4
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://ottlivevng.kplus.vn/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/prod_kplus_1_hd_fps.mpd
 
 #EXTINF:-1 tvg-id="klifehd" group-title="🅺✚" logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-klife-hd.png",K+Life HD
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
@@ -36,13 +29,6 @@ https://ottlivevng.kplus.vn/live/prod_kplus_1_hd_fps/prod_kplus_1_hd_fps.isml/pr
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=A0675D250147132D&Ticket=D7A79A8F2D399CC4
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_lifehd/default/i.mpd
-#EXTINF:-1 tvg-id="klifehd" tvg-name="klifehd" logo="https://i.ibb.co/zXfswdq/klife.png"  group-title="🍭| K+",K+Life HD
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://license-sgn.solocoo.tv/wv?c=cpi:2:6OM0o61jF2hcDXWZCUP2SnfD7h-JH0KLipbQUKyWFAo:MTp7YzoiUW5xQVFzaG1jMHV1dnNSWGtLcUZMZ0FBQUFNIixsOiJ2aV9WTiIsbWY6MTYsb2Y6MSx0czoxNjM4MDM2ODM1NjUxLHU6IjU2OGE5NTYzLTg0NTEtYTZhNi0wNjczLTdmYjcxYjJlYzYyMSIsZGU6MyxsZjowfQ&SessionId=A0675D250147132D&Ticket=D7A79A8F2D399CC4
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://ottlivevng.kplus.vn/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/prod_kplus_ns_hd_fps.mpd
 
 #EXTINF:-1 tvg-id="ksport1hd" group-title="🅺✚" logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-k-sport1-hd.png",K+ SPORT1 HD
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
@@ -51,13 +37,7 @@ https://ottlivevng.kplus.vn/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=A0675D250147132D&Ticket=D7A79A8F2D399CC4
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_sport1hd/default/i.mpd
-#EXTINF:-1 tvg-id="ksport1hd" tvg-name="ksport1hd" logo="https://i.ibb.co/0FN3R4Z/ksport1.png" group-title="🍭| K+",K+ SPORT1 HD
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://license-sgn.solocoo.tv/wv?c=cpi:2:6OM0o61jF2hcDXWZCUP2SnfD7h-JH0KLipbQUKyWFAo:MTp7YzoiUW5xQVFzaG1jMHV1dnNSWGtLcUZMZ0FBQUFNIixsOiJ2aV9WTiIsbWY6MTYsb2Y6MSx0czoxNjM4MDM2ODM1NjUxLHU6IjU2OGE5NTYzLTg0NTEtYTZhNi0wNjczLTdmYjcxYjJlYzYyMSIsZGU6MyxsZjowfQ&SessionId=A0675D250147132D&Ticket=D7A79A8F2D399CC4
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://ottlivevng.kplus.vn/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/prod_kplus_pm_hd_fps.mpd
+
 
 #EXTINF:-1 tvg-id="ksport2hd" group-title="🅺✚" tvg-logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-k-sport2-hd.png",K+Sport2 HD
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
@@ -66,13 +46,6 @@ https://ottlivevng.kplus.vn/live/prod_kplus_pm_hd_fps/prod_kplus_pm_hd_fps.isml/
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=A0675D250147132D&Ticket=D7A79A8F2D399CC4
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_sport2hd/default/i.mpd
-#EXTINF:-1 tvg-id="ksport2hd" tvg-name="ksport2hd" tvg-logo="https://i.ibb.co/Vm5L8wH/ksport2.png" group-title="🍭| K+",K+Sport2 HD
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://license-sgn.solocoo.tv/wv?c=cpi:2:6OM0o61jF2hcDXWZCUP2SnfD7h-JH0KLipbQUKyWFAo:MTp7YzoiUW5xQVFzaG1jMHV1dnNSWGtLcUZMZ0FBQUFNIixsOiJ2aV9WTiIsbWY6MTYsb2Y6MSx0czoxNjM4MDM2ODM1NjUxLHU6IjU2OGE5NTYzLTg0NTEtYTZhNi0wNjczLTdmYjcxYjJlYzYyMSIsZGU6MyxsZjowfQ&SessionId=A0675D250147132D&Ticket=D7A79A8F2D399CC4
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://ottlivevng.kplus.vn/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/prod_kplus_pc_hd_fps.mpd
 
 #EXTINF:-1 tvg-id="kkidshd" group-title="🅺✚" tvg-logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-kkids-hd.png",K+ Kids
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
@@ -81,13 +54,6 @@ https://ottlivevng.kplus.vn/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=A0675D250147132D&Ticket=D7A79A8F2D399CC4
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_kidshd/default/i.mpd
-#EXTINF:-1 tvg-id="kkidshd" tvg-name="kkidshd" tvg-logo="https://i.ibb.co/jbpSd38/kkids.png" group-title="🍭| K+",K+Kids HD
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://license-sgn.solocoo.tv/wv?c=cpi:2:6OM0o61jF2hcDXWZCUP2SnfD7h-JH0KLipbQUKyWFAo:MTp7YzoiUW5xQVFzaG1jMHV1dnNSWGtLcUZMZ0FBQUFNIixsOiJ2aV9WTiIsbWY6MTYsb2Y6MSx0czoxNjM4MDM2ODM1NjUxLHU6IjU2OGE5NTYzLTg0NTEtYTZhNi0wNjczLTdmYjcxYjJlYzYyMSIsZGU6MyxsZjowfQ&SessionId=A0675D250147132D&Ticket=D7A79A8F2D399CC4
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://ottlivevng.kplus.vn/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.isml/prod_kplus_kids_hd_fps.mpd
 
 #EXTINF:-1  tvg-id="klive1hd" group-title="🅺✚" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png",K+ LIVE 1
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
@@ -96,13 +62,6 @@ https://ottlivevng.kplus.vn/live/prod_kplus_kids_hd_fps/prod_kplus_kids_hd_fps.i
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=A0675D250147132D&Ticket=D7A79A8F2D399CC4
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_livetv1/default/i.mpd
-#EXTINF:-1  tvg-id="klive1hd" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png" group-title="🍭| K+",K+ LIVE 1
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://license-sgn.solocoo.tv/wv?c=cpi:2:6OM0o61jF2hcDXWZCUP2SnfD7h-JH0KLipbQUKyWFAo:MTp7YzoiUW5xQVFzaG1jMHV1dnNSWGtLcUZMZ0FBQUFNIixsOiJ2aV9WTiIsbWY6MTYsb2Y6MSx0czoxNjM4MDM2ODM1NjUxLHU6IjU2OGE5NTYzLTg0NTEtYTZhNi0wNjczLTdmYjcxYjJlYzYyMSIsZGU6MyxsZjowfQ&SessionId=A0675D250147132D&Ticket=D7A79A8F2D399CC4
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://ottlivevng.kplus.vn/live/prod_mykplus_live_tv_1_fps/prod_mykplus_live_tv_1_fps.isml/prod_mykplus_live_tv_1_fps.mpd
 
 #EXTINF:-1  tvg-id="klive2hd" group-title="🅺✚" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_2.png",K+ LIVE 2
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
@@ -111,13 +70,6 @@ https://ottlivevng.kplus.vn/live/prod_mykplus_live_tv_1_fps/prod_mykplus_live_tv
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/GetLicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=A0675D250147132D&Ticket=D7A79A8F2D399CC4
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_livetv2/default/i.mpd
-#EXTINF:-1  tvg-id="klive2hd" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_2.png" group-title="🍭| K+",K+ LIVE 2
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://license-sgn.solocoo.tv/wv?c=cpi:2:6OM0o61jF2hcDXWZCUP2SnfD7h-JH0KLipbQUKyWFAo:MTp7YzoiUW5xQVFzaG1jMHV1dnNSWGtLcUZMZ0FBQUFNIixsOiJ2aV9WTiIsbWY6MTYsb2Y6MSx0czoxNjM4MDM2ODM1NjUxLHU6IjU2OGE5NTYzLTg0NTEtYTZhNi0wNjczLTdmYjcxYjJlYzYyMSIsZGU6MyxsZjowfQ&SessionId=A0675D250147132D&Ticket=D7A79A8F2D399CC4
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://ottlivevng.kplus.vn/live/prod_mykplus_live_tv_2_fps/prod_mykplus_live_tv_2_fps.isml/prod_mykplus_live_tv_2_fps.mpd
 
 #EXTINF:-1  tvg-id="klive3hd" group-title="🅺✚" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_3.png",K+ LIVE 3
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
@@ -126,14 +78,6 @@ https://ottlivevng.kplus.vn/live/prod_mykplus_live_tv_2_fps/prod_mykplus_live_tv
 #KODIPROP:inputstream.adaptive.license_key=https://license-sgn.solocoo.tv/wv?c=cpi:2:6OM0o61jF2hcDXWZCUP2SnfD7h-JH0KLipbQUKyWFAo:MTp7YzoiUW5xQVFzaG1jMHV1dnNSWGtLcUZMZ0FBQUFNIixsOiJ2aV9WTiIsbWY6MTYsb2Y6MSx0czoxNjM4MDM2ODM1NjUxLHU6IjU2OGE5NTYzLTg0NTEtYTZhNi0wNjczLTdmYjcxYjJlYzYyMSIsZGU6MyxsZjowfQ&SessionId=A0675D250147132D&Ticket=D7A79A8F2D399CC4
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_livetv3/default/i.mpd
-#EXTINF:-1  tvg-id="klive3hd" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_3.png" group-title="🍭| K+",K+ LIVE 3
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://license-sgn.solocoo.tv/wv?c=cpi:2:6OM0o61jF2hcDXWZCUP2SnfD7h-JH0KLipbQUKyWFAo:MTp7YzoiUW5xQVFzaG1jMHV1dnNSWGtLcUZMZ0FBQUFNIixsOiJ2aV9WTiIsbWY6MTYsb2Y6MSx0czoxNjM4MDM2ODM1NjUxLHU6IjU2OGE5NTYzLTg0NTEtYTZhNi0wNjczLTdmYjcxYjJlYzYyMSIsZGU6MyxsZjowfQ&SessionId=A0675D250147132D&Ticket=D7A79A8F2D399CC4
-&SessionId=B3A30136DB4CCE5E&Ticket=8B2100CB60332994
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://ottlivevng.kplus.vn/live/prod_mykplus_live_tv_3_fps/prod_mykplus_live_tv_3_fps.isml/prod_mykplus_live_tv_3_fps.mpd
 
 
 #-*--VTV-*--#
@@ -602,14 +546,17 @@ https://isptqrteg4liv.vcdn.cloud/manifest/vtvcab21/playlist_720p.m3u8|Referer=ht
 
 #EXTINF:-1 tvg-id="vtvcab22hd" group-title="🆅🆃🆅🄲🄰🄱" tvg-id="vtvcab22hd" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/8ccc7ad04257f02acf0fb095b79d4387b1fe4f13/VTVCab22%20-%20Life%20TV%20HD.png",VTVCab22 - LIFE TV HD
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-https://isptqrteg4liv.vcdn.cloud/manifest/vtvcab23/playlist_720p.m3u8|Referer=https://www.vtvcab.vn/channel/life-tv-hd-1,VTVcab22_HD.html
+https://isptqrteg4liv.vcdn.cloud/manifest/vtvcab22/playlist_720p.m3u8|Referer=https://www.vtvcab.vn/channel/life-tv-hd-1,VTVcab22_HD.html
 #http://bamus-eng-roku.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="vtvcab23hd" group-title="🆅🆃🆅🄲🄰🄱" tvg-logo="https://assets-vtvcab.gviet.vn/images/hq/posters/Golf_Logo_update_150x902.jpg",VTVcab23 - ON GOLF HD
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-https://884030f97a.vws.vegacdn.vn/live/_definst_/stream_1_a0acb/chunklist.m3u8
-#https://isptqrteg4liv.vcdn.cloud/manifest/vtvcab23/playlist_720p.m3u8
+https://isptqrteg4liv.vcdn.cloud/manifest/vtvcab23/playlist_720p.m3u8|Referer=https://www.vtvcab.vn/channel/ongolf-tv-hd-1,VTVcab23_HD.html
 #http://dream4k.co:2082/DM_Snappyarr/adfsgbhgsvdfv/33787|user-agent="REDLINECLIENT_DREAMSAT_650HD_PRO V2.8.73"
+
+#EXTINF:-1 tvg-id="vtvcab23hd" group-title="🆅🆃🆅🄲🄰🄱" tvg-logo="https://cdn.golfnews.vn/bundles/cmnindex/images/GolfNews_Logo_black.png",GolfNews
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+https://884030f97a.vws.vegacdn.vn/live/_definst_/stream_1_a0acb/chunklist.m3u8
 
 
 #EXTINF:-1 tvg-id="hitv" group-title="🆅🆃🆅🄲🄰🄱" tvg-logo="https://i.imgur.com/hljdH2o.jpg",HanoiCab1 | HiTV
@@ -1330,532 +1277,154 @@ https://livecdn.fptplay.net/sdc/truyenhinhnhandan_hls.smil/chunklist_b2500000.m3
 
 ___________Radio________________
 
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOV1 AM 675kHz
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOV1 AM 675kHz
 http://stream2.mobiradio.vn/vovradio/vov1.stream/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOV2 FM 102.7MHz
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOV2 FM 102.7MHz
 http://stream2.mobiradio.vn/vovradio/vov2.stream/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOV3 FM 104.5MHz
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOV3 FM 104.5MHz
 http://stream2.mobiradio.vn/vovradio/vov3.stream/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOH AM 610kHz
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOH AM 610kHz
 https://strm.voh.com.vn/radio/channel2/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOH FM 87.7MHz
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOH FM 87.7MHz
 http://125.212.213.71:1935/live/channel5/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOH FM 95.6MHz
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOH FM 95.6MHz
 https://strm.voh.com.vn/radio/channel1/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOH FM 99.9MHz
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOH FM 99.9MHz
 https://strm.voh.com.vn/radio/channel3/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOV4 DBSCL
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOV4 DBSCL
 http://media.kythuatvov.vn:1936/live/VOV4_CT.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOV4 Miền Trung
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOV4 Miền Trung
 http://media.kythuatvov.vn:1936/live/VOV4_MT.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOV4 Tây Bắc
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOV4 Tây Bắc
 http://118.70.205.22:1935/vovlive/vov4.TayBac.sdp_aac/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOV4 Tây Nguyên
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOV4 Tây Nguyên
 http://media.kythuatvov.vn:7039/;stream/
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOV English 24/7
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOV English 24/7
 https://streaming1.vov.vn:8443/audio/vovvn1_vov247.stream_aac/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOV5 FM 105.5MHz
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOV5 FM 105.5MHz
 https://streaming1.vov.vn:8443/audio/vovvn1_vov5.stream_aac/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOV6
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOV6
 https://streaming1.vov.vn:8443/audio/vovvn1_vov2.stream_aac/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOV FM 89
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOV FM 89
 http://media.kythuatvov.vn:1936/live/VOV89.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOVGT HCM
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOVGT HCM
 http://media.kythuatvov.vn:1936/live/VOVGTHCM.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOVGT HN
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOVGT HN
 http://stream2.mobiradio.vn/vovradio/vovgthn.stream/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOVGT Mekong
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",VOVGT Mekong
 http://media.kythuatvov.vn:1936/live/MEKONG.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",JoyFM 98.9MHz
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",JoyFM 98.9MHz
 http://cdn.mediatech.vn/hntvRadio/joyfm.stream_aac/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Bà Rịa Vũng Tàu
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Bà Rịa Vũng Tàu
 http://113.163.216.23:1935/live/radio1.sdp_audio/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Bình Phước
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Bình Phước
 https://live.baobinhphuoc.com.vn/bptvlive/radio.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Bình Thuận
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Bình Thuận
 http://202.43.109.142:1935/thbtradio/btradio/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Bạc Liêu
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Bạc Liêu
 http://118.69.205.213/radio/radio.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Bắc Giang
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Bắc Giang
 https://cdn.mediatech.vn/bgtvlive/radiolive/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Bến Tre
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Bến Tre
 http://113.163.94.245/hls-live/livepkgr/_definst_/liveevent/audiostream.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Cà Mau
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Cà Mau
 http://tv.ctvcamau.vn/live/radio/radio.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Cần Thơ
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Cần Thơ
 https://tv.canthotv.vn/live/radio/radio.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Đà Nẵng
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Đà Nẵng
 http://drtdnglive.e49a7c38.cdnviet.com/liveradio/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Đồng Tháp
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Đồng Tháp
 https://202.43.109.144:1935/thdtradio/thdtradio/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Gia Lai
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Gia Lai
 http://113.161.25.3:8134/hls/radio/radio.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Hà Nội 90MHz
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Hà Nội 90MHz
 http://cdn.mediatech.vn/hntvRadio/fm90.sdp_aac/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Hà Nội 96MHz
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Hà Nội 96MHz
 http://cdn.mediatech.vn/hntvRadio/fm96.sdp_aac/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Hưng Yên
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Hưng Yên
 http://cdn.hytv.mediatech.vn/hytvlive/radio.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Hải Phòng 1
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Hải Phòng 1
 https://live.thhp.vn/937/index.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Hải Phòng 2
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Hải Phòng 2
 https://live.thhp.vn/radio/102/index.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Hậu Giang
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Hậu Giang
 https://haugiangfm.htvc.catchup.vnroute.com/haugiang-fm.tms/index.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Khánh Hòa
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Khánh Hòa
 http://210.245.20.94/hls/radio.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Long An
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Long An
 http://113.161.229.13/hls-live/livepkgr/_definst_/liveevent/radio.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Lâm Đồng
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Lâm Đồng
 http://203.171.21.216:1935/radio/lamdong_aac/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Nghệ An
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Nghệ An
 https://live.truyenhinhnghean.vn/hls/na2/index.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Ninh Bình
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Ninh Bình
 https://nbtv.vncdn.vn/nbtvlive/radio.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Phú Yên
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Phú Yên
 http://113.161.4.48:8080/phuyen/radio.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Quảng Nam
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Quảng Nam
 rtmp://113.161.6.157:1935/live/audiostream
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Quảng Ngãi
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Quảng Ngãi
 http://203.171.21.216:1935/radio/quangngai_aac/chunklist_w1148923709.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Quảng Ninh 1
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Quảng Ninh 1
 http://qtv.vncdn.vn/qtvlive/qnr1.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Quảng Ninh 2
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Quảng Ninh 2
 http://qtv.vncdn.vn/qtvlive/qnr2.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Sóc Trăng
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Sóc Trăng
 http://115.78.3.164:8135/hls-live/livepkgr/_definst_/liveevent/livestreamf.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Sơn La
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Sơn La
 http://203.171.21.216:1935/radio/sonla_aac/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Thái Bình
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Thái Bình
 http://118.70.118.191:1935/tbtvlive/radio/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Thừa Thiên Huế
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Thừa Thiên Huế
 rtmp://118.69.176.149:1936/live/radio
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Tiền Giang
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Tiền Giang
 http://thtg.vn:8002/radiolive.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Tuyên Quang
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Tuyên Quang
 https://live.tuyenquangtv.vn/hls/radio.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Tây Ninh
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Tây Ninh
 http://202.43.109.142:1935/radio11/tnradio/playlist.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Vĩnh Long
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Vĩnh Long
 https://thvl111220.cdn.vnns.io/thvlradio/chunks.m3u8
-#EXTINF:-1 group-title="Radio Việt" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Yên Bái
+#EXTINF:-1 group-title="🆁🅰🅳🅸🅾" tvg-logo="https://bizweb.dktcdn.net/thumb/large/100/011/094/products/radiovietnam-radiovietnam-icon.png?v=1503482217710",Yên Bái
 https://bk.yenbaitv.org.vn/hls/audio/livestream.m3u8
-
-___________Live C1________________
-
-#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá C1" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 1
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/hdevent/uefa01_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá C1" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 2
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/hdevent/uefa02_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá C1" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 3
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/hdevent/uefa03_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá C1" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 4
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/hdevent/uefa04_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá C1" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 5
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/hdevent/uefa05_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá C1" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 6
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/hdevent/uefa06_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá C1" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 7
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/hdevent/uefa07_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá C1" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 8
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/hdevent/uefa08_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá C1" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 9
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/hdevent/uefa09_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="" group-title="FPTplay| Live Bóng Đá C1" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", UEFA 10
-#EXTVLCOPT:http-user-agent=VThanhTivi
-
-___________Live AFC________________
-
-https://livecdn.fptplay.net/hdevent/uefa10_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:0 group-title="FPTplay| Live Bóng Đá AFC" tvg-logo="https://static.wikia.nocookie.net/captaintsubasa/images/a/a9/AFC_Champions_League.png",AFC 01
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://vips-livecdn.fptplay.net/afcchampion/afc01_2000.stream/chunklist.m3u8
-#EXTINF:0 group-title="FPTplay| Live Bóng Đá AFC" tvg-logo="https://static.wikia.nocookie.net/captaintsubasa/images/a/a9/AFC_Champions_League.png",AFC 02
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://vips-livecdn.fptplay.net/afcchampion/afc02_2000.stream/chunklist.m3u8
-#EXTINF:0 group-title="FPTplay| Live Bóng Đá AFC" tvg-logo="https://static.wikia.nocookie.net/captaintsubasa/images/a/a9/AFC_Champions_League.png",AFC 03
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://vips-livecdn.fptplay.net/afcchampion/afc03_2000.stream/chunklist.m3u8
-#EXTINF:0 group-title="FPTplay| Live Bóng Đá AFC" tvg-logo="https://static.wikia.nocookie.net/captaintsubasa/images/a/a9/AFC_Champions_League.png",AFC 04
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://vips-livecdn.fptplay.net/afcchampion/afc04_2000.stream/chunklist.m3u8
-#EXTINF:0 group-title="FPTplay| Live Bóng Đá AFC" tvg-logo="https://static.wikia.nocookie.net/captaintsubasa/images/a/a9/AFC_Champions_League.png",AFC 05
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://vips-livecdn.fptplay.net/afcchampion/afc05_2000.stream/chunklist.m3u8
-#EXTINF:0 group-title="FPTplay| Live Bóng Đá AFC" tvg-logo="https://static.wikia.nocookie.net/captaintsubasa/images/a/a9/AFC_Champions_League.png",AFC 06
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://vips-livecdn.fptplay.net/afcchampion/afc06_2000.stream/chunklist.m3u8
-#EXTINF:0 group-title="FPTplay| Live Bóng Đá AFC" tvg-logo="https://static.wikia.nocookie.net/captaintsubasa/images/a/a9/AFC_Champions_League.png",AFC 07
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://vips-livecdn.fptplay.net/afcchampion/afc07_2000.stream/chunklist.m3u8
-#EXTINF:0 group-title="FPTplay| Live Bóng Đá AFC" tvg-logo="https://static.wikia.nocookie.net/captaintsubasa/images/a/a9/AFC_Champions_League.png",AFC 08
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://vips-livecdn.fptplay.net/afcchampion/afc08_2000.stream/chunklist.m3u8
-#EXTINF:0 group-title="FPTplay| Live Bóng Đá AFC" tvg-logo="https://static.wikia.nocookie.net/captaintsubasa/images/a/a9/AFC_Champions_League.png",AFC 09
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://vips-livecdn.fptplay.net/afcchampion/afc09_2000.stream/chunklist.m3u8
-#EXTINF:0 group-title="FPTplay| Live Bóng Đá AFC" tvg-logo="https://static.wikia.nocookie.net/captaintsubasa/images/a/a9/AFC_Champions_League.png",AFC 10
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://vips-livecdn.fptplay.net/afcchampion/afc10_2000.stream/chunklist.m3u8
-
-___________Live Worldcup________________
-
-#EXTINF:0 group-title="FPTplay| Live Bóng Đá WorldCup" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/314px-2022_FIFA_World_Cup.svg.png",World Cup 01
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://vips-livecdn.fptplay.net/hdevent/worldcup01_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="FPTplay| Live Bóng Đá WorldCup" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/314px-2022_FIFA_World_Cup.svg.png",World Cup 02
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://vips-livecdn.fptplay.net/hdevent/worldcup02_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="FPTplay| Live Bóng Đá WorldCup" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/314px-2022_FIFA_World_Cup.svg.png",World Cup 03
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://vips-livecdn.fptplay.net/hdevent/worldcup03_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="FPTplay| Live Bóng Đá WorldCup" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/314px-2022_FIFA_World_Cup.svg.png",World Cup 04
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://vips-livecdn.fptplay.net/hdevent/worldcup04_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="FPTplay| Live Bóng Đá WorldCup" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/314px-2022_FIFA_World_Cup.svg.png",World Cup 05
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://vips-livecdn.fptplay.net/hdevent/worldcup05_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="FPTplay| Live Bóng Đá WorldCup" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/314px-2022_FIFA_World_Cup.svg.png",World Cup 06
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://vips-livecdn.fptplay.net/hdevent/worldcup06_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="FPTplay| Live Bóng Đá WorldCup" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/314px-2022_FIFA_World_Cup.svg.png",World Cup 07
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://vips-livecdn.fptplay.net/hdevent/worldcup07_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="FPTplay| Live Bóng Đá WorldCup" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/314px-2022_FIFA_World_Cup.svg.png",World Cup 08
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://vips-livecdn.fptplay.net/hdevent/worldcup08_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="FPTplay| Live Bóng Đá WorldCup" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/314px-2022_FIFA_World_Cup.svg.png",World Cup 09
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://vips-livecdn.fptplay.net/hdevent/worldcup09_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="FPTplay| Live Bóng Đá WorldCup" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/314px-2022_FIFA_World_Cup.svg.png",World Cup 10
-#EXTVLCOPT:http-user-agent="CoocaaTV"
-https://vips-livecdn.fptplay.net/hdevent/worldcup10_hls.smil/chunklist_b2500000.m3u8
-
 
 ___________Live________________
 
-#EXTINF:-1 group-title="⛵| RaKhoiTV" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai501
+#EXTINF:-1 group-title="🆂🅿🅾🆁🆃" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai501
 #EXTVLCOPT:http-user-agent="sport"
 https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m501nd/playlist.m3u8|Referer=https://cakhia.cakhia10.tv/truc-tiep/
-#EXTINF:-1 group-title="⛵| RaKhoiTV" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai504
+#EXTINF:-1 group-title="🆂🅿🅾🆁🆃" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai504
 #EXTVLCOPT:http-user-agent="sport"
 https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m504nd/playlist.m3u8|Referer=https://cakhia.cakhia10.tv/truc-tiep/
-#EXTINF:-1 group-title="⛵| RaKhoiTV" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai505
+#EXTINF:-1 group-title="🆂🅿🅾🆁🆃" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai505
 #EXTVLCOPT:http-user-agent="sport"
 https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m505nd/playlist.m3u8|Referer=https://cakhia.cakhia10.tv/truc-tiep/
-#EXTINF:-1 group-title="⛵| RaKhoiTV" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai201
+#EXTINF:-1 group-title="🆂🅿🅾🆁🆃" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai201
 #EXTVLCOPT:http-user-agent="sport"
 https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m202nd/playlist.m3u8|Referer=https://cakhia.cakhia10.tv/truc-tiep/
-#EXTINF:-1 group-title="⛵| RaKhoiTV" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai202
+#EXTINF:-1 group-title="🆂🅿🅾🆁🆃" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai202
 #EXTVLCOPT:http-user-agent="sport"
 https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m201nd/playlist.m3u8|Referer=https://cakhia.cakhia10.tv/truc-tiep/
-#EXTINF:-1 group-title="⛵| RaKhoiTV" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai203
+#EXTINF:-1 group-title="🆂🅿🅾🆁🆃" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai203
 #EXTVLCOPT:http-user-agent="sport"
 https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m203nd/playlist.m3u8|Referer=https://cakhia.cakhia10.tv/truc-tiep/
-#EXTINF:-1 group-title="⛵| RaKhoiTV" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai204
+#EXTINF:-1 group-title="🆂🅿🅾🆁🆃" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai204
 #EXTVLCOPT:http-user-agent="sport"
 https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m204nd/playlist.m3u8|Referer=https://cakhia.cakhia10.tv/truc-tiep/
-#EXTINF:-1 group-title="⛵| RaKhoiTV" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai301
+#EXTINF:-1 group-title="🆂🅿🅾🆁🆃" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai301
 #EXTVLCOPT:http-user-agent="sport"
 https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m301nd/playlist.m3u8|Referer=https://cakhia.cakhia10.tv/truc-tiep/
-#EXTINF:-1 group-title="⛵| RaKhoiTV" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai302
+#EXTINF:-1 group-title="🆂🅿🅾🆁🆃" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai302
 #EXTVLCOPT:http-user-agent="sport"
 https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m302nd/playlist.m3u8|Referer=https://cakhia.cakhia10.tv/truc-tiep/
-#EXTINF:-1 group-title="⛵| RaKhoiTV" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai303
+#EXTINF:-1 group-title="🆂🅿🅾🆁🆃" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai303
 #EXTVLCOPT:http-user-agent="sport"
 https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m303nd/playlist.m3u8?laohac|Referer=https://cakhia.cakhia10.tv/truc-tiep/
-#EXTINF:-1 group-title="⛵| RaKhoiTV" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai401
+#EXTINF:-1 group-title="🆂🅿🅾🆁🆃" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai401
 #EXTVLCOPT:http-user-agent="sport"
 https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m401nd/playlist.m3u8|Referer=https://cakhia.cakhia10.tv/truc-tiep/
-#EXTINF:-1 group-title="⛵| RaKhoiTV" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai402
+#EXTINF:-1 group-title="🆂🅿🅾🆁🆃" tvg-logo="https://static.fastlycdnlive.xyz/rakhoi7/user/img/rakhoi.png",RaKhoi NhaDai402
 #EXTVLCOPT:http-user-agent="http"
 https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m402nd/playlist.m3u8|Referer=https://cakhia.cakhia10.tv/truc-tiep/
 
 
-___________Sport________________
-
-#EXTINF:-1 group-title="⚽Sports" tvg-logo="https://www.nowtv.now.com/media/logo/611-wbg-e.png",Now Sports 4K
-https://family4you.fun/vn360sport/Sports/nowe.php?id=609245
-#EXTINF:-1 group-title="🌎Sports" tvg-id="bein1premium" tvg-shift="-1",beIN Sports Premium 1 HD
-#http://130.193.166.18/cache/Bein-Prem-1-HEVC/master.m3u8
-#EXTINF:-1 group-title="🌎Sports" tvg-id="bein2premium" tvg-shift="-1",beIN Sports Premium 2 HD
-http://130.193.166.18/cache/Bein-Prem-2-HEVC/master.m3u8
-#EXTINF:-1 group-title="🌎Sports" tvg-id="bein3premium" tvg-shift="-1",beIN Sports Premium 3 HD
-http://130.193.166.18/cache/Bein-Prem-3-HEVC/master.m3u8
-#EXTINF:-1 group-title="🌎Sports" tvg-id="Sky Sport 1 HD",Sky Sport 1 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7813
-#EXTINF:-1 group-title="🌎Sports" tvg-id="Sky Sport 2 HD",Sky Sport 2 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7814
-#EXTINF:-1 group-title="🌎Sports",HK: Now Sports 1 FHD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=246323
-#EXTINF:-1 group-title="🌎Sports",HK: Now Sports 2 FHD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=246324
-#EXTINF:-1 group-title="🌎Sports",HK: Now Sports 3 FHD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=200224
-#EXTINF:-1 group-title="🌎Sports",HK: Now Sports 4 FHD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=246325
-#EXTINF:-1 group-title="🌎Sports",HK: Now Sports 5 FHD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=246326
-#EXTINF:-1 group-title="🌎Sports",HK: Now Sports 6 FHD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=246327
-#EXTINF:-1 group-title="🌎Sports",HK: Now Sports 7 FHD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=246328
-#EXTINF:-1 group-title="🌎Sports",AR: beIN Sports 1 FHD (EN)
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=51908
-#EXTINF:-1 group-title="🌎Sports",AR: beIN Sports 1 HD (EN)
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=93738
-#EXTINF:-1 group-title="🌎Sports",AR: beIN Sports 2 FHD (EN)
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=51907
-#EXTINF:-1 group-title="🌎Sports",AR: beIN Sports 3 FHD (EN)
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=51906
-#EXTINF:-1 group-title="🌎Sports",AR: beIN Sports 3 HD (EN)
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=8592
-#EXTINF:-1 group-title="🌎Sports",AR: beIN Sports Premium 1 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=51909
-#EXTINF:-1 group-title="🌎Sports",AR: Bein Sports Premium 2 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=4666
-#EXTINF:-1 group-title="🌎Sports",AR: Bein Sports Premium 3 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=4665
-#EXTINF:-1 group-title="🌎Sports",[AR] Bein Sports Global FHD [Multi Audio]
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=3094
-#EXTINF:-1 group-title="🌎Sports",MY Astro: Bein Sports FHD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=161945
-#EXTINF:-1 group-title="🌎Sports",MY: Bein Sports Max HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=161946
-#EXTINF:-1 group-title="🌎Sports",MY Astro: EPL 1 FHD (live event)
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=161935
-#EXTINF:-1 group-title="🌎Sports",MY Astro: EPL 2 FHD (Live event)
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=161936
-#EXTINF:-1 group-title="🌎Sports",MY Astro: EPL 3 FHD (Live event)
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=161937
-#EXTINF:-1 group-title="🌎Sports",MY: Astro Supersport 1 FHD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=161931
-#EXTINF:-1 group-title="🌎Sports",MY: Astro Supersport 2 FHD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=161932
-#EXTINF:-1 group-title="🌎Sports",MY: Astro Supersport 3 FHD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=161933
-#EXTINF:-1 group-title="🌎Sports",MY: Astro Supersport 4 FHD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=161934
-#EXTINF:-1 group-title="🌎Sports",PT: ELEVEN SPORTS 1 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=94661
-#EXTINF:-1 group-title="🌎Sports",PT: ELEVEN SPORTS 2 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=94660
-#EXTINF:-1 group-title="🌎Sports",PT: ELEVEN SPORTS 3 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=94659
-#EXTINF:-1 group-title="🌎Sports",PT: ELEVEN SPORTS 4 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=94658
-#EXTINF:-1 group-title="🌎Sports",PT: ELEVEN SPORTS 5 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=94657
-#EXTINF:-1 group-title="🌎Sports",PT: ELEVEN SPORTS 6 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=94656
-#EXTINF:-1 group-title="🌎Sports",US: beIN Sports 2 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=111047
-#EXTINF:-1 group-title="🌎Sports",US: beIN Sports 3 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=111048
-#EXTINF:-1 group-title="🌎Sports",US: beIN Sports 4 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=111049
-#EXTINF:-1 group-title="🌎Sports",US: beIN Sports 5 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=111050
-#EXTINF:-1 group-title="🌎Sports",US: beIN Sports 6 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=111051
-#EXTINF:-1 group-title="🌎Sports",US: beIN Sports 7 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=111052
-#EXTINF:-1 group-title="🌎Sports",US: beIN Sports 8 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=111053
-#EXTINF:-1 group-title="🌎Sports",US: beIN Sports 9 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=111054
-#EXTINF:-1 group-title="🌎Sports",US: beIN Sports 10 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=111055
-#EXTINF:-1 group-title="🌎Sports",Canal+ Sport FHD PL
-https://family4you.fun/vn360sport/Sports/gen360.php?id=944
-#EXTINF:-1 group-title="🌎Sports",Canal+ Sport HD PL
-https://family4you.fun/vn360sport/Sports/gen360.php?id=945
-#EXTINF:-1 group-title="🌎Sports",Canal+ Sport PL
-https://family4you.fun/vn360sport/Sports/gen360.php?id=946
-#EXTINF:-1 group-title="🌎Sports",Canal+ Sport 2 FHD PL
-https://family4you.fun/vn360sport/Sports/gen360.php?id=6871
-#EXTINF:-1 group-title="🌎Sports",Canal+ Sport 2 HD PL
-https://family4you.fun/vn360sport/Sports/gen360.php?id=950
-#EXTINF:-1 group-title="🌎Sports",Canal+ Sport 3 HD PL
-https://family4you.fun/vn360sport/Sports/gen360.php?id=78187
-#EXTINF:-1 group-title="🌎Sports",Canal+ Sport 3 FHD PL
-https://family4you.fun/vn360sport/Sports/gen360.php?id=78188
-#EXTINF:-1 group-title="🌎Sports",Canal+ Sport 4 HD PL
-https://family4you.fun/vn360sport/Sports/gen360.php?id=78189
-#EXTINF:-1 group-title="🌎Sports",Canal+ Sport 4 FHD PL
-https://family4you.fun/vn360sport/Sports/gen360.php?id=78190
-#EXTINF:-1 group-title="🌎Sports",Canal+ NOW FHD PL
-https://family4you.fun/vn360sport/Sports/gen360.php?id=78204
-#EXTINF:-1 group-title="🌎Sports",UKR: Futbol 1 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7900
-#EXTINF:-1 group-title="🌎Sports",UKR: Futbol 2 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7901
-#EXTINF:-1 group-title="🌎Sports",UKR: Sport 1
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=12461
-#EXTINF:-1 group-title="🌎Sports",UKR: Sport 2
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=12462
-#EXTINF:-1 group-title="🌎Sports",UK:* Premier Sports FHD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=75859
-#EXTINF:-1 group-title="🌎Sports",UK: Premier Sports 1 FHD2
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=9636
-#EXTINF:-1 group-title="🌎Sports",UK: Premier Sports 1
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=15095
-#EXTINF:-1 group-title="🌎Sports",UK:* Premier Sports 2 FHD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=90555
-#EXTINF:-1 group-title="🌎Sports",UK:* BT Sport 1 FHD1
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7963
-#EXTINF:-1 group-title="🌎Sports",UK: BT Sport 1 FHD2
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=28488
-#EXTINF:-1 group-title="🌎Sports",UK: BT Sport 1 FHD3
-https://family4you.fun/vn360sport/Sports/nowe.php?id=249376
-#EXTINF:-1 group-title="🌎Sports",UK: BT Sport 1 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=3182
-#EXTINF:-1 group-title="🌎Sports",UK: BT Sport 1
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=2638
-#EXTINF:-1 group-title="🌎Sports",UK:* BT Sport 2 FHD1
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7962
-#EXTINF:-1 group-title="🌎Sports",UK: BT Sport 2 FHD2
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=28555
-#EXTINF:-1 group-title="🌎Sports",UK: BT Sport 2 FHD3
-https://family4you.fun/vn360sport/Sports/nowe.php?id=249378
-#EXTINF:-1 group-title="🌎Sports",UK: BT Sport 2 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=3212
-#EXTINF:-1 group-title="🌎Sports",UK: BT Sport 2
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=2635
-#EXTINF:-1 group-title="🌎Sports",UK:* BT Sport 3 FHD1
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7961
-#EXTINF:-1 group-title="🌎Sports",UK: BT Sport 3 FHD2
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=28556
-#EXTINF:-1 group-title="🌎Sports",UK: BT Sport 3 FHD3
-https://family4you.fun/vn360sport/Sports/nowe.php?id=249380
-#EXTINF:-1 group-title="🌎Sports",UK: BT Sport 3 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7992
-#EXTINF:-1 group-title="🌎Sports",UK: BT Sport 3
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=5878
-#EXTINF:-1 group-title="🌎Sports",UK:* BT Sport ESPN FHD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=29806
-#EXTINF:-1 group-title="🌎Sports",UK: BT Sport ESPN FHD2
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7414
-#EXTINF:-1 group-title="🌎Sports",UK: BT Sport ESPN HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=185937
-#EXTINF:-1 group-title="🌎Sports",UK: BT Sport ESPN
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=2640
-#EXTINF:-1 group-title="🌎Sports",[UK] BT Sport Mosaic
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=5860
-#EXTINF:-1 group-title="🌎Sports",[UK] BT Sport Extra 1
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=5859
-#EXTINF:-1 group-title="🌎Sports",[UK] BT Sport Extra 2
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7415
-#EXTINF:-1 group-title="🌎Sports",[UK] BT Sport Extra 3
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7416
-#EXTINF:-1 group-title="🌎Sports",[UK] BT Sport Extra 4
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7417
-#EXTINF:-1 group-title="🌎Sports",[UK] BT Sport Extra 5
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7418
-#EXTINF:-1 group-title="🌎Sports",[UK] BT Sport Extra 6
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=10029
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports F1 FHD2
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=17925
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports F1 HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=9674
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports F1
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=2631
-#EXTINF:-1 group-title="🌎Sports",UK:* Sky Sports Racing FHD1
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=127984
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Racing FHD2
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=145059
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Racing HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=185935
-#EXTINF:-1 group-title="🌎Sports",[UK] Sky Sports Racing
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=15136
-#EXTINF:-1 group-title="🌎Sports",UK:* Sky Sports Cricket FHD1
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7958
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Cricket FHD2
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=17926
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Cricket HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=3199
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Cricket
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=2637
-#EXTINF:-1 group-title="🌎Sports",UK:* Sky Sports Mix FHD1
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=17931
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Mix FHD2
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7950
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Mix HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=185936
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Mix
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=6721
-#EXTINF:-1 group-title="🌎Sports",WWE HD US
-https://family4you.fun/vn360sport/Sports/gen360.php?id=562
-#EXTINF:-1 group-title="🌎Sports",WWE Network FHD US
-https://family4you.fun/vn360sport/Sports/gen360.php?id=7544
-#EXTINF:-1 group-title="🌎Sports",WWE US
-https://family4you.fun/vn360sport/Sports/gen360.php?id=7778
-#EXTINF:-1 group-title="🌎Sports",UK:SuperSports Premier League
-https://family4you.fun/vn360sport/Sports/nowe.php?id=610009
-#EXTINF:-1 group-title="🌎Sports",UK:* Sky Sports News FHD1
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7949
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports News FHD2
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7930
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports News HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=2734
-#EXTINF:-1 group-title="🌎Sports",UK:* Sky Sports Main Event FHD1
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7960
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Main Event FHD2
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=17922
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Main Event HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=3206
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Main Event
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=2639
-#EXTINF:-1 group-title="🌎Sports",UK:* Sky Sports Football FHD1
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=15069
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Football FHD2
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=17924
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Football HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=15093
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Football
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=145061
-#EXTINF:-1 group-title="🌎Sports",UK:* Sky Sports Premier League FHD1
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7952
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Premier League FHD2
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=17921
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Premier League HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=3204
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Premier League
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=2626
-#EXTINF:-1 group-title="🌎Sports",UK:* Sky Sports Arena FHD1
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=15068
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Arena FHD2
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=17927
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Arena HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=15094
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Arena
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=145060
-#EXTINF:-1 group-title="🌎Sports",UK:* Sky Sports Action FHD1
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7956
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Action FHD2
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=17928
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Action HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=3201
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Action
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=2628
-#EXTINF:-1 group-title="🌎Sports",UK:* Sky Sports Golf FHD1
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7954
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Golf FHD2
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=17923
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Golf HD
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=3203
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports Golf
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=2627
-#EXTINF:-1 group-title="🌎Sports",UK:* Sky Sports F1 FHD1
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=7951
-#EXTINF:-1 group-title="🌎Sports",UK: Sky Sports F1 FHD1
-https://family4you.fun/vn360sport/Sports/ukiptv360.php?id=200273
