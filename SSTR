@@ -1175,9 +1175,12 @@ http://112.197.12.62/secure/vtvcab10/index.m3u8?md5=0hgEfHHQDkf2-k5aGSCR8Q&expir
 #EXTINF:-1,  tvg-name="vtvcab11" group-title="VTVcab" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/VTVCab11%20-%20VGS%20SHOP.png",VTVCab11 - VGS SHOP - VTVCab - SCTV
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 https://e3.endpoint.cdn.sctvonline.vn/secure/vtvcab11/index.m3u8?md5=U3OmAeuvHI3rIJotPQ8EXg&expires=2556118740|Referer=http://sctvonline.vn/
-#EXTINF:-1,  tvg-name="vtvcab11" group-title="VTVcab" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/VTVCab11%20-%20VGS%20SHOP.png",VTVCab11 - VGS SHOP - VTVCab - TV24
+#EXTINF:-1,  tvg-name="vtvcab11" group-title="VTVcab" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/VTVCab11%20-%20VGS%20SHOP.png",VTVCab11 - VGS SHOP - VTVCab - Other
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 https://5bf6ea205fe60.streamlock.net/dn/_definst_/htvmuasam.stream/chunklist_w477002967.m3u8
+#EXTINF:-1,  tvg-name="vtvcab11" group-title="VTVcab" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/VTVCab11%20-%20VGS%20SHOP.png",VTVCab11 - VGS SHOP - VTVCab - TV24
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+https://vtsstr7.tv24.vn/live/VTVcab11.smil/chunklist.m3u8
 
 
 #EXTINF:-1, tvg-id="vtvcab12hd|SCTV" group-title="VTVcab" tvg-logo="https://mytv.com.vn/upload/channel/103.png",VTVcab12 - Style TV - SCTV
@@ -1465,6 +1468,9 @@ https://106bec9d8.vws.vegacdn.vn//cliptv_live/amlst:planetearthhd/manifest.mpd
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 https://bsojv7x1zq.vcdn.com.vn/5daaa749c8f5d60173daf434/5daaa749c8f5d60173daf435/720p/playlist.m3u8
 #http://27.67.50.135:18080//176_1.m3u8?AdaptiveType=HLS&SessionID=df818dc5-c85e-4dc9-b1f2-f7bf74ab8941&MinBw=0&MaxBw=20000000
+#EXTINF:-1, tvg-id="planetearthhd" group-title="Khám Phá" tvg-logo="http://vthanh.xyz/ic/195.png", Planet Earth - VTVCab
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+https://isptqrteg4liv.vcdn.cloud/manifest/planet-earth/playlist_720p.m3u8|Referer=https://www.vtvcab.vn/channel/planet-earth-hd-1,PLANET_EARTH_HD.html
 
 #EXTINF:-1, tvg-id="outdoorhd" group-title="Khám Phá" tvg-logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/10/22/pykjyp5z_thumbnail-outdoor_296_168.png,Outdoor Channel HD
 https://vips-livecdn.fptplay.net/hda1/outdoorfhd_vhls.smil/chunklist_b5000000.m3u8
@@ -1673,7 +1679,8 @@ http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXFAMILY-HD-1080p/playlist.m3u8
 https://livecdn.fptplay.net/foxlive/foxmovieshd_hls.smil/chunklist_b2500000.m3u8
 
 #EXTINF:-1, tvg-id="boxhits" group-title="Phim" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/Box%20Movie%201%20HD.png", BOX HITS - Other
-https://8387100975.vws.vegacdn.vn/live/box-hits/chunklist_1.m3u8
+https://pprex49o5aliv.vcdn.cloud/live/box-hits/chunklist_2.m3u8
+#https://8387100975.vws.vegacdn.vn/live/box-hits/chunklist_1.m3u8
 #EXTINF:-1, tvg-id="boxhits" group-title="Phim" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/Box%20Movie%201%20HD.png", BOX HITS - Mega
 https://cdnmega.vthanh.xyz/boxhits/mpegts
 
@@ -1685,7 +1692,9 @@ https://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/sd2/index.m3u8|Referer=http:
 #http://vthanh.me/sctv.m3u8?pass=vienthi&id=boxmovie|Referer=http://sctvonline.vn/
 
 #EXTINF:-1 tvg-id="inthebox" group-title="Phim" tvg-logo="https://vthanh.xyz/ic/241.png", In The Box
-https://cdnfpt.vthanh.xyz/inthebox/mpegts
+https://pprex49o5aliv.vcdn.cloud/live/box-channel/chunklist_2.m3u8
+http://103.214.9.53/inthebox/mpegts
+#https://cdnfpt.vthanh.xyz/inthebox/mpegts
 
 #EXTINF:-1, tvg-id="hollywoodclassics" group-title="Phim" tvg-logo="https://vthanh.xyz/ic/193.png", Hollywood Classics - SCTV
 https://e4.endpoint.cdn.sctvonline.vn/hls/hollywood/sd2/index.m3u8|Referer=http://sctvonline.vn/
