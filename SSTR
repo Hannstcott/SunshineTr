@@ -71,7 +71,7 @@ https://sglive.akamaized.net/bpk-tv/prod_kplus_cinehd/default/i.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/getlicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CA452EF1BF6F59D0&Ticket=C53912B5118A2515
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://ottlivevng.kplus.vn/live/prod_kplus_ns_hd_fps/prod_kplus_ns_hd_fps.isml/prod_kplus_ns_hd_fps.mpd
+https://sglive.akamaized.net/bpk-tv/prod_kplus_lifehd/default/i.mpd
 
 #EXTINF:-1 tvg-id="klifehd" tvg-name="klifehd" logo="https://ad.kplus.vn/cdn/content/upload/1/root/klife-thumb-vie.jpg"  group-title="🍭| K+",K+Life HD
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
@@ -152,7 +152,7 @@ https://sglive.akamaized.net/bpk-tv/prod_kplus_sport1hd/default/i.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://kplus.live.ott.irdeto.com/Widevine/getlicense?CrmId=kplus&AccountId=kplus&ContentId=400000018&SessionId=CA452EF1BF6F59D0&Ticket=C53912B5118A2515#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://ottlivevng.kplus.vn/live/prod_kplus_pc_hd_fps/prod_kplus_pc_hd_fps.isml/prod_kplus_pc_hd_fps.mpd
+https://sglive.akamaized.net/bpk-tv/prod_kplus_sport2hd/default/i.mpd
 
 #EXTINF:-1 tvg-id="ksport2hd" tvg-name="ksport2hd" tvg-logo="https://ad.kplus.vn/cdn/content/upload/1/root/ksport-2-thumb-vie.jpg" group-title="🍭| K+",K+Sport2 HD
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
