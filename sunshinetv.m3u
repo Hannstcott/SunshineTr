@@ -59,6 +59,27 @@ https://sglive.akamaized.net/bpk-tv/prod_kplus_livetv2/default/i.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_livetv3/default/i.mpd
 
+#EXTINF:-1 tvg-id="kcinehd" group-title="🍬 K+( mở tết)" tvg-logo="https://img.kplus.vn/media/channels/sg/channelicons/KCINE.png", K+Cine HD
+https://livecdn.fptplay.net/hdevent/27082021k1_2000.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="kcinehd" group-title="🍬 K+( mở tết)" tvg-logo="https://img.kplus.vn/media/channels/sg/channelicons/KCINE.png", K+Cine FHD
+https://livecdn.fptplay.net/hdevent/27082021k1_4000.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="klifehd" group-title="🍬 K+( mở tết)" tvg-logo="https://img.kplus.vn/media/channels/sg/channelicons/KLIFE.png", K+Life HD 
+https://livecdn.fptplay.net/hdevent/27082021k1ns_2000.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="klifehd" group-title="🍬 K+( mở tết)" tvg-logo="https://img.kplus.vn/media/channels/sg/channelicons/KLIFE.png", K+Life FHD 
+https://livecdn.fptplay.net/hdevent/27082021k1ns_4000.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ksport1hd" group-title="🍬 K+( mở tết)" tvg-logo="https://img.kplus.vn/media/channels/sg/channelicons/KSPORT1.png", K+Sport 1 HD 
+https://livecdn.fptplay.net/hdevent/27082021k1pm_2000.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="ksport1hd" group-title="🍬 K+( mở tết)" tvg-logo="https://img.kplus.vn/media/channels/sg/channelicons/KSPORT1.png", K+Sport 1 FHD 
+https://livecdn.fptplay.net/hdevent/27082021k1pm_4000.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ksport2hd" group-title="🍬 K+( mở tết)" tvg-logo="https://img.kplus.vn/media/channels/sg/channelicons/KSPORT2.png", K+Sport 2 HD
+https://livecdn.fptplay.net/hdevent/27082021k1pc_2000.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="ksport2hd" group-title="🍬 K+( mở tết)" tvg-logo="https://img.kplus.vn/media/channels/sg/channelicons/KSPORT2.png", K+Sport 2 FHD
+https://livecdn.fptplay.net/hdevent/27082021k1pc_4000.stream/playlist.m3u8
+
+
 
 #-*--VTV-*--#
 
