@@ -71,6 +71,12 @@ https://vstv.broadpeak-aas.com/bpk-tv/prod_kplus_livetv2/default/i.mpd
 https://vstv.broadpeak-aas.com/bpk-tv/prod_kplus_livetv3/default/i.mpd
 
 
+#EXTINF: -1 group-title = "u23-dubaicup" tvg-logo = "https://i.imgur.com/H6A2TOR.png",U23 Dubai cúp 1
+http://live.tv360.vn/manifest/u23-dubaicup1/playlist_720p.m3u8
+
+#EXTINF: -1 group-title = "u23-dubaicup" tvg-logo = "https://i.imgur.com/0jc2CKm.png",U23 Dubai cúp 2
+http://live.tv360.vn/manifest/u23-dubaicup2/playlist_720p.m3u8
+
 #-*--THVL-*--#
 
 
