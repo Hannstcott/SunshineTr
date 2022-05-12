@@ -424,9 +424,9 @@ http://drm-livecdn.hplus.com.vn/CDN-FPT02/HTVC-PHUNU-HD-1080p/playlist.m3u8
 
 #EXTINF:-1 tvg-id="htvcphimhd" group-title="🅷🆃🆅" tvg-logo="https://img.hplus.com.vn/355x200/poster/2018/06/05/591916-pHIM.png",HTVC - Phim
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#http://drm-livecdn.hplus.com.vn/CDN-FPT02/HTVC-PHIM-HD-1080p/playlist.m3u8
+http://drm-livecdn.hplus.com.vn/CDN-FPT02/HTVC-PHIM-HD-1080p/playlist.m3u8
 #https://8387d1dfc2.vws.vegacdn.vn/live/htvc-phim/chunklist_1.m3u8
-https://livecdn.fptplay.net/sdb/htvcmoviehd_hls.smil/chunklist_b2500000.m3u8
+#https://livecdn.fptplay.net/sdb/htvcmoviehd_hls.smil/chunklist_b2500000.m3u8
 
 #EXTINF:-1 tvg-id="htvcfbnc" group-title="🅷🆃🆅" tvg-logo="https://img.hplus.com.vn/355x200/poster/2018/06/05/906484-FBNC.png",HTVC - FBNC
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
