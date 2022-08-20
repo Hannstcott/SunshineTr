@@ -15,58 +15,28 @@
 
 
 #EXTINF:-1 tvg-id="kcinehd" group-title="🅺✚" logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-kcine-hd.png",K+Cine
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=httpshttps://apivmx.mytvnet.vn/tv/license/widevine?vmx_device_id=ZjcyZmRiYjAtMTcxMy0zYWYwLWFkZTUtOTMxNzI1Njc5OTI5
-http://s28214.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv339&offset=1&nodelay=1
-
-#EXTINF:-1 tvg-id="kcinehd" group-title="🅺✚" logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-kcine-hd.png",K+Cine
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=281a0b7a4f374a8ab4446781f4a6e375&key=4a30f2fc319c11ecd97dd123e176219d
-https://sglive.akamaized.net/bpk-tv/prod_kplus_cinehd/default/i.mpd
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=4f4fb193d831443eaf0902589c62bd92&key=38d5d44ccfc11167d767aab96b469962 
+http://live.tv360.vn/manifest/K_PLUS_1_SD/master.mpd?hdnts=exp=1652706117~acl=/*~hmac=8a5ce493cf33c5e231797a2f75ec8c2df66def24319ae268b2655e3799760ed4
 
 #EXTINF:-1 tvg-id="klifehd" group-title="🅺✚" logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-klife-hd.png",K+Life
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=httpshttps://apivmx.mytvnet.vn/tv/license/widevine?vmx_device_id=ZjcyZmRiYjAtMTcxMy0zYWYwLWFkZTUtOTMxNzI1Njc5OTI5
-http://s8212.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv340&offset=1&nodelay=1
-
-#EXTINF:-1 tvg-id="klifehd" group-title="🅺✚" logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-klife-hd.png",K+Life
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=60fe5ec9b63443488cf84fa70b9d2949&key=1b2f270d5c14dd87e9397de6bb46faa9
-https://sglive.akamaized.net/bpk-tv/prod_kplus_lifehd/default/i.mpd
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=4f4fb193d831443eaf0902589c62bd92&key=38d5d44ccfc11167d767aab96b469962 
+http://live.tv360.vn/manifest/K_PLUS_NS_SD/master.mpd?hdnts=exp=1652706117~acl=/*~hmac=8a5ce493cf33c5e231797a2f75ec8c2df66def24319ae268b2655e3799760ed4
 
 #EXTINF:-1 tvg-id="ksport1hd" group-title="🅺✚" logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-k-sport1-hd.png",K+ SPORT1
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-https://apivmx.mytvnet.vn/tv/license/widevine?vmx_device_id=ZjcyZmRiYjAtMTcxMy0zYWYwLWFkZTUtOTMxNzI1Njc5OTI5
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://s8213.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv341&offset=1&nodelay=1
-
-#EXTINF:-1 tvg-id="ksport1hd" group-title="🅺✚" logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-k-sport1-hd.png",K+ SPORT1
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=8fcba278e0414523b4e68a25bd9cc397&key=dfe04c1ca44fb4c750a82e98dd08a837
-https://sglivevng.kplus.vn/bpk-tv/prod_kplus_sport1hd/default/i.mpd
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=7fc15a97679e455fa6951ba672e66151&key=6e3525f6eccfdcb5de30c92e03445310 
+http://live.tv360.vn/manifest/K_PLUS_PM_SD/master.mpd?hdnts=exp=1652706118~acl=/*~hmac=6138509dfc2c9be96ed2cdcc6ef34a728031ca0ec79d3052c7ba388d7c92a105
 
 #EXTINF:-1 tvg-id="ksport2hd" group-title="🅺✚" tvg-logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-k-sport2-hd.png",K+Sport2
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=httpshttps://apivmx.mytvnet.vn/tv/license/widevine?vmx_device_id=ZjcyZmRiYjAtMTcxMy0zYWYwLWFkZTUtOTMxNzI1Njc5OTI5
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-http://s70132.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv373&offset=1&nodelay=1
-
-#EXTINF:-1 tvg-id="ksport2hd" group-title="🅺✚" tvg-logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-k-sport2-hd.png",K+Sport2
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=59c86338418e4c0fac07c5fb52b1a4b3&key=5a001b2a251137b76a3a58577c0a1295
-https://sglive.akamaized.net/bpk-tv/prod_kplus_sport2hd/default/i.mpd
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=f3bfadc4cf9e47f49d74b067a7863b1c&key=5db9686ccc26471fd9ecd08775e56907 
+http://live.tv360.vn/manifest/K_PLUS_PC_SD/master.mpd?hdnts=exp=1652706118~acl=/*~hmac=6138509dfc2c9be96ed2cdcc6ef34a728031ca0ec79d3052c7ba388d7c92a105
 
 #EXTINF:-1 tvg-id="kkidshd" group-title="🅺✚" tvg-logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-kkids-hd.png",K+KIDS HD MyK+
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
@@ -176,12 +146,10 @@ https://vips-livecdn.fptplay.net/hda2/vtv5hd_vhls.smil/playlist.m3u8?bycoca
 #http://103.169.34.59:81/vtv5/mpegts
 
 #EXTINF:-1 tvg-id="vtv5hdtnb" group-title="🆅🆃🆅" tvg-logo="https://vthanh.xyz/ic/6.png" catchup="append" catchup-days="0.3" catchup-source="https://vtvgo-livewebs.vtvdigital.vn/d03ddbe42a1e4443990ba67d569ebab7/1639498340048/vtv5tnb/index-${start}-${offset}.m3u8", VTV5 HD Tây Nam Bộ
-#https://mutixx5hq1liv.akamaized.net/vtv5tnb/vtv5tnb@720p.m3u8
-https://vtvgo-liveapps.vtvdigital.vn/ac6f4cfae14e9caeecd44ec7e5f4bbc2/1654785175936/vtv5tnb/vtv5tnb@high.m3u8
+http://nvzoftzsvflivcf.vcdn.com.vn/vtv5tnb/vtv5tnb@high.m3u8
 
 #EXTINF:-1 tvg-id="vtv5hdtn" group-title="🆅🆃🆅" tvg-logo="https://vthanh.xyz/ic/7.png" catchup="append" catchup-days="0.3" catchup-source="https://vtvgo-livewebs.vtvdigital.vn/4a20dbc5c64eaf52cea4cf04e4074515/1639498383930/vtv5tn/index-${start}-${offset}.m3u8", VTV5 Tây Nguyên
-#https://mutixx5hq1liv.akamaized.net/vtv5tn/vtv5tn@720p.m3u8
-https://vtvgo-liveapps.vtvdigital.vn/64894d4f36f50314284bfdc57e0eb91d/1654785120311/vtv5tn/vtv5tn@high.m3u8
+http://nvzoftzsvflivcf.vcdn.com.vn/vtv5tn/vtv5tn@high.m3u8
 
 #EXTINF:-1 tvg-id="vtv6hd" group-title="🆅🆃🆅" tvg-logo="https://vthanh.xyz/ic/8.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv6hd_1500.stream/chunks_dvr_range-${start}-10800.m3u8", VTV6 HD
 https://vips-livecdn.fptplay.net/hda1/vtv6hd_vhls.smil/chunklist_b5000000.m3u8
@@ -565,8 +533,7 @@ https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab15/index.m3u8|Referer=http://sct
 #KODIPROP:inputstream.adaptive.license_key=https://apivmx.mytvnet.vn/tv/license/widevine?vmx_device_id=ZGY2MTM2NGItZmRmMy0zZTRkLTgwMTItMTNhMDkzM2E3ZWZl
 #http://s7784.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv265&offset=1&nodelay=1
 #https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab16/sd2/index.m3u8|Referer=http://sctvonline.vn/
-http://vthanhvnpt.duckdns.org/onfootball/mpegts
-
+http://s2.nihontv.net:21585/vtvcab16/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1, tvg-id="vtvcab17hd" group-title="🆅🆃🆅🄲🄰🄱" tvg-logo="https://mytv.com.vn/upload/channel/104.png",VTVcab17 - Yeah1 TV
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
