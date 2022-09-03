@@ -50,11 +50,17 @@ http://s70132.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv373&offset=1&nodelay=1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #https://sglive.akamaized.net/bpk-tv/prod_kplus_kidshd/default/i.mpd
 
-#EXTINF:-1 tvg-id="kkidshd" group-title="🅺✚" tvg-logo="https://vaoroitv.vip/wp-content/uploads/2022/04/vaoroitv.png",VaoroiTV PC
+#EXTINF:-1 tvg-id="ksport1hd" group-title="🅺✚" tvg-logo="https://vaoroitv.vip/wp-content/uploads/2022/04/vaoroitv.png",VaoroiTV 1
 https://vaeagaa.wedodemos.com/live/_definst_/stream_1_4e329@VG21/chunklist.m3u8
-
-#EXTINF:-1 tvg-id="kkidshd" group-title="🅺✚" tvg-logo="https://vaoroitv.vip/wp-content/uploads/2022/04/vaoroitv.png",VaoroiTV PM
+#EXTINF:-1 tvg-id="ksport2hd" group-title="🅺✚" tvg-logo="https://vaoroitv.vip/wp-content/uploads/2022/04/vaoroitv.png",VaoroiTV 2
 https://vaeagaa.wedodemos.com/live/_definst_/stream_1_4e329@VG05/chunklist.m3u8
+#EXTINF:-1 tvg-id="klive1hd" group-title="🅺✚" tvg-logo="https://vaoroitv.vip/wp-content/uploads/2022/04/vaoroitv.png",VaoroiTV 3
+https://vaeagaa.wedodemos.com/live/_definst_/stream_1_4e329@VG27/chunklist.m3u8
+#EXTINF:-1 tvg-id="klive2hd" group-title="🅺✚" tvg-logo="https://vaoroitv.vip/wp-content/uploads/2022/04/vaoroitv.png",VaoroiTV 4
+https://vaeagaa.wedodemos.com/live/_definst_/stream_1_4e329@VG12/chunklist.m3u8
+#EXTINF:-1 tvg-id="klive3hd" group-title="🅺✚" tvg-logo="https://vaoroitv.vip/wp-content/uploads/2022/04/vaoroitv.png",VaoroiTV 5
+https://vaeagaa.wedodemos.com/live/_definst_/stream_1_4e329@VG11/chunklist.m3u8
+
 
 #EXTINF:-1  tvg-id="klive1hd" group-title="🅺✚" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png",K+ LIVE 1
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
