@@ -894,7 +894,7 @@ https://vips-livecdn.fptplay.net/hda2/cinemawork_vhls.smil/chunklist_b5000000.m3
 #https://liveorigin01.hbogoasia.com:8443/origin/live/main/MAX/index.m3u8
 
 #EXTINF:-1 tvg-id="boxhits" group-title="🅼🅾🆅🅸🅴"  tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/box_hits.png", Box Hits
-https://api.vthanhtivii.xyz/v1/getlink/nethub?id=box-hits&itb=1
+http://live.television4you.xyz/boxhits/mpegts
 
 #EXTINF:0 tvg-id="boxmovie1" group-title="🅼🅾🆅🅸🅴"  tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/Box-Movie1-BEARTV.png ",BOX Movie
 http://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/sd2/index.m3u8|Referer=http://sctvonline.vn/
@@ -959,11 +959,11 @@ https://livecdn.fptplay.net/sdb/arirang_hls.smil/chunklist_b2500000.m3u8
 http://vips-livecdn.fptplay.net/hda2/bbcearth_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1 tvg-id="bbclifestyle" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/1280px-BBC_Lifestyle2.svg.png",BBC Lifestyle
-https://vips-livecdn.fptplay.net/sdb/bbclifestyle_2000.stream/chunklist_b500000.m3u8
+https://vips-livecdn.fptplay.net/hda3/bbclifestyle_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1 tvg-id="bbcworldnews" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/BBC_News.svg/640px-BBC_News.svg.png",BBC World News HD 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246
-https://livecdn.fptplay.net/sdb/bbcnew_2000.stream/chunklist_b2500000.m3u8
+https://vips-livecdn.fptplay.net/hda3/bbcnews_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1 tvg-id="blueantent" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://vthanh.xyz/ic/229.png", Rock Entertainment
 https://livecdn.fptplay.net/hda1/blueantent_vhls.smil/chunklist_b5000000.m3u8
