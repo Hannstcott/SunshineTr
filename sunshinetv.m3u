@@ -692,24 +692,29 @@ http://livecdn.fptplay.net/hda3/music_vhls.smil/chunklist.m3u8
 #https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv1?t=a.m3u8|Referer=http://sctvonline.vn/
 https://e1.endpoint.cdn.sctvonline.vn/channel/sctv1/s2/index.m3u8|Referer=http://sctvonline.vn/
 #https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv1
+#https://vtsstr7.tv24.vn/live/SCTV_HD_Hai_new.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="sctv2hd" group-title="🆂🅲🆃🆅" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/sctv2-NetStars_logo.png" catchup="append" catchup-days="0.3" catchup-source="https://8387100975.vws.vegacdn.vn/live/netstars/chunklist_2_${start}.m3u8",SCTV2 - NET STAR 
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv2?t=a.m3u8|Referer=http://sctvonline.vn/
 #https://e1.endpoint.cdn.sctvonline.vn/channel/sctv2/s2/index.m3u8|Referer=http://sctvonline.vn/
 https://vtsstr6.tv24.vn/live/sctv2_HD_new.smil/playlist.m3u8
+#http://vtsstr4.sctv.vn:1935/live/sctv2_HD_new.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="sctv3hd" group-title="🆂🅲🆃🆅" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/SCTV3%20-%20SeeTV.png" catchup="append" catchup-days="0.3" catchup-source="https://e1.endpoint.cdn.sctvonline.vn/hls/sctv3/sd2/index-${start}-${offset}.m3u8",SCTV3 - SEE TV
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv3?t=a.m3u8|Referer=http://sctvonline.vn/
 #https://e1.endpoint.cdn.sctvonline.vn/channel/sctv3/s2/index.m3u8|Referer=http://sctvonline.vn/
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv3
+#https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv3
+http://vtsstr4.sctv.vn:1935/live/SCTVHDThieunhi_new.smil/playlist.m3u8
+
 
 #EXTINF:-1 tvg-id="sctv4hd" group-title="🆂🅲🆃🆅" tvg-logo="https://i.ibb.co/QJBsYn6/sctv4.png",SCTV4 - Giải Trí Tổng Hợp
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv4?t=a.m3u8|Referer=http://sctvonline.vn/
 #https://e1.endpoint.cdn.sctvonline.vn/channel/sctv4/s2/index.m3u8|Referer=http://sctvonline.vn/
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv4
+#https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv4
+http://vtsstr4.sctv.vn:1935/live/SCTV_HD_GiaiTri_new.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="sctv5hd" group-title="🆂🅲🆃🆅" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/SCTV5%20-%20SCJ%20Life%20on.png" catchup="append" catchup-days="0.3" catchup-source="https://e1.endpoint.cdn.sctvonline.vn/hls/sctv5/sd2/index-${start}-${offset}.m3u8",SCTV5 - SCJ SHOPPING 
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
@@ -726,19 +731,22 @@ http://vips-livecdn.fptplay.net/hda3/film360_vhls.smil/chunklist_b5000000.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv7?t=a.m3u8|Referer=http://sctvonline.vn/
 #https://e1.endpoint.cdn.sctvonline.vn/channel/sctv7/s2/index.m3u8|Referer=http://sctvonline.vn/
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv7
+#https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv7
+http://vtsstr4.sctv.vn:1935/live/SCTV_HD_SanKhau_new.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="sctv8hd" group-title="🆂🅲🆃🆅" tvg-logo="https://i.ibb.co/3Mps2Cw/SCTV8-BEARTV.png" catchup="append" catchup-days="0.3" catchup-source="https://e1.endpoint.cdn.sctvonline.vn/hls/sctv8/sd2/index-${start}-${offset}.m3u8",SCTV8 - ViTV
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv8?t=a.m3u8|Referer=http://sctvonline.vn/
 #https://e1.endpoint.cdn.sctvonline.vn/channel/sctv8/s2/index.m3u8|Referer=http://sctvonline.vn/
 https://vtsstr4.tv24.vn/live/SCTV8_SD_new.smil/playlist.m3u8
+#http://210.86.230.202:8134/hls-live/livepkgr/_definst_/liveevent/livestream.m3u8
 
 #EXTINF:-1 tvg-id="sctv9hd" group-title="🆂🅲🆃🆅" tvg-logo="https://i.ibb.co/VLJrprr/sctv9-hd-BEARTV.png",SCTV9 - Phim TVB
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv9?t=a.m3u8|Referer=http://sctvonline.vn/
 #https://e1.endpoint.cdn.sctvonline.vn/channel/sctv9/s2/index.m3u8|Referer=http://sctvonline.vn/
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv9
+#https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv9
+http://vtsstr4.sctv.vn:1935/live/SCTV_HD_PhimChauA_new.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="sctv10hd" group-title="🆂🅲🆃🆅" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/logo-hp.png" catchup-days="0.3" catchup-source="https://e1.endpoint.cdn.sctvonline.vn/hls/sctv10/index-${start}-${offset}.m3u8",SCTV10 - Hyundai Home Shopping
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
@@ -751,18 +759,21 @@ https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv10
 #https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv11?t=a.m3u8|Referer=http://sctvonline.vn/
 #https://e1.endpoint.cdn.sctvonline.vn/channel/sctv11/s2/index.m3u8|Referer=http://sctvonline.vn/
 https://vtsstr4.tv24.vn/live/SCTVVHNT_HD_new.smil/playlist.m3u8
+#http://vtsstr4.sctv.vn:1935/live/SCTVVHNT_HD_new.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="sctv12hd" group-title="🆂🅲🆃🆅" tvg-logo="https://i.ibb.co/SKG7SMb/SCTV12-BEARTV.png" catchup-days="0.3" catchup-source="https://e1.endpoint.cdn.sctvonline.vn/hls/sctv12/sd2/index-${start}-${offset}.m3u8",SCTV12 - Du Lịch & Khám Phá
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv12?t=a.m3u8|Referer=http://sctvonline.vn/
 #https://e1.endpoint.cdn.sctvonline.vn/channel/sctv12/s2/index.m3u8|Referer=http://sctvonline.vn/
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv12
+#https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv12
+http://vtsstr4.sctv.vn:1935/live/SCTV12_HD_new.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="sctv13hd" group-title="🆂🅲🆃🆅" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/SCTV13%20-%20Lady%20TV%20HD.png" catchup="append" catchup-days="0.3" catchup-source="https://e1.endpoint.cdn.sctvonline.vn/hls/sctv13/sd2/index-${start}-${offset}.m3u8",SCTV13 - Phụ Nữ
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv13?t=a.m3u8|Referer=http://sctvonline.vn/
 https://e1.endpoint.cdn.sctvonline.vn/channel/sctv13/s2/index.m3u8|Referer=http://sctvonline.vn/
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv13
+#https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv13
+http://vtsstr4.sctv.vn:1935/live/SCTVHDPhunuGiadinh_new.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="sctv14hd" group-title="🆂🅲🆃🆅" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/SCTV14%20-%20K%C3%AAnh%20Phim%20Vi%E1%BB%87t%20HD.png",SCTV14 - Phim Việt
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
@@ -774,13 +785,15 @@ https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv14
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv15?t=a.m3u8|Referer=http://sctvonline.vn/
 #https://e1.endpoint.cdn.sctvonline.vn/channel/sctv15/s2/index.m3u8|Referer=http://sctvonline.vn/
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv15
+#https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv15
+http://vtsstr4.sctv.vn:1935/live/SCTV_HD_TheThao_new.smil/CDAM.m3u8
 
 #EXTINF:-1 tvg-id="sctv16hd" group-title="🆂🅲🆃🆅" tvg-logo="https://vthanh.xyz/ic/82.png",SCTV16 - Phim Nước Ngoài Đặc Sắc
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv16?t=a.m3u8|Referer=http://sctvonline.vn/
 #https://e1.endpoint.cdn.sctvonline.vn/channel/sctv16/s2/index.m3u8|Referer=http://sctvonline.vn/
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv16
+#https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv16
+http://vtsstr4.sctv.vn:1935/live/SCTV_HD_phimnuocngoaidacsac_new.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="sctv17hd" group-title="🆂🅲🆃🆅" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/SCTV17%20HD.png",SCTV17 - S Sport
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
@@ -789,49 +802,57 @@ https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv16
 #https://e1.endpoint.cdn.sctvonline.vn/hls/sctv17/sd2/index.m3u8|Referer=http://sctvonline.vn/
 #https://e1.endpoint.cdn.sctvonline.vn/secure/sctv17/sd1/index.m3u8?md5=Ta95m8zjauF5U4Ya8NsJvg&expires=2556118740|Referer=http://sctvonline.vn/
 #http://vthanh.me/sctv.m3u8?pass=vienthi&id=sctv17|Referer=http://sctvonline.vn/
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv17
+#https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv17
+http://vtsstr4.sctv.vn:1935/live/SCTV17_HD_new.smil/CDAM.m3u8
 
 #EXTINF:-1 tvg-id="sctv18hd" group-title="🆂🅲🆃🆅" tvg-logo="https://i.ibb.co/72PK5Nr/sctv18-hd-BEARTV.png" catchup="append" catchup-days="0.3" catchup-source="https://e1.endpoint.cdn.sctvonline.vn/hls/sctv18/sd2/index-${start}-${offset}.m3u8",SCTV18 
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv18?t=a.m3u8|Referer=http://sctvonline.vn/
 #https://e1.endpoint.cdn.sctvonline.vn/channel/sctv18/s2/index.m3u8|Referer=http://sctvonline.vn/
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv18
+#https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv18
+http://vtsstr4.sctv.vn:1935/live/SCTV18_HD_new.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="sctv19hd" group-title="🆂🅲🆃🆅" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/sctv19-Channel_T.png" catchup-days="0.3" catchup-source="https://e1.endpoint.cdn.sctvonline.vn/hls/sctv19/sd2/index-${start}-${offset}.m3u8",SCTV19 - T Channel
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv19?t=a.m3u8|Referer=http://sctvonline.vn/
 #https://e1.endpoint.cdn.sctvonline.vn/channel/sctv19/s2/index.m3u8|Referer=http://sctvonline.vn/
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv19
+#https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv19
+http://vtsstr4.sctv.vn:1935/live/SCTV19_HD_new.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="sctv20hd" group-title="🆂🅲🆃🆅" tvg-logo="http://i.imgur.com/QroDOsk.png" catchup-days="0.3" catchup-source="https://e1.endpoint.cdn.sctvonline.vn/hls/sctv20/sd2/index.m3u8-${start}-${offset}.m3u8",SCTV20 - Ca Nhạc Tổng Hợp
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv20?t=a.m3u8|Referer=http://sctvonline.vn/
 #https://e1.endpoint.cdn.sctvonline.vn/channel/sctv20/s2/index.m3u8|Referer=http://sctvonline.vn/
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv20
+#https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv20
+http://vtsstr4.sctv.vn:1935/live/SCTV20_HD_new.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ssctv21hd" group-title="🆂🅲🆃🆅" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/Vi%E1%BB%87t_Nam_k%C3%BD_%E1%BB%A9c_(SCTV21)_logo.png" catchup-days="0.3" catchup-source="https://e1.endpoint.cdn.sctvonline.vn/hls/sctv21/sd2/index-${start}-${offset}.m3u8",SCTV21 - Việt Nam Ký Ức
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv21?t=a.m3u8|Referer=http://sctvonline.vn/
 #https://e1.endpoint.cdn.sctvonline.vn/channel/sctv21/s2/index.m3u8|Referer=http://sctvonline.vn/
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv21
+#https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv21
+http://vtsstr7.tv24.vn:1935/live/SCTV21_HD_new.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="sctv22hd" group-title="🆂🅲🆃🆅" tvg-logo="https://vthanh.xyz/ic/88.png" catchup-days="0.3" catchup-source="https://e1.endpoint.cdn.sctvonline.vn/hls/sctv22/sd2/index-${start}-${offset}.m3u8",SCTV22 - S Sport1
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv22?t=a.m3u8|Referer=http://sctvonline.vn/
 #https://e1.endpoint.cdn.sctvonline.vn/channel/sctv22/s2/index.m3u8|Referer=http://sctvonline.vn/
 https://vtsstr4.tv24.vn/live/SCTV22_HD_new.smil/playlist.m3u8
+#http://vtsstr4.tv24.vn:1935/live/SCTV22_HD_new.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="sctvhdpth" group-title="🆂🅲🆃🆅" tvg-logo="tvg-logo="tvg-logo="https://i.imgur.com/m8DT4Zn.png" catchup-days="0.3" catchup-source="https://e1.endpoint.cdn.sctvonline.vn/hls/sctvphimtonghop/sd2/index-${start}-${offset}.m3u8",SCTV Phim Tổng Hợp
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctvpth?t=a.m3u8|Referer=http://sctvonline.vn/
 #https://e1.endpoint.cdn.sctvonline.vn/channel/sctvphimtonghop/s2/index.m3u8|Referer=http://sctvonline.vn/
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv
+#https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv
+http://vtsstr4.sctv.vn:1935/live/SCTVHDPhimTH_new.smil/chunklist.b2692000.m3u8
 
 #EXTINF:-1 tvg-id="btv5hd" group-title="🆂🅲🆃🆅" tvg-logo="https://i.ibb.co/3sDGdJh/BTV5.png",BTV5 - S Sport3
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #https://api.vthanhtivii.xyz/v1/getlink/sctvonline/btv5?t=a.m3u8|Referer=http://sctvonline.vn/
 https://e2.endpoint.cdn.sctvonline.vn/hls/btv5/sd2/index.m3u8|Referer=http://sctvonline.vn/
 #https://vtsstr4.tv24.vn/live/btv5_HD_new.smil/playlist.m3u8
+#http://vtsstr4.tv24.vn:1935/live/btv5_HD_new.smil/playlist.m3u8
 
 ___________Thiếu Nhi________________
 
