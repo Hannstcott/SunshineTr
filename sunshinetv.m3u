@@ -894,12 +894,11 @@ https://vips-livecdn.fptplay.net/hda2/cinemawork_vhls.smil/chunklist_b5000000.m3
 #https://liveorigin01.hbogoasia.com:8443/origin/live/main/MAX/index.m3u8
 
 #EXTINF:-1 tvg-id="boxhits" group-title="🅼🅾🆅🅸🅴"  tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/box_hits.png", Box Hits
-http://live.television4you.xyz/boxhits/mpegts
+http://live.television4you.xyz:8081/boxhits/mpegts
 
 #EXTINF:0 tvg-id="boxmovie1" group-title="🅼🅾🆅🅸🅴"  tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/Box-Movie1-BEARTV.png ",BOX Movie
-http://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/sd2/index.m3u8|Referer=http://sctvonline.vn/
-#https://api.vthanhtivii.xyz/v1/getlink/nethub?id=box-movie&itb=1
-
+#http://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/sd2/index.m3u8|Referer=http://sctvonline.vn/
+https://code.television4you.xyz/getlink/nethubtv?id=9328&itb=1
 
 #EXTINF:-1 tvg-id="foxfamilymovieshd" group-title="🅼🅾🆅🅸🅴" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Fox_Family_Movies_logo.png/200px-Fox_Family_Movies_logo.png", FOX Family Movies
 https://livecdn.fptplay.net/foxlive/foxmovieshd_hls.smil/chunklist_b2500000.m3u8
@@ -918,10 +917,7 @@ https://isptqrteg4liv.vcdn.cloud/manifest/paramount/playlist_720p.m3u8|Referer=h
 #https://htv-livecdn.fptplay.net/htvonline/paramount.720p.nimble.tms/chunklist.m3u8
 
 #EXTINF:-1 tvg-id="inthebox" group-title="🅼🅾🆅🅸🅴" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/InTheBox%20Channel.png" catchup="append" catchup-days="0.3" catchup-source="https://pprex49o5aliv.vcdn.cloud/live/box-channel/chunklist_2_${start}.m3u8", In The Box
-https://api.vthanhtivii.xyz/v1/getlink/nethub?id=box-channel&itb=1
-#http://103.195.238.226/inthebox/mpegts
-#https://8387100975.vws.vegacdn.vn/live/box-channel/chunklist_2.m3u8
-#https://onedrive.live.com/download?cid=B8A3DD2343176854&resid=B8A3DD2343176854%2114432&authkey=ABKCL08MvHETt3M
+https://code.television4you.xyz/getlink/nethubtv?id=9336&itb=1
 
 #EXTINF:-1  tvg-id="starmovies" group-title="🅼🅾🆅🅸🅴" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/Star_Movies_logo_2009.png",STAR MOVIES HD
 http://221.120.204.4:80/STAR-MOVIEAS-LOCKLE/tracks-v1a1/mono.m3u8
