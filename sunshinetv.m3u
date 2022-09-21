@@ -70,7 +70,8 @@ http://king-tv.online:8080/gisle@/FDPWGufCmY/363738.ts
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=d36f3ca0ceb44a0881a34876a7bd2e68&key=94b553e8ddc197ac29e87a65559703cb
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://sglive.akamaized.net/bpk-tv/prod_kplus_kidshd/default/index.mpd
+#https://sglive.akamaized.net/bpk-tv/prod_kplus_kidshd/default/index.mpd
+https://stream.sugustv.tk:443/live/456D42517DBCB17D9AE2142AEA912CF9/336.m3u8
 
 #EXTINF:-1  tvg-id="klive1hd" group-title="🅺✚" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png",K+ LIVE 1
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
@@ -509,7 +510,7 @@ https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab1/index.m3u8|Referer=http://sctv
 https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab2/index.m3u8|Referer=http://sctvonline.vn
 #http://112.197.12.59/hls/vtvcab2/index.m3u8
 
-#EXTINF:-1, tvg-id="vtvcab3hd" group-title="🆅🆃🆅🄲🄰🄱" tvg-logo="https://vthanh.xyz/ic/15.png",VTVcab3 - TheThaoTV
+#EXTINF:-1, tvg-id="vtvcab3hd" group-title="🆅🆃🆅🄲🄰🄱" tvg-logo="https://vthanh.xyz/ic/15.png",VTVcab3 - OnSport
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab3/index.m3u8|Referer=http://sctvonline.vn
 #http://live.television4you.xyz:8080/vtvcab3
@@ -528,7 +529,7 @@ https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab5/index.m3u8|Referer=http://sctv
 #EXTINF:-1, tvg-id="vtvcab6hd" group-title="🆅🆃🆅🄲🄰🄱" tvg-logo="https://mytv.com.vn/upload/channel/phpI5Z2Qu_60d191d31bb2a.png",VTVcab6 - On Sports +
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab6/index.m3u8|Referer=http://sctvonline.vn
-#https://api.vthanhtivi.pw/v1/getlink/vieon/vtvcab6-on-sport-plus
+#http://king-tv.online:8080/gisle@/FDPWGufCmY/363743.ts
 #https://api.vthanhtivi.pw/v1/getlink/vieon2/7e6b8c87-e49f-4c5c-b15a-01ae21856286
 
 #EXTINF:-1, tvg-id="vtvcab7hd" group-title="🆅🆃🆅🄲🄰🄱" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f9/VCTV10_old_and_VTVCab_10_-_O2TV_logo.png",VTVcab7 - O2 TV
@@ -580,6 +581,7 @@ https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab15/index.m3u8|Referer=http://sct
 #EXTINF:-1, tvg-id="vtvcab16hd" group-title="🆅🆃🆅🄲🄰🄱" tvg-logo="https://vthanh.xyz/ic/26.png",VTVcab16 - ON FOOTBALL
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #http://live.television4you.xyz:8080/vtvcab16
+#http://king-tv.online:8080/gisle@/FDPWGufCmY/363761.ts
 #https://api.vthanhtivi.pw/v1/getlink/vieon2/a30dfe11-536f-4a6e-abca-3df04ca7363a
 https://livevlive.vtvcab.vn/hls/OS_BONGDA_HD/sc-gaFEAA/m30_index.m3u8
 #https://e1.endpoint.cdn.sctvonline.vn/hls/vtvcab16/sd2/index.m3u8|Referer=http://sctvonline.vn
@@ -593,6 +595,7 @@ https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab17/index.m3u8|Referer=http://sct
 #EXTINF:-1, tvg-id="vtvcab18hd" group-title="🆅🆃🆅🄲🄰🄱" tvg-logo="https://vthanh.xyz/ic/28.png",VTVcab18 - ON SPORTS NEWS HD
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 https://livevlive.vtvcab.vn/hls/OS_THETHAO_TINTUC_HD/sc-gaFEAA/m30_index.m3u8
+#http://king-tv.online:8080/gisle@/FDPWGufCmY/363743.ts
 #https://api.vthanhtivi.pw/v1/getlink/vieon2/987374ca-de49-4612-a159-b71f7880d134
 
 #EXTINF:-1 tvg-id="vtvcab19hd" group-title="🆅🆃🆅🄲🄰🄱" tvg-logo="https://vthanh.xyz/ic/29.png",VTVcab19 - Vie Dramas
@@ -617,8 +620,8 @@ https://api.vthanhtivi.pw/v1/getlink/vieon2/d65f1df2-54fd-46d8-a958-ae9d6ec2b868
 
 #EXTINF:-1 tvg-id="vtvcab23hd" group-title="🆅🆃🆅🄲🄰🄱" tvg-logo="https://vthanh.xyz/ic/33.png",VTVcab23 - ON GOLF HD
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-http://live.television4you.xyz:8080/vtvcab23
-#https://api.vthanhtivi.pw/v1/getlink/vieon2/93fa8edc-c081-43a5-8aad-dd5d4527ccd6
+#http://live.television4you.xyz:8080/vtvcab23
+https://api.vthanhtivi.pw/v1/getlink/vieon2/93fa8edc-c081-43a5-8aad-dd5d4527ccd6
 
 #EXTINF:-1 tvg-id="vtvcab23hd" group-title="🆅🆃🆅🄲🄰🄱" tvg-logo="https://vthanh.xyz/ic/33.png",ON GOLF ENG HD
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
@@ -634,7 +637,8 @@ http://live.television4you.xyz:8080/onvff
 
 #EXTINF:0 tvg-id="onvolleyball" group-title="🆅🆃🆅🄲🄰🄱" tvg-logo="https://i.ibb.co/ckW9FsR/imccvolley.png",ON Volley Ball
 #https://onsportlive.vtvcab.vn/hls/ONVOLLEYBALL_CL/04.m3u8
-http://live.television4you.xyz:8080/onvolleyball
+http://live.vthanhtivi.pw:8080/onvolleyball
+
 
 #EXTINF:-1  tvg-name="ONTennis" group-title="ontennis" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/ON%20Tennis%20HD.png",ON Tennis HD
 
