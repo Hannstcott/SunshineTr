@@ -227,7 +227,6 @@ https://106eb3818.vws.vegacdn.vn/cliptv_live/amlst:kpmhd/manifest.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=2a61a74420d336289a90f1b0dd0b6fab&key=36ee06cbfd2d2eb2d7f237a4bd0edb42b
-#EXTINF:-1 group-title="🍭| K+ PTPlay" tvg-id="ksport1hd" tvg-logo="http://onetv.click/logo/ksport1hd.jpg",K+Sport1 HD
 https://kplus-livecdn.fptplay.net/live/drmlive/14022022k1sport1_4000.stream/manifest.mpd
 
 #EXTINF:-1 tvg-id="ksport2hd" group-title="🅺✚" tvg-logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-k-sport2-hd.png",K+ Sport2
