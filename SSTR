@@ -87,6 +87,40 @@ https://sglivevega.kplus.vn/bpk-tv/prod_klive2/default/index.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=7b0502a994574e5c8cc789e1d7f24fc5&key=f0fa5ed38424906e9c1298e47d6a6f72
 https://sglivevega.kplus.vn/bpk-tv/prod_klive3/default/index.mpd
 
+
+
+#EXTINF:0 group-title="🅵🅿🆃" Logo="https://fptplay.vn/_nuxt/img/logo-fpt-play.06da7da.png", F Sport 1
+https://vips-livecdn.fptplay.net/hdevent/fsport01_vhls.smil/playlist.m3u8
+#EXTINF:0 group-title="🅵🅿🆃" Logo="https://fptplay.vn/_nuxt/img/logo-fpt-play.06da7da.png", F Sport 2
+https://vips-livecdn.fptplay.net/hdevent/fsport02_vhls.smil/playlist.m3u8
+#EXTINF:0 group-title="🅵🅿🆃" Logo="https://fptplay.vn/_nuxt/img/logo-fpt-play.06da7da.png", F Sport 3
+https://vips-livecdn.fptplay.net/hdevent/fsport03_vhls.smil/playlist.m3u8
+#EXTINF:0 group-title="🅵🅿🆃" Logo="https://fptplay.vn/_nuxt/img/logo-fpt-play.06da7da.png", F Sport 4
+https://vips-livecdn.fptplay.net/hdevent/fsport04_vhls.smil/playlist.m3u8
+#EXTINF:0 group-title="🅵🅿🆃" Logo="https://fptplay.vn/_nuxt/img/logo-fpt-play.06da7da.png", F Sport 5
+https://vips-livecdn.fptplay.net/hdevent/fsport05_vhls.smil/playlist.m3u8
+#EXTINF:0 group-title="🅵🅿🆃" Logo="https://fptplay.vn/_nuxt/img/logo-fpt-play.06da7da.png", F Sport 6
+https://vips-livecdn.fptplay.net/hdevent/fsport06_vhls.smil/playlist.m3u8
+#EXTINF:0 group-title="🅵🅿🆃" Logo="https://fptplay.vn/_nuxt/img/logo-fpt-play.06da7da.png", F Sport 7
+https://vips-livecdn.fptplay.net/hdevent/fsport07_vhls.smil/playlist.m3u8
+#EXTINF:0 group-title="🅵🅿🆃" Logo="https://fptplay.vn/_nuxt/img/logo-fpt-play.06da7da.png", F Sport 8
+https://vips-livecdn.fptplay.net/hdevent/fsport08_vhls.smil/playlist.m3u8
+#EXTINF:0 group-title="🅵🅿🆃" Logo="https://fptplay.vn/_nuxt/img/logo-fpt-play.06da7da.png", F Sport 9
+https://vips-livecdn.fptplay.net/hdevent/fsport09_vhls.smil/playlist.m3u8
+#EXTINF:0 group-title="🅵🅿🆃" Logo="https://fptplay.vn/_nuxt/img/logo-fpt-play.06da7da.png", F Sport 10
+https://vips-livecdn.fptplay.net/hdevent/fsport10_vhls.smil/playlist.m3u8
+#EXTINF:0 group-title="🅵🅿🆃" Logo="https://fptplay.vn/_nuxt/img/logo-fpt-play.06da7da.png", F Event
+https://livecdn.fptplay.net/schedule/f-event_hls.smil/playlist.m3u8
+#EXTINF:0 group-title="🅵🅿🆃" Logo="https://fptplay.vn/_nuxt/img/logo-fpt-play.06da7da.png", Event 1
+https://livecdn.fptplay.net/schedule/sukien01_vhls.smil/playlist.m3u8
+#EXTINF:0 group-title="🅵🅿🆃" Logo="https://fptplay.vn/_nuxt/img/logo-fpt-play.06da7da.png", Event 2
+https://livecdn.fptplay.net/schedule/sukien02_vhls.smil/playlist.m3u8
+#EXTINF:0 group-title="🅵🅿🆃" Logo="https://fptplay.vn/_nuxt/img/logo-fpt-play.06da7da.png", Event 3
+https://livecdn.fptplay.net/schedule/sukien03_vhls.smil/playlist.m3u8
+#EXTINF:0 group-title="🅵🅿🆃" Logo="https://fptplay.vn/_nuxt/img/logo-fpt-play.06da7da.png", Event 4
+https://livecdn.fptplay.net/schedule/sukien04_vhls.smil/playlist.m3u8
+
+
 #EXTINF:-1 group-title="🆅🆃🆅" tvg-id="vtv5hd" tvg-name="vtv5hd" tvg-logo="https://vthanh.xyz/ic/5.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtv5hd_1500.stream/chunks_dvr_range-${start}-10800.m3u8",VTV5 HD
 https://vips-livecdn.fptplay.net/hda2/vtv5hd_vhls.smil/playlist.m3u8?bycoca
 #https://livecdn.fptplay.net/hda2/vtv5hd_vhls.smil/chunklist_b5000000.m3u8
