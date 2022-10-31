@@ -1,31 +1,15 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Hannstcott 
-Shadowdragon1997
-/
-TV
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-TV/khoatv
-@Shadowdragon1997
-Shadowdragon1997 Update khoatv
-Latest commit 5b52448 10 hours ago
- History
- 1 contributor
-1843 lines (1757 sloc)  198 KB
 
-#EXTM3U url-tvg="https://trada.info/epg.xml,https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/bs/rev.bs.epg.xml.gz,https://iptv-org.github.io/epg/guides/id-id/mncvision.id.epg.xml.gz,https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml.gz,https://iptv-org.github.io/epg/guides/jp/tvguide.myjcom.jp.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/wavve.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/cn/tv.cctv.com.epg.xml.gz"
+#EXTM3U url-tvg="https://trada.info/epg.xml,http://lichphatsong.xyz/schedule/epg.xml,https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/bs/rev.bs.epg.xml.gz,https://iptv-org.github.io/epg/guides/id-id/mncvision.id.epg.xml.gz,https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml.gz,https://iptv-org.github.io/epg/guides/jp/tvguide.myjcom.jp.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/wavve.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/cn/tv.cctv.com.epg.xml.gz"  catchup="append" catchup-days="3" catchup-source="&offset=-${offset}&utcstart=${timestamp}" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=0
+#EXTM3U url-tvg="https://manhkendo.000webhostapp.com/epgvn/lichtv/homnay.xml" tvg-shift=0 m3uautoload=0
+#EXTM3U url-tvg="http://megavie.live/schedule/epg.xml" deinterlace=0
+#EXTM3U url-tvg="http://gg.gg/guidevn" cache=500 deinterlace=1 aspect-ratio=16:9 tvg-shift=0 m3uautoload=1
+#EXTM3U url-tvg="http://gg.gg/epgbeartv" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=3
+#EXTM3U url-tvg="http://gg.gg/epgmytv" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=4
+#EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=5
+#EXTM3U url-tvg="http://megavie.live/schedule/epg.xml" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=6
+#EXTM3U url-tvg="http://gg.gg/coodertvepg" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=7
+#EXTM3U url-tvg="https://manhkendo.000webhostapp.com/epgvn/lichtv/homnay.xml" tvg-shift=0 m3uautoload=8
+#EXTM3U url-tvg="http://gg.gg/fptepg" tvg-shift=0 m3uautoload=9
 
 #-*-- Livestream bóng đá -*--#
 #EXTINF:-1 group-title="🔴| Livestream bóng đá" tvg-logo="https://yt3.ggpht.com/2ZNxE1Uu30rjtLrYY76vSy-CpvIDz9FuT66sLazPfLyJlTQ7JKKjwBC7iZNEtqIKimVMzH7BQrw=s900-c-k-c0x00ffffff-no-rj", ON Sports TV 1
