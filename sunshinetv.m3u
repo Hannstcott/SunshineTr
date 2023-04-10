@@ -1099,7 +1099,7 @@ ___________Thiếu Nhi________________
 
 #EXTINF:0 tvg-id="happykids"  group-title="🅺🅸🅳" tvg-logo="https://i.ibb.co/4Y4yxZq/Happy-Kids.png",Happy Kids
 https://e4.endpoint.cdn.sctvonline.vn/hls/happykid/sd2/index.m3u8|Referer=http://sctvonline.vn/
-#http://vthanh.me/sctv.m3u8?pass=vienthi&id=happykids|Referer=http://sctvonline.vn/
+#https://code.vthanhtivi.pw/getlink/cliptv/824/chunklist_b5128000.m3u8
 #https://e4.endpoint.cdn.sctvonline.vn/secure/happykid/index.m3u8?md5=RoppAcvPHs-dCJI1jRxvgQ&expires=2556118740|Referer=http://sctvonline.vn/
 
 #EXTINF:0 tvg-id="animaxhd" group-title="🅺🅸🅳" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Animax.png",Animax
@@ -1109,9 +1109,6 @@ http://cdn-cf.vthanhtivi.pw/fptplay/animax/bitrate_5000.m3u8
 #EXTINF:0 tvg-id="cbeebies" group-title="🅺🅸🅳" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/CBeebies.svg/1200px-CBeebies.svg.png",BBC Cbeebies
 http://cdn-cf.vthanhtivi.pw/fptplay/cbeebies/bitrate_5000.m3u8
 #https://livecdn.fptplay.net/hda3/cbeebies_2000.stream/chunklist.m3u8
-
-#EXTINF:0 tvg-id="babyfirst" group-title="🅺🅸🅳" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/b/b1/Babyfirst.png",Baby First
-https://vips-livecdn.fptplay.net/hda1/babyfirst_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:0 tvg-id="babytvhd" group-title="🅺🅸🅳" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png",Baby TV
 http://cdn-cf.vthanhtivi.pw/fptplay/babytv-hd/bitrate_5000.m3u8
@@ -1124,83 +1121,61 @@ http://cdn-cf.vthanhtivi.pw/fptplay/boomerang/bitrate_5000.m3u8
 #http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/CARTOON-SD-720p/playlist.m3u8
 http://cdn-cf.vthanhtivi.pw/fptplay/cartoon-network/bitrate_5000.m3u8
 
-#EXTINF:0 tvg-id="davinci" group-title="🅺🅸🅳" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/5/54/Da_Vinci_Learning_%282019-.n.v.%29.png/revision/latest?cb=20191031124005",Da Vinci
-https://vips-livecdn.fptplay.net/hda2/davincihd_vhls.smil/chunklist_b5000000.m3u8
-#http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/DAVINCY-HD-1080p/playlist.m3u8
-
 #EXTINF:0 tvg-id="dreamworks" group-title="🅺🅸🅳" tvg-logo="https://static.wikia.nocookie.net/dreamworks/images/4/4b/DreamWorks_Animation_SKG_logo_with_fishing_boy.svg_%282016%29.png/revision/latest/top-crop/width/360/height/360?cb=20171127143327",DreamWorks
-https://vips-livecdn.fptplay.net/hda3/dreamworks_vhls.smil/chunklist_b5000000.m3u8
+https://code.vthanhtivi.pw/getlink/cliptv/846/chunklist_b5128000.m3u8
 
-#EXTINF:-1 group-title="🅺🅸🅳" tvg-logo="https://i.imgur.com/mTh1LgK.png",EBS Kids
-http://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8
-
-#EXTINF:-1 group-title="🅺🅸🅳" tvg-logo="https://cms-tc.pbskids.org/nationalvideoplayer/resources/img/noimage.png",PBS KIDS
-https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/chunklist_b2000000.m3u8
-
-#EXTINF:-1 group-title="🅺🅸🅳" tvg-logo="https://www.tvokids.com/sites/all/themes/common/img/favicons/favicon-32x32.png",TVO KIDS
-https://bcsecurelivehls-i.akamaihd.net/hls/live/623607/15364602001/tvokids/1500k/1500k.m3u8
 
 ___________Movie________________
 
-#EXTINF:0 tvg-id="hbohd" group-title="🅼🅾🆅🅸🅴" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/30/HBO_%28Metallic%29.png/revision/latest/scale-to-width-down/250?cb=20190715122142" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/hbo_1500.stream/chunks_dvr_range-${start}-3600.m3u8",HBO
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ {"kty":"oct","k":"31KBtiW1d8faokKdHuMgSA","kid":"No41ImtgMgW9p1lLt8fUKw"},{"kty":"oct","k":"laohac","kid":"vuive"}], "type":"temporary" }
-https://sglive.akamaized.net/msky-live/live_kplus/hbo.smil/manifest.mpd
 
-#EXTINF:0 tvg-id="Redbyhbo" group-title="🅼🅾🆅🅸🅴" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/30/HBO_%28Metallic%29.png/revision/latest/scale-to-width-down/250?cb=20190715122142" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/hbo_1500.stream/chunks_dvr_range-${start}-3600.m3u8",HBO Asia
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
-https://liveanevia.mncnow.id/live/eds/hbo-2/sa_dash_vmx/hbo-2.mpd
+
+
+#EXTINF:0 tvg-id="axnhd" group-title="🅼🅾🆅🅸🅴" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/1200px-AXN_logo_%282015%29.svg.png",AXN
+http://cdn-cf.vthanhtivi.pw/fptplay/axn/bitrate_5000.m3u8
+#http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/AXN-HD-1080p/playlist.m3u8
+
+#EXTINF:-1 tvg-id="boxhits" group-title="🅼🅾🆅🅸🅴"  tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/box_hits.png", Box Hits
+https://code.vthanhtivi.pw/getlink/mytv/105/hd.m3u8
+
+#EXTINF:0 tvg-id="boxmovie1" group-title="🅼🅾🆅🅸🅴"  tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/Box-Movie1-BEARTV.png ",BOX Movie
+https://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/sd2/index.m3u8|Referer=http://sctvonline.vn/
+#https://code.vthanhtivi.pw/getlink/cliptv/822/chunklist_b5128000.m3u8
+
+#EXTINF:0  tvg-id="cinemaworldhd" group-title="🅼🅾🆅🅸🅴" tvg-logo="https://cinemaworld.asia/wp-content/uploads/2019/11/CMW-gold-logo-for-website-loading.png",Cinema World
+http://cdn-cf.vthanhtivi.pw/fptplay/cinemaworld/bitrate_5000.m3u8
+#https://liveorigin01.hbogoasia.com:8443/origin/live/main/MAX/index.m3u8
 
 #EXTINF:0 tvg-id="cinemaxhd" group-title="🅼🅾🆅🅸🅴" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/cinemax_1500.stream/playlist_dvr_range-${start}-9000.m3u8",Cinemax
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ {"kty":"oct","k":"SvzpN9oe+qvcTUIob2Apng","kid":"s+0NzC3+PAeW5e9jkrPu3A"},{"kty":"oct","k":"laohac","kid":"vuive"}], "type":"temporary" }
 https://sglive.akamaized.net/msky-live/live_kplus/max.smil/manifest.mpd
+#http://live.vthanhtivi.pw/cinemax
 
-#EXTINF:0  tvg-id="cinemaworldhd" group-title="🅼🅾🆅🅸🅴" tvg-logo="https://cinemaworld.asia/wp-content/uploads/2019/11/CMW-gold-logo-for-website-loading.png",Cinema World
-http://cdn-cf.vthanhtivi.pw/fptplay/cinemaworld/bitrate_5000.m3u8
-#https://liveorigin01.hbogoasia.com:8443/origin/live/main/MAX/index.m3u8
+#EXTINF:-1 tvg-id="inthebox" group-title="🅼🅾🆅🅸🅴" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/InTheBox%20Channel.png" catchup="append" catchup-days="0.3" catchup-source="https://pprex49o5aliv.vcdn.cloud/live/box-channel/chunklist_2_${start}.m3u8", In The Box
+https://code.vthanhtivi.pw/getlink/cliptv/838/chunklist_b5128000.m3u8
 
-#EXTINF:-1 tvg-id="boxhits" group-title="🅼🅾🆅🅸🅴"  tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/box_hits.png", Box Hits
-http://live.television4you.xyz:8081/boxhits/mpegts
+#EXTINF:0 tvg-id="hbohd" group-title="🅼🅾🆅🅸🅴" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/30/HBO_%28Metallic%29.png/revision/latest/scale-to-width-down/250?cb=20190715122142" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/hbo_1500.stream/chunks_dvr_range-${start}-3600.m3u8",HBO
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ {"kty":"oct","k":"31KBtiW1d8faokKdHuMgSA","kid":"No41ImtgMgW9p1lLt8fUKw"},{"kty":"oct","k":"laohac","kid":"vuive"}], "type":"temporary" }
+https://sglive.akamaized.net/msky-live/live_kplus/hbo.smil/manifest.mpd
+#http://live.vthanhtivi.pw/hbo
 
-#EXTINF:0 tvg-id="boxmovie1" group-title="🅼🅾🆅🅸🅴"  tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/Box-Movie1-BEARTV.png ",BOX Movie
-https://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/sd2/index.m3u8|Referer=http://sctvonline.vn/
+#EXTINF:0 tvg-id="Redbyhbo" group-title="🅼🅾🆅🅸🅴" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/30/HBO_%28Metallic%29.png/revision/latest/scale-to-width-down/250?cb=20190715122142" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/hbo_1500.stream/chunks_dvr_range-${start}-3600.m3u8",HBO Asia
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
+#https://liveanevia.mncnow.id/live/eds/hbo-2/sa_dash_vmx/hbo-2.mpd
 
-#EXTINF:-1 tvg-id="foxfamilymovieshd" group-title="🅼🅾🆅🅸🅴" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Fox_Family_Movies_logo.png/200px-Fox_Family_Movies_logo.png", FOX Family Movies
-https://livecdn.fptplay.net/foxlive/foxmovieshd_hls.smil/chunklist_b2500000.m3u8
-http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXFAMILY-HD-1080p/playlist.m3u8
+
+#EXTINF:-1  tvg-id="hollywood" group-title="🅼🅾🆅🅸🅴" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/Hollywood_Classics_Home_of_Timeless_Stories.png",Hollywood Classics
+#https://e4.endpoint.cdn.sctvonline.vn/hls/hollywood/sd2/index.m3u8|Referer=http://sctvonline.vn/
+#http://vtsstr1.tv24.vn:1935/live/Hollywood.smil/chunklist_b4692000.m3u8
+https://code.vthanhtivi.pw/getlink/cliptv/825/chunklist_b5128000.m3u8
 
 #EXTINF:0  tvg-id="warnertvhd" group-title="🅼🅾🆅🅸🅴" tvg-logo="https://i.pinimg.com/originals/79/42/27/7942275bccc3ba8a635b9d88d34efdd1.png",Warner Bros
 http://cdn-cf.vthanhtivi.pw/fptplay/warner-tv/bitrate_5000.m3u8
 #http://livecdn.fptplay.net/qnetlive/warnertv_hls.smil/chunklist_b2500000.m3u8
-
-#EXTINF:0 tvg-id="axnhd" group-title="🅼🅾🆅🅸🅴" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/1200px-AXN_logo_%282015%29.svg.png",AXN
-http://cdn-cf.vthanhtivi.pw/fptplay/axn/bitrate_5000.m3u8
-#http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/AXN-HD-1080p/playlist.m3u8
-
-#EXTINF:0  tvg-id="paramouthd" group-title="🅼🅾🆅🅸🅴" tvg-logo="https://img.hplus.com.vn/355x200/poster/2020/08/03/744316-Paramount-xanh-fix.png",Paramount
-https://api.vthanhtivi.pw/v1/getlink/tv360_s2/150/2
-
-#EXTINF:0 group-title="🅼🅾🆅🅸🅴" tvg-logo="https://i.ibb.co/QYVd38q/kix.png", KIX HD
-#EXTVLCOPT:http-user-agent="KIIP"
-https://livecdn.fptplay.net/hda1/kixhd_vhls.smil/chunklist_b5000000.m3u8
-
-#EXTINF:-1 tvg-id="inthebox" group-title="🅼🅾🆅🅸🅴" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/InTheBox%20Channel.png" catchup="append" catchup-days="0.3" catchup-source="https://pprex49o5aliv.vcdn.cloud/live/box-channel/chunklist_2_${start}.m3u8", In The Box
-https://code.television4you.xyz/getlink/nethubtv?id=9336&itb=1
-
-#EXTINF:-1  tvg-id="starmovies" group-title="🅼🅾🆅🅸🅴" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/Star_Movies_logo_2009.png",STAR MOVIES HD
-http://116.204.149.11:8000/play/a00a/index.m3u8
-
-#EXTINF:-1  tvg-id="starworld" group-title="🅼🅾🆅🅸🅴" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/Star_World_HD_2017_Grey.png",STAR WORLD HD
-http://103.162.136.235:4500/play/a019/index.m3u8
-
-#EXTINF:-1  tvg-id="hollywood" group-title="🅼🅾🆅🅸🅴" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/Hollywood_Classics_Home_of_Timeless_Stories.png",Hollywood Classics
-https://e4.endpoint.cdn.sctvonline.vn/hls/hollywood/sd2/index.m3u8|Referer=http://sctvonline.vn/
-#http://vtsstr1.tv24.vn:1935/live/Hollywood.smil/chunklist_b4692000.m3u8
-
 
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------#
@@ -1208,21 +1183,18 @@ https://e4.endpoint.cdn.sctvonline.vn/hls/hollywood/sd2/index.m3u8|Referer=http:
 # NHÓM KÊNH KHÁM PHÁ# 🌿
 
 #EXTINF:-1 tvg-id="animalhd" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://vthanh.xyz/ic/222.png" catchup="append" catchup-days="2" catchup-source="http://tshift.fptplay.net/dvr/animalplanet_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", Animal Planet
-https://livecdn.fptplay.net/hda2/animalplanet_vhls.smil/chunklist_b5000000.m3u8
+http://cdn-cf.vthanhtivi.pw/fptplay/animal-planet/bitrate_5000.m3u8
 #https://e4.endpoint.cdn.sctvonline.vn/hls/animalplanet/sd1/index.m3u8|Referer=http://sctvonline.vn/
 #http://livecdn.fptplay.net/qnetlive/animalplanet_2000.stream/chunklist.m3u8
 
 #EXTINF:-1 tvg-id="afnhd" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="http://mod.cht.com.tw/img/channel/channelpic/276.png",Asian Food Channel HD - FPT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246
-https://livecdn.fptplay.net/hda1/afchd_vhls.smil/chunklist_b5000000.m3u8
+http://cdn-cf.vthanhtivi.pw/fptplay/asian-food-channel/bitrate_5000.m3u8
 #http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/AFC-HD-1080p/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ABCAUSTRALIA" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/ABC%20AUSTRALIA.png",ABC AUSTRALIA
-https://livecdn.fptplay.net/sdb/australiaplus_hls.smil/chunklist_b2500000.m3u8
+http://cdn-cf.vthanhtivi.pw/fptplay/australia-plus/bitrate_5000.m3u8
 #https://vips-livecdn.fptplay.net/hda3/australiaplus_4000.stream/chunklist.m3u8
-
-#EXTINF: -1 tvg-id="arirang" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/Arirang.png",Arirang
-https://livecdn.fptplay.net/sdb/arirang_hls.smil/chunklist_b2500000.m3u8
 
 #EXTINF:-1 tvg-id="bbcearth" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="http://mod.cht.com.tw/img/channel/channelpic/252.png" catchup="append" catchup-days="2" catchup-source="http://tshift.fptplay.net/dvr/bbcearth_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",BBC Earth
 http://cdn-cf.vthanhtivi.pw/fptplay/bbc-earth/bitrate_5000.m3u8
@@ -1236,25 +1208,21 @@ http://cdn-cf.vthanhtivi.pw/fptplay/bbc-lifestyle/bitrate_5000.m3u8
 http://cdn-cf.vthanhtivi.pw/fptplay/bbc-news/bitrate_5000.m3u8
 #https://vips-livecdn.fptplay.net/hda3/bbcnews_4000.stream/chunklist.m3u8
 
-#EXTINF:-1 tvg-id="blueantent" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://vthanh.xyz/ic/229.png", Rock Entertainment
-http://210.210.155.35:80/dr9445/h/h16/01.m3u8
-
-#EXTINF:-1 tvg-id="blueantext" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://vthanh.xyz/ic/230.png", Rock Extreme
-http://210.210.155.35:80/dr9445/h/h15/01.m3u8
-
 #EXTINF:-1, tvg-id="bloomberg" group-title="🅺🅷Á🅼 🅿🅷Á", tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/Bloomberg.png",Bloomberg TV
-https://bloomberg-bloombergtv-1-it.samsung.wurl.com/manifest/index.m3u8
+http://cdn-cf.vthanhtivi.pw/fptplay/bloomberg/bitrate_5000.m3u8
 https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/BLOOMBERG-SD-720p/playlist.m3u8
 
-#EXTINF: -1 tvg-id="channelnewsasia" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://www.channelnewsasia.com/sites/default/themes/mc_cna_theme/images/logo.png",Channel New Asia
+#EXTINF:-1 tvg-id="cnbc" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://cdn.hqth.me/logo/thumbs/217.png", CNBC
+http://cdn-cf.vthanhtivi.pw/fptplay/cnbc/bitrate_2500.m3u8
+
+#EXTINF:-1 tvg-id="cnn" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN
+http://cdn-cf.vthanhtivi.pw/fptplay/cnn/bitrate_5000.m3u8
+
+#EXTINF:-1 tvg-id="cna" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://cdn.hqth.me/logo/thumbs/219.png", CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 
-#EXTINF:-1 tvg-id="cnn" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/200px-CNN.svg.png",CNN HD 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246
-https://livecdn.fptplay.net/sdb/cnn_2000.stream/chunklist_b2500000.m3u8
-
-#EXTINF:-1  tvg-name="CNBC" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/CNBC.png",CNBC
-https://livecdn.fptplay.net/sdb/cnbc_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://cdn.hqth.me/logo/thumbs/220.png", CGTN
+https://live.cgtn.com/1000/prog_index.m3u8
 
 #EXTINF:-1 tvg-id="discoveryhd" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://vthanh.xyz/ic/223.png" catchup="append" catchup-days="2" catchup-source="http://tshift.fptplay.net/dvr/discoveryasia_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", Discovery
 http://cdn-cf.vthanhtivi.pw/fptplay/discovery/bitrate_5000.m3u8
@@ -1266,7 +1234,7 @@ http://cdn-cf.vthanhtivi.pw/fptplay/discovery-asia/bitrate_5000.m3u8
 #https://e4.endpoint.cdn.sctvonline.vn/hls/discoveryasia/index.m3u8|Referer=http://sctvonline.vn/
 
 #EXTINF:-1, tvg-id="davinci" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/Da_Vinci_.png",Da Vinci
-https://livecdn.fptplay.net/hda2/davincihd_vhls.smil/chunklist_b5000000.m3u8
+http://cdn-cf.vthanhtivi.pw/fptplay/da-vinci-learning/bitrate_5000.m3u8
 
 #EXTINF:-1, tvg-id="drfithd" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/Dr._Fit_logo.png",Dr. Fit
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
@@ -1275,43 +1243,17 @@ https://livecdn.fptplay.net/hda2/davincihd_vhls.smil/chunklist_b5000000.m3u8
 https://code.vthanhtivi.pw/getlink/tv360/162/2.m3u8
 
 #EXTINF:-1 tvg-id="dmax" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://vthanh.xyz/ic/186.png", DMAX
-http://drm-livecdn.hplus.com.vn/CDN-FPT02/FOXSPORT2-SD-720p/playlist.m3u8
+https://code.vthanhtivi.pw/getlink/cliptv/841/chunklist_b5128000.m3u8
 
 #EXTINF: -1 tvg-id="dw" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/Deutsche_Welle_2012.png", DW HD
-https://vips-livecdn.fptplay.net/hda2/dwenglish_vhls.smil/chunklist_b5000000.m3u8
+http://cdn-cf.vthanhtivi.pw/fptplay/dw/bitrate_5000.m3u8
 
-#EXTINF:-1 tvg-id="foxhd" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/FOX-Channel-Germany.svg/1280px-FOX-Channel-Germany.svg.png", FOX - HTV
-http://drm-livecdn.hplus.com.vn/CDN-FPT02/FOX-HD-1080p/playlist.m3u8
-
-#EXTINF:-1, tvg-id="foxlifehd" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/44/Fox-Life.png", FOX Life - FPT
-https://livecdn.fptplay.net/foxlive/foxlifehd_hls.smil/chunklist_b2500000.m3u8
-
-#EXTINF:-1, tvg-id="foxsportshd" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://i.imgur.com/JWjKjjL.png",FOX SPORTS 1 HD - HTV
-https://livecdn.fptplay.net/hda2/foxsports_vhls.smil/chunklist_b5000000.m3u8
-#https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXSPRORT-HD-1080p/playlist.m3u8
-#https://e4.endpoint.cdn.sctvonline.vn/secure/foxsports1/sd1/index.m3u8?md5=rGdAqSb1zMuChdV0v0IPBg&expires=2556118740|Referer=https://sctvonline.vn/detail/foxsports-2387fa20
-#https://sctvonline.vn/detail/foxsports-2387fa20|Referer=http://sctvonline.vn/
-#https://e3.endpoint.cdn.sctvonline.vn/hls/foxsports1/sd1/index.m3u8|Referer=http://sctvonline.vn/
-#https://www.livedoomovie.com/02_foxsport_720p/chunklist.m3u8
-
-#EXTINF:-1, tvg-id="foxsports2hd" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://i.imgur.com/YGaEdHU.png",FOX SPORTS 2 HD
-#https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXSPORT2-SD-720p/playlist.m3u8
-https://livecdn.fptplay.net/hda3/foxsports2_vhls.smil/chunklist_b5000000.m3u8
-#https://e4.endpoint.cdn.sctvonline.vn/secure/foxsports2/index.m3u8?md5=fKMDjNQuS5gDLAc1KRFMvQ&expires=2556118740|Referer=https://sctvonline.vn/detail/foxsport2-5178b4d0
-#https://sctvonline.vn/detail/foxsport2-5178b4d0|Referer=http://sctvonline.vn/
-#https://e4.endpoint.cdn.sctvonline.vn/hls/foxsports2/index.m3u8|Referer=http://sctvonline.vn/
-#https://www.livedoomovie.com/02_FoxSport2_TH_720p/chunklist.m3u8
-
-#EXTINF:-1, tvg-id="foxsports3" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://i.imgur.com/PWoyWfo.png",FOX SPORTS 3 HD
-#https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXSPORTS3-HD-1080p/playlist.m3u8
-https://livecdn.fptplay.net/qnetlive/foxsports3_vhls.smil/chunklist_b5000000.m3u8
-
-#EXTINF: -1 tvg-id="france24eng" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/France_24_2013_Print.png",France24
-https://livecdn.fptplay.net/sdb/france24_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="france24eng" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://cdn.hqth.me/logo/thumbs/222.png", France 24
+https://code.vthanhtivi.pw/getlink/vieon/france-24-english-hd/playlist.m3u8
 
 #EXTINF:-1 tvg-id="fashionhd" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/Fashion_TV_HD_2009.png",Fashion TV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246
-https://code.vthanhtivi.pw/getlink/jptv2/103/playlist.m3u8
+http://cdn-cf.vthanhtivi.pw/fptplay/fashion-tv/bitrate_5000.m3u8
 
 #EXTINF:-1 tvg-id="historyhd" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://vthanh.xyz/ic/189.png", History HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1319,45 +1261,47 @@ https://code.vthanhtivi.pw/getlink/jptv2/103/playlist.m3u8
 https://vstv.broadpeak-aas.com/bpk-tv/prod_history/default/i.mpd
 
 #EXTINF:-1 tvg-id="kix" group-title="🅺🅷Á🅼 🅿🅷Á"  tvg-logo="https://vthanh.xyz/ic/234.png", KIX HD
-https://livecdn.fptplay.net/hda1/kixhd_vhls.smil/chunklist_b5000000.m3u8
+http://cdn-cf.vthanhtivi.pw/fptplay/kix/bitrate_5000.m3u8
 
-#EXTINF: -1 tvg-id="kbsworld" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/Kbsworld.png", KBS World FHD
-https://livecdn.fptplay.net/sdb/kbs_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="kbsworld" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://cdn.hqth.me/logo/thumbs/223.png", KBS World
+https://code.vthanhtivi.pw/getlink/vieon/kbs-world/playlist.m3u8
 
 #EXTINF:-1  tvg-id="manhd" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/MAN.png" catchup="append" catchup-days="0.3" catchup-source="https://8387100975.vws.vegacdn.vn/live/man-tv/chunklist_2_${start}.m3u8",MAN
-https://pprex49o5aliv.vcdn.cloud/live/man-tv/chunklist_2.m3u8
+#https://pprex49o5aliv.vcdn.cloud/live/man-tv/chunklist_2.m3u8
+#https://code.vthanhtivi.pw/getlink/cliptv/837/chunklist_b5128000.m3u8
+https://code.vthanhtivi.pw/getlink/tv360/237/2.m3u8
 #http://103.214.9.53/man/mpegts
 
-#EXTINF:-1 tvg-id="nhkworld" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://mytv.com.vn/upload/channel/50.png",NHK World Japan HD 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246
-https://livecdn.fptplay.net/hda2/nhkworld_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://cdn.hqth.me/logo/thumbs/224.png", NHK World
+http://cdn-cf.vthanhtivi.pw/fptplay/nhk-world-hd/bitrate_5000.m3u8
 
 #EXTINF:-1  tvg-id="ngchd" group-title="🅺🅷Á🅼 🅿🅷Á", tvg-logo="https://i.natgeofe.com/n/e76f5368-6797-4794-b7f6-8d757c79ea5c/ng-logo-2fl.png",National Geographic
 http://cdn-cf.vthanhtivi.pw/fptplay/national-geographic-hd/bitrate_5000.m3u8
 
 #EXTINF:-1 tvg-id="ngwhd" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://vthanh.xyz/ic/226.png", Nat Geo Wild HD
-https://livecdn.fptplay.net/hda3/natgeowild_vhls.smil/chunklist_b5000000.m3u8
-#http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/NATGEOWILD-HD-1080p/playlist.m3u8
+#https://livecdn.fptplay.net/hda3/natgeowild_vhls.smil/chunklist_b5000000.m3u8
+http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/NATGEOWILD-HD-1080p/playlist.m3u8
 #https://vips-livecdn.fptplay.net/hda3/natgeowild_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1 tvg-id="outdoorfhd" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://vthanh.xyz/ic/227.png", Outdoor Channel HD
-https://livecdn.fptplay.net/hda1/outdoorfhd_vhls.smil/chunklist_b5000000.m3u8
+http://cdn-cf.vthanhtivi.pw/fptplay/outdoor-channel/bitrate_5000.m3u8
 
 #EXTINF:-1 tvg-id="PlanetEarth" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623743369c_Planet%20Earth-205.png", Planet Earth HD
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 https://e4.endpoint.cdn.sctvonline.vn/hls/planetearth/sd2/index.m3u8|Referer=http://sctvonline.vn/
-#http://vthanh.me/sctv.m3u8?pass=vienthi&id=planetearth|Referer=http://sctvonline.vn/
+#https://code.vthanhtivi.pw/getlink/tv360/135/2.m3u8
 #https://8387100975.vws.vegacdn.vn/live/planet-earth/chunklist_2.m3u8
 
 #EXTINF: -1 tvg-id="tv5monde" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://raw.githubusercontent.com/Hannstcott/logo/main/TV5Monde_2021.png", TV5MONDE
-https://livecdn.fptplay.net/sdb/tv5_hls.smil/chunklist_b2500000.m3u8
+http://cdn-cf.vthanhtivi.pw/fptplay/tv5-monde/bitrate_2500.m3u8
 
 #EXTINF:-1 tvg-id="tlchd" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://www.tlc-tw.com/images/logo.png",TLC HD - The Learning Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246
-https://livecdn.fptplay.net/hda2/travelliving_vhls.smil/chunklist_b5000000.m3u8
+http://cdn-cf.vthanhtivi.pw/fptplay/travel-living/bitrate_5000.m3u8
 
 #EXTINF:-1  tvg-id="womanhd" group-title="🅺🅷Á🅼 🅿🅷Á" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/WOMAN%20HD.png" catchup="append" catchup-days="0.3" catchup-source="https://8387100975.vws.vegacdn.vn/live/woman/chunklist_2_${start}.m3u8",WOMAN HD
 https://e4.endpoint.cdn.sctvonline.vn/hls/woman/sd2/index.m3u8|Referer=http://sctvonline.vn/
+#https://vtsstr7.tv24.vn/live/smil:Woman.smil/chunklist.m3u8
 
 
 
