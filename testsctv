@@ -4,7 +4,7 @@ http://chipcun.dynu.com:457/xemtv47/xemtv47kenhsec.php?kenh=sctv18
 http://sctv24:hthanh123@hthanhmedias.duckdns.org:9981/stream/channelid/881892860?ticket=3E583A5F26E195B937D25BD70E179391A27B9498&profile=pass 
 #EXTINF:-1 tvg-id="sctv2_hd" group-title="SCTV" tvg-logo="https://i.ibb.co/2WZRdz6/SCTV2-BEARTV.png", SCTV2 HD - AMC 
 http://chipcun.dynu.com:457/xemtv47/xemtv47kenhsec.php?kenh=sctv2 
-#EXTINF:-1 tvg-id="sctv3_see_tv" group-title="SCTV" tvg-logo="https://i.ibb.co/HqxQX8C/SCTV3-BEARTV.png", SCTV3 HD - See TV 
+#EXTINF:-1 tvg-id="sctv3_ee_tv" group-title="SCTV" tvg-logo="https://i.ibb.co/HqxQX8C/SCTV3-BEARTV.png", SCTV3 HD - See TV 
 http://sctv24:hthanh123@hthanhmedias.duckdns.org:9981/stream/channelid/1500671917?ticket=763247B4DA070C83FE2B210410085C08BA51DD05&profile=pass 
 #EXTINF:-1 tvg-id="SCTV4" group-title="SCTV" tvg-logo="https://i.ibb.co/3Sm2bkS/SCTV4-BEARTV.png",SCTV 4 HD - Gi?i Trí 
 http://sctv24:hthanh123@hthanhmedias.duckdns.org:9981/stream/channelid/1571678450?ticket=FC56CE3AD7BA5E465FC14C24204B3B43DCA32E6F&profile=pass 
